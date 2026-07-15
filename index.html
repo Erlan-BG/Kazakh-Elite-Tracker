@@ -245,20 +245,32 @@ function louvain(nodeIds, edgeList){
 
 // ---- Seniority: rank of the highest post a person has ever held ----
 // Ordered rules, first match wins. Transparent heuristic — tune scores freely.
+// Tiering follows akorda.kz/en/executive_office/executive_office_stucture:
+// Cabinet ministers and every post on that "senior leadership" page (Head of
+// Administration, State Counselor, Deputy Heads, Assistants, Security Council
+// Secretary/Deputies, Head of Chancellery, Advisors) are treated as one tier.
 const SENIORITY_RULES = [
-  [/^president$/i,                                          10 ],
-  [/^prime minister/i,                                       9 ],
-  [/^head$|^head of (the )?administration/i,                8.5],  // Head of the Presidential Administration
-  [/^state (counselor|secretary)|^chairman of the senate/i, 8.5],
-  [/^(first )?deputy secretary of the security council/i,    7 ],
-  [/secretary of the security council/i,                     8 ],
+  [/^president$/i,                                              10 ],
+  [/^prime minister/i,                                            9 ],
+
+  // Cabinet + Akorda senior leadership — flattened into a single tier
   [/^(first )?deputy prime minister|^minister\b|^prosecutor general$/i, 8],
-  [/^assistant to the president|^deputy head of the administration|^deputy head$/i, 7],
-  [/^first deputy (chairman|prosecutor)|^director-general|commander-in-chief|^ambassador/i, 7],
-  [/advis[eo]r to the president|^presidential advisor/i,     6 ],
-  [/^(first )?(vice|deputy)[- ]minister/i,                   6 ],
+  [/^head$|^head of (the )?administration\b/i,                    8 ],  // Head of the Presidential Administration
+  [/^state (counselor|secretary)|^chairman of the senate/i,       8 ],
+  [/^(first )?deputy head of the administration|^deputy head$/i,  8 ],  // Deputy Heads of Administration
+  [/^assistant to the president/i,                                8 ],  // Presidential Assistants
+  [/secretary of the security council/i,                          8 ],  // Secretary + First Deputy + Deputy Secretaries
+  [/^head of (the )?(chancellery|office of the president)\b/i,    8 ],
+  [/advis[eo]r to the president|^presidential advisor/i,          8 ],  // Presidential Advisors
+
+  [/^minister-counsellor/i,                                     5.5 ],  // diplomatic rank, not a cabinet minister
+  [/head of .*faction/i,                                        6.5 ],  // ruling-party Mazhilis faction leadership
+  [/^first deputy (chairman|prosecutor)|^director-general|commander-in-chief|^ambassador/i, 6.5],
+
+  [/^head of/i,                                                   6 ],  // Akorda structural-subdivision (department) heads
+  [/^(first )?(vice|deputy)[- ]minister/i,                        6 ],
+
   [/chair(man|woman)? of (the )?management board|^ceo\b|^chairman$|^akim\b/i, 5.5],
-  [/^head of/i,                                              5 ],
   [/^(first )?deputy (akim|head|chairman)|^vice president|^director\b|^chair/i, 4.5]
 ];
 function titleScore(t){
