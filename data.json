@@ -1,0 +1,24 @@
+{
+  "_comment": "SAMPLE DATA — replace with your real 33 people. 'people' = Tab 1, one object per person. 'workExperience' = Tab 2, one object per past/present role. personId must match a person id. Leave fields as empty string \"\" if unknown — do not write N/A.",
+  "people": [
+    { "id": 1, "name": "Sample Person A", "age": 54, "role": "Minister of Finance", "institution": "Ministry of Finance", "region": "Almaty", "school": "MGIMO", "zhuz": "Senior", "category": "Political elite" },
+    { "id": 2, "name": "Sample Person B", "age": 47, "role": "Deputy Akim", "institution": "Almaty Akimat", "region": "Almaty", "school": "KIMEP", "zhuz": "Senior", "category": "Technocrat" },
+    { "id": 3, "name": "Sample Person C", "age": 61, "role": "CEO", "institution": "Samruk-Kazyna", "region": "Astana", "school": "MGIMO", "zhuz": "Middle", "category": "Business elite" },
+    { "id": 4, "name": "Sample Person D", "age": 39, "role": "Vice Minister", "institution": "Ministry of Finance", "region": "Karaganda", "school": "Nazarbayev University", "zhuz": "Middle", "category": "Technocrat" },
+    { "id": 5, "name": "Sample Person E", "age": 58, "role": "Chairman", "institution": "KazMunayGas", "region": "Atyrau", "school": "KIMEP", "zhuz": "Junior", "category": "Business elite" },
+    { "id": 6, "name": "Sample Person F", "age": 44, "role": "Head of Committee", "institution": "National Security Committee", "region": "Astana", "school": "Nazarbayev University", "zhuz": "", "category": "Security/siloviki" }
+  ],
+  "workExperience": [
+    { "personId": 1, "title": "Minister of Finance", "institution": "Ministry of Finance", "startYear": 2021, "endYear": "Present" },
+    { "personId": 1, "title": "Deputy Chairman", "institution": "Samruk-Kazyna", "startYear": 2015, "endYear": 2021 },
+    { "personId": 2, "title": "Deputy Akim", "institution": "Almaty Akimat", "startYear": 2020, "endYear": "Present" },
+    { "personId": 2, "title": "Advisor", "institution": "Ministry of Finance", "startYear": 2016, "endYear": 2020 },
+    { "personId": 3, "title": "CEO", "institution": "Samruk-Kazyna", "startYear": 2019, "endYear": "Present" },
+    { "personId": 3, "title": "Board Member", "institution": "KazMunayGas", "startYear": 2012, "endYear": 2019 },
+    { "personId": 4, "title": "Vice Minister", "institution": "Ministry of Finance", "startYear": 2022, "endYear": "Present" },
+    { "personId": 5, "title": "Chairman", "institution": "KazMunayGas", "startYear": 2018, "endYear": "Present" },
+    { "personId": 5, "title": "Deputy Chairman", "institution": "Samruk-Kazyna", "startYear": 2013, "endYear": 2018 },
+    { "personId": 6, "title": "Head of Committee", "institution": "National Security Committee", "startYear": 2020, "endYear": "Present" },
+    { "personId": 6, "title": "Advisor", "institution": "Almaty Akimat", "startYear": 2017, "endYear": 2020 }
+  ]
+}

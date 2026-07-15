@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elite Network Monitor</title>
+<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<style>
+  :root{
+    --bg:#0f1720; --panel:#16212e; --panel2:#1d2b3a; --line:#2b3a4d;
+    --text:#e6edf3; --muted:#93a4b8; --accent:#4da3ff;
+    --school:#ffb454; --region:#37c98b; --work:#c780ff;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
+  #app{display:flex;height:100vh;overflow:hidden}
+  #sidebar{width:300px;flex:0 0 300px;background:var(--panel);border-right:1px solid var(--line);overflow-y:auto;padding:16px}
+  #main{flex:1;position:relative}
+  #net{width:100%;height:100%}
+  h1{font-size:16px;margin:0 0 4px}
+  .sub{font-size:11px;color:var(--muted);margin-bottom:16px;line-height:1.4}
+  .section{margin-bottom:18px}
+  .section h2{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 8px;border-bottom:1px solid var(--line);padding-bottom:6px}
+  label.chk{display:flex;align-items:center;gap:8px;font-size:13px;padding:4px 6px;border-radius:6px;cursor:pointer}
+  label.chk:hover{background:var(--panel2)}
+  label.chk input{accent-color:var(--accent)}
+  .swatch{width:11px;height:11px;border-radius:50%;flex:0 0 11px}
+  .filter-list{max-height:150px;overflow-y:auto;border:1px solid var(--line);border-radius:8px;padding:4px;background:var(--panel2)}
+  .filter-list label{font-size:12px;padding:3px 6px}
+  .muted{color:var(--muted);font-size:11px}
+  select,button{font-family:inherit}
+  .btn{width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px;font-size:12px;cursor:pointer;margin-top:6px}
+  .btn:hover{border-color:var(--accent)}
+  #stats{font-size:11px;color:var(--muted);margin-top:6px}
+  #info{position:absolute;top:12px;right:12px;width:270px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px;font-size:12px;display:none;box-shadow:0 8px 30px rgba(0,0,0,.4)}
+  #info h3{margin:0 0 6px;font-size:14px}
+  #info .role{color:var(--accent);margin-bottom:8px}
+  #info .kv{display:flex;justify-content:space-between;gap:8px;padding:2px 0;border-bottom:1px solid var(--line)}
+  #info .kv span:first-child{color:var(--muted)}
+  #info .exp{margin-top:8px}
+  #info .exp li{margin:2px 0;list-style:none;padding-left:10px;border-left:2px solid var(--work)}
+  #info .close{position:absolute;top:8px;right:10px;cursor:pointer;color:var(--muted);font-size:16px}
+  #legend{position:absolute;bottom:12px;left:12px;background:rgba(22,33,46,.9);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:11px}
+  #legend .row{display:flex;align-items:center;gap:7px;margin:3px 0}
+  #banner{position:absolute;top:0;left:0;right:0;background:#3a2a12;color:#ffcf8f;font-size:12px;padding:8px 12px;display:none;text-align:center;border-bottom:1px solid #6b4e1f}
+  #fileWrap{margin-top:8px}
+  input[type=file]{font-size:11px;color:var(--muted);width:100%}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <h1>Elite Network Monitor</h1>
+    <div class="sub">One-mode projection of people. Toggle which shared attributes create links, and filter which people appear.</div>
+
+    <div class="section">
+      <h2>Links (connect people who share…)</h2>
+      <label class="chk"><input type="checkbox" id="lk-work" checked><span class="swatch" style="background:var(--work)"></span> Workplace (career history)</label>
+      <label class="chk"><input type="checkbox" id="lk-school"><span class="swatch" style="background:var(--school)"></span> School</label>
+      <label class="chk"><input type="checkbox" id="lk-region"><span class="swatch" style="background:var(--region)"></span> Region</label>
+    </div>
+
+    <div class="section">
+      <h2>Filter people</h2>
+      <div class="muted" style="margin-bottom:6px">Show only people matching checked values. Nothing checked = show all.</div>
+      <div style="font-size:11px;margin:8px 0 4px;color:var(--muted)">School</div>
+      <div class="filter-list" id="f-school"></div>
+      <div style="font-size:11px;margin:8px 0 4px;color:var(--muted)">Institution (current)</div>
+      <div class="filter-list" id="f-institution"></div>
+      <div style="font-size:11px;margin:8px 0 4px;color:var(--muted)">Region</div>
+      <div class="filter-list" id="f-region"></div>
+      <div style="font-size:11px;margin:8px 0 4px;color:var(--muted)">Elite category</div>
+      <div class="filter-list" id="f-category"></div>
+      <button class="btn" id="clearFilters">Clear all filters</button>
+    </div>
+
+    <div class="section">
+      <h2>Analysis</h2>
+      <div style="font-size:11px;margin:2px 0 4px;color:var(--muted)">Node size</div>
+      <label class="chk"><input type="radio" name="size" value="degree" checked> Degree (link count)</label>
+      <label class="chk"><input type="radio" name="size" value="betweenness"> Betweenness (broker power)</label>
+      <div style="font-size:11px;margin:10px 0 4px;color:var(--muted)">Node color</div>
+      <label class="chk"><input type="radio" name="color" value="category" checked> Elite category</label>
+      <label class="chk"><input type="radio" name="color" value="community"> Community (Louvain)</label>
+      <div class="muted" style="margin-top:6px;line-height:1.4">Betweenness &amp; communities are computed on the links currently shown.</div>
+    </div>
+
+    <div class="section">
+      <h2>View</h2>
+      <label class="chk"><input type="checkbox" id="physics" checked> Physics / auto-layout</label>
+      <button class="btn" id="fit">Fit to screen</button>
+      <div id="stats"></div>
+    </div>
+
+    <div class="section">
+      <h2>Data</h2>
+      <div class="muted">Loads <code>data.json</code>. When opening the file locally (not via a server), load it manually:</div>
+      <div id="fileWrap"><input type="file" id="fileInput" accept=".json"></div>
+    </div>
+  </aside>
+
+  <main id="main">
+    <div id="banner"></div>
+    <div id="net"></div>
+    <div id="info"></div>
+    <div id="legend">
+      <div style="font-weight:600;margin-bottom:4px">Node color = elite category</div>
+      <div id="legend-cats"></div>
+    </div>
+  </main>
+</div>
+
+<script>
+const CATEGORY_COLORS = {
+  "Political elite":       "#4da3ff",
+  "Business elite":        "#37c98b",
+  "Security/siloviki":     "#ff6b6b",
+  "Technocrat":            "#ffb454",
+  "Family member of power":"#c780ff",
+  "":                      "#8899aa"
+};
+const LINK_COLORS = { work:"#c780ff", school:"#ffb454", region:"#37c98b" };
+
+const COMMUNITY_PALETTE = ["#4da3ff","#ff6b6b","#37c98b","#ffb454","#c780ff","#f8f070","#00c2c7","#ff8fc4","#9fd356","#b0a3ff"];
+
+let DATA = { people:[], workExperience:[] };
+let network = null;
+let lastCommunity = null;
+let nodesDS = null, edgesDS = null, nodeBase = new Map(), neighborMap = new Map(), focusedId = null;
+
+function hexFade(hex, a){
+  const h=hex.replace('#',''); const n=parseInt(h.length===3?h.split('').map(c=>c+c).join(''):h,16);
+  const r=(n>>16)&255,g=(n>>8)&255,b=n&255;
+  return `rgba(${r},${g},${b},${a})`;
+}
+
+// Center the camera on a node and light up its ego network; dim the rest.
+function focusNode(id){
+  if(!network) return;
+  focusedId = id;
+  network.focus(id, { scale:1.35, animation:{ duration:600, easingFunction:'easeInOutQuad' } });
+  network.selectNodes([id]);
+  const keep = new Set([id, ...((neighborMap.get(id))||[])]);
+  nodesDS.update(nodesDS.getIds().map(nid=>{
+    const on = keep.has(nid);
+    const base = nodeBase.get(nid) || '#8899aa';
+    return { id:nid,
+      color:{ background: on?base:hexFade(base,0.12), border: on?(nid===id?'#ffffff':'#0b1119'):'rgba(120,140,160,0.15)',
+              highlight:{background:base,border:'#fff'} },
+      font:{ color: on?'#e6edf3':'rgba(150,164,184,0.25)' },
+      borderWidth: nid===id?3:2 };
+  }));
+  edgesDS.update(edgesDS.get().map(e=>{
+    const inc = e.from===id || e.to===id;
+    return { id:e.id, color:{ color: inc? e.basecolor : 'rgba(120,140,160,0.06)', opacity: inc?0.95:1 },
+             width: inc? (e.width||1.4)+0.8 : (e.width||1.4) };
+  }));
+}
+
+// Restore full brightness.
+function clearFocus(){
+  if(!network || !nodesDS) return;
+  focusedId = null;
+  network.unselectAll();
+  nodesDS.update(nodesDS.getIds().map(nid=>{
+    const base = nodeBase.get(nid) || '#8899aa';
+    return { id:nid, color:{ background:base, border:'#0b1119', highlight:{background:base,border:'#fff'} },
+             font:{ color:'#e6edf3' }, borderWidth:2 };
+  }));
+  edgesDS.update(edgesDS.get().map(e=>({ id:e.id, color:{ color:e.basecolor, opacity:0.75 }, width:e.ltype==='work'?2:1.4 })));
+}
+
+// ---- Betweenness centrality (Brandes, unweighted) ----
+function betweenness(nodeIds, adjMap){
+  const bc={}; nodeIds.forEach(v=>bc[v]=0);
+  for(const s of nodeIds){
+    const S=[],P={},sigma={},dist={};
+    nodeIds.forEach(v=>{P[v]=[];sigma[v]=0;dist[v]=-1;});
+    sigma[s]=1;dist[s]=0;const Q=[s];
+    while(Q.length){ const v=Q.shift();S.push(v);
+      for(const w of (adjMap.get(v)||[])){
+        if(dist[w]<0){dist[w]=dist[v]+1;Q.push(w);}
+        if(dist[w]===dist[v]+1){sigma[w]+=sigma[v];P[w].push(v);}
+      } }
+    const delta={};nodeIds.forEach(v=>delta[v]=0);
+    while(S.length){ const w=S.pop();
+      for(const v of P[w]) delta[v]+=(sigma[v]/sigma[w])*(1+delta[w]);
+      if(w!==s) bc[w]+=delta[w]; }
+  }
+  nodeIds.forEach(v=>bc[v]/=2);
+  return bc;
+}
+
+// ---- Louvain community detection ----
+function louvain(nodeIds, edgeList){
+  const origIndex=new Map(nodeIds.map((id,i)=>[id,i]));
+  let membership=nodeIds.map((_,i)=>i);
+  let N=nodeIds.length;
+  let adj=Array.from({length:N},()=>new Map());
+  let self=new Array(N).fill(0); let m2=0;
+  for(const [a,b,w0] of edgeList){ const w=w0||1;const ia=origIndex.get(a),ib=origIndex.get(b);
+    if(ia===ib){self[ia]+=w;m2+=2*w;continue;}
+    adj[ia].set(ib,(adj[ia].get(ib)||0)+w); adj[ib].set(ia,(adj[ib].get(ia)||0)+w); m2+=2*w; }
+  if(m2===0) return Object.fromEntries(nodeIds.map(id=>[id,0]));
+  function oneLevel(adj,self,N){
+    let comm=[...Array(N).keys()];
+    let k=new Array(N).fill(0),tot=new Array(N).fill(0);
+    for(let i=0;i<N;i++){let d=self[i]*2;adj[i].forEach(w=>d+=w);k[i]=d;tot[i]=d;}
+    let improved=true,anyMove=false;
+    while(improved){ improved=false;
+      for(let i=0;i<N;i++){ const ci=comm[i];
+        const wComm=new Map(); adj[i].forEach((w,j)=>{const cj=comm[j];wComm.set(cj,(wComm.get(cj)||0)+w);});
+        tot[ci]-=k[i];
+        let bestC=ci,bestGain=(wComm.get(ci)||0)-tot[ci]*k[i]/m2;
+        wComm.forEach((wic,C)=>{ if(C===ci)return; const gain=wic-tot[C]*k[i]/m2; if(gain>bestGain){bestGain=gain;bestC=C;} });
+        tot[bestC]+=k[i];comm[i]=bestC; if(bestC!==ci){improved=true;anyMove=true;}
+      } }
+    return {comm,anyMove};
+  }
+  let level=0;
+  while(true){
+    const {comm,anyMove}=oneLevel(adj,self,N);
+    const remap=new Map();let c=0;
+    const newComm=comm.map(x=>{if(!remap.has(x))remap.set(x,c++);return remap.get(x);});
+    membership=membership.map(sn=>newComm[sn]);
+    if(!anyMove||c===N) break;
+    const nAdj=Array.from({length:c},()=>new Map());const nSelf=new Array(c).fill(0);
+    for(let i=0;i<N;i++){ const ci=newComm[i]; nSelf[ci]+=self[i];
+      adj[i].forEach((w,j)=>{const cj=newComm[j]; if(ci===cj)nSelf[ci]+=w/2; else nAdj[ci].set(cj,(nAdj[ci].get(cj)||0)+w);}); }
+    adj=nAdj;self=nSelf;N=c; if(++level>50)break;
+  }
+  return Object.fromEntries(nodeIds.map((id,i)=>[id,membership[i]]));
+}
+
+function selectedRadio(name){ const el=document.querySelector('input[name="'+name+'"]:checked'); return el?el.value:''; }
+
+function activeLinks(){
+  return {
+    work:   document.getElementById('lk-work').checked,
+    school: document.getElementById('lk-school').checked,
+    region: document.getElementById('lk-region').checked
+  };
+}
+
+function checkedValues(containerId){
+  return [...document.querySelectorAll('#'+containerId+' input:checked')].map(i=>i.value);
+}
+
+function passesFilters(p){
+  const fs = checkedValues('f-school');
+  const fi = checkedValues('f-institution');
+  const fr = checkedValues('f-region');
+  const fc = checkedValues('f-category');
+  if(fs.length && !fs.includes(p.school)) return false;
+  if(fi.length && !fi.includes(p.institution)) return false;
+  if(fr.length && !fr.includes(p.region)) return false;
+  if(fc.length && !fc.includes(p.category)) return false;
+  return true;
+}
+
+// Build one-mode projection edges among a set of visible people
+function buildEdges(visibleIds){
+  const links = activeLinks();
+  const idset = new Set(visibleIds);
+  const edges = [];
+  const pairSeen = new Set(); // dedupe per type+pair
+  const byId = Object.fromEntries(DATA.people.map(p=>[p.id,p]));
+
+  function addPairs(groups, type){
+    for(const key in groups){
+      const members = groups[key].filter(id=>idset.has(id));
+      for(let i=0;i<members.length;i++){
+        for(let j=i+1;j<members.length;j++){
+          const a=members[i], b=members[j];
+          const pk = type+':'+Math.min(a,b)+'-'+Math.max(a,b);
+          if(pairSeen.has(pk)) continue;
+          pairSeen.add(pk);
+          edges.push({ from:a, to:b, color:{color:LINK_COLORS[type]}, basecolor:LINK_COLORS[type], title:linkTitle(type,key),
+                       smooth:{type:'continuous'}, width:type==='work'?2:1.4, ltype:type });
+        }
+      }
+    }
+  }
+  function linkTitle(type,key){
+    if(type==='work')   return 'Shared workplace: '+key;
+    if(type==='school') return 'Same school: '+key;
+    if(type==='region') return 'Same region: '+key;
+  }
+
+  if(links.school){
+    const g={}; DATA.people.forEach(p=>{ if(p.school){ (g[p.school]=g[p.school]||[]).push(p.id);} });
+    addPairs(g,'school');
+  }
+  if(links.region){
+    const g={}; DATA.people.forEach(p=>{ if(p.region){ (g[p.region]=g[p.region]||[]).push(p.id);} });
+    addPairs(g,'region');
+  }
+  if(links.work){
+    // group person ids by every institution appearing in their work history
+    const g={};
+    DATA.workExperience.forEach(w=>{
+      if(!w.institution) return;
+      (g[w.institution]=g[w.institution]||new Set()).add(w.personId);
+    });
+    const gArr={}; for(const k in g) gArr[k]=[...g[k]];
+    addPairs(gArr,'work');
+  }
+  return edges;
+}
+
+function render(){
+  const visible = DATA.people.filter(passesFilters);
+  const visibleIds = visible.map(p=>p.id);
+  const edges = buildEdges(visibleIds);
+
+  // simple deduped undirected graph for metrics
+  const adjMap = new Map(visibleIds.map(id=>[id,[]]));
+  const simpleEdges = []; const simpleSeen = new Set();
+  edges.forEach(e=>{
+    const a=Math.min(e.from,e.to), b=Math.max(e.from,e.to), key=a+'-'+b;
+    if(simpleSeen.has(key)) return; simpleSeen.add(key);
+    simpleEdges.push([a,b,1]); adjMap.get(a).push(b); adjMap.get(b).push(a);
+  });
+
+  // degree per node (distinct neighbours)
+  const deg = {}; visibleIds.forEach(id=>deg[id]=(adjMap.get(id)||[]).length);
+
+  const sizeMode = selectedRadio('size');
+  const colorMode = selectedRadio('color');
+  const bc = sizeMode==='betweenness' ? betweenness(visibleIds, adjMap) : null;
+  const community = colorMode==='community' ? louvain(visibleIds, simpleEdges) : null;
+  const maxBc = bc ? Math.max(1e-9, ...Object.values(bc)) : 1;
+
+  function nodeColor(p){
+    if(colorMode==='community'){
+      const c = community[p.id]||0;
+      return COMMUNITY_PALETTE[c % COMMUNITY_PALETTE.length];
+    }
+    return CATEGORY_COLORS[p.category] ?? "#8899aa";
+  }
+
+  const nodes = visible.map(p=>{
+    let val;
+    if(sizeMode==='betweenness') val = 1 + 20*(bc[p.id]/maxBc);
+    else val = (deg[p.id]||0)+1;
+    const col = nodeColor(p);
+    return {
+      id:p.id,
+      label:p.name,
+      value: val,
+      color:{ background:col, border:"#0b1119",
+              highlight:{background:col,border:"#fff"} },
+      font:{ color:"#e6edf3", size:13 },
+      shape:"dot"
+    };
+  });
+  lastCommunity = community;
+
+  // globals used by the focus/highlight interaction
+  nodeBase = new Map(nodes.map(n=>[n.id, n.color.background]));
+  neighborMap = adjMap;
+
+  const data = { nodes:new vis.DataSet(nodes), edges:new vis.DataSet(edges) };
+  nodesDS = data.nodes; edgesDS = data.edges;
+  focusedId = null;
+  const options = {
+    physics:{ enabled:document.getElementById('physics').checked,
+              barnesHut:{ gravitationalConstant:-3000, springLength:120, springConstant:0.04, damping:0.4 },
+              stabilization:{ iterations:200 } },
+    interaction:{ hover:true, tooltipDelay:120, multiselect:true },
+    nodes:{ scaling:{ min:8, max:34 }, borderWidth:2 },
+    edges:{ smooth:{ type:'continuous' }, color:{ opacity:0.75 } }
+  };
+
+  if(network){ network.setData(data); network.setOptions(options); }
+  else {
+    network = new vis.Network(document.getElementById('net'), data, options);
+    network.on('click', params=>{
+      if(params.nodes.length){ const id=params.nodes[0]; showInfo(id); focusNode(id); }
+      else { document.getElementById('info').style.display='none'; clearFocus(); }
+    });
+  }
+  document.getElementById('stats').textContent =
+    `${nodes.length} people · ${edges.length} links` + (colorMode==='community' && community ? ` · ${new Set(visibleIds.map(id=>community[id])).size} communities` : '');
+  updateLegend(colorMode, community, visible);
+}
+
+function updateLegend(colorMode, community, visible){
+  const box = document.getElementById('legend-cats');
+  const title = document.querySelector('#legend > div');
+  if(colorMode==='community' && community){
+    title.textContent = 'Node color = community (Louvain)';
+    const comms = [...new Set(visible.map(p=>community[p.id]))].sort((a,b)=>a-b);
+    box.innerHTML = comms.map(c=>{
+      const members = visible.filter(p=>community[p.id]===c).length;
+      const col = COMMUNITY_PALETTE[c % COMMUNITY_PALETTE.length];
+      return `<div class="row"><span class="swatch" style="background:${col}"></span>Community ${c+1} (${members})</div>`;
+    }).join('');
+  } else {
+    title.textContent = 'Node color = elite category';
+    const used=[...new Set(visible.map(p=>p.category))];
+    box.innerHTML = used.map(c=>`<div class="row"><span class="swatch" style="background:${CATEGORY_COLORS[c]??'#8899aa'}"></span>${c||'(unspecified)'}</div>`).join('');
+  }
+}
+
+function showInfo(id){
+  const p = DATA.people.find(x=>x.id===id);
+  if(!p) return;
+  const exp = DATA.workExperience.filter(w=>w.personId===id)
+    .sort((a,b)=>(b.startYear||0)-(a.startYear||0));
+  const el = document.getElementById('info');
+  el.innerHTML =
+    `<span class="close" onclick="document.getElementById('info').style.display='none';clearFocus()">×</span>`+
+    `<h3>${p.name}</h3>`+
+    `<div class="role">${p.role||''}${p.institution?(' · '+p.institution):''}</div>`+
+    kv('Age',p.age)+kv('Region',p.region)+kv('School',p.school)+
+    kv('Zhuz',p.zhuz)+kv('Category',p.category)+
+    (exp.length?`<div class="exp"><div class="muted" style="margin:8px 0 4px">Career</div><ul style="margin:0;padding:0">`+
+      exp.map(w=>`<li>${w.title||''} — ${w.institution||''} <span class="muted">(${w.startYear||'?'}–${w.endYear||'?'})</span></li>`).join('')+
+      `</ul></div>`:'');
+  el.style.display='block';
+}
+function kv(k,v){ return `<div class="kv"><span>${k}</span><span>${v||'—'}</span></div>`; }
+
+function buildFilterLists(){
+  const mk=(field,container)=>{
+    const vals=[...new Set(DATA.people.map(p=>p[field]).filter(Boolean))].sort();
+    document.getElementById(container).innerHTML =
+      vals.map(v=>`<label class="chk"><input type="checkbox" value="${v.replace(/"/g,'&quot;')}"> ${v}</label>`).join('')
+      || '<div class="muted" style="padding:4px">none</div>';
+  };
+  mk('school','f-school'); mk('institution','f-institution');
+  mk('region','f-region'); mk('category','f-category');
+  document.querySelectorAll('.filter-list input').forEach(i=>i.addEventListener('change',render));
+}
+
+function buildLegend(){
+  const used=[...new Set(DATA.people.map(p=>p.category))];
+  document.getElementById('legend-cats').innerHTML =
+    used.map(c=>`<div class="row"><span class="swatch" style="background:${CATEGORY_COLORS[c]??'#8899aa'}"></span>${c||'(unspecified)'}</div>`).join('');
+}
+
+function loadData(d){
+  DATA = { people:d.people||[], workExperience:d.workExperience||[] };
+  buildFilterLists(); buildLegend(); render();
+  const banner=document.getElementById('banner');
+  if(JSON.stringify(DATA).includes('Sample Person')){
+    banner.style.display='block';
+    banner.textContent='⚠ Showing SAMPLE data — replace data.json with your real 33 people.';
+  } else banner.style.display='none';
+}
+
+// wire controls
+['lk-work','lk-school','lk-region','physics'].forEach(id=>
+  document.getElementById(id).addEventListener('change',render));
+document.querySelectorAll('input[name="size"],input[name="color"]').forEach(el=>
+  el.addEventListener('change',render));
+document.getElementById('fit').addEventListener('click',()=>network&&network.fit({animation:true}));
+document.getElementById('clearFilters').addEventListener('click',()=>{
+  document.querySelectorAll('.filter-list input:checked').forEach(i=>i.checked=false); render();
+});
+document.getElementById('fileInput').addEventListener('change',e=>{
+  const f=e.target.files[0]; if(!f) return;
+  const r=new FileReader(); r.onload=()=>{ try{ loadData(JSON.parse(r.result)); }catch(err){ alert('Invalid JSON: '+err.message); } };
+  r.readAsText(f);
+});
+
+// initial load via fetch (works on GitHub Pages / any web server)
+fetch('data.json').then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(loadData)
+  .catch(()=>{
+    const b=document.getElementById('banner');
+    b.style.display='block';
+    b.textContent='Could not auto-load data.json (normal when opening the file directly). Use the "Data" file picker in the sidebar, or host on a server / GitHub Pages.';
+  });
+</script>
+</body>
+</html>
