@@ -165,8 +165,11 @@ function focusNode(id){
   }));
   edgesDS.update(edgesDS.get().map(e=>{
     const inc = e.from===id || e.to===id;
-    return { id:e.id, hidden:!inc, color:{ color:e.basecolor, opacity:0.95 },
-             width: inc? (e.ltype==='work'?2:1.4)+0.8 : (e.ltype==='work'?2:1.4) };
+    return inc ?
+      { id:e.id, hidden:false, color:{ color:e.basecolor, opacity:0.95 },
+        width:(e.ltype==='work'?2:1.4)+0.8 } :
+      { id:e.id, hidden:true, color:{ color:e.basecolor, opacity:0.75 },
+        width:e.ltype==='work'?2:1.4 };
   }));
 }
 
@@ -476,7 +479,7 @@ function render(){
     edgesDS.update(edges);
     network.setOptions(options);
     if(nodesDS.length !== prevCount)
-      network.fit({ animation:{ duration:700, easingFunction:'easeInOutQuad' } });
+      network.fit({ animation:{ duration:500, easingFunction:'easeInOutQuad' } });
   } else {
     nodesDS = new vis.DataSet(nodes); edgesDS = new vis.DataSet(edges);
     network = new vis.Network(document.getElementById('net'), { nodes:nodesDS, edges:edgesDS }, options);
