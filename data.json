@@ -1,24 +1,2868 @@
 {
-  "_comment": "SAMPLE DATA — replace with your real 33 people. 'people' = Tab 1, one object per person. 'workExperience' = Tab 2, one object per past/present role. personId must match a person id. Leave fields as empty string \"\" if unknown — do not write N/A.",
-  "people": [
-    { "id": 1, "name": "Sample Person A", "age": 54, "role": "Minister of Finance", "institution": "Ministry of Finance", "region": "Almaty", "school": "MGIMO", "zhuz": "Senior", "category": "Political elite" },
-    { "id": 2, "name": "Sample Person B", "age": 47, "role": "Deputy Akim", "institution": "Almaty Akimat", "region": "Almaty", "school": "KIMEP", "zhuz": "Senior", "category": "Technocrat" },
-    { "id": 3, "name": "Sample Person C", "age": 61, "role": "CEO", "institution": "Samruk-Kazyna", "region": "Astana", "school": "MGIMO", "zhuz": "Middle", "category": "Business elite" },
-    { "id": 4, "name": "Sample Person D", "age": 39, "role": "Vice Minister", "institution": "Ministry of Finance", "region": "Karaganda", "school": "Nazarbayev University", "zhuz": "Middle", "category": "Technocrat" },
-    { "id": 5, "name": "Sample Person E", "age": 58, "role": "Chairman", "institution": "KazMunayGas", "region": "Atyrau", "school": "KIMEP", "zhuz": "Junior", "category": "Business elite" },
-    { "id": 6, "name": "Sample Person F", "age": 44, "role": "Head of Committee", "institution": "National Security Committee", "region": "Astana", "school": "Nazarbayev University", "zhuz": "", "category": "Security/siloviki" }
-  ],
-  "workExperience": [
-    { "personId": 1, "title": "Minister of Finance", "institution": "Ministry of Finance", "startYear": 2021, "endYear": "Present" },
-    { "personId": 1, "title": "Deputy Chairman", "institution": "Samruk-Kazyna", "startYear": 2015, "endYear": 2021 },
-    { "personId": 2, "title": "Deputy Akim", "institution": "Almaty Akimat", "startYear": 2020, "endYear": "Present" },
-    { "personId": 2, "title": "Advisor", "institution": "Ministry of Finance", "startYear": 2016, "endYear": 2020 },
-    { "personId": 3, "title": "CEO", "institution": "Samruk-Kazyna", "startYear": 2019, "endYear": "Present" },
-    { "personId": 3, "title": "Board Member", "institution": "KazMunayGas", "startYear": 2012, "endYear": 2019 },
-    { "personId": 4, "title": "Vice Minister", "institution": "Ministry of Finance", "startYear": 2022, "endYear": "Present" },
-    { "personId": 5, "title": "Chairman", "institution": "KazMunayGas", "startYear": 2018, "endYear": "Present" },
-    { "personId": 5, "title": "Deputy Chairman", "institution": "Samruk-Kazyna", "startYear": 2013, "endYear": 2018 },
-    { "personId": 6, "title": "Head of Committee", "institution": "National Security Committee", "startYear": 2020, "endYear": "Present" },
-    { "personId": 6, "title": "Advisor", "institution": "Almaty Akimat", "startYear": 2017, "endYear": 2020 }
-  ]
+ "people": [
+  {
+   "id": 1,
+   "name": "Kassym-Jomart Tokayev",
+   "age": 53,
+   "role": "President",
+   "institution": "Akorda",
+   "region": "Almaty",
+   "school": "Moscow State Institute of International Relations",
+   "zhuz": "Senior Zhuz / Ulu Zhuz",
+   "category": "Diplomat"
+  },
+  {
+   "id": 2,
+   "name": "Erlan Karin",
+   "age": 50,
+   "role": "Deputy Head of the Administration of the President of the Republic of Kazakhstan",
+   "institution": "Akorda",
+   "region": "Turkestan Region",
+   "school": "K. Zhubanov Aktobe Regional University",
+   "zhuz": "Junior Zhuz / Kishi Zhuz",
+   "category": "Ideologue / Political Bureaucrat"
+  },
+  {
+   "id": 3,
+   "name": "Asel Zhubanyshevna Zhanasova",
+   "age": 38,
+   "role": "Deputy Head of the Administration of the President of the Republic of Kazakhstan",
+   "institution": "Akorda",
+   "region": "Almaty",
+   "school": "University of Cambridge",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 4,
+   "name": "Yerzhan Zhiyenbayev",
+   "age": 44,
+   "role": "Deputy Head of the Administration of the President of the Republic of Kazakhstan",
+   "institution": "Akorda",
+   "region": "Almaty",
+   "school": "Turan University",
+   "zhuz": "",
+   "category": "Bureaucrat"
+  },
+  {
+   "id": 5,
+   "name": "Gizat Nurdauletov",
+   "age": 61,
+   "role": "Secretary of the Security Council of Kazakhstan",
+   "institution": "Akorda",
+   "region": "Almaty Region",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 6,
+   "name": "Arman Orazbaevich Kyrykbayev",
+   "age": 49,
+   "role": "Assistant to the President of the Republic of Kazakhstan on Domestic Policy and Communications",
+   "institution": "Akorda",
+   "region": "Astana",
+   "school": "Narxoz University",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 7,
+   "name": "Kuanyshbek Esekeev",
+   "age": 51,
+   "role": "Assistant to the President of Kazakhstan",
+   "institution": "Akorda",
+   "region": "Almaty",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 8,
+   "name": "Murat Nurtleu",
+   "age": 50,
+   "role": "Assistant to the President for International Investment and Trade Cooperation",
+   "institution": "Akorda",
+   "region": "Almaty",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "Diplomat"
+  },
+  {
+   "id": 9,
+   "name": "Nurlan Baibazarov",
+   "age": 50,
+   "role": "Assistant to the President of Kazakhstan on Economic Affairs",
+   "institution": "Akorda",
+   "region": "",
+   "school": "Kazakh State Academy of Management",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 10,
+   "name": "Bakytzhan Sariev",
+   "age": 54,
+   "role": "Head of the Office of the President of Kazakhstan",
+   "institution": "Akorda",
+   "region": "Almaty",
+   "school": "Kazakh State Academy of Architecture and Civil Engineering",
+   "zhuz": "",
+   "category": "Diplomat"
+  },
+  {
+   "id": 11,
+   "name": "Roman Sklyar",
+   "age": 55,
+   "role": "Head of Administration of the President of Kazakhstan",
+   "institution": "Akorda",
+   "region": "Pavlodar Region",
+   "school": "S. Toraighyrov University",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 12,
+   "name": "Bauyrzhan Omarov",
+   "age": 64,
+   "role": "Advisor to the President of Kazakhstan",
+   "institution": "Akorda",
+   "region": "Kyzylorda Region",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "Ideologue / Political Bureaucrat"
+  },
+  {
+   "id": 13,
+   "name": "Malik Otarbayev",
+   "age": 46,
+   "role": "Advisor to the President of Kazakhstan",
+   "institution": "Akorda",
+   "region": "Zhambyl Region",
+   "school": "Suleyman Demirel University",
+   "zhuz": "",
+   "category": "Diplomat"
+  },
+  {
+   "id": 14,
+   "name": "Marat Ashim",
+   "age": 39,
+   "role": "Advisor to the President of Kazakhstan for Protocol",
+   "institution": "Akorda",
+   "region": "Almaty",
+   "school": "Abai Kazakh National Pedagogical University (KazNPU)",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 15,
+   "name": "Bakhytzhan Sapiev",
+   "age": 60,
+   "role": "Advisor to the President of Kazakhstan",
+   "institution": "Akorda",
+   "region": "Almaty Region",
+   "school": "Kazakh Agricultural Institute",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 16,
+   "name": "Yernar Lazar",
+   "age": 40,
+   "role": "Advisor to the President for International Affairs",
+   "institution": "Akorda",
+   "region": "Almaty",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "Diplomat"
+  },
+  {
+   "id": 17,
+   "name": "Aleksey Tsoi",
+   "age": 49,
+   "role": "Advisor to the President for Social Affairs",
+   "institution": "Akorda",
+   "region": "Shymkent",
+   "school": "South Kazakhstan Medical Academy",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 18,
+   "name": "Aibek Smadiyarov",
+   "age": 43,
+   "role": "Advisor to the President – Press Secretary",
+   "institution": "Akorda",
+   "region": "Turkestan Region",
+   "school": "Ablai Khan University of International Relations and World Languages",
+   "zhuz": "",
+   "category": "Diplomat"
+  },
+  {
+   "id": 19,
+   "name": "Ruslan Zhaksylykov",
+   "age": 60,
+   "role": "First Deputy Secretary of the Security Council",
+   "institution": "Akorda",
+   "region": "Almaty Region",
+   "school": "Almaty Higher Combined Arms Command School",
+   "zhuz": "Middle Zhuz",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 20,
+   "name": "Murat Baimukashev",
+   "age": 59,
+   "role": "Deputy Secretary of the Security Council",
+   "institution": "Akorda",
+   "region": "East Kazakhstan Region",
+   "school": "Kazakh Agricultural Institute",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 21,
+   "name": "Nurzhan Kadzhiakbarov",
+   "age": 46,
+   "role": "Deputy Secretary of the Security Council",
+   "institution": "Akorda",
+   "region": "Almaty",
+   "school": "Kazakh State Academy of Management",
+   "zhuz": "",
+   "category": "Diplomat"
+  },
+  {
+   "id": 22,
+   "name": "Yerzhan Seitkulov",
+   "age": 47,
+   "role": "Head of Information Resources Protection Department",
+   "institution": "Akorda",
+   "region": "Almaty Region",
+   "school": "Lomonosov Moscow State University",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 23,
+   "name": "Kuat Sandalov",
+   "age": 39,
+   "role": "Head of Digitalization Development Department",
+   "institution": "Akorda",
+   "region": "",
+   "school": "L.N. Gumilyov Eurasian National University (ENU)",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 24,
+   "name": "Rakymzhan Yernazar",
+   "age": 38,
+   "role": "Head of Social and Economic Policy Department",
+   "institution": "Akorda",
+   "region": "Zhetysu Region",
+   "school": "Kazakhstan-British Technical University",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 25,
+   "name": "Azamat Keskinbayev",
+   "age": 40,
+   "role": "Head of Transport and Logistics Industry Development Department",
+   "institution": "Akorda",
+   "region": "Turkestan Region",
+   "school": "Lomonosov Moscow State University",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 26,
+   "name": "Yerbol Adayev",
+   "age": 48,
+   "role": "Head of General Department",
+   "institution": "Akorda",
+   "region": "Kostanay Region",
+   "school": "A. Baitursynov Kostanay Regional University",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 27,
+   "name": "Yelnur Beisenbayev",
+   "age": 40,
+   "role": "Head of Domestic Policy Department",
+   "institution": "Akorda",
+   "region": "Turkestan Region",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "Politician"
+  },
+  {
+   "id": 28,
+   "name": "Kanat Kulshmanov",
+   "age": 38,
+   "role": "Head of Communications Department",
+   "institution": "Akorda",
+   "region": "Kostanay Region",
+   "school": "L.N. Gumilyov Eurasian National University (ENU)",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 29,
+   "name": "Dauren Yergarin",
+   "age": 44,
+   "role": "Head of Law Enforcement Department",
+   "institution": "Akorda",
+   "region": "West Kazakhstan Region",
+   "school": "Pushkin West Kazakhstan University",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 30,
+   "name": "Aidar Zharylganov",
+   "age": 48,
+   "role": "Head of State and Legal Department",
+   "institution": "Akorda",
+   "region": "East Kazakhstan Region",
+   "school": "Semey Medical University (formerly Semey State University)",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 31,
+   "name": "Alikhan Zhamsatov",
+   "age": 43,
+   "role": "Head of State Control Department",
+   "institution": "Akorda",
+   "region": "Pavlodar Region",
+   "school": "M. Narikbayev KAZGUU University",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 32,
+   "name": "Ruslan Turganaly",
+   "age": 40,
+   "role": "Head of Civil Service Department",
+   "institution": "Akorda",
+   "region": "Zhambyl Region",
+   "school": "M. Narikbayev KAZGUU University",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 33,
+   "name": "Zhandos Imanaliyev",
+   "age": 35,
+   "role": "Head of Foreign Policy Department",
+   "institution": "Akorda",
+   "region": "Zhambyl Region",
+   "school": "KIMEP University",
+   "zhuz": "",
+   "category": "Diplomat"
+  }
+ ],
+ "workExperience": [
+  {
+   "personId": 1,
+   "title": "Deputy Foreign Minister",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 1992,
+   "endYear": 1993,
+   "source": "https://www.akorda.kz/en/president/president"
+  },
+  {
+   "personId": 1,
+   "title": "First Deputy Foreign Minister",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 1993,
+   "endYear": 1994,
+   "source": "https://www.akorda.kz/en/president/president"
+  },
+  {
+   "personId": 1,
+   "title": "Minister of Foreign Affairs",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 1994,
+   "endYear": 1999,
+   "source": "https://www.akorda.kz/en/president/president"
+  },
+  {
+   "personId": 1,
+   "title": "Deputy Prime Minister",
+   "institution": "Government of Kazakhstan (Balgimbayev Government)",
+   "startYear": 1999,
+   "endYear": 1999,
+   "source": "https://www.akorda.kz/en/president/president"
+  },
+  {
+   "personId": 1,
+   "title": "Prime Minister",
+   "institution": "Government of Kazakhstan (Tokayev Government)",
+   "startYear": 1999,
+   "endYear": 2002,
+   "source": "https://www.akorda.kz/en/president/president"
+  },
+  {
+   "personId": 1,
+   "title": "Minister of Foreign Affairs",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2003,
+   "endYear": 2007,
+   "source": "https://www.akorda.kz/en/president/president"
+  },
+  {
+   "personId": 1,
+   "title": "Chairman of the Senate",
+   "institution": "Senate",
+   "startYear": 2007,
+   "endYear": 2011,
+   "source": "https://www.akorda.kz/en/president/president"
+  },
+  {
+   "personId": 1,
+   "title": "Director-General",
+   "institution": "United Nations Office at Geneva (UNOG)",
+   "startYear": 2011,
+   "endYear": 2013
+  },
+  {
+   "personId": 1,
+   "title": "Chairman of the Senate",
+   "institution": "Senate",
+   "startYear": 2013,
+   "endYear": 2019,
+   "source": "https://www.akorda.kz/en/president/president"
+  },
+  {
+   "personId": 1,
+   "title": "President",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": 2026,
+   "source": "https://www.akorda.kz/en/president/president"
+  },
+  {
+   "personId": 1,
+   "title": "Chairman",
+   "institution": "Akorda",
+   "startYear": 2022,
+   "endYear": 2026,
+   "source": "https://www.akorda.kz/en/president/president"
+  },
+  {
+   "personId": 2,
+   "title": "Non-staff adviser to the Prime Minister",
+   "institution": "Government of Kazakhstan (Tasmagambetov Government)",
+   "startYear": 2002,
+   "endYear": 2003,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source."
+  },
+  {
+   "personId": 2,
+   "title": "First Deputy Chairman",
+   "institution": "Republican Asar Party",
+   "startYear": 2003,
+   "endYear": 2004
+  },
+  {
+   "personId": 2,
+   "title": "Adviser to Akim of Mangystau Region",
+   "institution": "Mangystau Region Akimat",
+   "startYear": 2006,
+   "endYear": 2008,
+   "source": "https://www.akorda.kz/en/executive_office/executive_office_stucture/the-state-secretary-of-the-republic-of-kazakhstan"
+  },
+  {
+   "personId": 2,
+   "title": "Secretary for Strategic Development",
+   "institution": "Nur Otan Party",
+   "startYear": 2008,
+   "endYear": 2013
+  },
+  {
+   "personId": 2,
+   "title": "Director",
+   "institution": "Kazakhstan Institute for Strategic Studies",
+   "startYear": 2014,
+   "endYear": 2017
+  },
+  {
+   "personId": 2,
+   "title": "Advisor to the President",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": 2020
+  },
+  {
+   "personId": 2,
+   "title": "Assistant to the President",
+   "institution": "Akorda",
+   "startYear": 2020,
+   "endYear": 2022
+  },
+  {
+   "personId": 2,
+   "title": "State Counselor",
+   "institution": "Akorda",
+   "startYear": 2022,
+   "endYear": "Present"
+  },
+  {
+   "personId": 2,
+   "title": "State Secretary",
+   "institution": "Akorda",
+   "startYear": 2022,
+   "endYear": 2022
+  },
+  {
+   "personId": 3,
+   "title": "Deputy Director, Digital Technologies Department",
+   "institution": "National Bank of Kazakhstan",
+   "startYear": 2014,
+   "endYear": 2016,
+   "source": "https://www.akorda.kz/ru/zamestitel-rukovoditelya-administracii-prezidenta-respubliki-kazahstan-zhanasova-asel-zhubanyshevna-1011123"
+  },
+  {
+   "personId": 3,
+   "title": "Chairwoman of Board",
+   "institution": "National Management Holding Zerde JSC",
+   "startYear": 2016,
+   "endYear": 2017,
+   "source": "https://www.akorda.kz/ru/zamestitel-rukovoditelya-administracii-prezidenta-respubliki-kazahstan-zhanasova-asel-zhubanyshevna-1011123"
+  },
+  {
+   "personId": 3,
+   "title": "Adviser to the Governor",
+   "institution": "Astana International Financial Centre (AIFC)",
+   "startYear": 2017,
+   "endYear": 2018,
+   "source": "https://www.akorda.kz/ru/zamestitel-rukovoditelya-administracii-prezidenta-respubliki-kazahstan-zhanasova-asel-zhubanyshevna-1011123"
+  },
+  {
+   "personId": 3,
+   "title": "Vice Minister of Trade and Integration",
+   "institution": "Ministry of Trade and Integration",
+   "startYear": 2020,
+   "endYear": 2022,
+   "source": "https://primeminister.kz/en/hrpolitic/appointments/asel-zhanasova-naznachena-vice-ministrom-torgovli-i-integracii-rk-2062833"
+  },
+  {
+   "personId": 3,
+   "title": "Chair of the Management Board / CEO",
+   "institution": "Kazpost JSC",
+   "startYear": 2022,
+   "endYear": 2025,
+   "source": "https://inbusiness.kz/ru/appointment/dose-zhanasova-asel-zhubanyshevna"
+  },
+  {
+   "personId": 3,
+   "title": "Adviser to the President",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": 2025,
+   "source": "https://www.akorda.kz/ru/rasporyazheniem-glavy-gosudarstva-zhanasova-asel-zhubanyshevna-naznachena-sovetnikom-prezidenta-respubliki-kazahstan-854212"
+  },
+  {
+   "personId": 3,
+   "title": "Deputy Head of the Administration \"Akorda\"",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/zamestitel-rukovoditelya-administracii-prezidenta-respubliki-kazahstan-zhanasova-asel-zhubanyshevna-1011123"
+  },
+  {
+   "personId": 4,
+   "title": "Multiple Roles, Legal Affairs Dept",
+   "institution": "Government of Kazakhstan (Akhmetov (Daniyal) Government)",
+   "startYear": 2005,
+   "endYear": 2007,
+   "source": "https://www.akorda.kz/en/executive_office/executive_office_stucture/deputy-chief-of-staff-of-the-president-of-the-republic-of-kazakhstan-yerzhan-zhienbayev",
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Akhmetov (Daniyal)/Massimov I/Massimov II governments."
+  },
+  {
+   "personId": 4,
+   "title": "Multiple Roles, Legal Affairs Dept",
+   "institution": "Government of Kazakhstan (Massimov I Government)",
+   "startYear": 2007,
+   "endYear": 2011,
+   "source": "https://www.akorda.kz/en/executive_office/executive_office_stucture/deputy-chief-of-staff-of-the-president-of-the-republic-of-kazakhstan-yerzhan-zhienbayev",
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Akhmetov (Daniyal)/Massimov I/Massimov II governments."
+  },
+  {
+   "personId": 4,
+   "title": "Multiple Roles, Legal Affairs Dept",
+   "institution": "Government of Kazakhstan (Massimov II Government)",
+   "startYear": 2011,
+   "endYear": 2012,
+   "source": "https://www.akorda.kz/en/executive_office/executive_office_stucture/deputy-chief-of-staff-of-the-president-of-the-republic-of-kazakhstan-yerzhan-zhienbayev",
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Akhmetov (Daniyal)/Massimov I/Massimov II governments."
+  },
+  {
+   "personId": 4,
+   "title": "Deputy Head, Legislation, Defense and Law Enforcement Department",
+   "institution": "Government of Kazakhstan (Akhmetov (Serik) Government)",
+   "startYear": 2012,
+   "endYear": 2013,
+   "source": "https://www.akorda.kz/en/executive_office/executive_office_stucture/deputy-chief-of-staff-of-the-president-of-the-republic-of-kazakhstan-yerzhan-zhienbayev",
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source."
+  },
+  {
+   "personId": 4,
+   "title": "Head, Legal Department",
+   "institution": "Government of Kazakhstan (Akhmetov (Serik) Government)",
+   "startYear": 2013,
+   "endYear": 2014,
+   "source": "https://www.akorda.kz/en/executive_office/executive_office_stucture/deputy-chief-of-staff-of-the-president-of-the-republic-of-kazakhstan-yerzhan-zhienbayev",
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Akhmetov (Serik)/Massimov III/Sagintayev governments."
+  },
+  {
+   "personId": 4,
+   "title": "Head, Legal Department",
+   "institution": "Government of Kazakhstan (Massimov III Government)",
+   "startYear": 2014,
+   "endYear": 2016,
+   "source": "https://www.akorda.kz/en/executive_office/executive_office_stucture/deputy-chief-of-staff-of-the-president-of-the-republic-of-kazakhstan-yerzhan-zhienbayev",
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Akhmetov (Serik)/Massimov III/Sagintayev governments."
+  },
+  {
+   "personId": 4,
+   "title": "Head, Legal Department",
+   "institution": "Government of Kazakhstan (Sagintayev Government)",
+   "startYear": 2016,
+   "endYear": 2019,
+   "source": "https://www.akorda.kz/en/executive_office/executive_office_stucture/deputy-chief-of-staff-of-the-president-of-the-republic-of-kazakhstan-yerzhan-zhienbayev",
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Akhmetov (Serik)/Massimov III/Sagintayev governments."
+  },
+  {
+   "personId": 4,
+   "title": "Deputy Head of the Office of the Prime Minister",
+   "institution": "Government of Kazakhstan (Mamin I Government)",
+   "startYear": 2019,
+   "endYear": 2019,
+   "source": "https://www.akorda.kz/en/executive_office/executive_office_stucture/deputy-chief-of-staff-of-the-president-of-the-republic-of-kazakhstan-yerzhan-zhienbayev",
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Assumed to fall under Mamin I (formed Feb 2019) based on subsequent move to Akorda later in 2019."
+  },
+  {
+   "personId": 4,
+   "title": "Deputy Head of the Administration of the President of the Republic of Kazakhstan",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": 2023,
+   "source": "https://www.akorda.kz/en/executive_office/executive_office_stucture/deputy-chief-of-staff-of-the-president-of-the-republic-of-kazakhstan-yerzhan-zhienbayev"
+  },
+  {
+   "personId": 4,
+   "title": "Assistant to the President of the Republic of Kazakhstan for Legal Affairs",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": 2026,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/zamestitel-rukovoditelya-administracii-prezidenta-respubliki-kazahstan-zhienbaev-erzhan-nurlanovich"
+  },
+  {
+   "personId": 4,
+   "title": "Deputy Head of the Administration \"Akorda\"",
+   "institution": "Akorda",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/zamestitel-rukovoditelya-administracii-prezidenta-respubliki-kazahstan-zhienbaev-erzhan-nurlanovich"
+  },
+  {
+   "personId": 5,
+   "title": "Unknown",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1997,
+   "endYear": 2007,
+   "source": "https://prg.kz/document/?doc_id=31386249"
+  },
+  {
+   "personId": 5,
+   "title": "Head of Department of the National Security Committee for Almaty Region",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2007,
+   "endYear": 2017,
+   "source": "https://prg.kz/document/?doc_id=31386249"
+  },
+  {
+   "personId": 5,
+   "title": "First Deputy Prosecutor General",
+   "institution": "Prosecutor General's Office",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/pomoshchnik-prezidenta-sekretar-soveta-bezopasnosti-respubliki-kazahstan"
+  },
+  {
+   "personId": 5,
+   "title": "Prosecutor General",
+   "institution": "Prosecutor General's Office",
+   "startYear": 2019,
+   "endYear": 2022,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/pomoshchnik-prezidenta-sekretar-soveta-bezopasnosti-respubliki-kazahstan"
+  },
+  {
+   "personId": 5,
+   "title": "Assistant to the President / Secretary of the Security Council",
+   "institution": "Security Council (Akorda)",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/pomoshchnik-prezidenta-sekretar-soveta-bezopasnosti-respubliki-kazahstan"
+  },
+  {
+   "personId": 5,
+   "title": "Secretary of the Security Council",
+   "institution": "Security Council (Akorda)",
+   "startYear": 2023,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/pomoshchnik-prezidenta-sekretar-soveta-bezopasnosti-respubliki-kazahstan"
+  },
+  {
+   "personId": 6,
+   "title": "Attache / Third Secretary",
+   "institution": "Embassy of Kazakhstan in Uzbekistan (MFA)",
+   "startYear": 1997,
+   "endYear": 2000,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Second Secretary",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2002,
+   "endYear": 2002,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Deputy Akim of Medeu District, Almaty",
+   "institution": "Almaty Akimat",
+   "startYear": 2005,
+   "endYear": 2005,
+   "source": "https://prg.kz/document/?doc_id=31137994"
+  },
+  {
+   "personId": 6,
+   "title": "Director, State Fund for Youth Policy Development of Almaty",
+   "institution": "Almaty Akimat",
+   "startYear": 2005,
+   "endYear": 2006,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Director, Department of Socio-Political Work and Public Relations",
+   "institution": "Ministry of Culture and Information",
+   "startYear": 2006,
+   "endYear": 2008,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Chair, Culture Committee",
+   "institution": "Ministry of Culture and Information",
+   "startYear": 2008,
+   "endYear": 2010,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Deputy Akim of Karaganda Region",
+   "institution": "Karaganda Region Akimat",
+   "startYear": 2010,
+   "endYear": 2012,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Vice Minister of Culture and Information",
+   "institution": "Ministry of Culture and Information",
+   "startYear": 2012,
+   "endYear": 2013,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Adviser to the First Deputy Chair of Nur Otan",
+   "institution": "Nur Otan Party",
+   "startYear": 2014,
+   "endYear": 2015,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Deputy Akim of Almaty",
+   "institution": "Almaty Akimat",
+   "startYear": 2015,
+   "endYear": 2019,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Secretary of Nur Otan",
+   "institution": "Nur Otan Party",
+   "startYear": 2020,
+   "endYear": 2022,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Deputy Akim of Almaty",
+   "institution": "Almaty Akimat",
+   "startYear": 2022,
+   "endYear": 2024,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Head, Communications Department",
+   "institution": "Akorda",
+   "startYear": 2024,
+   "endYear": 2025,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
+  },
+  {
+   "personId": 6,
+   "title": "Assistant to the President on Domestic Policy and Communications",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/o-kyrykbaeve-ao-2414653"
+  },
+  {
+   "personId": 7,
+   "title": "Senior Lecturer, Department of Applied Mathematics",
+   "institution": "Al-Farabi Kazakh National University (KazNU)",
+   "startYear": 1997,
+   "endYear": 1998
+  },
+  {
+   "personId": 7,
+   "title": "Director, Department of Information Technologies",
+   "institution": "Kazakhoil JSC",
+   "startYear": 1998,
+   "endYear": 2000
+  },
+  {
+   "personId": 7,
+   "title": "Department Head",
+   "institution": "Kazakhstan Temir Zholy JSC",
+   "startYear": 2000,
+   "endYear": 2002
+  },
+  {
+   "personId": 7,
+   "title": "Director, Department of Informatization",
+   "institution": "Ministry of Finance",
+   "startYear": 2002,
+   "endYear": 2002
+  },
+  {
+   "personId": 7,
+   "title": "Director, Department of Informatization",
+   "institution": "Ministry of Economy and Budget Planning",
+   "startYear": 2002,
+   "endYear": 2003
+  },
+  {
+   "personId": 7,
+   "title": "Director, Department of Information Technologies",
+   "institution": "Ministry of Finance",
+   "startYear": 2003,
+   "endYear": 2004
+  },
+  {
+   "personId": 7,
+   "title": "Deputy Chairman",
+   "institution": "Agency for Informatization and Communications",
+   "startYear": 2004,
+   "endYear": 2006
+  },
+  {
+   "personId": 7,
+   "title": "Acting Chairman",
+   "institution": "Agency for Informatization and Communications",
+   "startYear": 2006,
+   "endYear": 2007
+  },
+  {
+   "personId": 7,
+   "title": "Chairman",
+   "institution": "Agency for Informatization and Communications",
+   "startYear": 2007,
+   "endYear": 2010
+  },
+  {
+   "personId": 7,
+   "title": "Chairman of the Management Board",
+   "institution": "Kazakhtelecom JSC",
+   "startYear": 2010,
+   "endYear": 2024
+  },
+  {
+   "personId": 7,
+   "title": "Adviser to the President of the Republic of Kazakhstan",
+   "institution": "Akorda",
+   "startYear": 2024,
+   "endYear": 2025
+  },
+  {
+   "personId": 7,
+   "title": "Assistant to the President of the Republic of Kazakhstan",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 8,
+   "title": "Referent; Attache",
+   "institution": "State Protocol Service (MFA)",
+   "startYear": 1998,
+   "endYear": 1999,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Attache",
+   "institution": "Embassy of Kazakhstan in Malaysia (MFA)",
+   "startYear": 1999,
+   "endYear": 2003,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Second Secretary",
+   "institution": "Asia and Africa Department (MFA)",
+   "startYear": 2003,
+   "endYear": 2004,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Advisor to the Minister",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2004,
+   "endYear": 2006,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Head of the Secretariat of the Minister",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2007,
+   "endYear": 2007,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Deputy Head of the Senate Apparatus",
+   "institution": "Senate",
+   "startYear": 2007,
+   "endYear": 2007,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Head of the Senate Apparatus",
+   "institution": "Senate",
+   "startYear": 2007,
+   "endYear": 2011,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Ambassador-at-Large",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2011,
+   "endYear": 2011,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Director, Asia and Africa Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2011,
+   "endYear": 2011,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Minister-Counsellor",
+   "institution": "Permanent Mission of Kazakhstan in Geneva (MFA)",
+   "startYear": 2011,
+   "endYear": 2014,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Deputy Head, Foreign Policy Center",
+   "institution": "Akorda",
+   "startYear": 2014,
+   "endYear": 2016,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-mezhdunarodnomu-investicionnomu-i-torgovomu-sotrudnichestvu-nurtleu-murat-abugaliuly-268126"
+  },
+  {
+   "personId": 8,
+   "title": "Ambassador to Finland",
+   "institution": "Embassy of Kazakhstan in Finland (MFA)",
+   "startYear": 2016,
+   "endYear": 2019,
+   "source": "https://www.inform.kz/ru/murat-nurtleuov-naznachen-pomoschnikom-prezidenta-respubliki-kazahstan_a3510349"
+  },
+  {
+   "personId": 8,
+   "title": "Ambassador to Estonia, concurrently",
+   "institution": "Embassy of Kazakhstan in Estonia (MFA)",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.inform.kz/ru/murat-nurtleuov-naznachen-pomoschnikom-prezidenta-respubliki-kazahstan_a3510349"
+  },
+  {
+   "personId": 8,
+   "title": "Assistant to the President",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": 2021,
+   "source": "https://www.akorda.kz/ru/legal_acts/decrees/ukazom-glavy-gosudarstva-nurtleuov-murat-abugalievich-naznachen-pomoshchnikom-prezidenta-respubliki-kazahstan-on-osvobozhden-ot-dolzhnosti-c"
+  },
+  {
+   "personId": 8,
+   "title": "Deputy Head",
+   "institution": "Akorda",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://www.inform.kz/ru/murat-nurtileu-naznachen-zamestitelem-rukovoditelya-administracii-prezidenta-rk_a3757446"
+  },
+  {
+   "personId": 8,
+   "title": "First Deputy Chairman",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2022,
+   "endYear": 2022,
+   "source": "https://www.akorda.kz/ru/rasporyazheniem-glavy-gosudarstva-nurtleu-murat-abugalievich-naznachen-pervym-zamestitelem-predsedatelya-komiteta-nacionalnoy-bezopasnosti-respubliki-kazahstan-502125"
+  },
+  {
+   "personId": 8,
+   "title": "Head",
+   "institution": "Akorda",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://www.akorda.kz/ru/o-naznachenii-nurtleu-ma-113241"
+  },
+  {
+   "personId": 8,
+   "title": "Deputy Prime Minister; Minister of Foreign Affairs",
+   "institution": "Government of Kazakhstan (Smailov II Government)",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://www.akorda.kz/ru/o-nurtleu-ma-335256"
+  },
+  {
+   "personId": 8,
+   "title": "Deputy Prime Minister; Minister of Foreign Affairs",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://www.akorda.kz/ru/o-nurtleu-ma-335256"
+  },
+  {
+   "personId": 8,
+   "title": "Deputy Prime Minister; Minister of Foreign Affairs",
+   "institution": "Government of Kazakhstan (Bektenov Government)",
+   "startYear": 2024,
+   "endYear": 2025,
+   "source": "https://www.akorda.kz/ru/o-naznachenii-nurtleu-ma-61535"
+  },
+  {
+   "personId": 8,
+   "title": "Deputy Prime Minister; Minister of Foreign Affairs",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2024,
+   "endYear": 2025,
+   "source": "https://www.akorda.kz/ru/o-naznachenii-nurtleu-ma-61535"
+  },
+  {
+   "personId": 8,
+   "title": "Assistant to the President for International Investment and Trade Cooperation",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/o-nurtleu-ma-2685648"
+  },
+  {
+   "personId": 9,
+   "title": "Specialist / Chief Specialist / Head of Department",
+   "institution": "Ministry of Finance",
+   "startYear": 1997,
+   "endYear": 2003,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-ekonomicheskim-voprosam-baybazarov-nurlan-serikovich-2522338"
+  },
+  {
+   "personId": 9,
+   "title": "Head of Agency Services Department / Managing Director for Investment Projects / Corporate Development Director / Corporate Secretary",
+   "institution": "Development Bank of Kazakhstan JSC",
+   "startYear": 2004,
+   "endYear": 2011,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-ekonomicheskim-voprosam-baybazarov-nurlan-serikovich-2522338"
+  },
+  {
+   "personId": 9,
+   "title": "Director, Economic Sectors Development Department",
+   "institution": "Ministry of National Economy",
+   "startYear": 2013,
+   "endYear": 2016,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-ekonomicheskim-voprosam-baybazarov-nurlan-serikovich-2522338"
+  },
+  {
+   "personId": 9,
+   "title": "Member of Board of Directors; Chairman of Management Board",
+   "institution": "Industrial Development Fund JSC",
+   "startYear": 2016,
+   "endYear": 2022,
+   "source": "https://www.inform.kz/person/nurlan-serikovich-baibazarov-1736343957/"
+  },
+  {
+   "personId": 9,
+   "title": "Chairman of Management Board",
+   "institution": "Development Bank of Kazakhstan JSC",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://idfrk.kz/en/pr/news/nurlan-baibazarov-headed-the-development-bank-of-kazakhstan-jsc"
+  },
+  {
+   "personId": 9,
+   "title": "Chairman of Management Board",
+   "institution": "Baiterek National Holding JSC",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://www.inform.kz/ru/nurlan-baybazarov-naznachen-vitse-premerom-ministrom-natsionalnoy-ekonomiki-rk-0c42e1"
+  },
+  {
+   "personId": 9,
+   "title": "Member of Board of Directors",
+   "institution": "Baiterek National Holding JSC",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://www.inform.kz/ru/nurlan-baybazarov-naznachen-vitse-premerom-ministrom-natsionalnoy-ekonomiki-rk-0c42e1"
+  },
+  {
+   "personId": 9,
+   "title": "Deputy Prime Minister - Minister of National Economy",
+   "institution": "Government of Kazakhstan (Bektenov Government)",
+   "startYear": 2024,
+   "endYear": 2024,
+   "source": "https://www.akorda.kz/ru/ukazom-glavy-gosudarstva-baybazarov-nurlan-serikovich-osvobozhden-ot-dolzhnosti-zamestitelya-premer-ministra-ministra-nacionalnoy-ekonomiki-respubliki-kazahstan-21112922"
+  },
+  {
+   "personId": 9,
+   "title": "Deputy Prime Minister - Minister of National Economy",
+   "institution": "Ministry of National Economy",
+   "startYear": 2024,
+   "endYear": 2024,
+   "source": "https://www.akorda.kz/ru/ukazom-glavy-gosudarstva-baybazarov-nurlan-serikovich-osvobozhden-ot-dolzhnosti-zamestitelya-premer-ministra-ministra-nacionalnoy-ekonomiki-respubliki-kazahstan-21112922"
+  },
+  {
+   "personId": 9,
+   "title": "Adviser to the Prime Minister on Economic Affairs",
+   "institution": "Government of Kazakhstan (Bektenov Government)",
+   "startYear": 2025,
+   "endYear": 2025,
+   "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-ekonomicheskim-voprosam-baybazarov-nurlan-serikovich-2522338"
+  },
+  {
+   "personId": 9,
+   "title": "Head of Investment and Trade Department",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": 2026,
+   "source": "https://www.akorda.kz/ru/rasporyazheniem-glavy-gosudarstva-baybazarov-nurlan-serikovich-naznachen-zaveduyushchim-otdelom-investiciy-i-torgovli-administracii-prezidenta-respubliki-kazahstan-1591849"
+  },
+  {
+   "personId": 9,
+   "title": "Assistant to the President on Economic Affairs",
+   "institution": "Akorda",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/o-baybazarove-ns-252045"
+  },
+  {
+   "personId": 9,
+   "title": "Member of Board of Directors",
+   "institution": "Baiterek National Holding JSC",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://baiterek.gov.kz/en/about-holding/management/dir/baibazarov-nurlan-serikovich/"
+  },
+  {
+   "personId": 10,
+   "title": "Specialist; Senior Specialist; Referent; Senior Referent, Department of Documentation Support",
+   "institution": "Government of Kazakhstan (Kazhegeldin Government)",
+   "startYear": 1996,
+   "endYear": 1997,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/nachalnik-kancelyarii-prezidenta-respubliki-kazahstan-"
+  },
+  {
+   "personId": 10,
+   "title": "Specialist; Senior Specialist; Referent; Senior Referent, Department of Documentation Support",
+   "institution": "Government of Kazakhstan (Balgimbayev Government)",
+   "startYear": 1997,
+   "endYear": 1999,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/nachalnik-kancelyarii-prezidenta-respubliki-kazahstan-"
+  },
+  {
+   "personId": 10,
+   "title": "Head of Control Division, Personnel and Control Directorate, Administration Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 1999,
+   "endYear": 2002,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/nachalnik-kancelyarii-prezidenta-respubliki-kazahstan-"
+  },
+  {
+   "personId": 10,
+   "title": "Head of Personnel Directorate, Office of the Ministry",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2002,
+   "endYear": 2003,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/nachalnik-kancelyarii-prezidenta-respubliki-kazahstan-"
+  },
+  {
+   "personId": 10,
+   "title": "Head of Staff",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2003,
+   "endYear": 2007,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/nachalnik-kancelyarii-prezidenta-respubliki-kazahstan-"
+  },
+  {
+   "personId": 10,
+   "title": "Head of the Minister's Office",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2007,
+   "endYear": 2019,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/nachalnik-kancelyarii-prezidenta-respubliki-kazahstan-"
+  },
+  {
+   "personId": 10,
+   "title": "Ethics Commissioner",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2016,
+   "endYear": 2017,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/nachalnik-kancelyarii-prezidenta-respubliki-kazahstan-"
+  },
+  {
+   "personId": 10,
+   "title": "Deputy Head of the Office of the President",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": 2019,
+   "source": "https://www.inform.kz/ru/bakytzhan-sariev-naznachen-nachal-nikom-kancelyarii-prezidenta-rk_a3944352"
+  },
+  {
+   "personId": 10,
+   "title": "Head of the Department of Civil Service and Personnel Policy",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": 2022,
+   "source": "https://www.akorda.kz/ru/legal_acts/bylaws/rasporyazheniyami-glavy-gosudarstva-15"
+  },
+  {
+   "personId": 10,
+   "title": "Head of the Office of the President",
+   "institution": "Akorda",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/o-sarieve-bsh-1452526"
+  },
+  {
+   "personId": 11,
+   "title": "Safety Engineer",
+   "institution": "Vakhinvest",
+   "startYear": 1990,
+   "endYear": 1990,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Head of Commercial Department; Deputy Director; General Director",
+   "institution": "Ansat-Pavlodar",
+   "startYear": 1990,
+   "endYear": 1999,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Director",
+   "institution": "Tynys",
+   "startYear": 1999,
+   "endYear": 2002,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Head of Division, Committee for Work with Insolvent Debtors",
+   "institution": "Pavlodar Regional Directorate (Ministry of Finance)",
+   "startYear": 2002,
+   "endYear": 2003,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Deputy Head of Municipal Property Directorate",
+   "institution": "Pavlodar City Akimat",
+   "startYear": 2003,
+   "endYear": 2005,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Chief Inspector to the Akim",
+   "institution": "Pavlodar Region Akimat",
+   "startYear": 2005,
+   "endYear": 2005,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Head of Staff to the Akim",
+   "institution": "Pavlodar City Akimat",
+   "startYear": 2005,
+   "endYear": 2006,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Deputy Akim",
+   "institution": "Pavlodar City Akimat",
+   "startYear": 2006,
+   "endYear": 2006,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Head of Infrastructure Development Department",
+   "institution": "Astana City Akimat",
+   "startYear": 2006,
+   "endYear": 2007,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Director, Department of Energy and Communal Services",
+   "institution": "Astana City Akimat",
+   "startYear": 2007,
+   "endYear": 2008,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Deputy Akim",
+   "institution": "Pavlodar Region Akimat",
+   "startYear": 2008,
+   "endYear": 2010,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "First Deputy Akim",
+   "institution": "Pavlodar Region Akimat",
+   "startYear": 2010,
+   "endYear": 2011,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/rukovoditel-administracii-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Vice Minister",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2011,
+   "endYear": 2013,
+   "source": "https://www.inform.kz/ru/roman-sklyar-naznachen-zamestitelem-prem-er-ministra-rk_a3566970"
+  },
+  {
+   "personId": 11,
+   "title": "Vice President",
+   "institution": "Kazakhstan Temir Zholy JSC",
+   "startYear": 2014,
+   "endYear": 2016,
+   "source": "https://www.inform.kz/ru/roman-sklyar-naznachen-zamestitelem-prem-er-ministra-rk_a3566970"
+  },
+  {
+   "personId": 11,
+   "title": "MP; Chair, Committee on Economic Reform and Regional Development",
+   "institution": "Mazhilis",
+   "startYear": 2016,
+   "endYear": 2016,
+   "source": "https://www.inform.kz/ru/roman-sklyar-naznachen-zamestitelem-prem-er-ministra-rk_a3566970"
+  },
+  {
+   "personId": 11,
+   "title": "Vice Minister",
+   "institution": "Ministry of National Economy",
+   "startYear": 2016,
+   "endYear": 2016,
+   "source": "https://www.inform.kz/ru/roman-sklyar-naznachen-zamestitelem-prem-er-ministra-rk_a3566970"
+  },
+  {
+   "personId": 11,
+   "title": "Vice Minister",
+   "institution": "Ministry for Investment and Development",
+   "startYear": 2016,
+   "endYear": 2018,
+   "source": "https://www.inform.kz/ru/roman-sklyar-naznachen-zamestitelem-prem-er-ministra-rk_a3566970"
+  },
+  {
+   "personId": 11,
+   "title": "First Vice Minister",
+   "institution": "Ministry for Investment and Development",
+   "startYear": 2018,
+   "endYear": 2019,
+   "source": "https://primeminister.kz/ru/news/naznachen-pervii-vitse-ministr-po-investitsiyam-i-razvitiu-rk-15913"
+  },
+  {
+   "personId": 11,
+   "title": "Minister",
+   "institution": "Ministry of Industry and Infrastructure Development",
+   "startYear": 2019,
+   "endYear": 2019,
+   "source": "https://www.akorda.kz/ru/legal_acts/decrees/o-naznachenii-sklyara-rv-ministrom-industrii-i-infrastrukturnogo-razvitiya-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Deputy Prime Minister",
+   "institution": "Government of Kazakhstan (Mamin I Government)",
+   "startYear": 2019,
+   "endYear": 2021,
+   "source": "https://www.akorda.kz/ru/legal_acts/decrees/o-naznachenii-sklyara-rv-zamestitelem-premer-ministra-respubliki-kazahstan"
+  },
+  {
+   "personId": 11,
+   "title": "Deputy Prime Minister",
+   "institution": "Government of Kazakhstan (Mamin II Government)",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://www.akorda.kz/ru/legal_acts/decrees/o-sostave-pravitelstva-respubliki-kazahstan-5"
+  },
+  {
+   "personId": 11,
+   "title": "First Deputy Prime Minister",
+   "institution": "Government of Kazakhstan (Smailov I Government)",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://akorda.kz/ru/o-sostave-pravitelstva-respubliki-kazahstan-110277"
+  },
+  {
+   "personId": 11,
+   "title": "First Deputy Prime Minister",
+   "institution": "Government of Kazakhstan (Smailov II Government)",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://www.akorda.kz/ru/o-naznachenii-sklyara-rv-3314"
+  },
+  {
+   "personId": 11,
+   "title": "First Deputy Prime Minister",
+   "institution": "Government of Kazakhstan (Bektenov Government)",
+   "startYear": 2024,
+   "endYear": 2026,
+   "source": "https://www.akorda.kz/ru/o-naznachenii-sklyara-rv-611723"
+  },
+  {
+   "personId": 11,
+   "title": "Head of Administration of the President of Kazakhstan",
+   "institution": "Akorda",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/o-sklyare-rv-542657"
+  },
+  {
+   "personId": 12,
+   "title": "Retoucher, Correspondent, Translator, Senior Correspondent, Department Head",
+   "institution": "Leninshil Zhas / Zhas Alash",
+   "startYear": 1986,
+   "endYear": 1994,
+   "source": "https://inbusiness.kz/ru/appointment/dose-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Senior Lecturer",
+   "institution": "Al-Farabi Kazakh National University (KazNU)",
+   "startYear": 1994,
+   "endYear": 1996,
+   "source": "https://inbusiness.kz/ru/appointment/dose-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Vice Rector",
+   "institution": "Kyzylorda Humanitarian University",
+   "startYear": 1996,
+   "endYear": 1997,
+   "source": "https://inbusiness.kz/ru/appointment/dose-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Deputy Akim of Kyzylorda; Deputy Chair of Administrative Council",
+   "institution": "Kyzylorda City Akimat / Kyzylorda SEZ",
+   "startYear": 1997,
+   "endYear": 1998,
+   "source": "https://inbusiness.kz/ru/appointment/dose-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Associate Professor; Senior Researcher",
+   "institution": "Al-Farabi Kazakh National University (KazNU)",
+   "startYear": 1998,
+   "endYear": 2000,
+   "source": "https://inbusiness.kz/ru/appointment/dose-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Senior Researcher; Department Head",
+   "institution": "Institute of Literature and Art",
+   "startYear": 2000,
+   "endYear": 2003,
+   "source": "https://inbusiness.kz/ru/appointment/dose-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Professor",
+   "institution": "Kainar University",
+   "startYear": 2001,
+   "endYear": 2002,
+   "source": "https://inbusiness.kz/ru/appointment/dose-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Professor",
+   "institution": "Al-Farabi Kazakh National University (KazNU)",
+   "startYear": 2002,
+   "endYear": 2003,
+   "source": "https://inbusiness.kz/ru/appointment/dose-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Director, Department for Language Development",
+   "institution": "Ministry of Culture and Information",
+   "startYear": 2003,
+   "endYear": 2005,
+   "source": "https://kazpravda.kz/n/bauyrzhan-omarov-naznachen-sovetnikom-prezidenta-rk/"
+  },
+  {
+   "personId": 12,
+   "title": "Professor, Department of Teleradio and Public Relations",
+   "institution": "L.N. Gumilyov Eurasian National University (ENU)",
+   "startYear": 2004,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/sovetnik-prezidenta-respubliki-kazahstan-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Chair, Committee on Languages",
+   "institution": "Ministry of Culture and Information",
+   "startYear": 2005,
+   "endYear": 2006,
+   "source": "https://kazpravda.kz/n/bauyrzhan-omarov-naznachen-sovetnikom-prezidenta-rk/"
+  },
+  {
+   "personId": 12,
+   "title": "Executive Director",
+   "institution": "Liter-Media LLP",
+   "startYear": 2006,
+   "endYear": 2007,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/sovetnik-prezidenta-respubliki-kazahstan-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "First Deputy Editor-in-Chief",
+   "institution": "Astana Khabary",
+   "startYear": 2007,
+   "endYear": 2007,
+   "source": "https://www.inform.kz/ru/1maya-kalendar-kazinforma-dni-rozhdeniya-85b2a7"
+  },
+  {
+   "personId": 12,
+   "title": "Editor-in-Chief",
+   "institution": "Aikyn",
+   "startYear": 2007,
+   "endYear": 2008,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/sovetnik-prezidenta-respubliki-kazahstan-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "General Director",
+   "institution": "Kazakh Gazetteri LLP",
+   "startYear": 2008,
+   "endYear": 2009,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/sovetnik-prezidenta-respubliki-kazahstan-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Head of Staff",
+   "institution": "Kyzylorda Region Akimat",
+   "startYear": 2008,
+   "endYear": 2008,
+   "source": "https://www.inform.kz/ru/1maya-kalendar-kazinforma-dni-rozhdeniya-85b2a7"
+  },
+  {
+   "personId": 12,
+   "title": "Chair, Committee of Information and Archives",
+   "institution": "Ministry of Culture and Information",
+   "startYear": 2009,
+   "endYear": 2010,
+   "source": "https://kazpravda.kz/n/bauyrzhan-omarov-naznachen-sovetnikom-prezidenta-rk/"
+  },
+  {
+   "personId": 12,
+   "title": "Chair, Committee on Languages",
+   "institution": "Ministry of Culture and Information",
+   "startYear": 2010,
+   "endYear": 2011,
+   "source": "https://kazpravda.kz/n/bauyrzhan-omarov-naznachen-sovetnikom-prezidenta-rk/"
+  },
+  {
+   "personId": 12,
+   "title": "Sector Head, Press Service",
+   "institution": "Akorda",
+   "startYear": 2011,
+   "endYear": 2013,
+   "source": "https://www.akorda.kz/ru/executive_office/executive_office_stucture/sovetnik-prezidenta-respubliki-kazahstan-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Deputy Press Secretary to the President",
+   "institution": "Akorda",
+   "startYear": 2013,
+   "endYear": 2019,
+   "source": "https://inbusiness.kz/ru/appointment/dose-omarov-bauyrzhan-zhumahanuly"
+  },
+  {
+   "personId": 12,
+   "title": "Advisor to the President of Kazakhstan",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/legal_acts/bylaws/rasporyazheniem-glavy-gosudarstva-omarov-bauyrzhan-zhumahanuly-naznachen-sovetnikom-prezidenta-respubliki-kazahstan"
+  },
+  {
+   "personId": 13,
+   "title": "Trainee Researcher",
+   "institution": "Al-Farabi Kazakh National University (KazNU)",
+   "startYear": 2001,
+   "endYear": 2003,
+   "source": "https://www.inform.kz/person/malik-nurzhanovich-otarbaev-1736772178"
+  },
+  {
+   "personId": 13,
+   "title": "Executive Secretary; Editor-in-Chief",
+   "institution": "Dialog Eurasia-Kazakhstan",
+   "startYear": 2006,
+   "endYear": 2012,
+   "source": "https://www.akorda.kz/ru/sovetnik-prezidenta-respubliki-kazahstan-otarbaev-malik-nurzhanuly-283255"
+  },
+  {
+   "personId": 13,
+   "title": "Chief Coordinator; Board Secretary; Head of External Relations",
+   "institution": "Qalamger / Writers' Union of Kazakhstan",
+   "startYear": 2012,
+   "endYear": 2014,
+   "source": "https://www.akorda.kz/ru/sovetnik-prezidenta-respubliki-kazahstan-otarbaev-malik-nurzhanuly-283255"
+  },
+  {
+   "personId": 13,
+   "title": "Representative of the Ministry of Culture and Information to TURKSOY",
+   "institution": "TURKSOY",
+   "startYear": 2014,
+   "endYear": 2016,
+   "source": "https://www.akorda.kz/ru/sovetnik-prezidenta-respubliki-kazahstan-otarbaev-malik-nurzhanuly-283255"
+  },
+  {
+   "personId": 13,
+   "title": "Third Secretary",
+   "institution": "Embassy of Kazakhstan in Turkey (MFA)",
+   "startYear": 2016,
+   "endYear": 2018,
+   "source": "https://www.inform.kz/person/malik-nurzhanovich-otarbaev-1736772178"
+  },
+  {
+   "personId": 13,
+   "title": "Deputy Akim of Turkestan Region",
+   "institution": "Turkestan Region Akimat",
+   "startYear": 2018,
+   "endYear": 2019,
+   "source": "https://abai.kz/post/81039"
+  },
+  {
+   "personId": 13,
+   "title": "Head of Scientific-Methodological Service",
+   "institution": "Qogamdyq Kelisim / Assembly of People of Kazakhstan",
+   "startYear": 2019,
+   "endYear": 2020,
+   "source": "https://www.akorda.kz/ru/sovetnik-prezidenta-respubliki-kazahstan-otarbaev-malik-nurzhanuly-283255"
+  },
+  {
+   "personId": 13,
+   "title": "Director",
+   "institution": "Qogamdyq Kelisim (Ministry of Information and Social Development)",
+   "startYear": 2020,
+   "endYear": 2020,
+   "source": "https://www.akorda.kz/ru/sovetnik-prezidenta-respubliki-kazahstan-otarbaev-malik-nurzhanuly-283255"
+  },
+  {
+   "personId": 13,
+   "title": "Director",
+   "institution": "National Center for Manuscripts and Rare Books (Ministry of Culture and Information)",
+   "startYear": 2020,
+   "endYear": 2021,
+   "source": "https://www.akorda.kz/ru/sovetnik-prezidenta-respubliki-kazahstan-otarbaev-malik-nurzhanuly-283255"
+  },
+  {
+   "personId": 13,
+   "title": "Director, Ruhani Zhangyru Project Office; Advisor to Rector",
+   "institution": "Al-Farabi Kazakh National University (KazNU)",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://www.akorda.kz/ru/sovetnik-prezidenta-respubliki-kazahstan-otarbaev-malik-nurzhanuly-283255"
+  },
+  {
+   "personId": 13,
+   "title": "Advisor to the President of Kazakhstan",
+   "institution": "Akorda",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/ru/rasporyazheniem-glavy-gosudarstva-otarbaev-malik-nurzhanuly-naznachen-sovetnikom-prezidenta-respubliki-kazahstan-2731358"
+  },
+  {
+   "personId": 14,
+   "title": "Attache, HR Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2009,
+   "endYear": 2010
+  },
+  {
+   "personId": 14,
+   "title": "Third Secretary, State Protocol Service",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2010,
+   "endYear": 2012
+  },
+  {
+   "personId": 14,
+   "title": "Protocol Officer",
+   "institution": "Akorda",
+   "startYear": 2012,
+   "endYear": 2017
+  },
+  {
+   "personId": 14,
+   "title": "Head of Protocol Sector",
+   "institution": "Akorda",
+   "startYear": 2017,
+   "endYear": 2018
+  },
+  {
+   "personId": 14,
+   "title": "Deputy Chief of Protocol",
+   "institution": "Akorda",
+   "startYear": 2018,
+   "endYear": 2023
+  },
+  {
+   "personId": 14,
+   "title": "Head of Presidential Protocol Service",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": 2025
+  },
+  {
+   "personId": 14,
+   "title": "Presidential Advisor - Head of Protocol Service",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 15,
+   "title": "Lecturer",
+   "institution": "Kazakh Agricultural Institute",
+   "startYear": 1988,
+   "endYear": 1992
+  },
+  {
+   "personId": 15,
+   "title": "Specialist, District Administration",
+   "institution": "Almaty Akimat",
+   "startYear": 1992,
+   "endYear": 1993
+  },
+  {
+   "personId": 15,
+   "title": "Inspection Department Head (district level)",
+   "institution": "Almaty Akimat",
+   "startYear": 1993,
+   "endYear": 1998
+  },
+  {
+   "personId": 15,
+   "title": "Deputy Akim, Bostandyk District",
+   "institution": "Almaty Akimat",
+   "startYear": 1998,
+   "endYear": 2008
+  },
+  {
+   "personId": 15,
+   "title": "Head of Entrepreneurship and Industry Directorate",
+   "institution": "Almaty Akimat",
+   "startYear": 2008,
+   "endYear": 2012
+  },
+  {
+   "personId": 15,
+   "title": "Head of Department (Chief State Inspector, Astana)",
+   "institution": "Ministry for Investment and Development",
+   "startYear": 2018,
+   "endYear": 2019
+  },
+  {
+   "personId": 15,
+   "title": "Deputy Chairman, Industrial Development Committee",
+   "institution": "Ministry of Industry and Infrastructure Development",
+   "startYear": 2019,
+   "endYear": 2020
+  },
+  {
+   "personId": 15,
+   "title": "State Inspector, Deputy Head of State Control Department",
+   "institution": "Akorda",
+   "startYear": 2020,
+   "endYear": 2023
+  },
+  {
+   "personId": 15,
+   "title": "Head of State Control Department",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": 2025
+  },
+  {
+   "personId": 15,
+   "title": "Advisor to the President",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 16,
+   "title": "Specialist, Consular Service Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2006,
+   "endYear": 2007
+  },
+  {
+   "personId": 16,
+   "title": "Attache, Third Secretary",
+   "institution": "Embassy of Kazakhstan in Japan (MFA)",
+   "startYear": 2007,
+   "endYear": 2010
+  },
+  {
+   "personId": 16,
+   "title": "Second Secretary, Asia and Africa Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2011,
+   "endYear": 2013
+  },
+  {
+   "personId": 16,
+   "title": "Second, First Secretary",
+   "institution": "Embassy of Kazakhstan in the Netherlands (MFA)",
+   "startYear": 2013,
+   "endYear": 2017
+  },
+  {
+   "personId": 16,
+   "title": "Advisor, Europe Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2017,
+   "endYear": 2018
+  },
+  {
+   "personId": 16,
+   "title": "Consultant then Deputy Head, Foreign Policy Department",
+   "institution": "Akorda",
+   "startYear": 2018,
+   "endYear": 2023
+  },
+  {
+   "personId": 16,
+   "title": "Head of Foreign Policy Department",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": 2025
+  },
+  {
+   "personId": 16,
+   "title": "Advisor to the President for International Affairs",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 17,
+   "title": "Surgeon-Endoscopist, Senior/Leading Researcher",
+   "institution": "National Scientific Medical Center",
+   "startYear": 2001,
+   "endYear": 2007
+  },
+  {
+   "personId": 17,
+   "title": "Director, Center for Modern Medical Technologies",
+   "institution": "Presidential Property Management Department (UDP)",
+   "startYear": 2007,
+   "endYear": 2010
+  },
+  {
+   "personId": 17,
+   "title": "Head of Medical Center",
+   "institution": "Presidential Property Management Department (UDP)",
+   "startYear": 2010,
+   "endYear": 2011
+  },
+  {
+   "personId": 17,
+   "title": "Chief Physician, City Hospital No. 1",
+   "institution": "Astana City Akimat",
+   "startYear": 2011,
+   "endYear": 2014
+  },
+  {
+   "personId": 17,
+   "title": "Vice-Minister",
+   "institution": "Ministry of Healthcare and Social Development",
+   "startYear": 2014,
+   "endYear": 2017
+  },
+  {
+   "personId": 17,
+   "title": "Vice-Minister of Healthcare",
+   "institution": "Ministry of Healthcare",
+   "startYear": 2017,
+   "endYear": 2019
+  },
+  {
+   "personId": 17,
+   "title": "Head of Medical Center",
+   "institution": "Presidential Property Management Department (UDP)",
+   "startYear": 2019,
+   "endYear": 2020
+  },
+  {
+   "personId": 17,
+   "title": "First Vice-Minister of Healthcare",
+   "institution": "Ministry of Healthcare",
+   "startYear": 2020,
+   "endYear": 2020
+  },
+  {
+   "personId": 17,
+   "title": "Minister of Healthcare",
+   "institution": "Ministry of Healthcare",
+   "startYear": 2020,
+   "endYear": 2021
+  },
+  {
+   "personId": 17,
+   "title": "Non-staff Advisor to the President",
+   "institution": "Akorda",
+   "startYear": 2022,
+   "endYear": 2022
+  },
+  {
+   "personId": 17,
+   "title": "Head of Medical Center",
+   "institution": "Presidential Property Management Department (UDP)",
+   "startYear": 2022,
+   "endYear": 2025
+  },
+  {
+   "personId": 17,
+   "title": "Advisor to the President for Social Affairs",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 18,
+   "title": "Specialist, Administrative Department",
+   "institution": "Bank of China in Kazakhstan",
+   "startYear": 2005,
+   "endYear": 2006
+  },
+  {
+   "personId": 18,
+   "title": "Specialist, Consular Service Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2006,
+   "endYear": 2008
+  },
+  {
+   "personId": 18,
+   "title": "Attache, Third Secretary, Europe Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2008,
+   "endYear": 2010
+  },
+  {
+   "personId": 18,
+   "title": "Third Secretary",
+   "institution": "Embassy of Kazakhstan in Hungary (MFA)",
+   "startYear": 2010,
+   "endYear": 2012
+  },
+  {
+   "personId": 18,
+   "title": "Expert, Presidential Press Service",
+   "institution": "Akorda",
+   "startYear": 2012,
+   "endYear": 2013
+  },
+  {
+   "personId": 18,
+   "title": "First Secretary, Foreign Policy Analysis Committee",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2013,
+   "endYear": 2014
+  },
+  {
+   "personId": 18,
+   "title": "Second, First Secretary",
+   "institution": "Embassy of Kazakhstan in Vietnam (MFA)",
+   "startYear": 2014,
+   "endYear": 2018
+  },
+  {
+   "personId": 18,
+   "title": "Head of Press Service - Official Spokesperson",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2018,
+   "endYear": 2019
+  },
+  {
+   "personId": 18,
+   "title": "Deputy Chairman, Committee of International Information - Official Spokesperson",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2019,
+   "endYear": 2023
+  },
+  {
+   "personId": 18,
+   "title": "Director, Communications Department - Official Spokesperson",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2023,
+   "endYear": 2025
+  },
+  {
+   "personId": 18,
+   "title": "Chairman, Committee of International Information - Official Spokesperson",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2025,
+   "endYear": 2025
+  },
+  {
+   "personId": 18,
+   "title": "Head of Internal Policy Department",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": 2026
+  },
+  {
+   "personId": 18,
+   "title": "Advisor to the President - Press Secretary",
+   "institution": "Akorda",
+   "startYear": 2026,
+   "endYear": "Present"
+  },
+  {
+   "personId": 19,
+   "title": "Officer (platoon to formation commander)",
+   "institution": "Armed Forces",
+   "startYear": 1987,
+   "endYear": 2006
+  },
+  {
+   "personId": 19,
+   "title": "Deputy Commander, Internal Troops",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2006,
+   "endYear": 2007
+  },
+  {
+   "personId": 19,
+   "title": "First Deputy Commander - Chief of Main Staff, Internal Troops",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2007,
+   "endYear": 2008
+  },
+  {
+   "personId": 19,
+   "title": "Commander, Internal Troops",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2008,
+   "endYear": 2013
+  },
+  {
+   "personId": 19,
+   "title": "Commander-in-Chief, Internal Troops",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2013,
+   "endYear": 2014
+  },
+  {
+   "personId": 19,
+   "title": "Commander-in-Chief",
+   "institution": "National Guard",
+   "startYear": 2014,
+   "endYear": 2021
+  },
+  {
+   "personId": 19,
+   "title": "Deputy Minister - Commander-in-Chief of National Guard",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2021,
+   "endYear": 2022
+  },
+  {
+   "personId": 19,
+   "title": "Minister of Defense",
+   "institution": "Ministry of Defense",
+   "startYear": 2022,
+   "endYear": 2025
+  },
+  {
+   "personId": 19,
+   "title": "First Deputy Secretary of the Security Council",
+   "institution": "Security Council (Akorda)",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 20,
+   "title": "Law Enforcement Service (internal affairs, prosecution)",
+   "institution": "Prosecutor General's Office",
+   "startYear": 1994,
+   "endYear": 2009
+  },
+  {
+   "personId": 20,
+   "title": "Deputy Head, then Head, Defense and Law Enforcement Department",
+   "institution": "Government of Kazakhstan (Massimov I Government)",
+   "startYear": 2009,
+   "endYear": 2011,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Massimov I/II, Akhmetov (Serik), Massimov III, Sagintayev governments."
+  },
+  {
+   "personId": 20,
+   "title": "Deputy Head, then Head, Defense and Law Enforcement Department",
+   "institution": "Government of Kazakhstan (Massimov II Government)",
+   "startYear": 2011,
+   "endYear": 2012,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Massimov I/II, Akhmetov (Serik), Massimov III, Sagintayev governments."
+  },
+  {
+   "personId": 20,
+   "title": "Deputy Head, then Head, Defense and Law Enforcement Department",
+   "institution": "Government of Kazakhstan (Akhmetov (Serik) Government)",
+   "startYear": 2012,
+   "endYear": 2014,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Massimov I/II, Akhmetov (Serik), Massimov III, Sagintayev governments."
+  },
+  {
+   "personId": 20,
+   "title": "Deputy Head, then Head, Defense and Law Enforcement Department",
+   "institution": "Government of Kazakhstan (Massimov III Government)",
+   "startYear": 2014,
+   "endYear": 2016,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Massimov I/II, Akhmetov (Serik), Massimov III, Sagintayev governments."
+  },
+  {
+   "personId": 20,
+   "title": "Deputy Head, then Head, Defense and Law Enforcement Department",
+   "institution": "Government of Kazakhstan (Sagintayev Government)",
+   "startYear": 2016,
+   "endYear": 2019,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Massimov I/II, Akhmetov (Serik), Massimov III, Sagintayev governments."
+  },
+  {
+   "personId": 20,
+   "title": "Deputy Secretary of the Security Council",
+   "institution": "Security Council (Akorda)",
+   "startYear": 2019,
+   "endYear": 2020
+  },
+  {
+   "personId": 20,
+   "title": "Chairman, Administrative Police Committee",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2020,
+   "endYear": 2021
+  },
+  {
+   "personId": 20,
+   "title": "Deputy Minister",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2021,
+   "endYear": 2022
+  },
+  {
+   "personId": 20,
+   "title": "First Deputy Secretary of the Security Council",
+   "institution": "Security Council (Akorda)",
+   "startYear": 2022,
+   "endYear": 2023
+  },
+  {
+   "personId": 20,
+   "title": "Deputy Secretary of the Security Council",
+   "institution": "Security Council (Akorda)",
+   "startYear": 2023,
+   "endYear": "Present"
+  },
+  {
+   "personId": 21,
+   "title": "Referent, Attache, Economic Policy Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2000,
+   "endYear": 2002
+  },
+  {
+   "personId": 21,
+   "title": "Third, Second Secretary, CIS Affairs Committee",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2002,
+   "endYear": 2004
+  },
+  {
+   "personId": 21,
+   "title": "Expert, External Relations Division",
+   "institution": "Government of Kazakhstan (Akhmetov (Daniyal) Government)",
+   "startYear": 2004,
+   "endYear": 2006,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source."
+  },
+  {
+   "personId": 21,
+   "title": "Senior Expert then Deputy Head, Foreign Policy Center",
+   "institution": "Akorda",
+   "startYear": 2006,
+   "endYear": 2016
+  },
+  {
+   "personId": 21,
+   "title": "Director, CIS Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2016,
+   "endYear": 2017
+  },
+  {
+   "personId": 21,
+   "title": "Advisor-Envoy",
+   "institution": "Embassy of Kazakhstan in Russia (MFA)",
+   "startYear": 2017,
+   "endYear": 2022
+  },
+  {
+   "personId": 21,
+   "title": "Deputy Secretary of the Security Council",
+   "institution": "Security Council (Akorda)",
+   "startYear": 2022,
+   "endYear": "Present"
+  },
+  {
+   "personId": 22,
+   "title": "Senior Lecturer, Docent, Deputy Dean (IT Faculty)",
+   "institution": "L.N. Gumilyov Eurasian National University (ENU)",
+   "startYear": 2007,
+   "endYear": 2011
+  },
+  {
+   "personId": 22,
+   "title": "Director, Research Institute of Information Security and Cryptology",
+   "institution": "L.N. Gumilyov Eurasian National University (ENU)",
+   "startYear": 2012,
+   "endYear": 2022
+  },
+  {
+   "personId": 22,
+   "title": "Director, Engineering-Technical Center",
+   "institution": "Presidential Property Management Department (UDP)",
+   "startYear": 2022,
+   "endYear": 2023
+  },
+  {
+   "personId": 22,
+   "title": "Head of Informatization and Information Resources Protection Department",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": 2024
+  },
+  {
+   "personId": 22,
+   "title": "Head of Information Resources Protection Department",
+   "institution": "Akorda",
+   "startYear": 2024,
+   "endYear": "Present"
+  },
+  {
+   "personId": 23,
+   "title": "Chief Expert, IT Architect",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2009,
+   "endYear": 2010
+  },
+  {
+   "personId": 23,
+   "title": "IS Manager, Application Architect",
+   "institution": "Eurasian Natural Resources Corporation (ENRC)",
+   "startYear": 2010,
+   "endYear": 2014
+  },
+  {
+   "personId": 23,
+   "title": "IT Executive incl. Chief Digital Officer (CDO)",
+   "institution": "Kazakhtelecom JSC",
+   "startYear": 2016,
+   "endYear": 2024
+  },
+  {
+   "personId": 23,
+   "title": "Head of Digitalization Development Department",
+   "institution": "Akorda",
+   "startYear": 2024,
+   "endYear": "Present"
+  },
+  {
+   "personId": 24,
+   "title": "Analyst (various roles)",
+   "institution": "National Agency for Technological Development",
+   "startYear": 2011,
+   "endYear": 2016
+  },
+  {
+   "personId": 24,
+   "title": "Director, Strategic Projects Center",
+   "institution": "Kazakhstan Industry Development Institute",
+   "startYear": 2016,
+   "endYear": 2018
+  },
+  {
+   "personId": 24,
+   "title": "Head of Strategic Research and Forecasting Program",
+   "institution": "Institute of World Economics and Politics (First President's Foundation)",
+   "startYear": 2018,
+   "endYear": 2020
+  },
+  {
+   "personId": 24,
+   "title": "Deputy Head, Strategic Planning Department",
+   "institution": "Akorda",
+   "startYear": 2020,
+   "endYear": 2023
+  },
+  {
+   "personId": 24,
+   "title": "Head of Strategic Planning Department",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": 2025
+  },
+  {
+   "personId": 24,
+   "title": "Head of Social and Economic Policy Department",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 25,
+   "title": "Managing Director for Finance - Board Member",
+   "institution": "Kazpost JSC",
+   "startYear": 2025,
+   "endYear": 2025
+  },
+  {
+   "personId": 25,
+   "title": "Head of Transport and Logistics Industry Development Department",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 26,
+   "title": "Leading Specialist, Youth Policy",
+   "institution": "Kostanay Region Akimat",
+   "startYear": 1999,
+   "endYear": 2001
+  },
+  {
+   "personId": 26,
+   "title": "Advisor to Akim, Head of Internal Policy Division (various roles)",
+   "institution": "Kostanay Region Akimat",
+   "startYear": 2001,
+   "endYear": 2006
+  },
+  {
+   "personId": 26,
+   "title": "Chief Specialist, Information and Archives Committee",
+   "institution": "Ministry of Culture and Information",
+   "startYear": 2006,
+   "endYear": 2007
+  },
+  {
+   "personId": 26,
+   "title": "Chief Consultant/Expert, Press Service",
+   "institution": "Senate",
+   "startYear": 2007,
+   "endYear": 2010
+  },
+  {
+   "personId": 26,
+   "title": "Assistant to Chief of Staff; Chief Expert/Consultant",
+   "institution": "Senate",
+   "startYear": 2010,
+   "endYear": 2013
+  },
+  {
+   "personId": 26,
+   "title": "Chief Consultant, Organizational-Control and Personnel Work Department",
+   "institution": "Senate",
+   "startYear": 2013,
+   "endYear": 2017
+  },
+  {
+   "personId": 26,
+   "title": "Deputy Head, Organizational-Control and Personnel Work Department",
+   "institution": "Senate",
+   "startYear": 2017,
+   "endYear": 2022
+  },
+  {
+   "personId": 26,
+   "title": "Head of Organizational-Control and Personnel Work Department",
+   "institution": "Presidential Property Management Department (UDP)",
+   "startYear": 2022,
+   "endYear": 2025
+  },
+  {
+   "personId": 26,
+   "title": "Head of General Department",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 27,
+   "title": "Chairman",
+   "institution": "Zhastar Uni Youth Organization",
+   "startYear": 2010,
+   "endYear": 2012
+  },
+  {
+   "personId": 27,
+   "title": "Secretary, Almaty City Branch",
+   "institution": "Communist People's Party",
+   "startYear": 2012,
+   "endYear": 2015
+  },
+  {
+   "personId": 27,
+   "title": "Head of Youth Projects Division",
+   "institution": "Almaty Akimat",
+   "startYear": 2015,
+   "endYear": 2016
+  },
+  {
+   "personId": 27,
+   "title": "Head of Youth Policy Directorate",
+   "institution": "Almaty Akimat",
+   "startYear": 2016,
+   "endYear": 2017
+  },
+  {
+   "personId": 27,
+   "title": "Director, Educational Work Department",
+   "institution": "Abai Kazakh National Pedagogical University (KazNPU)",
+   "startYear": 2017,
+   "endYear": 2018
+  },
+  {
+   "personId": 27,
+   "title": "Advisor to the Akim",
+   "institution": "Astana City Akimat",
+   "startYear": 2019,
+   "endYear": 2020
+  },
+  {
+   "personId": 27,
+   "title": "Chairman, Jas Otan Youth Wing",
+   "institution": "Nur Otan Party",
+   "startYear": 2020,
+   "endYear": 2021
+  },
+  {
+   "personId": 27,
+   "title": "Deputy",
+   "institution": "Mazhilis",
+   "startYear": 2021,
+   "endYear": 2023
+  },
+  {
+   "personId": 27,
+   "title": "Head of AMANAT Faction",
+   "institution": "Mazhilis",
+   "startYear": 2023,
+   "endYear": 2026
+  },
+  {
+   "personId": 27,
+   "title": "Head of Domestic Policy Department",
+   "institution": "Akorda",
+   "startYear": 2026,
+   "endYear": "Present"
+  },
+  {
+   "personId": 28,
+   "title": "Journalist",
+   "institution": "Kazinform / Kazcontent (state media)",
+   "startYear": 2007,
+   "endYear": 2016
+  },
+  {
+   "personId": 28,
+   "title": "Acting Head, Media Monitoring Directorate",
+   "institution": "Ministry of National Economy",
+   "startYear": 2016,
+   "endYear": 2017
+  },
+  {
+   "personId": 28,
+   "title": "Press Secretary of the Akim",
+   "institution": "Aktobe Region Akimat",
+   "startYear": 2017,
+   "endYear": 2019
+  },
+  {
+   "personId": 28,
+   "title": "Press Secretary, PR Department Director",
+   "institution": "Ministry of Labor and Social Protection",
+   "startYear": 2019,
+   "endYear": 2020
+  },
+  {
+   "personId": 28,
+   "title": "Deputy Chief of Staff of the Akim",
+   "institution": "Zhambyl Region Akimat",
+   "startYear": 2020,
+   "endYear": 2021
+  },
+  {
+   "personId": 28,
+   "title": "Head of Press Service",
+   "institution": "KazMunayGas JSC",
+   "startYear": 2021,
+   "endYear": 2022
+  },
+  {
+   "personId": 28,
+   "title": "Press Secretary of the Prime Minister",
+   "institution": "Government of Kazakhstan (Smailov I Government)",
+   "startYear": 2022,
+   "endYear": 2023,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Smailov I/II governments."
+  },
+  {
+   "personId": 28,
+   "title": "Press Secretary of the Prime Minister",
+   "institution": "Government of Kazakhstan (Smailov II Government)",
+   "startYear": 2023,
+   "endYear": 2024,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source. Split across Smailov I/II governments."
+  },
+  {
+   "personId": 28,
+   "title": "Deputy Head, Communications Department",
+   "institution": "Akorda",
+   "startYear": 2024,
+   "endYear": 2025
+  },
+  {
+   "personId": 28,
+   "title": "Head of Communications Department",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 29,
+   "title": "Operational and leadership roles, Economic and Corruption Crime Departments",
+   "institution": "Financial Police",
+   "startYear": 2004,
+   "endYear": 2012
+  },
+  {
+   "personId": 29,
+   "title": "Senior Officer, Head of Operational Directorate (Astana)",
+   "institution": "National Anti-Corruption Bureau",
+   "startYear": 2015,
+   "endYear": 2018
+  },
+  {
+   "personId": 29,
+   "title": "Deputy Head, then Head, Operational Department",
+   "institution": "National Anti-Corruption Bureau",
+   "startYear": 2018,
+   "endYear": 2019
+  },
+  {
+   "personId": 29,
+   "title": "Head of Third Department",
+   "institution": "Anti-Corruption Agency",
+   "startYear": 2019,
+   "endYear": 2020
+  },
+  {
+   "personId": 29,
+   "title": "Deputy Head, Almaty/Kyzylorda Department",
+   "institution": "Anti-Corruption Agency",
+   "startYear": 2020,
+   "endYear": 2021
+  },
+  {
+   "personId": 29,
+   "title": "Head of Detection and Suppression Service",
+   "institution": "Anti-Corruption Agency",
+   "startYear": 2021,
+   "endYear": 2022
+  },
+  {
+   "personId": 29,
+   "title": "Head of Aktobe Department",
+   "institution": "Anti-Corruption Agency",
+   "startYear": 2022,
+   "endYear": 2022
+  },
+  {
+   "personId": 29,
+   "title": "Head of Shymkent Department",
+   "institution": "Anti-Corruption Agency",
+   "startYear": 2022,
+   "endYear": 2024
+  },
+  {
+   "personId": 29,
+   "title": "Deputy Head, Law Enforcement Department",
+   "institution": "Akorda",
+   "startYear": 2024,
+   "endYear": 2025
+  },
+  {
+   "personId": 29,
+   "title": "Head of Law Enforcement Department",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 30,
+   "title": "Officer",
+   "institution": "Ministry of State Revenues / Tax Committee (Ministry of Finance)",
+   "startYear": 2001,
+   "endYear": 2007
+  },
+  {
+   "personId": 30,
+   "title": "Expert, Consultant, Inspector, Head of Sector, State and Legal Department",
+   "institution": "Akorda",
+   "startYear": 2007,
+   "endYear": 2019
+  },
+  {
+   "personId": 30,
+   "title": "Head of State and Legal Department",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": "Present"
+  },
+  {
+   "personId": 31,
+   "title": "Chief Specialist (finance/legal)",
+   "institution": "Pavlodar Region / Aksu City Akimats",
+   "startYear": 2005,
+   "endYear": 2007
+  },
+  {
+   "personId": 31,
+   "title": "Head of Entrepreneurship Development Division",
+   "institution": "Pavlodar Region Akimat",
+   "startYear": 2007,
+   "endYear": 2008
+  },
+  {
+   "personId": 31,
+   "title": "Head of Production Infrastructure Directorate",
+   "institution": "Parliament Apparat",
+   "startYear": 2009,
+   "endYear": 2012
+  },
+  {
+   "personId": 31,
+   "title": "Deputy Head, Civil Service Division",
+   "institution": "Civil Service Agency",
+   "startYear": 2012,
+   "endYear": 2013
+  },
+  {
+   "personId": 31,
+   "title": "Deputy Head, Administrative Work Department",
+   "institution": "Civil Service and Anti-Corruption Agency",
+   "startYear": 2014,
+   "endYear": 2015
+  },
+  {
+   "personId": 31,
+   "title": "Deputy Head, Economic Directorate",
+   "institution": "Parliament Apparat",
+   "startYear": 2015,
+   "endYear": 2016
+  },
+  {
+   "personId": 31,
+   "title": "Head of Official Events and External Relations Department",
+   "institution": "Presidential Property Management Department (UDP)",
+   "startYear": 2019,
+   "endYear": 2022
+  },
+  {
+   "personId": 31,
+   "title": "Head of Logistics Directorate",
+   "institution": "Presidential Property Management Department (UDP)",
+   "startYear": 2022,
+   "endYear": 2024
+  },
+  {
+   "personId": 31,
+   "title": "Deputy Head, State Control Department",
+   "institution": "Akorda",
+   "startYear": 2024,
+   "endYear": 2025
+  },
+  {
+   "personId": 31,
+   "title": "Head of State Control Department",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 32,
+   "title": "Expert, Chief Expert",
+   "institution": "Ministry of Justice",
+   "startYear": 2009,
+   "endYear": 2011
+  },
+  {
+   "personId": 32,
+   "title": "Expert, Consultant, Inspector, State and Legal Department",
+   "institution": "Akorda",
+   "startYear": 2011,
+   "endYear": 2016
+  },
+  {
+   "personId": 32,
+   "title": "Inspector, Head of Sector, Civil Service and Personnel Policy Department",
+   "institution": "Akorda",
+   "startYear": 2016,
+   "endYear": 2018
+  },
+  {
+   "personId": 32,
+   "title": "Head of Human Resources Department",
+   "institution": "Ministry of National Economy",
+   "startYear": 2018,
+   "endYear": 2019
+  },
+  {
+   "personId": 32,
+   "title": "Head of Sector, Civil Service and Personnel Policy Department",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": 2021
+  },
+  {
+   "personId": 32,
+   "title": "Deputy Head, Civil Service and Personnel Policy Department",
+   "institution": "Akorda",
+   "startYear": 2021,
+   "endYear": 2022
+  },
+  {
+   "personId": 32,
+   "title": "Head of Civil Service and Personnel Policy Department",
+   "institution": "Akorda",
+   "startYear": 2022,
+   "endYear": 2023
+  },
+  {
+   "personId": 32,
+   "title": "Head of Civil Service Department",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": "Present"
+  },
+  {
+   "personId": 33,
+   "title": "Specialist, Consular Service Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2013,
+   "endYear": 2014
+  },
+  {
+   "personId": 33,
+   "title": "Attache, Third, Second Secretary, Multilateral Cooperation Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2014,
+   "endYear": 2017
+  },
+  {
+   "personId": 33,
+   "title": "Third, Second, First Secretary",
+   "institution": "Embassy of Kazakhstan in the United States (MFA)",
+   "startYear": 2017,
+   "endYear": 2021
+  },
+  {
+   "personId": 33,
+   "title": "Expert, Consultant (Special Representative for International Cooperation support)",
+   "institution": "Akorda",
+   "startYear": 2021,
+   "endYear": 2022
+  },
+  {
+   "personId": 33,
+   "title": "Head of Sector, Foreign Policy and International Relations Department",
+   "institution": "Akorda",
+   "startYear": 2022,
+   "endYear": 2023
+  },
+  {
+   "personId": 33,
+   "title": "Deputy Head, Foreign Policy Department",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": 2025
+  },
+  {
+   "personId": 33,
+   "title": "Head of Foreign Policy Department",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  }
+ ]
 }

@@ -70,7 +70,7 @@
       <div class="filter-list" id="f-institution"></div>
       <div style="font-size:11px;margin:8px 0 4px;color:var(--muted)">Region</div>
       <div class="filter-list" id="f-region"></div>
-      <div style="font-size:11px;margin:8px 0 4px;color:var(--muted)">Elite category</div>
+      <div style="font-size:11px;margin:8px 0 4px;color:var(--muted)">Institutional identity</div>
       <div class="filter-list" id="f-category"></div>
       <button class="btn" id="clearFilters">Clear all filters</button>
     </div>
@@ -81,7 +81,7 @@
       <label class="chk"><input type="radio" name="size" value="degree" checked> Degree (link count)</label>
       <label class="chk"><input type="radio" name="size" value="betweenness"> Betweenness (broker power)</label>
       <div style="font-size:11px;margin:10px 0 4px;color:var(--muted)">Node color</div>
-      <label class="chk"><input type="radio" name="color" value="category" checked> Elite category</label>
+      <label class="chk"><input type="radio" name="color" value="category" checked> Institutional identity</label>
       <label class="chk"><input type="radio" name="color" value="community"> Community (Louvain)</label>
       <div class="muted" style="margin-top:6px;line-height:1.4">Betweenness &amp; communities are computed on the links currently shown.</div>
     </div>
@@ -105,7 +105,7 @@
     <div id="net"></div>
     <div id="info"></div>
     <div id="legend">
-      <div style="font-weight:600;margin-bottom:4px">Node color = elite category</div>
+      <div style="font-weight:600;margin-bottom:4px">Node color = institutional identity</div>
       <div id="legend-cats"></div>
     </div>
   </main>
@@ -113,12 +113,14 @@
 
 <script>
 const CATEGORY_COLORS = {
-  "Political elite":       "#4da3ff",
-  "Business elite":        "#37c98b",
-  "Security/siloviki":     "#ff6b6b",
-  "Technocrat":            "#ffb454",
-  "Family member of power":"#c780ff",
-  "":                      "#8899aa"
+  "Diplomat":                        "#4da3ff",
+  "Technocrat":                      "#ffb454",
+  "State-Security / Silovik":        "#ff6b6b",
+  "Ideologue / Political Bureaucrat":"#c780ff",
+  "Bureaucrat":                      "#00c2c7",
+  "Akimat":                          "#37c98b",
+  "Politician":                      "#f8f070",
+  "":                                "#8899aa"
 };
 const LINK_COLORS = { work:"#c780ff", school:"#ffb454", region:"#37c98b" };
 
@@ -398,7 +400,7 @@ function updateLegend(colorMode, community, visible){
       return `<div class="row"><span class="swatch" style="background:${col}"></span>Community ${c+1} (${members})</div>`;
     }).join('');
   } else {
-    title.textContent = 'Node color = elite category';
+    title.textContent = 'Node color = institutional identity';
     const used=[...new Set(visible.map(p=>p.category))];
     box.innerHTML = used.map(c=>`<div class="row"><span class="swatch" style="background:${CATEGORY_COLORS[c]??'#8899aa'}"></span>${c||'(unspecified)'}</div>`).join('');
   }
