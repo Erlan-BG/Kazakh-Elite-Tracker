@@ -5,7 +5,7 @@ An interactive, browser-based **one-mode people network**. Two people are linked
 
 ## How the links work
 
-- **Workplace (career history)** — links two people if any institution appears in *both* their `workExperience`. This is the elite-tie signal: same employer at some point, not just today.
+- **Workplace (overlapping tenure)** — links two people only if they were at the *same institution at the same time*: their `workExperience` stints must share at least one year (boundary years count; `Present` runs through the current year). Same employer in disjoint eras — e.g. KNB 1997–2001 vs KNB 2007–2017 — does **not** connect. Embassies and other foreign postings are distinct institutions from the MFA headquarters, so an ambassador abroad does not link to ministry staff at home.
 - **School** — links people with the same `school`.
 - **Region** — links people with the same `region`.
 

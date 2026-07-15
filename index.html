@@ -63,7 +63,7 @@
     <div class="section">
       <h2>Links (connect people who share…)</h2>
       <label class="chk" style="font-weight:600"><input type="checkbox" id="lk-all"><span class="swatch" style="background:linear-gradient(135deg,var(--work) 0 33%,var(--school) 33% 66%,var(--region) 66% 100%)"></span> All link types</label>
-      <label class="chk"><input type="checkbox" id="lk-work" checked><span class="swatch" style="background:var(--work)"></span> Workplace (career history)</label>
+      <label class="chk"><input type="checkbox" id="lk-work" checked><span class="swatch" style="background:var(--work)"></span> Workplace (overlapping tenure)</label>
       <label class="chk"><input type="checkbox" id="lk-school"><span class="swatch" style="background:var(--school)"></span> School</label>
       <label class="chk"><input type="checkbox" id="lk-region"><span class="swatch" style="background:var(--region)"></span> Region</label>
     </div>
@@ -351,14 +351,49 @@ function buildEdges(visibleIds){
     addPairs(g,'region');
   }
   if(links.work){
-    // group person ids by every institution appearing in their work history
-    const g={};
+    // Two people share a workplace only if their stints at the same
+    // institution overlap in time (boundary years count: leaving and arriving
+    // in the same year is an overlap). "Present" runs through the current year.
+    const CY = new Date().getFullYear();
+    const yr = v => v==='Present' ? CY : (Number.isFinite(parseInt(v,10)) ? parseInt(v,10) : null);
+    const byInst = {};
     DATA.workExperience.forEach(w=>{
-      if(!w.institution) return;
-      (g[w.institution]=g[w.institution]||new Set()).add(w.personId);
+      if(!w.institution || !idset.has(w.personId)) return;
+      let s=yr(w.startYear), e=yr(w.endYear);
+      if(s===null && e===null) return;
+      if(s===null) s=e; if(e===null) e=s;
+      (byInst[w.institution]=byInst[w.institution]||[]).push({id:w.personId, s, e});
     });
-    const gArr={}; for(const k in g) gArr[k]=[...g[k]];
-    addPairs(gArr,'work');
+    const pairShared = new Map();       // 'a-b' -> Map(institution -> Set of overlap ranges)
+    for(const inst in byInst){
+      const st = byInst[inst];
+      for(let i=0;i<st.length;i++) for(let j=i+1;j<st.length;j++){
+        if(st[i].id===st[j].id) continue;
+        const os=Math.max(st[i].s,st[j].s), oe=Math.min(st[i].e,st[j].e);
+        if(os>oe) continue;             // stints never coincided
+        const key=Math.min(st[i].id,st[j].id)+'-'+Math.max(st[i].id,st[j].id);
+        if(!pairShared.has(key)) pairShared.set(key,new Map());
+        const m=pairShared.get(key);
+        if(!m.has(inst)) m.set(inst,[]);
+        m.get(inst).push([os,oe]);
+      }
+    }
+    const mergeRanges = rs => {
+      rs.sort((a,b)=>a[0]-b[0]);
+      const out=[];
+      for(const [s,e] of rs){
+        if(out.length && s<=out[out.length-1][1]+1) out[out.length-1][1]=Math.max(out[out.length-1][1],e);
+        else out.push([s,e]);
+      }
+      return out.map(([s,e])=>s===e?String(s):s+'–'+e).join(', ');
+    };
+    pairShared.forEach((m,key)=>{
+      const [a,b]=key.split('-').map(Number);
+      const label=[...m.entries()].map(([inst,ranges])=>inst+' ('+mergeRanges(ranges)+')').join('; ');
+      edges.push({ from:a, to:b, color:{color:LINK_COLORS.work}, basecolor:LINK_COLORS.work,
+                   title:'Shared workplace: '+label,
+                   smooth:{type:'continuous'}, width:2, ltype:'work' });
+    });
   }
   return edges;
 }
