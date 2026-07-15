@@ -253,13 +253,18 @@ const SENIORITY_RULES = [
   [/^president$/i,                                              10 ],
   [/^prime minister/i,                                            9 ],
 
-  // Cabinet + Akorda senior leadership — flattened into a single tier
+  // Top of the Akorda pyramid — Head of Administration and Security Council
+  // Secretary sit above the rest of senior leadership (Hale's patronal
+  // proximity; siloviki bloc punches above formal rank)
+  [/^head$|^head of (the )?administration\b/i,                   8.5],  // Head of the Presidential Administration
+  [/^(first )?deputy secretary of the security council/i,         8 ],
+  [/secretary of the security council/i,                         8.5],
+
+  // Cabinet + remaining Akorda senior leadership — one tier
   [/^(first )?deputy prime minister|^minister\b|^prosecutor general$/i, 8],
-  [/^head$|^head of (the )?administration\b/i,                    8 ],  // Head of the Presidential Administration
   [/^state (counselor|secretary)|^chairman of the senate/i,       8 ],
   [/^(first )?deputy head of the administration|^deputy head$/i,  8 ],  // Deputy Heads of Administration
   [/^assistant to the president/i,                                8 ],  // Presidential Assistants
-  [/secretary of the security council/i,                          8 ],  // Secretary + First Deputy + Deputy Secretaries
   [/^head of (the )?(chancellery|office of the president)\b/i,    8 ],
   [/advis[eo]r to the president|^presidential advisor/i,          8 ],  // Presidential Advisors
 
