@@ -165,10 +165,12 @@ function focusNode(id){
   }));
   edgesDS.update(edgesDS.get().map(e=>{
     const inc = e.from===id || e.to===id;
+    // Recalculate color from ltype since basecolor may not persist through DataSet
+    const edgeColor = LINK_COLORS[e.ltype] || LINK_COLORS.work;
     return inc ?
-      { id:e.id, hidden:false, color:{ color:e.basecolor, opacity:0.95 },
+      { id:e.id, hidden:false, color:{ color:edgeColor, opacity:0.95 },
         width:(e.ltype==='work'?2:1.4)+0.8 } :
-      { id:e.id, hidden:true, color:{ color:e.basecolor, opacity:0.75 },
+      { id:e.id, hidden:true, color:{ color:edgeColor, opacity:0.75 },
         width:e.ltype==='work'?2:1.4 };
   }));
 }
@@ -183,7 +185,12 @@ function clearFocus(){
     return { id:nid, color:{ background:base, border:'#0b1119', highlight:{background:base,border:'#fff'} },
              font:{ color:'#e6edf3' }, borderWidth:2 };
   }));
-  edgesDS.update(edgesDS.get().map(e=>({ id:e.id, hidden:false, color:{ color:e.basecolor, opacity:0.75 }, width:e.ltype==='work'?2:1.4 })));
+  // Recalculate color from ltype to restore work/school/region color coding
+  edgesDS.update(edgesDS.get().map(e=>({
+    id:e.id, hidden:false,
+    color:{ color:(LINK_COLORS[e.ltype]||LINK_COLORS.work), opacity:0.75 },
+    width:e.ltype==='work'?2:1.4
+  })));
   network.setOptions({ physics:{ enabled:document.getElementById('physics').checked } });
 }
 
