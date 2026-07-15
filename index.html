@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elite Network Monitor</title>
 <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#0f1720; --panel:#16212e; --panel2:#1d2b3a; --line:#2b3a4d;
@@ -12,21 +15,24 @@
     --school:#ffb454; --region:#37c98b; --work:#c780ff;
   }
   *{box-sizing:border-box}
-  html,body{margin:0;height:100%;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
+  html,body{margin:0;height:100%;font-family:'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text)}
   #app{display:flex;height:100vh;overflow:hidden}
-  #sidebar{width:300px;flex:0 0 300px;background:var(--panel);border-right:1px solid var(--line);overflow-y:auto;padding:16px}
+  #sidebar{width:320px;flex:0 0 320px;background:var(--panel);border-right:1px solid var(--line);overflow-y:auto;padding:22px 20px}
   #main{flex:1;position:relative}
   #net{width:100%;height:100%}
-  h1{font-size:16px;margin:0 0 4px}
-  .sub{font-size:11px;color:var(--muted);margin-bottom:16px;line-height:1.4}
-  .section{margin-bottom:18px}
-  .section h2{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 8px;border-bottom:1px solid var(--line);padding-bottom:6px}
-  label.chk{display:flex;align-items:center;gap:8px;font-size:13px;padding:4px 6px;border-radius:6px;cursor:pointer}
+  h1{font-family:'Sora',sans-serif;font-size:19px;margin:0 0 6px;letter-spacing:.01em;
+     background:linear-gradient(92deg,#4da3ff 0%,#c780ff 60%,#ff8fc4 100%);
+     -webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{font-size:11.5px;color:var(--muted);margin-bottom:22px;line-height:1.55}
+  .section{margin-bottom:28px}
+  .section h2{font-family:'Sora',sans-serif;font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);margin:0 0 10px;border-bottom:1px solid var(--line);padding-bottom:8px}
+  label.chk{display:flex;align-items:center;gap:9px;font-size:13px;padding:5px 8px;border-radius:6px;cursor:pointer;line-height:1.45}
   label.chk:hover{background:var(--panel2)}
   label.chk input{accent-color:var(--accent)}
   .swatch{width:11px;height:11px;border-radius:50%;flex:0 0 11px}
-  .filter-list{max-height:150px;overflow-y:auto;border:1px solid var(--line);border-radius:8px;padding:4px;background:var(--panel2)}
-  .filter-list label{font-size:12px;padding:3px 6px}
+  .filter-list{max-height:160px;overflow-y:auto;border:1px solid var(--line);border-radius:8px;padding:6px;background:var(--panel2)}
+  .filter-list label{font-size:12px;padding:4px 7px}
+  .filter-list label.all{font-weight:600;border-bottom:1px solid var(--line);border-radius:6px 6px 0 0;margin-bottom:3px}
   .muted{color:var(--muted);font-size:11px}
   select,button{font-family:inherit}
   .btn{width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px;font-size:12px;cursor:pointer;margin-top:6px}
@@ -56,6 +62,7 @@
 
     <div class="section">
       <h2>Links (connect people who share…)</h2>
+      <label class="chk" style="font-weight:600"><input type="checkbox" id="lk-all"><span class="swatch" style="background:linear-gradient(135deg,var(--work) 0 33%,var(--school) 33% 66%,var(--region) 66% 100%)"></span> All link types</label>
       <label class="chk"><input type="checkbox" id="lk-work" checked><span class="swatch" style="background:var(--work)"></span> Workplace (career history)</label>
       <label class="chk"><input type="checkbox" id="lk-school"><span class="swatch" style="background:var(--school)"></span> School</label>
       <label class="chk"><input type="checkbox" id="lk-region"><span class="swatch" style="background:var(--region)"></span> Region</label>
@@ -78,12 +85,13 @@
     <div class="section">
       <h2>Analysis</h2>
       <div style="font-size:11px;margin:2px 0 4px;color:var(--muted)">Node size</div>
-      <label class="chk"><input type="radio" name="size" value="degree" checked> Degree (link count)</label>
+      <label class="chk"><input type="radio" name="size" value="seniority" checked> Seniority (highest post held)</label>
+      <label class="chk"><input type="radio" name="size" value="degree"> Degree (link count)</label>
       <label class="chk"><input type="radio" name="size" value="betweenness"> Betweenness (broker power)</label>
       <div style="font-size:11px;margin:10px 0 4px;color:var(--muted)">Node color</div>
       <label class="chk"><input type="radio" name="color" value="category" checked> Institutional identity</label>
-      <label class="chk"><input type="radio" name="color" value="community"> Community (Louvain)</label>
-      <div class="muted" style="margin-top:6px;line-height:1.4">Betweenness &amp; communities are computed on the links currently shown.</div>
+      <label class="chk"><input type="radio" name="color" value="community"> Komanda (Louvain)</label>
+      <div class="muted" style="margin-top:8px;line-height:1.5">Betweenness &amp; komandas are computed on the links currently shown. Seniority ranks the highest post a person has ever held.</div>
     </div>
 
     <div class="section">
@@ -235,6 +243,33 @@ function louvain(nodeIds, edgeList){
   return Object.fromEntries(nodeIds.map((id,i)=>[id,membership[i]]));
 }
 
+// ---- Seniority: rank of the highest post a person has ever held ----
+// Ordered rules, first match wins. Transparent heuristic — tune scores freely.
+const SENIORITY_RULES = [
+  [/^president$/i,                                          10 ],
+  [/^prime minister/i,                                       9 ],
+  [/^head$|^head of (the )?administration/i,                8.5],  // Head of the Presidential Administration
+  [/^state (counselor|secretary)|^chairman of the senate/i, 8.5],
+  [/^(first )?deputy secretary of the security council/i,    7 ],
+  [/secretary of the security council/i,                     8 ],
+  [/^(first )?deputy prime minister|^minister\b|^prosecutor general$/i, 8],
+  [/^assistant to the president|^deputy head of the administration|^deputy head$/i, 7],
+  [/^first deputy (chairman|prosecutor)|^director-general|commander-in-chief|^ambassador/i, 7],
+  [/advis[eo]r to the president|^presidential advisor/i,     6 ],
+  [/^(first )?(vice|deputy)[- ]minister/i,                   6 ],
+  [/chair(man|woman)? of (the )?management board|^ceo\b|^chairman$|^akim\b/i, 5.5],
+  [/^head of/i,                                              5 ],
+  [/^(first )?deputy (akim|head|chairman)|^vice president|^director\b|^chair/i, 4.5]
+];
+function titleScore(t){
+  for(const [re,s] of SENIORITY_RULES) if(re.test(t||'')) return s;
+  return 3.5;
+}
+function seniorityScore(p){
+  const titles = [p.role, ...DATA.workExperience.filter(w=>w.personId===p.id).map(w=>w.title)];
+  return Math.max(...titles.map(titleScore));
+}
+
 function selectedRadio(name){ const el=document.querySelector('input[name="'+name+'"]:checked'); return el?el.value:''; }
 
 function activeLinks(){
@@ -246,7 +281,7 @@ function activeLinks(){
 }
 
 function checkedValues(containerId){
-  return [...document.querySelectorAll('#'+containerId+' input:checked')].map(i=>i.value);
+  return [...document.querySelectorAll('#'+containerId+' input:checked:not(.fl-all)')].map(i=>i.value);
 }
 
 function passesFilters(p){
@@ -345,6 +380,7 @@ function render(){
   const nodes = visible.map(p=>{
     let val;
     if(sizeMode==='betweenness') val = 1 + 20*(bc[p.id]/maxBc);
+    else if(sizeMode==='seniority') val = Math.pow(seniorityScore(p), 1.6);
     else val = (deg[p.id]||0)+1;
     const col = nodeColor(p);
     return {
@@ -353,7 +389,7 @@ function render(){
       value: val,
       color:{ background:col, border:"#0b1119",
               highlight:{background:col,border:"#fff"} },
-      font:{ color:"#e6edf3", size:13 },
+      font:{ color:"#e6edf3", size:13, face:"Inter" },
       shape:"dot"
     };
   });
@@ -368,7 +404,7 @@ function render(){
   focusedId = null;
   const options = {
     physics:{ enabled:document.getElementById('physics').checked,
-              barnesHut:{ gravitationalConstant:-3000, springLength:120, springConstant:0.04, damping:0.4 },
+              barnesHut:{ gravitationalConstant:-9000, springLength:210, springConstant:0.03, damping:0.4, avoidOverlap:0.35 },
               stabilization:{ iterations:200 } },
     interaction:{ hover:true, tooltipDelay:120, multiselect:true },
     nodes:{ scaling:{ min:8, max:34 }, borderWidth:2 },
@@ -384,7 +420,7 @@ function render(){
     });
   }
   document.getElementById('stats').textContent =
-    `${nodes.length} people · ${edges.length} links` + (colorMode==='community' && community ? ` · ${new Set(visibleIds.map(id=>community[id])).size} communities` : '');
+    `${nodes.length} people · ${edges.length} links` + (colorMode==='community' && community ? ` · ${new Set(visibleIds.map(id=>community[id])).size} komandas` : '');
   updateLegend(colorMode, community, visible);
 }
 
@@ -392,12 +428,12 @@ function updateLegend(colorMode, community, visible){
   const box = document.getElementById('legend-cats');
   const title = document.querySelector('#legend > div');
   if(colorMode==='community' && community){
-    title.textContent = 'Node color = community (Louvain)';
+    title.textContent = 'Node color = komanda (Louvain)';
     const comms = [...new Set(visible.map(p=>community[p.id]))].sort((a,b)=>a-b);
     box.innerHTML = comms.map(c=>{
       const members = visible.filter(p=>community[p.id]===c).length;
       const col = COMMUNITY_PALETTE[c % COMMUNITY_PALETTE.length];
-      return `<div class="row"><span class="swatch" style="background:${col}"></span>Community ${c+1} (${members})</div>`;
+      return `<div class="row"><span class="swatch" style="background:${col}"></span>Komanda ${c+1} (${members})</div>`;
     }).join('');
   } else {
     title.textContent = 'Node color = institutional identity';
@@ -429,12 +465,25 @@ function buildFilterLists(){
   const mk=(field,container)=>{
     const vals=[...new Set(DATA.people.map(p=>p[field]).filter(Boolean))].sort();
     document.getElementById(container).innerHTML =
-      vals.map(v=>`<label class="chk"><input type="checkbox" value="${v.replace(/"/g,'&quot;')}"> ${v}</label>`).join('')
-      || '<div class="muted" style="padding:4px">none</div>';
+      `<label class="chk all"><input type="checkbox" class="fl-all" checked> All</label>` +
+      (vals.map(v=>`<label class="chk"><input type="checkbox" value="${v.replace(/"/g,'&quot;')}"> ${v}</label>`).join('')
+       || '<div class="muted" style="padding:4px">none</div>');
   };
   mk('school','f-school'); mk('institution','f-institution');
   mk('region','f-region'); mk('category','f-category');
-  document.querySelectorAll('.filter-list input').forEach(i=>i.addEventListener('change',render));
+  document.querySelectorAll('.filter-list').forEach(list=>{
+    const all=list.querySelector('.fl-all');
+    const specifics=()=>[...list.querySelectorAll('input:not(.fl-all)')];
+    specifics().forEach(i=>i.addEventListener('change',()=>{
+      all.checked = !specifics().some(x=>x.checked); // "All" lights up when no value is picked
+      render();
+    }));
+    all.addEventListener('change',()=>{
+      specifics().forEach(x=>x.checked=false);
+      all.checked=true; // clicking All always resets the list to "show everyone"
+      render();
+    });
+  });
 }
 
 function buildLegend(){
@@ -454,13 +503,24 @@ function loadData(d){
 }
 
 // wire controls
-['lk-work','lk-school','lk-region','physics'].forEach(id=>
-  document.getElementById(id).addEventListener('change',render));
+const LINK_TOGGLES=['lk-work','lk-school','lk-region'];
+function syncLinkAll(){
+  document.getElementById('lk-all').checked = LINK_TOGGLES.every(id=>document.getElementById(id).checked);
+}
+LINK_TOGGLES.forEach(id=>
+  document.getElementById(id).addEventListener('change',()=>{ syncLinkAll(); render(); }));
+document.getElementById('lk-all').addEventListener('change',e=>{
+  LINK_TOGGLES.forEach(id=>document.getElementById(id).checked=e.target.checked);
+  render();
+});
+document.getElementById('physics').addEventListener('change',render);
 document.querySelectorAll('input[name="size"],input[name="color"]').forEach(el=>
   el.addEventListener('change',render));
 document.getElementById('fit').addEventListener('click',()=>network&&network.fit({animation:true}));
 document.getElementById('clearFilters').addEventListener('click',()=>{
-  document.querySelectorAll('.filter-list input:checked').forEach(i=>i.checked=false); render();
+  document.querySelectorAll('.filter-list input:checked:not(.fl-all)').forEach(i=>i.checked=false);
+  document.querySelectorAll('.filter-list .fl-all').forEach(i=>i.checked=true);
+  render();
 });
 document.getElementById('fileInput').addEventListener('change',e=>{
   const f=e.target.files[0]; if(!f) return;
