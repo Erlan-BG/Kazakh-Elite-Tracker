@@ -145,10 +145,12 @@ function hexFade(hex, a){
   return `rgba(${r},${g},${b},${a})`;
 }
 
-// Center the camera on a node and light up its ego network; dim the rest.
+// Center the camera on a node and light up its ego network. Background links
+// are hidden outright and physics pauses so the focused view sits still.
 function focusNode(id){
   if(!network) return;
   focusedId = id;
+  network.setOptions({ physics:{ enabled:false } });
   network.focus(id, { scale:1.35, animation:{ duration:600, easingFunction:'easeInOutQuad' } });
   network.selectNodes([id]);
   const keep = new Set([id, ...((neighborMap.get(id))||[])]);
@@ -163,12 +165,12 @@ function focusNode(id){
   }));
   edgesDS.update(edgesDS.get().map(e=>{
     const inc = e.from===id || e.to===id;
-    return { id:e.id, color:{ color: inc? e.basecolor : 'rgba(120,140,160,0.06)', opacity: inc?0.95:1 },
-             width: inc? (e.width||1.4)+0.8 : (e.width||1.4) };
+    return { id:e.id, hidden:!inc, color:{ color:e.basecolor, opacity:0.95 },
+             width: inc? (e.ltype==='work'?2:1.4)+0.8 : (e.ltype==='work'?2:1.4) };
   }));
 }
 
-// Restore full brightness.
+// Restore full brightness, unhide links, resume physics (if enabled).
 function clearFocus(){
   if(!network || !nodesDS) return;
   focusedId = null;
@@ -178,7 +180,8 @@ function clearFocus(){
     return { id:nid, color:{ background:base, border:'#0b1119', highlight:{background:base,border:'#fff'} },
              font:{ color:'#e6edf3' }, borderWidth:2 };
   }));
-  edgesDS.update(edgesDS.get().map(e=>({ id:e.id, color:{ color:e.basecolor, opacity:0.75 }, width:e.ltype==='work'?2:1.4 })));
+  edgesDS.update(edgesDS.get().map(e=>({ id:e.id, hidden:false, color:{ color:e.basecolor, opacity:0.75 }, width:e.ltype==='work'?2:1.4 })));
+  network.setOptions({ physics:{ enabled:document.getElementById('physics').checked } });
 }
 
 // ---- Betweenness centrality (Brandes, unweighted) ----
@@ -330,7 +333,7 @@ function buildEdges(visibleIds){
           const pk = type+':'+Math.min(a,b)+'-'+Math.max(a,b);
           if(pairSeen.has(pk)) continue;
           pairSeen.add(pk);
-          edges.push({ from:a, to:b, color:{color:LINK_COLORS[type]}, basecolor:LINK_COLORS[type], title:linkTitle(type,key),
+          edges.push({ id:pk, from:a, to:b, hidden:false, color:{color:LINK_COLORS[type]}, basecolor:LINK_COLORS[type], title:linkTitle(type,key),
                        smooth:{type:'continuous'}, width:type==='work'?2:1.4, ltype:type });
         }
       }
@@ -390,7 +393,7 @@ function buildEdges(visibleIds){
     pairShared.forEach((m,key)=>{
       const [a,b]=key.split('-').map(Number);
       const label=[...m.entries()].map(([inst,ranges])=>inst+' ('+mergeRanges(ranges)+')').join('; ');
-      edges.push({ from:a, to:b, color:{color:LINK_COLORS.work}, basecolor:LINK_COLORS.work,
+      edges.push({ id:'work:'+key, from:a, to:b, hidden:false, color:{color:LINK_COLORS.work}, basecolor:LINK_COLORS.work,
                    title:'Shared workplace: '+label,
                    smooth:{type:'continuous'}, width:2, ltype:'work' });
     });
@@ -451,8 +454,6 @@ function render(){
   nodeBase = new Map(nodes.map(n=>[n.id, n.color.background]));
   neighborMap = adjMap;
 
-  const data = { nodes:new vis.DataSet(nodes), edges:new vis.DataSet(edges) };
-  nodesDS = data.nodes; edgesDS = data.edges;
   focusedId = null;
   const options = {
     physics:{ enabled:document.getElementById('physics').checked,
@@ -463,9 +464,22 @@ function render(){
     edges:{ smooth:{ type:'continuous' }, color:{ opacity:0.75 } }
   };
 
-  if(network){ network.setData(data); network.setOptions(options); }
-  else {
-    network = new vis.Network(document.getElementById('net'), data, options);
+  if(network){
+    // Diff-update instead of setData: surviving nodes keep their positions, so
+    // filter changes glide instead of snapping to a fresh layout.
+    const prevCount = nodesDS.length;
+    const keepNodes = new Set(nodes.map(n=>n.id));
+    nodesDS.remove(nodesDS.getIds().filter(id=>!keepNodes.has(id)));
+    nodesDS.update(nodes);
+    const keepEdges = new Set(edges.map(e=>e.id));
+    edgesDS.remove(edgesDS.getIds().filter(id=>!keepEdges.has(id)));
+    edgesDS.update(edges);
+    network.setOptions(options);
+    if(nodesDS.length !== prevCount)
+      network.fit({ animation:{ duration:700, easingFunction:'easeInOutQuad' } });
+  } else {
+    nodesDS = new vis.DataSet(nodes); edgesDS = new vis.DataSet(edges);
+    network = new vis.Network(document.getElementById('net'), { nodes:nodesDS, edges:edgesDS }, options);
     network.on('click', params=>{
       if(params.nodes.length){ const id=params.nodes[0]; showInfo(id); focusNode(id); }
       else { document.getElementById('info').style.display='none'; clearFocus(); }
