@@ -165,13 +165,12 @@ function focusNode(id){
   }));
   edgesDS.update(edgesDS.get().map(e=>{
     const inc = e.from===id || e.to===id;
-    // Recalculate color from ltype since basecolor may not persist through DataSet
-    const edgeColor = LINK_COLORS[e.ltype] || LINK_COLORS.work;
-    return inc ?
-      { id:e.id, hidden:false, color:{ color:edgeColor, opacity:0.95 },
-        width:(e.ltype==='work'?2:1.4)+0.8 } :
-      { id:e.id, hidden:true, color:{ color:edgeColor, opacity:0.75 },
-        width:e.ltype==='work'?2:1.4 };
+    // highlight/hover must match too: selected edges render with the highlight
+    // color, which otherwise falls back to vis-network's uniform gray
+    const c = LINK_COLORS[e.ltype] || LINK_COLORS.work;
+    return { id:e.id, hidden:!inc,
+             color:{ color:c, highlight:c, hover:c, opacity:0.95 },
+             width: inc ? (e.ltype==='work'?2:1.4)+0.8 : (e.ltype==='work'?2:1.4) };
   }));
 }
 
@@ -185,12 +184,14 @@ function clearFocus(){
     return { id:nid, color:{ background:base, border:'#0b1119', highlight:{background:base,border:'#fff'} },
              font:{ color:'#e6edf3' }, borderWidth:2 };
   }));
-  // Recalculate color from ltype to restore work/school/region color coding
-  edgesDS.update(edgesDS.get().map(e=>({
-    id:e.id, hidden:false,
-    color:{ color:(LINK_COLORS[e.ltype]||LINK_COLORS.work), opacity:0.75 },
-    width:e.ltype==='work'?2:1.4
-  })));
+  // Restore work/school/region color coding (highlight/hover included so
+  // selection never grays the links out)
+  edgesDS.update(edgesDS.get().map(e=>{
+    const c = LINK_COLORS[e.ltype] || LINK_COLORS.work;
+    return { id:e.id, hidden:false,
+             color:{ color:c, highlight:c, hover:c, opacity:0.75 },
+             width:e.ltype==='work'?2:1.4 };
+  }));
   network.setOptions({ physics:{ enabled:document.getElementById('physics').checked } });
 }
 
@@ -343,7 +344,9 @@ function buildEdges(visibleIds){
           const pk = type+':'+Math.min(a,b)+'-'+Math.max(a,b);
           if(pairSeen.has(pk)) continue;
           pairSeen.add(pk);
-          edges.push({ id:pk, from:a, to:b, hidden:false, color:{color:LINK_COLORS[type]}, basecolor:LINK_COLORS[type], title:linkTitle(type,key),
+          edges.push({ id:pk, from:a, to:b, hidden:false,
+                       color:{color:LINK_COLORS[type], highlight:LINK_COLORS[type], hover:LINK_COLORS[type]},
+                       basecolor:LINK_COLORS[type], title:linkTitle(type,key),
                        smooth:{type:'continuous'}, width:type==='work'?2:1.4, ltype:type });
         }
       }
@@ -403,7 +406,9 @@ function buildEdges(visibleIds){
     pairShared.forEach((m,key)=>{
       const [a,b]=key.split('-').map(Number);
       const label=[...m.entries()].map(([inst,ranges])=>inst+' ('+mergeRanges(ranges)+')').join('; ');
-      edges.push({ id:'work:'+key, from:a, to:b, hidden:false, color:{color:LINK_COLORS.work}, basecolor:LINK_COLORS.work,
+      edges.push({ id:'work:'+key, from:a, to:b, hidden:false,
+                   color:{color:LINK_COLORS.work, highlight:LINK_COLORS.work, hover:LINK_COLORS.work},
+                   basecolor:LINK_COLORS.work,
                    title:'Shared workplace: '+label,
                    smooth:{type:'continuous'}, width:2, ltype:'work' });
     });
