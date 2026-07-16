@@ -264,7 +264,6 @@ function louvain(nodeIds, edgeList){
 // Administration, State Counselor, Deputy Heads, Assistants, Security Council
 // Secretary/Deputies, Head of Chancellery, Advisors) are treated as one tier.
 const SENIORITY_RULES = [
-  [/^president$/i,                                              10 ],
   [/^prime minister/i,                                            9 ],
 
   // Top of the Akorda pyramid — Head of Administration and Security Council
@@ -275,12 +274,19 @@ const SENIORITY_RULES = [
   [/secretary of the security council/i,                         8.5],
 
   // Cabinet + remaining Akorda senior leadership — one tier
+  [/^chairman of the (knb|national security committee)/i,        8 ],
   [/^(first )?deputy prime minister|^minister\b|^prosecutor general$/i, 8],
   [/^state (counselor|secretary)|^chairman of the senate/i,       8 ],
   [/^(first )?deputy head of the administration|^deputy head$/i,  8 ],  // Deputy Heads of Administration
   [/^assistant to the president/i,                                8 ],  // Presidential Assistants
   [/^head of (the )?(chancellery|office of the president)\b/i,    8 ],
   [/advis[eo]r to the president|^presidential advisor/i,          8 ],  // Presidential Advisors
+
+  // Governors of regions and republican cities; KNB deputies
+  [/^akim of (astana|almaty( city)?|shymkent)$/i,                 7 ],
+  [/^akim of .+ region/i,                                         7 ],
+  [/^(first )?deputy chairman of the knb/i,                       7 ],
+  [/^akim of .+ district/i,                                       5 ],
 
   [/^minister-counsellor/i,                                     5.5 ],  // diplomatic rank, not a cabinet minister
   [/head of .*faction/i,                                        6.5 ],  // ruling-party Mazhilis faction leadership
@@ -292,13 +298,19 @@ const SENIORITY_RULES = [
   [/chair(man|woman)? of (the )?management board|^ceo\b|^chairman$|^akim\b/i, 5.5],
   [/^(first )?deputy (akim|head|chairman)|^vice president|^director\b|^chair/i, 4.5]
 ];
-function titleScore(t){
-  for(const [re,s] of SENIORITY_RULES) if(re.test(t||'')) return s;
+function titleScore(t, inst){
+  t = t || ''; inst = inst || '';
+  // bare titles need institution context: "President" of a JSC is not the head
+  // of state, "Chairman" of the KNB is not a board chairman
+  if(/^president$/i.test(t)) return inst === 'Akorda' ? 10 : 5.5;
+  if(/^chairman$/i.test(t) && /national security committee/i.test(inst)) return 8;
+  for(const [re,s] of SENIORITY_RULES) if(re.test(t)) return s;
   return 3.5;
 }
 function seniorityScore(p){
-  const titles = [p.role, ...DATA.workExperience.filter(w=>w.personId===p.id).map(w=>w.title)];
-  return Math.max(...titles.map(titleScore));
+  const scores = [titleScore(p.role, p.institution),
+    ...DATA.workExperience.filter(w=>w.personId===p.id).map(w=>titleScore(w.title, w.institution))];
+  return Math.max(...scores);
 }
 
 function selectedRadio(name){ const el=document.querySelector('input[name="'+name+'"]:checked'); return el?el.value:''; }

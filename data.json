@@ -6,7 +6,7 @@
    "age": 53,
    "role": "President",
    "institution": "Akorda",
-   "region": "Almaty",
+   "region": "Almaty City",
    "school": "Moscow State Institute of International Relations",
    "zhuz": "Senior Zhuz / Ulu Zhuz",
    "category": "Diplomat"
@@ -28,7 +28,7 @@
    "age": 38,
    "role": "Deputy Head of the Administration of the President of the Republic of Kazakhstan",
    "institution": "Akorda",
-   "region": "Almaty",
+   "region": "Almaty City",
    "school": "University of Cambridge",
    "zhuz": "",
    "category": "Technocrat"
@@ -39,7 +39,7 @@
    "age": 44,
    "role": "Deputy Head of the Administration of the President of the Republic of Kazakhstan",
    "institution": "Akorda",
-   "region": "Almaty",
+   "region": "Almaty City",
    "school": "Turan University",
    "zhuz": "",
    "category": "Bureaucrat"
@@ -61,7 +61,7 @@
    "age": 49,
    "role": "Assistant to the President of the Republic of Kazakhstan on Domestic Policy and Communications",
    "institution": "Akorda",
-   "region": "Astana",
+   "region": "Astana City",
    "school": "Narxoz University",
    "zhuz": "",
    "category": "Akimat"
@@ -72,7 +72,7 @@
    "age": 51,
    "role": "Assistant to the President of Kazakhstan",
    "institution": "Akorda",
-   "region": "Almaty",
+   "region": "Almaty City",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
    "category": "Technocrat"
@@ -83,7 +83,7 @@
    "age": 50,
    "role": "Assistant to the President for International Investment and Trade Cooperation",
    "institution": "Akorda",
-   "region": "Almaty",
+   "region": "Almaty City",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
    "category": "Diplomat"
@@ -105,7 +105,7 @@
    "age": 54,
    "role": "Head of the Office of the President of Kazakhstan",
    "institution": "Akorda",
-   "region": "Almaty",
+   "region": "Almaty City",
    "school": "Kazakh State Academy of Architecture and Civil Engineering",
    "zhuz": "",
    "category": "Diplomat"
@@ -149,7 +149,7 @@
    "age": 39,
    "role": "Advisor to the President of Kazakhstan for Protocol",
    "institution": "Akorda",
-   "region": "Almaty",
+   "region": "Almaty City",
    "school": "Abai Kazakh National Pedagogical University (KazNPU)",
    "zhuz": "",
    "category": "Technocrat"
@@ -171,7 +171,7 @@
    "age": 40,
    "role": "Advisor to the President for International Affairs",
    "institution": "Akorda",
-   "region": "Almaty",
+   "region": "Almaty City",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
    "category": "Diplomat"
@@ -182,7 +182,7 @@
    "age": 49,
    "role": "Advisor to the President for Social Affairs",
    "institution": "Akorda",
-   "region": "Shymkent",
+   "region": "Shymkent City",
    "school": "South Kazakhstan Medical Academy",
    "zhuz": "",
    "category": "Technocrat"
@@ -206,7 +206,7 @@
    "institution": "Akorda",
    "region": "Almaty Region",
    "school": "Almaty Higher Combined Arms Command School",
-   "zhuz": "Middle Zhuz",
+   "zhuz": "Middle Zhuz / Orta Zhuz",
    "category": "State-Security / Silovik"
   },
   {
@@ -226,7 +226,7 @@
    "age": 46,
    "role": "Deputy Secretary of the Security Council",
    "institution": "Akorda",
-   "region": "Almaty",
+   "region": "Almaty City",
    "school": "Kazakh State Academy of Management",
    "zhuz": "",
    "category": "Diplomat"
@@ -362,6 +362,413 @@
    "school": "KIMEP University",
    "zhuz": "",
    "category": "Diplomat"
+  },
+  {
+   "id": 34,
+   "name": "Arman Abdrassilov",
+   "age": 45,
+   "role": "Head of the Situation Center of the Security Council",
+   "institution": "Akorda",
+   "region": "Akmola Region",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 35,
+   "name": "Marat Aimashev",
+   "age": 51,
+   "role": "Head of the Department of Military Security and Defense of the Security Council",
+   "institution": "Akorda",
+   "region": "",
+   "school": "Military Institute of the Kazakh Ground Forces",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 36,
+   "name": "Rassul Urazgulov",
+   "age": 52,
+   "role": "Head of the Department of Current Security Issues of the Security Council",
+   "institution": "Akorda",
+   "region": "Pavlodar Region",
+   "school": "Shakarim Semipalatinsk State University",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 37,
+   "name": "Aleksandr Sukhanov",
+   "age": 49,
+   "role": "Head of the Analytical Department of the Security Council",
+   "institution": "Akorda",
+   "region": "Russia",
+   "school": "Adilet Law School",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 38,
+   "name": "Daniyar Kussainov",
+   "age": 49,
+   "role": "Head of the Secretariat of the Head of the Presidential Administration",
+   "institution": "Akorda",
+   "region": "Almaty Region",
+   "school": "Narxoz University",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 39,
+   "name": "Zhenis Kassymbek",
+   "age": 51,
+   "role": "Akim of Astana",
+   "institution": "Astana City Akimat",
+   "region": "Zhambyl Region",
+   "school": "Kazakh State Academy of Architecture and Civil Engineering",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 40,
+   "name": "Darkhan Satybaldy",
+   "age": 52,
+   "role": "Akim of Almaty City",
+   "institution": "Almaty City Akimat",
+   "region": "Turkestan Region",
+   "school": "S. Seifullin Kazakh Agrotechnical University",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 41,
+   "name": "Murat Aitenov",
+   "age": 46,
+   "role": "Akim of Shymkent",
+   "institution": "Shymkent City Akimat",
+   "region": "Shymkent City",
+   "school": "M. Narikbayev KAZGUU University",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 42,
+   "name": "Berik Ualiuly",
+   "age": 49,
+   "role": "Akim of Abai Region",
+   "institution": "Abai Region Akimat",
+   "region": "East Kazakhstan Region",
+   "school": "T. Zhurgenov Kazakh National Academy of Arts",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 43,
+   "name": "Yermek Marzhikpayev",
+   "age": 56,
+   "role": "Akim of Akmola Region",
+   "institution": "Akmola Region Akimat",
+   "region": "Astana City",
+   "school": "L.N. Gumilyov Eurasian National University (ENU)",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 44,
+   "name": "Askhat Shakharov",
+   "age": 47,
+   "role": "Akim of Aktobe Region",
+   "institution": "Aktobe Region Akimat",
+   "region": "Russia",
+   "school": "Kazakh Academy of Sport and Tourism",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 45,
+   "name": "Marat Sultangaziyev",
+   "age": 46,
+   "role": "Akim of Almaty Region",
+   "institution": "Almaty Region Akimat",
+   "region": "Almaty Region",
+   "school": "Abai Kazakh National Pedagogical University (KazNPU)",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 46,
+   "name": "Serik Shapkenov",
+   "age": 46,
+   "role": "Akim of Atyrau Region",
+   "institution": "Atyrau Region Akimat",
+   "region": "West Kazakhstan Region",
+   "school": "M. Utemisov West Kazakhstan University",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 47,
+   "name": "Nurymbet Saktaganov",
+   "age": 55,
+   "role": "Akim of East Kazakhstan Region",
+   "institution": "East Kazakhstan Region Akimat",
+   "region": "Turkestan Region",
+   "school": "Korkyt Ata Kyzylorda University",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 48,
+   "name": "Yerbol Karashukeyev",
+   "age": 50,
+   "role": "Akim of Zhambyl Region",
+   "institution": "Zhambyl Region Akimat",
+   "region": "",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 49,
+   "name": "Beibit Isabayev",
+   "age": 64,
+   "role": "Akim of Zhetysu Region",
+   "institution": "Zhetysu Region Akimat",
+   "region": "Almaty Region",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 50,
+   "name": "Yermaganbet Bulekpayev",
+   "age": 50,
+   "role": "Akim of Karaganda Region",
+   "institution": "Karaganda Region Akimat",
+   "region": "Karaganda Region",
+   "school": "E.A. Buketov Karaganda University",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 51,
+   "name": "Kumar Aksakalov",
+   "age": 60,
+   "role": "Akim of Kostanay Region",
+   "institution": "Kostanay Region Akimat",
+   "region": "Kostanay Region",
+   "school": "V.P. Goryachkin Moscow Institute of Agricultural Engineers",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 52,
+   "name": "Murat Ergeshbayev",
+   "age": 60,
+   "role": "Akim of Kyzylorda Region",
+   "institution": "Kyzylorda Region Akimat",
+   "region": "Kyzylorda Region",
+   "school": "Narxoz University",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 53,
+   "name": "Nurdaulet Kilybay",
+   "age": 48,
+   "role": "Akim of Mangystau Region",
+   "institution": "Mangystau Region Akimat",
+   "region": "Mangystau Region",
+   "school": "Kazakh Academy of Transport and Communications",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 54,
+   "name": "Gauez Nurmukhambetov",
+   "age": 58,
+   "role": "Akim of North Kazakhstan Region",
+   "institution": "North Kazakhstan Region Akimat",
+   "region": "Kostanay Region",
+   "school": "S. Seifullin Kazakh Agrotechnical University",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 55,
+   "name": "Asain Baikhanov",
+   "age": 49,
+   "role": "Akim of Pavlodar Region",
+   "institution": "Pavlodar Region Akimat",
+   "region": "Pavlodar Region",
+   "school": "Pavlodar University",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 56,
+   "name": "Nariman Turegaliyev",
+   "age": 62,
+   "role": "Akim of West Kazakhstan Region",
+   "institution": "West Kazakhstan Region Akimat",
+   "region": "West Kazakhstan Region",
+   "school": "Zhambyl Hydromelioration and Construction Institute",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 57,
+   "name": "Nuralkhan Kusherov",
+   "age": 41,
+   "role": "Akim of Turkestan Region",
+   "institution": "Turkestan Region Akimat",
+   "region": "Shymkent City",
+   "school": "M. Auezov South Kazakhstan University",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 58,
+   "name": "Dastan Ryspekov",
+   "age": 42,
+   "role": "Akim of Ulytau Region",
+   "institution": "Ulytau Region Akimat",
+   "region": "Ulytau Region",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "Akimat"
+  },
+  {
+   "id": 59,
+   "name": "Yermek Sagimbayev",
+   "age": 58,
+   "role": "Chairman of the KNB",
+   "institution": "National Security Committee (KNB)",
+   "region": "Almaty Region",
+   "school": "Satbayev University",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 60,
+   "name": "Ali Altynbayev",
+   "age": 47,
+   "role": "First Deputy Chairman of the KNB",
+   "institution": "National Security Committee (KNB)",
+   "region": "Almaty Region",
+   "school": "Kazakh State Academy of Management",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 61,
+   "name": "Askar Omarov",
+   "age": 50,
+   "role": "Director of the Central Communications Service",
+   "institution": "Central Communications Service",
+   "region": "Almaty City",
+   "school": "Turan University",
+   "zhuz": "",
+   "category": "Ideologue / Political Bureaucrat"
+  },
+  {
+   "id": 62,
+   "name": "Zhandos Shaimardanov",
+   "age": 39,
+   "role": "Director of the Kazakhstan Institute for Strategic Studies",
+   "institution": "Kazakhstan Institute for Strategic Studies",
+   "region": "East Kazakhstan Region",
+   "school": "University of York",
+   "zhuz": "",
+   "category": "Technocrat"
+  },
+  {
+   "id": 63,
+   "name": "Askhat Tuleuov",
+   "age": 59,
+   "role": "Deputy Chairman of the KNB",
+   "institution": "National Security Committee (KNB)",
+   "region": "",
+   "school": "L.N. Gumilyov Eurasian National University (ENU)",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 64,
+   "name": "Bakytbek Rakhymberdiyev",
+   "age": 54,
+   "role": "Deputy Chairman of the KNB",
+   "institution": "National Security Committee (KNB)",
+   "region": "",
+   "school": "M. Auezov South Kazakhstan University",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 65,
+   "name": "Almas Naimantayev",
+   "age": 56,
+   "role": "Deputy Chairman of the KNB",
+   "institution": "National Security Committee (KNB)",
+   "region": "",
+   "school": "Kazakh State Academy of Architecture and Civil Engineering",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 66,
+   "name": "Ruslan Sarkulov",
+   "age": 50,
+   "role": "Deputy Chairman of the KNB",
+   "institution": "National Security Committee (KNB)",
+   "region": "",
+   "school": "Academy of the FSB of the Russian Federation",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 67,
+   "name": "Berik Kunanbayev",
+   "age": 48,
+   "role": "Deputy Chairman of the KNB - Director, Special Purpose Service \"A\"",
+   "institution": "National Security Committee (KNB)",
+   "region": "Zhambyl Region",
+   "school": "Abai Kazakh National Pedagogical University (KazNPU)",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 68,
+   "name": "Marat Zhumabayev",
+   "age": 56,
+   "role": "Deputy Chairman of the KNB - Director, Foreign Intelligence Service",
+   "institution": "National Security Committee (KNB) - FIS",
+   "region": "",
+   "school": "National Security Committee Academy",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 69,
+   "name": "Marat Irmenov",
+   "age": "",
+   "role": "Deputy Chairman of the KNB",
+   "institution": "National Security Committee (KNB)",
+   "region": "",
+   "school": "Zhangir Khan West Kazakhstan Agrarian-Technical University",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 70,
+   "name": "Yerlan Aldazhumanov",
+   "age": 60,
+   "role": "Deputy Chairman of the KNB - Director, Border Service",
+   "institution": "National Security Committee (KNB)",
+   "region": "East Kazakhstan Region",
+   "school": "Academy of the Border Service of the National Security Committee",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
   }
  ],
  "workExperience": [
@@ -736,7 +1143,7 @@
   {
    "personId": 6,
    "title": "Deputy Akim of Medeu District, Almaty",
-   "institution": "Almaty Akimat",
+   "institution": "Almaty City Akimat",
    "startYear": 2005,
    "endYear": 2005,
    "source": "https://prg.kz/document/?doc_id=31137994"
@@ -744,7 +1151,7 @@
   {
    "personId": 6,
    "title": "Director, State Fund for Youth Policy Development of Almaty",
-   "institution": "Almaty Akimat",
+   "institution": "Almaty City Akimat",
    "startYear": 2005,
    "endYear": 2006,
    "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
@@ -792,7 +1199,7 @@
   {
    "personId": 6,
    "title": "Deputy Akim of Almaty",
-   "institution": "Almaty Akimat",
+   "institution": "Almaty City Akimat",
    "startYear": 2015,
    "endYear": 2019,
    "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
@@ -808,7 +1215,7 @@
   {
    "personId": 6,
    "title": "Deputy Akim of Almaty",
-   "institution": "Almaty Akimat",
+   "institution": "Almaty City Akimat",
    "startYear": 2022,
    "endYear": 2024,
    "source": "https://www.akorda.kz/ru/pomoshchnik-prezidenta-respubliki-kazahstan-po-voprosam-vnutrenney-politiki-i-kommunikaciyam-kyrykbaev-arman-orazbaevich-251928"
@@ -1788,28 +2195,28 @@
   {
    "personId": 15,
    "title": "Specialist, District Administration",
-   "institution": "Almaty Akimat",
+   "institution": "Almaty City Akimat",
    "startYear": 1992,
    "endYear": 1993
   },
   {
    "personId": 15,
    "title": "Inspection Department Head (district level)",
-   "institution": "Almaty Akimat",
+   "institution": "Almaty City Akimat",
    "startYear": 1993,
    "endYear": 1998
   },
   {
    "personId": 15,
    "title": "Deputy Akim, Bostandyk District",
-   "institution": "Almaty Akimat",
+   "institution": "Almaty City Akimat",
    "startYear": 1998,
    "endYear": 2008
   },
   {
    "personId": 15,
    "title": "Head of Entrepreneurship and Industry Directorate",
-   "institution": "Almaty Akimat",
+   "institution": "Almaty City Akimat",
    "startYear": 2008,
    "endYear": 2012
   },
@@ -2473,14 +2880,14 @@
   {
    "personId": 27,
    "title": "Head of Youth Projects Division",
-   "institution": "Almaty Akimat",
+   "institution": "Almaty City Akimat",
    "startYear": 2015,
    "endYear": 2016
   },
   {
    "personId": 27,
    "title": "Head of Youth Policy Directorate",
-   "institution": "Almaty Akimat",
+   "institution": "Almaty City Akimat",
    "startYear": 2016,
    "endYear": 2017
   },
@@ -2863,6 +3270,2209 @@
    "institution": "Akorda",
    "startYear": 2025,
    "endYear": "Present"
+  },
+  {
+   "personId": 34,
+   "title": "Head of the Situation Center of the Security Council",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": "Present"
+  },
+  {
+   "personId": 34,
+   "title": "Deputy Head of the Department of Current Security Issues of the Security Council",
+   "institution": "Akorda",
+   "startYear": 2024,
+   "endYear": 2025
+  },
+  {
+   "personId": 35,
+   "title": "Head of the Department of Military Security and Defense of the Security Council",
+   "institution": "Akorda",
+   "startYear": 2024,
+   "endYear": "Present"
+  },
+  {
+   "personId": 35,
+   "title": "Deputy Chief of the General Staff – Head of the Operational Planning Department",
+   "institution": "Ministry of Defense",
+   "startYear": 2022,
+   "endYear": 2024
+  },
+  {
+   "personId": 35,
+   "title": "Deputy Chief of the General Staff – Head of the Strategic Planning Department",
+   "institution": "Ministry of Defense",
+   "startYear": 2021,
+   "endYear": 2022
+  },
+  {
+   "personId": 36,
+   "title": "Head of the Department of Current Security Issues of the Security Council",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": "Present"
+  },
+  {
+   "personId": 36,
+   "title": "Head of the Department of General Security Issues of the Security Council",
+   "institution": "Akorda",
+   "startYear": 2021,
+   "endYear": 2023
+  },
+  {
+   "personId": 36,
+   "title": "Deputy Head of the Department of State Control and Organizational-Territorial Work",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": 2021
+  },
+  {
+   "personId": 36,
+   "title": "Head of the Strategy and Budget Planning Department",
+   "institution": "Astana Akimat",
+   "startYear": 2018,
+   "endYear": 2019
+  },
+  {
+   "personId": 36,
+   "title": "Head of the Apparatus",
+   "institution": "Pavlodar Akimat",
+   "startYear": 2014,
+   "endYear": 2018
+  },
+  {
+   "personId": 36,
+   "title": "Deputy Head of the Central Apparatus",
+   "institution": "Nur Otan Party",
+   "startYear": 2010,
+   "endYear": 2014
+  },
+  {
+   "personId": 36,
+   "title": "First Deputy Akim",
+   "institution": "Karaganda Region Akimat",
+   "startYear": 2009,
+   "endYear": 2010
+  },
+  {
+   "personId": 36,
+   "title": "Head of the Economy and Budget Planning Department",
+   "institution": "Karaganda Region Akimat",
+   "startYear": 2006,
+   "endYear": 2009
+  },
+  {
+   "personId": 37,
+   "title": "Head of the Analytical Department of the Security Council",
+   "institution": "Akorda",
+   "startYear": 2018,
+   "endYear": "Present"
+  },
+  {
+   "personId": 37,
+   "title": "Deputy Head of the Internal Policy Department",
+   "institution": "Akorda",
+   "startYear": 2012,
+   "endYear": 2018
+  },
+  {
+   "personId": 37,
+   "title": "Managerial roles",
+   "institution": "KazMunayGas",
+   "startYear": 2004,
+   "endYear": 2012
+  },
+  {
+   "personId": 38,
+   "title": "Various roles, Industrial-Innovative Development Department",
+   "institution": "Chancellary, Government of Kazakhstan",
+   "startYear": 2006,
+   "endYear": 2023
+  },
+  {
+   "personId": 38,
+   "title": "Various roles, Industrial-Innovative Development Department (Chancellery)",
+   "institution": "Government of Kazakhstan (Akhmetov (Daniyal) Government)",
+   "startYear": 2006,
+   "endYear": 2007
+  },
+  {
+   "personId": 38,
+   "title": "Various roles, Industrial-Innovative Development Department (Chancellery)",
+   "institution": "Government of Kazakhstan (Massimov I Government)",
+   "startYear": 2007,
+   "endYear": 2011
+  },
+  {
+   "personId": 38,
+   "title": "Various roles, Industrial-Innovative Development Department (Chancellery)",
+   "institution": "Government of Kazakhstan (Massimov II Government)",
+   "startYear": 2011,
+   "endYear": 2012
+  },
+  {
+   "personId": 38,
+   "title": "Various roles, Industrial-Innovative Development Department (Chancellery)",
+   "institution": "Government of Kazakhstan (Akhmetov (Serik) Government)",
+   "startYear": 2012,
+   "endYear": 2014
+  },
+  {
+   "personId": 38,
+   "title": "Various roles, Industrial-Innovative Development Department (Chancellery)",
+   "institution": "Government of Kazakhstan (Massimov III Government)",
+   "startYear": 2014,
+   "endYear": 2016
+  },
+  {
+   "personId": 38,
+   "title": "Various roles, Industrial-Innovative Development Department (Chancellery)",
+   "institution": "Government of Kazakhstan (Sagintayev Government)",
+   "startYear": 2016,
+   "endYear": 2019
+  },
+  {
+   "personId": 38,
+   "title": "Various roles, Industrial-Innovative Development Department (Chancellery)",
+   "institution": "Government of Kazakhstan (Mamin I Government)",
+   "startYear": 2019,
+   "endYear": 2021
+  },
+  {
+   "personId": 38,
+   "title": "Various roles, Industrial-Innovative Development Department (Chancellery)",
+   "institution": "Government of Kazakhstan (Mamin II Government)",
+   "startYear": 2021,
+   "endYear": 2022
+  },
+  {
+   "personId": 38,
+   "title": "Various roles, Industrial-Innovative Development Department (Chancellery)",
+   "institution": "Government of Kazakhstan (Smailov I Government)",
+   "startYear": 2022,
+   "endYear": 2023
+  },
+  {
+   "personId": 38,
+   "title": "Deputy Head, Industrial/Infrastructure and Real-Sector Departments",
+   "institution": "Government of Kazakhstan (Smailov II Government)",
+   "startYear": 2023,
+   "endYear": 2024
+  },
+  {
+   "personId": 38,
+   "title": "Head of the Industrial and Infrastructure Development Department",
+   "institution": "Government of Kazakhstan (Bektenov Government)",
+   "startYear": 2024,
+   "endYear": 2026
+  },
+  {
+   "personId": 39,
+   "title": "Head of Division",
+   "institution": "Committee on Antimonopoly Policy",
+   "startYear": 1998,
+   "endYear": 2000,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307"
+  },
+  {
+   "personId": 39,
+   "title": "Director, Water Transport Department",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2000,
+   "endYear": 2004,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307"
+  },
+  {
+   "personId": 39,
+   "title": "Director",
+   "institution": "Aktau International Sea Trade Port",
+   "startYear": 2004,
+   "endYear": 2005,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307"
+  },
+  {
+   "personId": 39,
+   "title": "Vice Minister",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2005,
+   "endYear": 2009,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307"
+  },
+  {
+   "personId": 39,
+   "title": "Responsible Secretary",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2009,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307"
+  },
+  {
+   "personId": 39,
+   "title": "Minister of Transport and Communications",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2014,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307"
+  },
+  {
+   "personId": 39,
+   "title": "First Vice Minister",
+   "institution": "Ministry for Investment and Development",
+   "startYear": 2014,
+   "endYear": 2016,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307"
+  },
+  {
+   "personId": 39,
+   "title": "Minister",
+   "institution": "Ministry for Investment and Development",
+   "startYear": 2016,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307"
+  },
+  {
+   "personId": 39,
+   "title": "Minister",
+   "institution": "Ministry of Industry and Infrastructure Development",
+   "startYear": 2018,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307",
+   "notes": "Ministry renamed from Investment and Development in Dec 2018; succeeded by Roman Sklyar (P011) in Feb 2019."
+  },
+  {
+   "personId": 39,
+   "title": "Deputy Prime Minister",
+   "institution": "Government of Kazakhstan (Mamin I Government)",
+   "startYear": 2019,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307",
+   "notes": "Feb-Sep 2019."
+  },
+  {
+   "personId": 39,
+   "title": "Akim of Karaganda Region",
+   "institution": "Karaganda Region Akimat",
+   "startYear": 2019,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307"
+  },
+  {
+   "personId": 39,
+   "title": "Akim of Astana",
+   "institution": "Astana City Akimat",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/memleket/entities/astana/about/structure/people/307"
+  },
+  {
+   "personId": 40,
+   "title": "Accountant, Economist",
+   "institution": "Private commercial organizations",
+   "startYear": 1996,
+   "endYear": 2000,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 40,
+   "title": "Leading, then Chief Controller-Auditor, Budget Execution Oversight Directorate",
+   "institution": "Ministry of Finance",
+   "startYear": 2000,
+   "endYear": 2002,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 40,
+   "title": "Referent, Consultant, Chief Expert, Head of Sector",
+   "institution": "Presidential Property Management Department (UDP)",
+   "startYear": 2002,
+   "endYear": 2006,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 40,
+   "title": "Director, Zhylu Municipal Enterprise",
+   "institution": "Astana City Akimat",
+   "startYear": 2006,
+   "endYear": 2007,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 40,
+   "title": "Deputy Director, Budget and Finance Departments; Deputy Chairman, Science Committee",
+   "institution": "Ministry of Education and Science",
+   "startYear": 2007,
+   "endYear": 2010,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 40,
+   "title": "Head of Department",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2010,
+   "endYear": 2011,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 40,
+   "title": "Deputy Head, Socio-Economic Department (Chancellery of the Prime Minister)",
+   "institution": "Government of Kazakhstan (Massimov II Government)",
+   "startYear": 2011,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061",
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source."
+  },
+  {
+   "personId": 40,
+   "title": "Deputy Head, Socio-Economic Department (Chancellery of the Prime Minister)",
+   "institution": "Government of Kazakhstan (Akhmetov (Serik) Government)",
+   "startYear": 2012,
+   "endYear": 2013,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061",
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source."
+  },
+  {
+   "personId": 40,
+   "title": "Akim of Shymkent",
+   "institution": "Shymkent City Akimat",
+   "startYear": 2013,
+   "endYear": 2015,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 40,
+   "title": "First Deputy Akim",
+   "institution": "South Kazakhstan Region Akimat",
+   "startYear": 2015,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061",
+   "notes": "Region renamed Turkestan Region in 2018; kept as historical name."
+  },
+  {
+   "personId": 40,
+   "title": "Senator",
+   "institution": "Senate",
+   "startYear": 2018,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 40,
+   "title": "Ambassador to Uzbekistan",
+   "institution": "Embassy of Kazakhstan in Uzbekistan (MFA)",
+   "startYear": 2019,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 40,
+   "title": "Akim of Turkestan Region",
+   "institution": "Turkestan Region Akimat",
+   "startYear": 2022,
+   "endYear": 2025,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 40,
+   "title": "First Deputy Head of the Administration of the President",
+   "institution": "Akorda",
+   "startYear": 2025,
+   "endYear": 2025,
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061",
+   "notes": "Jan-May 2025."
+  },
+  {
+   "personId": 40,
+   "title": "Akim of Almaty City",
+   "institution": "Almaty City Akimat",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/memleket/entities/almaty/about/structure/people/51061"
+  },
+  {
+   "personId": 41,
+   "title": "Attache; Third Secretary, State Protocol Service; Third Secretary, Europe and Africa Department; Third, Second Secretary, Ministry Chancellery",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2004,
+   "endYear": 2007,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043"
+  },
+  {
+   "personId": 41,
+   "title": "Chief Expert, Secretariat of the Senate Chairman; Chief Consultant; Head of Sector; Deputy Head, then Head, Department for Liaison with the Committee on International Relations, Defense and Security",
+   "institution": "Senate",
+   "startYear": 2007,
+   "endYear": 2011,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043",
+   "notes": "Senate apparatus during Tokayev's chairmanship."
+  },
+  {
+   "personId": 41,
+   "title": "Head, South Asia and Middle East Division",
+   "institution": "Asia and Africa Department (MFA)",
+   "startYear": 2011,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043"
+  },
+  {
+   "personId": 41,
+   "title": "Counsellor",
+   "institution": "Embassy of Kazakhstan in France (MFA)",
+   "startYear": 2012,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043",
+   "notes": "Source gives combined 2012-2017 period for embassy and MFA HQ roles without a split."
+  },
+  {
+   "personId": 41,
+   "title": "Counsellor, Administration and Control Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2012,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043",
+   "notes": "Source gives combined 2012-2017 period for embassy and MFA HQ roles without a split."
+  },
+  {
+   "personId": 41,
+   "title": "Advisor to the Chairman of the Senate; Head, Department for Liaison with the Committee on International Relations, Defense and Security",
+   "institution": "Senate",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043"
+  },
+  {
+   "personId": 41,
+   "title": "Ambassador-at-Large",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2019,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043",
+   "notes": "May-Sep 2019."
+  },
+  {
+   "personId": 41,
+   "title": "Ambassador to Serbia",
+   "institution": "Embassy of Kazakhstan in Serbia (MFA)",
+   "startYear": 2019,
+   "endYear": 2021,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043"
+  },
+  {
+   "personId": 41,
+   "title": "First Deputy Head of the Chancellery of the Prime Minister",
+   "institution": "Government of Kazakhstan (Mamin II Government)",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043",
+   "notes": "Split across Mamin II/Smailov I; Chancellery renamed Government Apparatus in Feb 2023."
+  },
+  {
+   "personId": 41,
+   "title": "First Deputy Head of the Chancellery of the Prime Minister",
+   "institution": "Government of Kazakhstan (Smailov I Government)",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043",
+   "notes": "Split across Mamin II/Smailov I; Chancellery renamed Government Apparatus in Feb 2023."
+  },
+  {
+   "personId": 41,
+   "title": "First Deputy Head of the Government Apparatus",
+   "institution": "Government of Kazakhstan (Smailov II Government)",
+   "startYear": 2023,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043",
+   "notes": "Feb-Sep 2023 spans Smailov I/II; assigned to Smailov II (Apr 2023 onward)."
+  },
+  {
+   "personId": 41,
+   "title": "Akim of Shymkent",
+   "institution": "Shymkent City Akimat",
+   "startYear": 2023,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/memleket/entities/shymkent/about/structure/people/37043"
+  },
+  {
+   "personId": 42,
+   "title": "Editor-in-Chief, Informbyuro news program",
+   "institution": "31 Kanal TV Channel",
+   "startYear": 2000,
+   "endYear": 2007,
+   "source": "https://www.gov.kz/memleket/entities/abay/about/structure/people/26682"
+  },
+  {
+   "personId": 42,
+   "title": "Head, Anti-Corruption Media Center (Nur-Media LLP)",
+   "institution": "Nur Otan Party",
+   "startYear": 2009,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/memleket/entities/abay/about/structure/people/26682"
+  },
+  {
+   "personId": 42,
+   "title": "Head of Press Service - Deputy Head of the Akim's Apparatus; Head, Internal Policy and Religious Affairs Directorate",
+   "institution": "South Kazakhstan Region Akimat",
+   "startYear": 2012,
+   "endYear": 2015,
+   "source": "https://www.gov.kz/memleket/entities/abay/about/structure/people/26682"
+  },
+  {
+   "personId": 42,
+   "title": "Advisor to the First Deputy Chairman",
+   "institution": "Nur Otan Party",
+   "startYear": 2015,
+   "endYear": 2016,
+   "source": "https://www.gov.kz/memleket/entities/abay/about/structure/people/26682"
+  },
+  {
+   "personId": 42,
+   "title": "Advisor to the Minister; Director, Information Support Department",
+   "institution": "Ministry for Investment and Development",
+   "startYear": 2016,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/memleket/entities/abay/about/structure/people/26682",
+   "notes": "Advisor to Minister Kassymbek (P039)."
+  },
+  {
+   "personId": 42,
+   "title": "Head, Internal Policy Directorate",
+   "institution": "Zhambyl Region Akimat",
+   "startYear": 2018,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/memleket/entities/abay/about/structure/people/26682"
+  },
+  {
+   "personId": 42,
+   "title": "Press Secretary of the President",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/memleket/entities/abay/about/structure/people/26682"
+  },
+  {
+   "personId": 42,
+   "title": "Chairman of the Board",
+   "institution": "Khabar Agency JSC",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/memleket/entities/abay/about/structure/people/26682"
+  },
+  {
+   "personId": 42,
+   "title": "Advisor to the President - Press Secretary",
+   "institution": "Akorda",
+   "startYear": 2023,
+   "endYear": 2025,
+   "source": "https://www.gov.kz/memleket/entities/abay/about/structure/people/26682"
+  },
+  {
+   "personId": 42,
+   "title": "Akim of Abai Region",
+   "institution": "Abai Region Akimat",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/memleket/entities/abay/about/structure/people/26682"
+  },
+  {
+   "personId": 43,
+   "title": "Akim of Arshaly District",
+   "institution": "Akmola Region Akimat",
+   "startYear": 2008,
+   "endYear": 2012,
+   "source": "https://ru.wikipedia.org/wiki/Маржикпаев,_Ермек_Боранбаевич"
+  },
+  {
+   "personId": 43,
+   "title": "Akim of Zerendi District",
+   "institution": "Akmola Region Akimat",
+   "startYear": 2012,
+   "endYear": 2013,
+   "source": "https://ru.wikipedia.org/wiki/Маржикпаев,_Ермек_Боранбаевич"
+  },
+  {
+   "personId": 43,
+   "title": "Deputy Akim of Akmola Region",
+   "institution": "Akmola Region Akimat",
+   "startYear": 2013,
+   "endYear": 2014,
+   "source": "https://ru.wikipedia.org/wiki/Маржикпаев,_Ермек_Боранбаевич"
+  },
+  {
+   "personId": 43,
+   "title": "State Inspector",
+   "institution": "Akorda",
+   "startYear": 2014,
+   "endYear": 2015,
+   "source": "https://ru.wikipedia.org/wiki/Маржикпаев,_Ермек_Боранбаевич"
+  },
+  {
+   "personId": 43,
+   "title": "Akim of Kokshetau",
+   "institution": "Kokshetau City Akimat",
+   "startYear": 2015,
+   "endYear": 2019,
+   "source": "https://ru.wikipedia.org/wiki/Маржикпаев,_Ермек_Боранбаевич"
+  },
+  {
+   "personId": 43,
+   "title": "Akim of Akmola Region",
+   "institution": "Akmola Region Akimat",
+   "startYear": 2019,
+   "endYear": 2023,
+   "source": "https://ru.wikipedia.org/wiki/Маржикпаев,_Ермек_Боранбаевич"
+  },
+  {
+   "personId": 43,
+   "title": "Minister of Tourism and Sports",
+   "institution": "Ministry of Tourism and Sports",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://ru.wikipedia.org/wiki/Маржикпаев,_Ермек_Боранбаевич"
+  },
+  {
+   "personId": 43,
+   "title": "Advisor to the Prime Minister",
+   "institution": "Government of Kazakhstan (Bektenov Government)",
+   "startYear": 2024,
+   "endYear": 2025,
+   "source": "https://ru.wikipedia.org/wiki/Маржикпаев,_Ермек_Боранбаевич"
+  },
+  {
+   "personId": 43,
+   "title": "Akim of Akmola Region",
+   "institution": "Akmola Region Akimat",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": "https://kapital.kz/dossier/marzhikpaev-ermek",
+   "notes": "VERIFY: exact reappointment date not found in indexed sources; in office per gov.kz/egov/kapital as of Jul 2026."
+  },
+  {
+   "personId": 45,
+   "title": "Head of Audit Divisions, then Deputy Head, Almaty City Tax Department",
+   "institution": "Ministry of Finance",
+   "startYear": 2001,
+   "endYear": 2010,
+   "source": "https://www.gov.kz/memleket/entities/almobl/about/structure/people/309"
+  },
+  {
+   "personId": 45,
+   "title": "Director, Department of Tax and Customs Legislation Coordination",
+   "institution": "Ministry of Finance",
+   "startYear": 2010,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/memleket/entities/almobl/about/structure/people/309"
+  },
+  {
+   "personId": 45,
+   "title": "Head of Sector, Socio-Economic Monitoring Department",
+   "institution": "Akorda",
+   "startYear": 2012,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/memleket/entities/almobl/about/structure/people/309"
+  },
+  {
+   "personId": 45,
+   "title": "Head, Almaty City State Revenues Department",
+   "institution": "Ministry of Finance",
+   "startYear": 2014,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/memleket/entities/almobl/about/structure/people/309"
+  },
+  {
+   "personId": 45,
+   "title": "Chairman, State Revenues Committee",
+   "institution": "Ministry of Finance",
+   "startYear": 2018,
+   "endYear": 2021,
+   "source": "https://www.gov.kz/memleket/entities/almobl/about/structure/people/309"
+  },
+  {
+   "personId": 45,
+   "title": "Vice Minister of Finance",
+   "institution": "Ministry of Finance",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/memleket/entities/almobl/about/structure/people/309"
+  },
+  {
+   "personId": 45,
+   "title": "First Vice Minister of Finance",
+   "institution": "Ministry of Finance",
+   "startYear": 2022,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/memleket/entities/almobl/about/structure/people/309"
+  },
+  {
+   "personId": 45,
+   "title": "Akim of Almaty Region",
+   "institution": "Almaty Region Akimat",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/memleket/entities/almobl/about/structure/people/309"
+  },
+  {
+   "personId": 46,
+   "title": "Head, Economy and Budget Planning Directorate",
+   "institution": "West Kazakhstan Region Akimat",
+   "startYear": 2009,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/memleket/entities/atyrau/about/structure/people/13052"
+  },
+  {
+   "personId": 46,
+   "title": "Deputy Akim, then First Deputy Akim",
+   "institution": "West Kazakhstan Region Akimat",
+   "startYear": 2012,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/memleket/entities/atyrau/about/structure/people/13052"
+  },
+  {
+   "personId": 46,
+   "title": "State Inspector, State Control and Organizational-Territorial Work Department",
+   "institution": "Akorda",
+   "startYear": 2015,
+   "endYear": 2016,
+   "source": "https://www.gov.kz/memleket/entities/atyrau/about/structure/people/13052"
+  },
+  {
+   "personId": 46,
+   "title": "Akim of Atyrau City",
+   "institution": "Atyrau City Akimat",
+   "startYear": 2016,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/memleket/entities/atyrau/about/structure/people/13052"
+  },
+  {
+   "personId": 46,
+   "title": "First Deputy Akim of Atyrau Region",
+   "institution": "Atyrau Region Akimat",
+   "startYear": 2018,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/memleket/entities/atyrau/about/structure/people/13052"
+  },
+  {
+   "personId": 46,
+   "title": "Vice Minister of Labor and Social Protection",
+   "institution": "Ministry of Labor and Social Protection",
+   "startYear": 2020,
+   "endYear": 2021,
+   "source": "https://www.gov.kz/memleket/entities/atyrau/about/structure/people/13052"
+  },
+  {
+   "personId": 46,
+   "title": "Minister of Labor and Social Protection",
+   "institution": "Ministry of Labor and Social Protection",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/memleket/entities/atyrau/about/structure/people/13052"
+  },
+  {
+   "personId": 46,
+   "title": "Akim of Atyrau Region",
+   "institution": "Atyrau Region Akimat",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/memleket/entities/atyrau/about/structure/people/13052"
+  },
+  {
+   "personId": 44,
+   "title": "Akim of Karatobe District, then Baiterek District",
+   "institution": "West Kazakhstan Region Akimat",
+   "startYear": 2013,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/memleket/entities/aktobe/about/structure/people/37018"
+  },
+  {
+   "personId": 44,
+   "title": "Akim of Aktobe City",
+   "institution": "Aktobe City Akimat",
+   "startYear": 2020,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/memleket/entities/aktobe/about/structure/people/37018"
+  },
+  {
+   "personId": 44,
+   "title": "State Inspector",
+   "institution": "Akorda",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/memleket/entities/aktobe/about/structure/people/37018"
+  },
+  {
+   "personId": 44,
+   "title": "Akim of Aktobe Region",
+   "institution": "Aktobe Region Akimat",
+   "startYear": 2023,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/memleket/entities/aktobe/about/structure/people/37018"
+  },
+  {
+   "personId": 47,
+   "title": "Chief Expert, Government Representation in Parliament",
+   "institution": "Government of Kazakhstan (Akhmetov (Daniyal) Government)",
+   "startYear": 2006,
+   "endYear": 2007,
+   "notes": "Official akimat bio (gov.kz), Feb 2006-Feb 2007."
+  },
+  {
+   "personId": 47,
+   "title": "Advisor to the Minister",
+   "institution": "Ministry of Economy and Budget Planning",
+   "startYear": 2007,
+   "endYear": 2007,
+   "notes": "May-Sep 2007."
+  },
+  {
+   "personId": 47,
+   "title": "Deputy Chairman, Migration Committee",
+   "institution": "Ministry of Labor and Social Protection",
+   "startYear": 2007,
+   "endYear": 2010
+  },
+  {
+   "personId": 47,
+   "title": "State Inspector, State Control and Territorial-Organizational Work Department",
+   "institution": "Akorda",
+   "startYear": 2010,
+   "endYear": 2012
+  },
+  {
+   "personId": 47,
+   "title": "Deputy Akim",
+   "institution": "East Kazakhstan Region Akimat",
+   "startYear": 2012,
+   "endYear": 2015
+  },
+  {
+   "personId": 47,
+   "title": "First Deputy Akim",
+   "institution": "East Kazakhstan Region Akimat",
+   "startYear": 2015,
+   "endYear": 2018
+  },
+  {
+   "personId": 47,
+   "title": "Akim of Ulan District",
+   "institution": "East Kazakhstan Region Akimat",
+   "startYear": 2018,
+   "endYear": 2021
+  },
+  {
+   "personId": 47,
+   "title": "Akim of Semey City",
+   "institution": "Semey City Akimat",
+   "startYear": 2021,
+   "endYear": 2021,
+   "notes": "Jan-Jun 2021."
+  },
+  {
+   "personId": 47,
+   "title": "Akim of Zharma District",
+   "institution": "East Kazakhstan Region Akimat",
+   "startYear": 2022,
+   "endYear": 2022,
+   "notes": "Feb-Jun 2022."
+  },
+  {
+   "personId": 47,
+   "title": "Deputy Akim",
+   "institution": "Kyzylorda Region Akimat",
+   "startYear": 2022,
+   "endYear": 2023
+  },
+  {
+   "personId": 47,
+   "title": "First Deputy Akim",
+   "institution": "East Kazakhstan Region Akimat",
+   "startYear": 2023,
+   "endYear": 2025
+  },
+  {
+   "personId": 47,
+   "title": "Akim of East Kazakhstan Region",
+   "institution": "East Kazakhstan Region Akimat",
+   "startYear": 2025,
+   "endYear": "Present",
+   "notes": "Appointed 17 Feb 2025, same decree wave as Berik Uali (P042)."
+  },
+  {
+   "personId": 49,
+   "title": "Senior Leadership, Deputy Akim of Almaty",
+   "institution": "Almaty Akimat",
+   "startYear": 1994,
+   "endYear": 1997
+  },
+  {
+   "personId": 49,
+   "title": "Director, Administrative Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 1997,
+   "endYear": 2000,
+   "notes": "Includes study at the MFA Diplomatic Academy 1997-1999."
+  },
+  {
+   "personId": 49,
+   "title": "Head, Government Information Division, Office of the Prime Minister",
+   "institution": "Government of Kazakhstan (Tokayev Government)",
+   "startYear": 2000,
+   "endYear": 2002,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source."
+  },
+  {
+   "personId": 49,
+   "title": "Head, Government Information Division, Office of the Prime Minister",
+   "institution": "Government of Kazakhstan (Tasmagambetov Government)",
+   "startYear": 2002,
+   "endYear": 2002,
+   "notes": "Year-only source data; government assignment/split based on researched cabinet transition dates, not an exact-date source."
+  },
+  {
+   "personId": 49,
+   "title": "Advisor to the Minister of Foreign Affairs; Ambassador-at-Large; National Coordinator for the Central Asian Cooperation Organisation",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2002,
+   "endYear": 2003
+  },
+  {
+   "personId": 49,
+   "title": "Ambassador to Pakistan",
+   "institution": "Embassy of Kazakhstan in Pakistan (MFA)",
+   "startYear": 2003,
+   "endYear": 2008,
+   "notes": "Source gives combined 2003-2008 period for the Pakistan and Turkey/Albania postings without a split."
+  },
+  {
+   "personId": 49,
+   "title": "Ambassador to Turkey, concurrently to Albania",
+   "institution": "Embassy of Kazakhstan in Turkey (MFA)",
+   "startYear": 2003,
+   "endYear": 2008,
+   "notes": "Source gives combined 2003-2008 period for the Pakistan and Turkey/Albania postings without a split."
+  },
+  {
+   "personId": 49,
+   "title": "Vice Minister of Culture and Information",
+   "institution": "Ministry of Culture and Information",
+   "startYear": 2008,
+   "endYear": 2009
+  },
+  {
+   "personId": 49,
+   "title": "Press Secretary of the President",
+   "institution": "Akorda",
+   "startYear": 2008,
+   "endYear": 2009
+  },
+  {
+   "personId": 49,
+   "title": "Ambassador to Kyrgyzstan",
+   "institution": "Embassy of Kazakhstan in Kyrgyzstan (MFA)",
+   "startYear": 2009,
+   "endYear": 2019,
+   "notes": "Source gives combined 2009-2019 period for the Kyrgyzstan and Azerbaijan postings without a split."
+  },
+  {
+   "personId": 49,
+   "title": "Ambassador to Azerbaijan",
+   "institution": "Embassy of Kazakhstan in Azerbaijan (MFA)",
+   "startYear": 2009,
+   "endYear": 2019,
+   "notes": "Source gives combined 2009-2019 period for the Kyrgyzstan and Azerbaijan postings without a split."
+  },
+  {
+   "personId": 49,
+   "title": "Head of the President's Representation in Parliament",
+   "institution": "Akorda",
+   "startYear": 2019,
+   "endYear": 2022,
+   "notes": "Source gives combined 2019-2022 period with the Senate seat."
+  },
+  {
+   "personId": 49,
+   "title": "Senator; Chairman, Committee on Socio-Cultural Development and Science",
+   "institution": "Senate",
+   "startYear": 2019,
+   "endYear": 2022,
+   "notes": "Source gives combined 2019-2022 period with the Akorda post."
+  },
+  {
+   "personId": 49,
+   "title": "Akim of Zhetysu Region",
+   "institution": "Zhetysu Region Akimat",
+   "startYear": 2022,
+   "endYear": "Present",
+   "notes": "Appointed 11 Jun 2022, at the creation of the new region."
+  },
+  {
+   "personId": 50,
+   "title": "Deputy Head, Export Control and Licensing Department",
+   "institution": "Ministry of Industry, Energy and Trade",
+   "startYear": 2002,
+   "endYear": 2006,
+   "notes": "Official akimat bio (gov.kz Karaganda)."
+  },
+  {
+   "personId": 50,
+   "title": "Deputy Head of the Akim's Apparatus",
+   "institution": "Pavlodar Region Akimat",
+   "startYear": 2006,
+   "endYear": 2006
+  },
+  {
+   "personId": 50,
+   "title": "Akim of Pavlodar District",
+   "institution": "Pavlodar Region Akimat",
+   "startYear": 2006,
+   "endYear": 2008
+  },
+  {
+   "personId": 50,
+   "title": "Head, Entrepreneurship and Industry Directorate",
+   "institution": "Pavlodar Region Akimat",
+   "startYear": 2008,
+   "endYear": 2009
+  },
+  {
+   "personId": 50,
+   "title": "Head, Territorial Directorate for Karaganda, South Kazakhstan Regions and Astana - Chairman of the Disciplinary Council",
+   "institution": "Civil Service Agency",
+   "startYear": 2009,
+   "endYear": 2013,
+   "notes": "Years inferred from adjacent posts; source lists the post undated between 2009 and 2013."
+  },
+  {
+   "personId": 50,
+   "title": "Akim of Saryarka, Almaty and Yesil Districts",
+   "institution": "Astana City Akimat",
+   "startYear": 2013,
+   "endYear": 2018
+  },
+  {
+   "personId": 50,
+   "title": "State Inspector",
+   "institution": "Akorda",
+   "startYear": 2018,
+   "endYear": 2018
+  },
+  {
+   "personId": 50,
+   "title": "Deputy Akim of Karaganda Region",
+   "institution": "Karaganda Region Akimat",
+   "startYear": 2018,
+   "endYear": 2020,
+   "notes": "Deputy to region akim Zhenis Kassymbek (P039) from Sep 2019."
+  },
+  {
+   "personId": 50,
+   "title": "Akim of Karaganda City",
+   "institution": "Karaganda City Akimat",
+   "startYear": 2020,
+   "endYear": 2022
+  },
+  {
+   "personId": 50,
+   "title": "Akim of Karaganda Region",
+   "institution": "Karaganda Region Akimat",
+   "startYear": 2022,
+   "endYear": "Present",
+   "notes": "Appointed 8 Dec 2022, same reshuffle that moved Kassymbek to Astana."
+  },
+  {
+   "personId": 48,
+   "title": "Director, Finance Department - Board Member",
+   "institution": "KazakhExport State Insurance Corporation JSC",
+   "startYear": 2003,
+   "endYear": 2006,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич"
+  },
+  {
+   "personId": 48,
+   "title": "Director, Consolidated Analysis Department",
+   "institution": "Ministry of Finance",
+   "startYear": 2006,
+   "endYear": 2007,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич"
+  },
+  {
+   "personId": 48,
+   "title": "Managing Director - Board Member",
+   "institution": "KazAgro National Holding JSC",
+   "startYear": 2007,
+   "endYear": 2007,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич"
+  },
+  {
+   "personId": 48,
+   "title": "Chairman of the Board",
+   "institution": "Fund for Financial Support of Agriculture JSC",
+   "startYear": 2007,
+   "endYear": 2009,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич"
+  },
+  {
+   "personId": 48,
+   "title": "Director, Center for Study of Financial Violations (Accounts Committee)",
+   "institution": "Accounts Committee",
+   "startYear": 2010,
+   "endYear": 2012,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич"
+  },
+  {
+   "personId": 48,
+   "title": "General Director",
+   "institution": "KBTU Oil and Gas Engineering Institute LLP",
+   "startYear": 2012,
+   "endYear": 2013,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич"
+  },
+  {
+   "personId": 48,
+   "title": "Deputy Chairman of the Board",
+   "institution": "Housing Construction Savings Bank (Otbasy Bank)",
+   "startYear": 2013,
+   "endYear": 2016,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич"
+  },
+  {
+   "personId": 48,
+   "title": "Deputy Head, Socio-Economic Monitoring Department",
+   "institution": "Akorda",
+   "startYear": 2016,
+   "endYear": 2019,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич"
+  },
+  {
+   "personId": 48,
+   "title": "Chairman, Treasury Committee",
+   "institution": "Ministry of Finance",
+   "startYear": 2019,
+   "endYear": 2019,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич",
+   "notes": "Jan-Apr 2019."
+  },
+  {
+   "personId": 48,
+   "title": "Chairman of the Board",
+   "institution": "KazAgro National Holding JSC",
+   "startYear": 2019,
+   "endYear": 2021,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич"
+  },
+  {
+   "personId": 48,
+   "title": "Deputy Head, State Control and Territorial-Organizational Work Department",
+   "institution": "Akorda",
+   "startYear": 2021,
+   "endYear": 2021,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич",
+   "notes": "Mar-Apr 2021, acting."
+  },
+  {
+   "personId": 48,
+   "title": "Vice Minister of Finance",
+   "institution": "Ministry of Finance",
+   "startYear": 2021,
+   "endYear": 2021,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич",
+   "notes": "Apr-Jul 2021."
+  },
+  {
+   "personId": 48,
+   "title": "Vice Minister of Agriculture",
+   "institution": "Ministry of Agriculture",
+   "startYear": 2021,
+   "endYear": 2021,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич",
+   "notes": "Jul-Aug 2021, acting minister."
+  },
+  {
+   "personId": 48,
+   "title": "Minister of Agriculture",
+   "institution": "Ministry of Agriculture",
+   "startYear": 2021,
+   "endYear": 2023,
+   "source": "https://ru.wikipedia.org/wiki/Карашукеев,_Ербол_Шыракпаевич"
+  },
+  {
+   "personId": 48,
+   "title": "Akim of Zhambyl Region",
+   "institution": "Zhambyl Region Akimat",
+   "startYear": 2023,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/memleket/entities/zhambyl/about/structure/people/20974"
+  },
+  {
+   "personId": 51,
+   "title": "Akim of Mendykara District",
+   "institution": "Kostanay Region Akimat",
+   "startYear": 1998,
+   "endYear": 2002,
+   "notes": "Official akimat bio (gov.kz Kostanay). Pre-1998 sovkhoz/kolkhoz posts omitted."
+  },
+  {
+   "personId": 51,
+   "title": "Akim of Taranovsky District",
+   "institution": "Kostanay Region Akimat",
+   "startYear": 2002,
+   "endYear": 2004
+  },
+  {
+   "personId": 51,
+   "title": "State Inspector, State Control and Organizational Work Department",
+   "institution": "Akorda",
+   "startYear": 2004,
+   "endYear": 2006
+  },
+  {
+   "personId": 51,
+   "title": "Deputy Akim of Zhambyl Region",
+   "institution": "Zhambyl Region Akimat",
+   "startYear": 2006,
+   "endYear": 2010
+  },
+  {
+   "personId": 51,
+   "title": "Head of the Central Apparatus; Secretary",
+   "institution": "Nur Otan Party",
+   "startYear": 2010,
+   "endYear": 2015
+  },
+  {
+   "personId": 51,
+   "title": "Deputy Head of the Administration of the President",
+   "institution": "Akorda",
+   "startYear": 2015,
+   "endYear": 2017
+  },
+  {
+   "personId": 51,
+   "title": "Akim of North Kazakhstan Region",
+   "institution": "North Kazakhstan Region Akimat",
+   "startYear": 2017,
+   "endYear": 2022,
+   "notes": "Mar 2017-Nov 2022."
+  },
+  {
+   "personId": 51,
+   "title": "Akim of Kostanay Region",
+   "institution": "Kostanay Region Akimat",
+   "startYear": 2022,
+   "endYear": "Present",
+   "notes": "Appointed 1 Dec 2022."
+  },
+  {
+   "personId": 52,
+   "title": "Akim of Kyzylorda City",
+   "institution": "Kyzylorda City Akimat",
+   "startYear": 2008,
+   "endYear": 2011,
+   "notes": "Official akimat bio (gov.kz Kyzylorda). Source gives combined 2008-2011 for the city akimship and the regional finance directorate."
+  },
+  {
+   "personId": 52,
+   "title": "Head, Finance Directorate",
+   "institution": "Kyzylorda Region Akimat",
+   "startYear": 2008,
+   "endYear": 2011,
+   "notes": "Source gives combined 2008-2011 period."
+  },
+  {
+   "personId": 52,
+   "title": "Akim of Karmakshy, then Shieli District",
+   "institution": "Kyzylorda Region Akimat",
+   "startYear": 2011,
+   "endYear": 2014
+  },
+  {
+   "personId": 52,
+   "title": "Deputy Head, Almaty City Department for Consumer Rights Protection",
+   "institution": "Ministry of National Economy",
+   "startYear": 2014,
+   "endYear": 2017,
+   "notes": "Territorial branch of the republican Consumer Rights Protection Committee; source gives combined 2014-2017 with the KazAgroProduct post."
+  },
+  {
+   "personId": 52,
+   "title": "Managing Director - Head of Apparatus",
+   "institution": "KazAgroProduct JSC",
+   "startYear": 2014,
+   "endYear": 2017,
+   "notes": "Source gives combined 2014-2017 period."
+  },
+  {
+   "personId": 52,
+   "title": "Head, Employment Coordination and Social Programs Directorate; Akim of Kazaly, then Syrdarya District",
+   "institution": "Kyzylorda Region Akimat",
+   "startYear": 2017,
+   "endYear": 2021
+  },
+  {
+   "personId": 52,
+   "title": "Deputy of the Mazhilis (VIII convocation)",
+   "institution": "Mazhilis",
+   "startYear": 2023,
+   "endYear": 2026
+  },
+  {
+   "personId": 52,
+   "title": "Akim of Kyzylorda Region",
+   "institution": "Kyzylorda Region Akimat",
+   "startYear": 2026,
+   "endYear": "Present",
+   "notes": "Appointed by presidential decree 8 May 2026."
+  },
+  {
+   "personId": 53,
+   "title": "Head, Economic Analysis and Budget Programs Division, Economic and Tariff Policy Directorate, Railways Committee",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2005,
+   "endYear": 2006,
+   "notes": "Official akimat bio (gov.kz Mangystau)."
+  },
+  {
+   "personId": 53,
+   "title": "Head, Economic and Tariff Policy Directorate, Railways Committee",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2006,
+   "endYear": 2008
+  },
+  {
+   "personId": 53,
+   "title": "Head, Railway Transport Directorate; Deputy Chairman, Railways Committee",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2008,
+   "endYear": 2009
+  },
+  {
+   "personId": 53,
+   "title": "President",
+   "institution": "Vokzal-Service JSC",
+   "startYear": 2009,
+   "endYear": 2010
+  },
+  {
+   "personId": 53,
+   "title": "Managing Director for Passenger Transportation",
+   "institution": "Kazakhstan Temir Zholy JSC",
+   "startYear": 2010,
+   "endYear": 2010
+  },
+  {
+   "personId": 53,
+   "title": "Acting Chairman, then Chairman, Transport and Railways Committee",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2010,
+   "endYear": 2011
+  },
+  {
+   "personId": 53,
+   "title": "Director, Mangystau Railway Division branch",
+   "institution": "Kazakhstan Temir Zholy JSC",
+   "startYear": 2011,
+   "endYear": 2012
+  },
+  {
+   "personId": 53,
+   "title": "Acting Chairman, then Chairman, Transport and Railways Committee",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2012,
+   "endYear": 2013
+  },
+  {
+   "personId": 53,
+   "title": "Managing Director - Head of Apparatus",
+   "institution": "Kazakhstan Temir Zholy JSC",
+   "startYear": 2013,
+   "endYear": 2015
+  },
+  {
+   "personId": 53,
+   "title": "Chairman of the Management Board (President)",
+   "institution": "Zholaushylar Tasymaly JSC",
+   "startYear": 2015,
+   "endYear": 2017,
+   "notes": "KTZ passenger subsidiary."
+  },
+  {
+   "personId": 53,
+   "title": "President, then General Director - Chairman of the Board",
+   "institution": "Temirzholsu JSC",
+   "startYear": 2017,
+   "endYear": 2018
+  },
+  {
+   "personId": 53,
+   "title": "Deputy Akim of Mangystau Region",
+   "institution": "Mangystau Region Akimat",
+   "startYear": 2018,
+   "endYear": 2020
+  },
+  {
+   "personId": 53,
+   "title": "Akim of Aktau City",
+   "institution": "Aktau City Akimat",
+   "startYear": 2020,
+   "endYear": 2022
+  },
+  {
+   "personId": 53,
+   "title": "Deputy Akim of Mangystau Region",
+   "institution": "Mangystau Region Akimat",
+   "startYear": 2022,
+   "endYear": 2023
+  },
+  {
+   "personId": 53,
+   "title": "General Director",
+   "institution": "OzenMunaiGas JSC",
+   "startYear": 2023,
+   "endYear": 2024,
+   "notes": "KazMunayGas production subsidiary, Zhanaozen."
+  },
+  {
+   "personId": 53,
+   "title": "Akim of Mangystau Region",
+   "institution": "Mangystau Region Akimat",
+   "startYear": 2024,
+   "endYear": "Present",
+   "notes": "Appointed 17 May 2024."
+  },
+  {
+   "personId": 54,
+   "title": "Akim of Taran District",
+   "institution": "Kostanay Region Akimat",
+   "startYear": 1997,
+   "endYear": 2002,
+   "notes": "Official akimat bio (gov.kz SKO). Pre-1997 sovkhoz agronomist posts omitted."
+  },
+  {
+   "personId": 54,
+   "title": "Akim of Karabalyk District",
+   "institution": "Kostanay Region Akimat",
+   "startYear": 2002,
+   "endYear": 2008
+  },
+  {
+   "personId": 54,
+   "title": "Akim of Kostanay City",
+   "institution": "Kostanay City Akimat",
+   "startYear": 2008,
+   "endYear": 2009
+  },
+  {
+   "personId": 54,
+   "title": "Akim of Auliekol District",
+   "institution": "Kostanay Region Akimat",
+   "startYear": 2011,
+   "endYear": 2012,
+   "notes": "2009-2011 private-sector deputy GM (Sodruzhestvo LLP) omitted."
+  },
+  {
+   "personId": 54,
+   "title": "Akim of Kostanay City",
+   "institution": "Kostanay City Akimat",
+   "startYear": 2012,
+   "endYear": 2014
+  },
+  {
+   "personId": 54,
+   "title": "State Inspector, State Control and Organizational-Territorial Work Department",
+   "institution": "Akorda",
+   "startYear": 2014,
+   "endYear": 2015
+  },
+  {
+   "personId": 54,
+   "title": "First Deputy Akim of Kostanay Region",
+   "institution": "Kostanay Region Akimat",
+   "startYear": 2015,
+   "endYear": 2023
+  },
+  {
+   "personId": 54,
+   "title": "Senator",
+   "institution": "Senate",
+   "startYear": 2023,
+   "endYear": 2023,
+   "notes": "Jan-Sep 2023."
+  },
+  {
+   "personId": 54,
+   "title": "Akim of North Kazakhstan Region",
+   "institution": "North Kazakhstan Region Akimat",
+   "startYear": 2023,
+   "endYear": "Present",
+   "notes": "Appointed 23 Sep 2023."
+  },
+  {
+   "personId": 55,
+   "title": "Credit Expert to Head, New Banking Products Division, Kazakhstan Small Business Programme",
+   "institution": "European Bank for Reconstruction and Development (EBRD)",
+   "startYear": 2000,
+   "endYear": 2003,
+   "notes": "Official akimat bio (gov.kz Pavlodar)."
+  },
+  {
+   "personId": 55,
+   "title": "Leadership posts, incl. Executive Director, ProCredit Bank Ukraine (Kyiv)",
+   "institution": "ProCredit Holding AG",
+   "startYear": 2003,
+   "endYear": 2007
+  },
+  {
+   "personId": 55,
+   "title": "Deputy Chairman of the Management Board",
+   "institution": "Nurbank JSC",
+   "startYear": 2007,
+   "endYear": 2009
+  },
+  {
+   "personId": 55,
+   "title": "Deputy Chairman of the Management Board",
+   "institution": "KazAgroProduct JSC",
+   "startYear": 2015,
+   "endYear": 2020,
+   "notes": "2009-2015 private agribusiness ventures omitted."
+  },
+  {
+   "personId": 55,
+   "title": "Deputy Akim of Pavlodar Region",
+   "institution": "Pavlodar Region Akimat",
+   "startYear": 2020,
+   "endYear": 2021
+  },
+  {
+   "personId": 55,
+   "title": "Akim of Pavlodar City",
+   "institution": "Pavlodar City Akimat",
+   "startYear": 2021,
+   "endYear": 2022
+  },
+  {
+   "personId": 55,
+   "title": "Akim of Pavlodar Region",
+   "institution": "Pavlodar Region Akimat",
+   "startYear": 2022,
+   "endYear": "Present",
+   "notes": "Appointed Dec 2022."
+  },
+  {
+   "personId": 56,
+   "title": "Deputy Head, Employment and Social Protection / Social Programs Coordination",
+   "institution": "West Kazakhstan Region Akimat",
+   "startYear": 2003,
+   "endYear": 2008,
+   "notes": "Official akimat bio (gov.kz WKO). Pre-2003 farm and district-level posts omitted."
+  },
+  {
+   "personId": 56,
+   "title": "Director, West Kazakhstan Region Department",
+   "institution": "Agency for Regulation of Natural Monopolies",
+   "startYear": 2008,
+   "endYear": 2010,
+   "notes": "Territorial branch of republican agency, per republican-vertical rule."
+  },
+  {
+   "personId": 56,
+   "title": "Head, Employment and Social Programs Directorate",
+   "institution": "West Kazakhstan Region Akimat",
+   "startYear": 2010,
+   "endYear": 2012
+  },
+  {
+   "personId": 56,
+   "title": "Akim of Akzhaik District",
+   "institution": "West Kazakhstan Region Akimat",
+   "startYear": 2012,
+   "endYear": 2015
+  },
+  {
+   "personId": 56,
+   "title": "Deputy Akim of West Kazakhstan Region",
+   "institution": "West Kazakhstan Region Akimat",
+   "startYear": 2015,
+   "endYear": 2016
+  },
+  {
+   "personId": 56,
+   "title": "Akim of Uralsk City",
+   "institution": "Uralsk City Akimat",
+   "startYear": 2016,
+   "endYear": 2017
+  },
+  {
+   "personId": 56,
+   "title": "Senator; Secretary (2020-2022), then Chairman (2022), Committee on Socio-Cultural Development and Science",
+   "institution": "Senate",
+   "startYear": 2017,
+   "endYear": 2022
+  },
+  {
+   "personId": 56,
+   "title": "Akim of West Kazakhstan Region",
+   "institution": "West Kazakhstan Region Akimat",
+   "startYear": 2022,
+   "endYear": "Present",
+   "notes": "Appointed 2 Dec 2022."
+  },
+  {
+   "personId": 57,
+   "title": "Deputy Head, Astana City Tax / State Revenues Department",
+   "institution": "Ministry of Finance",
+   "startYear": 2014,
+   "endYear": 2015,
+   "notes": "Official akimat bio (gov.kz Turkestan). District-level tax posts 2009-2014 omitted."
+  },
+  {
+   "personId": 57,
+   "title": "Deputy Akim of Shymkent City",
+   "institution": "Shymkent City Akimat",
+   "startYear": 2015,
+   "endYear": 2018
+  },
+  {
+   "personId": 57,
+   "title": "Head, Aktau City State Revenues Directorate",
+   "institution": "Ministry of Finance",
+   "startYear": 2018,
+   "endYear": 2018
+  },
+  {
+   "personId": 57,
+   "title": "Head, Shymkent City State Revenues Department",
+   "institution": "Ministry of Finance",
+   "startYear": 2018,
+   "endYear": 2021
+  },
+  {
+   "personId": 57,
+   "title": "Head, Atyrau Region State Revenues Department",
+   "institution": "Ministry of Finance",
+   "startYear": 2021,
+   "endYear": 2023
+  },
+  {
+   "personId": 57,
+   "title": "Deputy Akim of Turkestan Region",
+   "institution": "Turkestan Region Akimat",
+   "startYear": 2023,
+   "endYear": 2025,
+   "notes": "Deputy to region akim Darkhan Satybaldy (P040)."
+  },
+  {
+   "personId": 57,
+   "title": "Akim of Turkestan Region",
+   "institution": "Turkestan Region Akimat",
+   "startYear": 2025,
+   "endYear": "Present",
+   "notes": "Appointed Jan 2025, succeeding Satybaldy."
+  },
+  {
+   "personId": 58,
+   "title": "Head, Economic Policy and Sectoral Planning Division, Economy and Budget Planning Department",
+   "institution": "Almaty City Akimat",
+   "startYear": 2007,
+   "endYear": 2011,
+   "notes": "Official akimat bio (gov.kz Ulytau). 2006 chief-specialist year omitted."
+  },
+  {
+   "personId": 58,
+   "title": "Head, Planning, Reporting and Informatization Division",
+   "institution": "Almaty City Audit Commission",
+   "startYear": 2011,
+   "endYear": 2012
+  },
+  {
+   "personId": 58,
+   "title": "Deputy Head, Economy and Budget Planning Directorate",
+   "institution": "Almaty City Akimat",
+   "startYear": 2013,
+   "endYear": 2015
+  },
+  {
+   "personId": 58,
+   "title": "Head, Planning and Monitoring Sector",
+   "institution": "Accounts Committee",
+   "startYear": 2015,
+   "endYear": 2016
+  },
+  {
+   "personId": 58,
+   "title": "Director, Accounting and Reporting Department - Chief Accountant",
+   "institution": "Astana EXPO-2017 National Company JSC",
+   "startYear": 2016,
+   "endYear": 2018
+  },
+  {
+   "personId": 58,
+   "title": "Head, Entrepreneurship, Trade and Tourism Directorate",
+   "institution": "Pavlodar Region Akimat",
+   "startYear": 2018,
+   "endYear": 2019
+  },
+  {
+   "personId": 58,
+   "title": "Director, Economy and Budget Planning Department",
+   "institution": "Astana EXPO-2017 National Company JSC",
+   "startYear": 2019,
+   "endYear": 2020
+  },
+  {
+   "personId": 58,
+   "title": "Chairman, Tourism Industry Committee",
+   "institution": "Ministry of Culture and Sports",
+   "startYear": 2020,
+   "endYear": 2023
+  },
+  {
+   "personId": 58,
+   "title": "Deputy Akim of Ulytau Region",
+   "institution": "Ulytau Region Akimat",
+   "startYear": 2023,
+   "endYear": 2024
+  },
+  {
+   "personId": 58,
+   "title": "State Inspector",
+   "institution": "Akorda",
+   "startYear": 2024,
+   "endYear": 2024,
+   "notes": "Mar-Oct 2024."
+  },
+  {
+   "personId": 58,
+   "title": "Akim of Ulytau Region",
+   "institution": "Ulytau Region Akimat",
+   "startYear": 2024,
+   "endYear": "Present",
+   "notes": "Appointed 9 Oct 2024."
+  },
+  {
+   "personId": 59,
+   "title": "Operational and leadership posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1994,
+   "endYear": 2006,
+   "notes": "Official KNB bio (gov.kz)."
+  },
+  {
+   "personId": 59,
+   "title": "Operational and leadership posts, Presidential Protection Service",
+   "institution": "State Protection Service (SGO)",
+   "startYear": 2006,
+   "endYear": 2019
+  },
+  {
+   "personId": 59,
+   "title": "Deputy Head of the State Protection Service - Head of the Presidential Protection Service",
+   "institution": "State Protection Service (SGO)",
+   "startYear": 2019,
+   "endYear": 2021
+  },
+  {
+   "personId": 59,
+   "title": "Acting Head, then Head",
+   "institution": "State Protection Service (SGO)",
+   "startYear": 2021,
+   "endYear": 2022
+  },
+  {
+   "personId": 59,
+   "title": "Chairman",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2022,
+   "endYear": "Present",
+   "notes": "Appointed Jan 2022, after the January events."
+  },
+  {
+   "personId": 60,
+   "title": "Executive and leadership posts, State Revenues Committee",
+   "institution": "Ministry of Finance",
+   "startYear": 2001,
+   "endYear": 2020,
+   "notes": "Official KNB bio (gov.kz)."
+  },
+  {
+   "personId": 60,
+   "title": "Leadership posts, Economic Investigation Department",
+   "institution": "Agency for Financial Monitoring",
+   "startYear": 2020,
+   "endYear": 2021
+  },
+  {
+   "personId": 60,
+   "title": "Chairman, State Revenues Committee",
+   "institution": "Ministry of Finance",
+   "startYear": 2021,
+   "endYear": 2022,
+   "notes": "Succeeded Sultangaziyev (P045) as SRC chairman."
+  },
+  {
+   "personId": 60,
+   "title": "Deputy Chairman",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2022,
+   "endYear": 2024
+  },
+  {
+   "personId": 60,
+   "title": "First Deputy Chairman",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2024,
+   "endYear": "Present",
+   "notes": "From Sep 2024."
+  },
+  {
+   "personId": 62,
+   "title": "Advisor to the Minister",
+   "institution": "Ministry of Economy and Budget Planning",
+   "startYear": 2013,
+   "endYear": 2014,
+   "notes": "Official KISI bio. 2009-2013 chief-expert and Samruk-Kazyna manager posts omitted as junior."
+  },
+  {
+   "personId": 62,
+   "title": "Director, Strategic Planning and Analysis Department",
+   "institution": "Ministry of National Economy",
+   "startYear": 2014,
+   "endYear": 2016
+  },
+  {
+   "personId": 62,
+   "title": "Department Director, then Managing Director",
+   "institution": "Baiterek National Holding JSC",
+   "startYear": 2016,
+   "endYear": 2019
+  },
+  {
+   "personId": 62,
+   "title": "Chairman of the Management Board",
+   "institution": "QazTech Ventures JSC",
+   "startYear": 2019,
+   "endYear": 2020
+  },
+  {
+   "personId": 62,
+   "title": "Director, Monetary Policy Department",
+   "institution": "National Bank of Kazakhstan",
+   "startYear": 2020,
+   "endYear": 2022
+  },
+  {
+   "personId": 62,
+   "title": "Head, National Statistics Bureau",
+   "institution": "Agency for Strategic Planning and Reforms",
+   "startYear": 2022,
+   "endYear": 2023
+  },
+  {
+   "personId": 62,
+   "title": "Chairman",
+   "institution": "Agency for Strategic Planning and Reforms",
+   "startYear": 2023,
+   "endYear": 2025
+  },
+  {
+   "personId": 62,
+   "title": "Vice Minister of National Economy",
+   "institution": "Ministry of National Economy",
+   "startYear": 2025,
+   "endYear": 2025,
+   "notes": "May-Jun 2025."
+  },
+  {
+   "personId": 62,
+   "title": "Director, Kazakhstan Institute for Strategic Studies",
+   "institution": "Kazakhstan Institute for Strategic Studies",
+   "startYear": 2025,
+   "endYear": "Present",
+   "notes": "Appointed 16 Jun 2025."
+  },
+  {
+   "personId": 61,
+   "title": "Editor-in-Chief (incl. Almaty branch); Deputy Director",
+   "institution": "RTRC Kazakhstan (state broadcaster)",
+   "startYear": 2004,
+   "endYear": 2007,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич"
+  },
+  {
+   "personId": 61,
+   "title": "Senior Manager",
+   "institution": "KazMunayGas JSC",
+   "startYear": 2007,
+   "endYear": 2007,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич",
+   "notes": "Feb-Oct 2007."
+  },
+  {
+   "personId": 61,
+   "title": "Creative Director",
+   "institution": "Infinity Communication",
+   "startYear": 2007,
+   "endYear": 2008,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич"
+  },
+  {
+   "personId": 61,
+   "title": "First Deputy General Director, Nur-Media holding",
+   "institution": "Nur Otan Party",
+   "startYear": 2008,
+   "endYear": 2010,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич",
+   "notes": "Nur-Media coded under Nur Otan Party per Uali (P042) precedent."
+  },
+  {
+   "personId": 61,
+   "title": "Vice-President",
+   "institution": "Turkic Academy",
+   "startYear": 2011,
+   "endYear": 2013,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич"
+  },
+  {
+   "personId": 61,
+   "title": "Managing Director",
+   "institution": "Astana EXPO-2017 National Company JSC",
+   "startYear": 2014,
+   "endYear": 2014,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич"
+  },
+  {
+   "personId": 61,
+   "title": "President",
+   "institution": "KazBusinessMedia Public Foundation",
+   "startYear": 2014,
+   "endYear": 2017,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич"
+  },
+  {
+   "personId": 61,
+   "title": "General Director",
+   "institution": "Kazinform / Kazcontent (state media)",
+   "startYear": 2017,
+   "endYear": 2020,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич"
+  },
+  {
+   "personId": 61,
+   "title": "Chairman of the Board",
+   "institution": "Kazinform / Kazcontent (state media)",
+   "startYear": 2020,
+   "endYear": 2021,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич"
+  },
+  {
+   "personId": 61,
+   "title": "Vice Minister of Information and Public Development",
+   "institution": "Ministry of Information and Public Development",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич",
+   "notes": "From Aug 2021."
+  },
+  {
+   "personId": 61,
+   "title": "Minister of Information and Public Development",
+   "institution": "Ministry of Information and Public Development",
+   "startYear": 2022,
+   "endYear": 2022,
+   "source": "https://ru.wikipedia.org/wiki/Умаров,_Аскар_Куанышевич",
+   "notes": "Jan-Sep 2022."
+  },
+  {
+   "personId": 61,
+   "title": "Director",
+   "institution": "Central Communications Service",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://mirror.akorda.kz/ru/memleket-basshysynyn-okimimen-askar-kuanyshuly-omarov-kazakstan-respublikasynyn-prezidenti-zhanyndagy-ortalyk-kommunikaciyalar-kyzmeti-respublikalyk-memlekettik-mekemesinin-direktory-lauazymyna-tagayyndaldy-28146",
+   "notes": "Appointed 2 Sep 2022."
+  },
+  {
+   "personId": 63,
+   "title": "Officer posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1994,
+   "endYear": 1998,
+   "notes": "Official KNB bio (gov.kz)."
+  },
+  {
+   "personId": 63,
+   "title": "Leadership posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1998,
+   "endYear": 2023
+  },
+  {
+   "personId": 63,
+   "title": "Deputy Chairman",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2023,
+   "endYear": "Present",
+   "notes": "From Apr 2023."
+  },
+  {
+   "personId": 64,
+   "title": "Officer posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1996,
+   "endYear": 1999,
+   "notes": "Official KNB bio (gov.kz)."
+  },
+  {
+   "personId": 64,
+   "title": "Leadership posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1999,
+   "endYear": 2024
+  },
+  {
+   "personId": 64,
+   "title": "Deputy Chairman - Head, Anti-Terror Service",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2024,
+   "endYear": "Present",
+   "notes": "From Sep 2024."
+  },
+  {
+   "personId": 65,
+   "title": "Operational posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1998,
+   "endYear": 2007,
+   "notes": "Official KNB bio (gov.kz)."
+  },
+  {
+   "personId": 65,
+   "title": "Leadership posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2007,
+   "endYear": 2024
+  },
+  {
+   "personId": 65,
+   "title": "Deputy Chairman",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2024,
+   "endYear": "Present",
+   "notes": "From Sep 2024."
+  },
+  {
+   "personId": 66,
+   "title": "Operational posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1993,
+   "endYear": 2009,
+   "notes": "Official KNB bio (gov.kz)."
+  },
+  {
+   "personId": 66,
+   "title": "Leadership posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2009,
+   "endYear": 2024
+  },
+  {
+   "personId": 66,
+   "title": "Deputy Chairman",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2024,
+   "endYear": "Present",
+   "notes": "From Sep 2024."
+  },
+  {
+   "personId": 67,
+   "title": "Operational posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2002,
+   "endYear": 2013,
+   "notes": "Official KNB bio (gov.kz)."
+  },
+  {
+   "personId": 67,
+   "title": "Leadership posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2013,
+   "endYear": 2020
+  },
+  {
+   "personId": 67,
+   "title": "Deputy Chairman - Director, Special Purpose Service \"A\" (Arystan)",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2024,
+   "endYear": "Present",
+   "notes": "From Jan 2024; source leaves 2022-2024 blank."
+  },
+  {
+   "personId": 68,
+   "title": "Operational posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1996,
+   "endYear": 2011,
+   "notes": "Official KNB bio (gov.kz)."
+  },
+  {
+   "personId": 68,
+   "title": "Leadership posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2011,
+   "endYear": 2024
+  },
+  {
+   "personId": 68,
+   "title": "Deputy Chairman - Director, Foreign Intelligence Service",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2024,
+   "endYear": "Present",
+   "notes": "From Sep 2024."
+  },
+  {
+   "personId": 69,
+   "title": "Operational posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1996,
+   "endYear": 2000,
+   "notes": "Official KNB bio (gov.kz)."
+  },
+  {
+   "personId": 69,
+   "title": "Head, KNB Department for Almaty City",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2022,
+   "endYear": 2025,
+   "source": "https://online.zakon.kz/Document/?doc_id=37837349"
+  },
+  {
+   "personId": 69,
+   "title": "Leadership posts",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2000,
+   "endYear": 2025
+  },
+  {
+   "personId": 69,
+   "title": "Deputy Chairman",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2025,
+   "endYear": "Present",
+   "notes": "From Oct 2025."
+  },
+  {
+   "personId": 70,
+   "title": "Officer and leadership posts, Border Service",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1987,
+   "endYear": 2022,
+   "notes": "Official KNB bio (gov.kz)."
+  },
+  {
+   "personId": 70,
+   "title": "Deputy Chairman - Director, Border Service",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2022,
+   "endYear": "Present",
+   "notes": "From May 2022."
   }
  ]
 }
