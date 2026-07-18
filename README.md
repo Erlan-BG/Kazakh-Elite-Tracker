@@ -1,14 +1,11 @@
 # Kazakh Elite Tracker
 
-**https://erlan-bg.github.io/Kazakh-Elite-Tracker/>**
+**https://erlan-bg.github.io/Kazakh-Elite-Tracker/**
 
-An interactive network map of Kazakhstan's political elite. 70 senior officials —
-akims, ministers, KNB leadership, presidential administration, heads of state
-institutions — connected by the career, educational, and regional ties that the
+An interactive network map of Kazakhstan's political elite. Connected by the career, educational, and regional ties that the
 Central Asia literature treats as the skeleton of patronage politics. Toggle
 which shared attributes draw links, filter who appears, click any node for a
-full sourced career history. No backend: a single HTML file plus a JSON dataset,
-served straight from GitHub Pages.
+full sourced career history. 
 
 ![Elite Network Monitor — full network, all link types on. Node color is institutional identity (diplomat, technocrat, silovik, akimat, …); node size is degree.](screenshot.png)
 
@@ -16,8 +13,7 @@ served straight from GitHub Pages.
 
 A formal org chart tells you little about how power works in Kazakhstan;
 scholars of the region argue that politics runs through informal networks
-built on shared careers, schools, and home regions (Collins and Schatz on clan
-politics; Hale on patronal politics). This tool operationalizes that claim:
+built on shared careers, schools, and home regions. This tool attempts to operationalizes that claim:
 each link type is one hypothesized channel of affiliation, and each can be
 switched on or off independently to see which structure it produces.
 
@@ -37,20 +33,8 @@ Node color encodes an **institutional identity** coding (diplomat, technocrat,
 bureaucrat, ideologue, state-security/silovik, akimat, politician) assigned
 from each person's dominant career track.
 
-## Data
-
-Two hand-built CSVs are the source of truth; `data.json` is compiled from them
-for the browser.
-
-| File | Contents |
-| --- | --- |
-| `Kazakhstan Elite Monitoring  - General.csv` | One row per person (n = 70): name, age, current role and institution, birth region, school, zhuz, institutional-identity coding |
-| `Kazakhstan Elite Monitoring  - Positions.csv` | One row per career stint (616 records, 191 distinct institutions, 1986–present): title, institution, start/end year, source URL |
-
 Career histories are compiled from official biographies (Akorda, ministry and
-akimat sites) and public reporting; a `Source` column records the URL for each
-position where one exists. Zhuz affiliation is coded for all 70 individuals
-from public genealogical and journalistic sources.
+akimat sites) and public reporting. 
 
 ## Limitations, stated plainly
 
@@ -58,22 +42,10 @@ from public genealogical and journalistic sources.
   — arguably the most important elite ties in Kazakhstan — do not appear in
   official biographies and are not captured here. Co-tenure is a *proxy* for
   acquaintance, not proof of alliance.
-- **Selection.** The 70 people are the current senior cohort, not a random
-  sample; network statistics describe this roster, not the elite as a whole.
-- **Source coverage is partial.** Roughly 40% of position records currently
-  carry an explicit source URL; the rest trace to official bios pending
-  citation. Official biographies themselves omit inconvenient episodes.
+  
 - **Coarse time resolution.** Tenure is recorded in years, so two officials who
   overlapped for one month in the same calendar year still link.
 
-## Running locally
-
-No build step. Clone and open `index.html` in a browser, or serve the folder:
-
-```bash
-python3 -m http.server 8000
-# → http://localhost:8000
-```
 
 ## Roadmap
 
