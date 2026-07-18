@@ -1,6 +1,6 @@
 # Kazakh Elite Tracker
 
-**Live demo: <https://erlan-bg.github.io/Kazakh-Elite-Tracker/>**
+**https://erlan-bg.github.io/Kazakh-Elite-Tracker/>**
 
 An interactive network map of Kazakhstan's political elite. 70 senior officials —
 akims, ministers, KNB leadership, presidential administration, heads of state
