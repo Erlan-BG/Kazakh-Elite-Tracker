@@ -140,7 +140,7 @@ const NODE_FONT = { color:"#334155", size:13, face:"Inter", strokeWidth:4, strok
 const edgeWidth = t => t==='work' ? 1.3 : 1;
 const EDGE_OPACITY = 0.22;
 
-let DATA = { people:[], workExperience:[] };
+let DATA = { people:[], workExperience:[], edges:[] };
 let network = null;
 let lastCommunity = null;
 let nodesDS = null, edgesDS = null, nodeBase = new Map(), neighborMap = new Map(), focusedId = null;
@@ -346,92 +346,23 @@ function passesFilters(p){
 }
 
 // Build one-mode projection edges among a set of visible people
+// Edges are computed by build.py and shipped in data.json, so the tie
+// definitions (co-tenure overlap, shared school, shared birth region) live in
+// exactly one place. Here we only select the ones the current view calls for:
+// the link types that are switched on, between people who pass the filters.
+// Filters only ever remove people, so selecting from the full edge set is
+// equivalent to rebuilding the graph for the visible subset.
 function buildEdges(visibleIds){
   const links = activeLinks();
   const idset = new Set(visibleIds);
-  const edges = [];
-  const pairSeen = new Set(); // dedupe per type+pair
-  const byId = Object.fromEntries(DATA.people.map(p=>[p.id,p]));
-
-  function addPairs(groups, type){
-    for(const key in groups){
-      const members = groups[key].filter(id=>idset.has(id));
-      for(let i=0;i<members.length;i++){
-        for(let j=i+1;j<members.length;j++){
-          const a=members[i], b=members[j];
-          const pk = type+':'+Math.min(a,b)+'-'+Math.max(a,b);
-          if(pairSeen.has(pk)) continue;
-          pairSeen.add(pk);
-          edges.push({ id:pk, from:a, to:b, hidden:false,
-                       color:{color:LINK_COLORS[type], highlight:LINK_COLORS[type], hover:LINK_COLORS[type], opacity:EDGE_OPACITY},
-                       basecolor:LINK_COLORS[type], title:linkTitle(type,key),
-                       smooth:{type:'continuous'}, width:edgeWidth(type), ltype:type });
-        }
-      }
-    }
-  }
-  function linkTitle(type,key){
-    if(type==='work')   return 'Shared workplace: '+key;
-    if(type==='school') return 'Same school: '+key;
-    if(type==='region') return 'Same region: '+key;
-  }
-
-  if(links.school){
-    const g={}; DATA.people.forEach(p=>{ if(p.school){ (g[p.school]=g[p.school]||[]).push(p.id);} });
-    addPairs(g,'school');
-  }
-  if(links.region){
-    const g={}; DATA.people.forEach(p=>{ if(p.region){ (g[p.region]=g[p.region]||[]).push(p.id);} });
-    addPairs(g,'region');
-  }
-  if(links.work){
-    // Two people share a workplace only if their stints at the same
-    // institution overlap in time (boundary years count: leaving and arriving
-    // in the same year is an overlap). "Present" runs through the current year.
-    const CY = new Date().getFullYear();
-    const yr = v => v==='Present' ? CY : (Number.isFinite(parseInt(v,10)) ? parseInt(v,10) : null);
-    const byInst = {};
-    DATA.workExperience.forEach(w=>{
-      if(!w.institution || !idset.has(w.personId)) return;
-      let s=yr(w.startYear), e=yr(w.endYear);
-      if(s===null && e===null) return;
-      if(s===null) s=e; if(e===null) e=s;
-      (byInst[w.institution]=byInst[w.institution]||[]).push({id:w.personId, s, e});
-    });
-    const pairShared = new Map();       // 'a-b' -> Map(institution -> Set of overlap ranges)
-    for(const inst in byInst){
-      const st = byInst[inst];
-      for(let i=0;i<st.length;i++) for(let j=i+1;j<st.length;j++){
-        if(st[i].id===st[j].id) continue;
-        const os=Math.max(st[i].s,st[j].s), oe=Math.min(st[i].e,st[j].e);
-        if(os>oe) continue;             // stints never coincided
-        const key=Math.min(st[i].id,st[j].id)+'-'+Math.max(st[i].id,st[j].id);
-        if(!pairShared.has(key)) pairShared.set(key,new Map());
-        const m=pairShared.get(key);
-        if(!m.has(inst)) m.set(inst,[]);
-        m.get(inst).push([os,oe]);
-      }
-    }
-    const mergeRanges = rs => {
-      rs.sort((a,b)=>a[0]-b[0]);
-      const out=[];
-      for(const [s,e] of rs){
-        if(out.length && s<=out[out.length-1][1]+1) out[out.length-1][1]=Math.max(out[out.length-1][1],e);
-        else out.push([s,e]);
-      }
-      return out.map(([s,e])=>s===e?String(s):s+'–'+e).join(', ');
-    };
-    pairShared.forEach((m,key)=>{
-      const [a,b]=key.split('-').map(Number);
-      const label=[...m.entries()].map(([inst,ranges])=>inst+' ('+mergeRanges(ranges)+')').join('; ');
-      edges.push({ id:'work:'+key, from:a, to:b, hidden:false,
-                   color:{color:LINK_COLORS.work, highlight:LINK_COLORS.work, hover:LINK_COLORS.work, opacity:EDGE_OPACITY},
-                   basecolor:LINK_COLORS.work,
-                   title:'Shared workplace: '+label,
-                   smooth:{type:'continuous'}, width:edgeWidth('work'), ltype:'work' });
-    });
-  }
-  return edges;
+  return (DATA.edges||[])
+    .filter(e => links[e.ltype] && idset.has(e.from) && idset.has(e.to))
+    .map(e => ({
+      id:e.id, from:e.from, to:e.to, hidden:false,
+      color:{color:LINK_COLORS[e.ltype], highlight:LINK_COLORS[e.ltype], hover:LINK_COLORS[e.ltype], opacity:EDGE_OPACITY},
+      basecolor:LINK_COLORS[e.ltype], title:e.title,
+      smooth:{type:'continuous'}, width:edgeWidth(e.ltype), ltype:e.ltype
+    }));
 }
 
 function render(){
@@ -594,12 +525,17 @@ function buildLegend(){
 }
 
 function loadData(d){
-  DATA = { people:d.people||[], workExperience:d.workExperience||[] };
+  DATA = { people:d.people||[], workExperience:d.workExperience||[], edges:d.edges||[] };
   buildFilterLists(); buildLegend(); render();
   const banner=document.getElementById('banner');
   if(JSON.stringify(DATA).includes('Sample Person')){
     banner.style.display='block';
     banner.textContent='⚠ Showing SAMPLE data — replace data.json with your real 33 people.';
+  } else if(DATA.people.length && !DATA.edges.length){
+    // Without a precomputed edge list every node is isolated. Far more likely a
+    // stale data.json than a genuinely edgeless network, so say so plainly.
+    banner.style.display='block';
+    banner.textContent='⚠ data.json has no "edges" — it predates the build script. Run: python3 build.py';
   } else banner.style.display='none';
 }
 
