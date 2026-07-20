@@ -33,6 +33,17 @@ Node color encodes an **institutional identity** coding (diplomat, technocrat,
 bureaucrat, ideologue, state-security/silovik, akimat, politician) assigned
 from each person's dominant career track.
 
+## Data
+
+Two hand-built CSVs are the source of truth; `data.json` is a build artifact
+compiled from them by `build.py` (see [Building the data](#building-the-data)).
+Edit the CSVs, never `data.json`.
+
+| File | Contents |
+| --- | --- |
+| `Kazakhstan Elite Monitoring  - General.csv` | One row per person (n = 70): name, age, current role and institution, birth region, school, zhuz, institutional-identity coding |
+| `Kazakhstan Elite Monitoring  - Positions.csv` | One row per career stint (616 records, 191 distinct institutions, 1986–present): title, institution, start/end year, source URL |
+
 Career histories are compiled from official biographies (Akorda, ministry and
 akimat sites) and public reporting. 
 
@@ -46,6 +57,52 @@ akimat sites) and public reporting.
 - **Coarse time resolution.** Tenure is recorded in years, so two officials who
   overlapped for one month in the same calendar year still link.
 
+## Running locally
+
+Clone and open `index.html` in a browser, or serve the folder:
+
+```bash
+python3 -m http.server 8000
+# → http://localhost:8000
+```
+
+## Building the data
+
+`build.py` compiles the two CSVs into `data.json`. Edit the CSVs, then:
+
+```bash
+python3 build.py     # standard library only, no dependencies
+```
+
+It reports counts and prints data warnings to stderr (unreadable years,
+positions pointing at a person who isn't in the roster, start after end).
+
+The script owns the **tie definitions** — co-tenure overlap, shared school,
+shared birth region — and writes the resulting edge list into `data.json`.
+`index.html` only draws what it is given, filtering that edge list down to the
+people and link types currently selected. Betweenness and Louvain communities
+stay in the browser, because both are computed on whatever subgraph is on
+screen rather than on the full network.
+
+Two consequences worth knowing:
+
+- **Open-ended stints are pinned at build time.** `Present` resolves to the
+  year the build ran, recorded as `meta.buildYear`, so the graph no longer
+  changes silently as the calendar advances. Career histories still *display*
+  "Present". Rebuild to roll it forward.
+- **Normalisation is part of the tie definition.** Since school and region
+  links are exact string matches, spelling variants break ties and placeholders
+  invent them — ten people with region `Unknown` would otherwise form a
+  45-edge clique of strangers. `build.py` drops placeholder values and trims
+  the city/district parenthetical from region names (`Turkestan Region
+  (Kentau)` → `Turkestan Region`), which is the deliberate choice to treat the
+  region as the analytical unit.
+
+  Outright misspellings are fixed in the CSVs instead, so the alias table in
+  `build.py` is empty by design. Because a variant spelling fails *silently* —
+  it shows up as a missing edge, never as an error — the build warns when one
+  value is a prefix of another (`Shymkent` alongside `Shymkent City`). Take
+  those warnings seriously; that pair alone was worth two region ties.
 
 ## Roadmap
 
