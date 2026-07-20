@@ -49,7 +49,5 @@ akimat sites) and public reporting.
 
 ## Roadmap
 
-- Centrality measures (degree, betweenness) surfaced in the UI — who brokers
-  between the silovik and technocrat clusters?
 - Time slider: replay the network year by year, before and after January 2022.
-- Expand per-position source coverage to 100%.
+- Expand per-position 
