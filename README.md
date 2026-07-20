@@ -50,4 +50,4 @@ akimat sites) and public reporting.
 ## Roadmap
 
 - Time slider: replay the network year by year, before and after January 2022.
-- Expand per-position 
+- Expand
