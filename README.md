@@ -81,6 +81,26 @@ python3 -m http.server 8000
 # → http://localhost:8000
 ```
 
+## Adding people
+
+New people and new career stints go through `staging/` instead of straight
+into the main CSVs:
+
+1. Add rows to `staging/persons.csv` and `staging/positions.csv`. They have the
+   same columns as the main CSVs. Give new people a temporary `Id` (`NEW-1`,
+   `NEW-2`, …) and use that key as `Person_ID` on their positions. To add a
+   stint to someone already tracked, use their existing `P0xx`.
+2. `python3 merge_staging.py` runs a dry run. It assigns the real IDs and
+   blocks the merge on errors (unknown person, missing source, start year after
+   end year, an identity outside the existing categories). It also warns about
+   values that would silently break ties: a new spelling of a region, school or
+   institution, or a name that looks like someone already in the roster.
+3. `python3 merge_staging.py --apply` appends the rows to the main CSVs, clears
+   staging and rebuilds `data.json`.
+
+Merging is append-only. To change an existing row, such as closing a stint
+that has ended, edit the main CSV directly.
+
 ## Building the data
 
 `build.py` compiles the two CSVs into `data.json`. Edit the CSVs, then:
