@@ -57,7 +57,6 @@
 <div id="app">
   <aside id="sidebar">
     <h1>Elite Network Monitor</h1>
-    <div class="sub">One-mode projection of people. Toggle which shared attributes create links, and filter which people appear.</div>
 
     <div class="section">
       <h2>Links (connect people who share…)</h2>
@@ -90,12 +89,9 @@
       <div style="font-size:11px;margin:10px 0 4px;color:var(--muted)">Node color</div>
       <label class="chk"><input type="radio" name="color" value="category" checked> Institutional identity</label>
       <label class="chk"><input type="radio" name="color" value="community"> Komanda (Louvain)</label>
-      <div class="muted" style="margin-top:8px;line-height:1.5">Betweenness &amp; komandas are computed on the links currently shown. Seniority ranks the highest post a person has ever held.</div>
     </div>
 
     <div class="section">
-      <h2>View</h2>
-      <label class="chk"><input type="checkbox" id="physics" checked> Physics / auto-layout</label>
       <button class="btn" id="fit">Fit to screen</button>
       <div id="stats"></div>
     </div>
@@ -180,7 +176,7 @@ function focusNode(id){
   }));
 }
 
-// Restore full brightness, unhide links, resume physics (if enabled).
+// Restore full brightness, unhide links, resume physics.
 function clearFocus(){
   if(!network || !nodesDS) return;
   focusedId = null;
@@ -198,7 +194,7 @@ function clearFocus(){
              color:{ color:c, highlight:c, hover:c, opacity:EDGE_OPACITY },
              width:edgeWidth(e.ltype) };
   }));
-  network.setOptions({ physics:{ enabled:document.getElementById('physics').checked } });
+  network.setOptions({ physics:{ enabled:true } });
 }
 
 // ---- Betweenness centrality (Brandes, unweighted) ----
@@ -420,7 +416,7 @@ function render(){
 
   focusedId = null;
   const options = {
-    physics:{ enabled:document.getElementById('physics').checked,
+    physics:{ enabled:true,
               barnesHut:{ gravitationalConstant:-28000, centralGravity:0.12, springLength:340, springConstant:0.015, damping:0.45, avoidOverlap:1 },
               stabilization:{ iterations:300 } },
     interaction:{ hover:true, tooltipDelay:120, multiselect:true },
@@ -550,7 +546,6 @@ document.getElementById('lk-all').addEventListener('change',e=>{
   LINK_TOGGLES.forEach(id=>document.getElementById(id).checked=e.target.checked);
   render();
 });
-document.getElementById('physics').addEventListener('change',render);
 document.querySelectorAll('input[name="size"],input[name="color"]').forEach(el=>
   el.addEventListener('change',render));
 document.getElementById('fit').addEventListener('click',()=>network&&network.fit({animation:true}));
