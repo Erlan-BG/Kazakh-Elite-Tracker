@@ -34,7 +34,7 @@ switched on or off independently to see which structure it produces.
   regional patronage affiliation.
 
 Node color encodes an **institutional identity** coding (diplomat, technocrat,
-bureaucrat, ideologue, state-security/silovik, akimat, politician) assigned
+political ideologue, state-security/silovik, akimat) assigned
 from each person's dominant career track.
 
 ## Data
