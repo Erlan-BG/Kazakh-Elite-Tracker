@@ -2,7 +2,7 @@
 
 **Live demo: <https://erlan-bg.github.io/Kazakh-Elite-Tracker/>**
 
-An interactive network map of Kazakhstan's political elite. 70 senior officials —
+An interactive network map of Kazakhstan's political elite. 78 senior officials —
 akims, ministers, KNB leadership, presidential administration, heads of state
 institutions — connected by the career, educational, and regional ties that the
 Central Asia literature treats as the skeleton of patronage politics. Toggle
@@ -45,12 +45,12 @@ Edit the CSVs, never `data.json`.
 
 | File | Contents |
 | --- | --- |
-| `Kazakhstan Elite Monitoring  - General.csv` | One row per person (n = 70): name, age, current role and institution, birth region, school, zhuz, institutional-identity coding |
-| `Kazakhstan Elite Monitoring  - Positions.csv` | One row per career stint (616 records, 191 distinct institutions, 1986–present): title, institution, start/end year, source URL |
+| `Kazakhstan Elite Monitoring  - General.csv` | One row per person (n = 78): name, age, current role and institution, birth region, school, zhuz, institutional-identity coding |
+| `Kazakhstan Elite Monitoring  - Positions.csv` | One row per career stint (644 records, 196 distinct institutions, 1986–present): title, institution, start/end year, source URL |
 
 Career histories are compiled from official biographies (Akorda, ministry and
 akimat sites) and public reporting; a `Source` column records the URL for each
-position where one exists. Zhuz affiliation is coded for 3 of 70 individuals
+position where one exists. Zhuz affiliation is coded for 3 of 78 individuals
 so far, from public genealogical and journalistic sources; coding the rest is
 ongoing (see Limitations).
 
@@ -60,12 +60,12 @@ ongoing (see Limitations).
   — arguably the most important elite ties in Kazakhstan — do not appear in
   official biographies and are not captured here. Co-tenure is a *proxy* for
   acquaintance, not proof of alliance.
-- **Selection.** The 70 people are the current senior cohort, not a random
+- **Selection.** The 78 people are the current senior cohort, not a random
   sample; network statistics describe this roster, not the elite as a whole.
 - **Source coverage is partial.** Roughly 40% of position records currently
   carry an explicit source URL; the rest trace to official bios pending
   citation. Official biographies themselves omit inconvenient episodes.
-- **Zhuz coverage is mostly incomplete.** Only 3 of 70 people are coded; the
+- **Zhuz coverage is mostly incomplete.** Only 3 of 78 people are coded; the
   rest are `Unknown`. Not enough to support any zhuz-based network analysis
   yet — treat the field as a placeholder for ongoing research, not a
   finished attribute.
