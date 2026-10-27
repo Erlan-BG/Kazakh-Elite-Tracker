@@ -2,7 +2,7 @@
 
 **Live demo: <https://erlan-bg.github.io/Kazakh-Elite-Tracker/>**
 
-An interactive network map of Kazakhstan's political elite. 70 senior officials —
+An interactive network map of Kazakhstan's political elite. 78 senior officials —
 akims, ministers, KNB leadership, presidential administration, heads of state
 institutions — connected by the career, educational, and regional ties that the
 Central Asia literature treats as the skeleton of patronage politics. Toggle
@@ -45,12 +45,12 @@ Edit the CSVs, never `data.json`.
 
 | File | Contents |
 | --- | --- |
-| `Kazakhstan Elite Monitoring  - General.csv` | One row per person (n = 70): name, age, current role and institution, birth region, school, zhuz, institutional-identity coding |
-| `Kazakhstan Elite Monitoring  - Positions.csv` | One row per career stint (616 records, 191 distinct institutions, 1986–present): title, institution, start/end year, source URL |
+| `Kazakhstan Elite Monitoring  - General.csv` | One row per person (n = 78): name, age, current role and institution, birth region, school, zhuz, institutional-identity coding |
+| `Kazakhstan Elite Monitoring  - Positions.csv` | One row per career stint (644 records, 196 distinct institutions, 1986–present): title, institution, start/end year, source URL |
 
 Career histories are compiled from official biographies (Akorda, ministry and
 akimat sites) and public reporting; a `Source` column records the URL for each
-position where one exists. Zhuz affiliation is coded for 3 of 70 individuals
+position where one exists. Zhuz affiliation is coded for 3 of 78 individuals
 so far, from public genealogical and journalistic sources; coding the rest is
 ongoing (see Limitations).
 
@@ -60,12 +60,12 @@ ongoing (see Limitations).
   — arguably the most important elite ties in Kazakhstan — do not appear in
   official biographies and are not captured here. Co-tenure is a *proxy* for
   acquaintance, not proof of alliance.
-- **Selection.** The 70 people are the current senior cohort, not a random
+- **Selection.** The 78 people are the current senior cohort, not a random
   sample; network statistics describe this roster, not the elite as a whole.
 - **Source coverage is partial.** Roughly 40% of position records currently
   carry an explicit source URL; the rest trace to official bios pending
   citation. Official biographies themselves omit inconvenient episodes.
-- **Zhuz coverage is mostly incomplete.** Only 3 of 70 people are coded; the
+- **Zhuz coverage is mostly incomplete.** Only 3 of 78 people are coded; the
   rest are `Unknown`. Not enough to support any zhuz-based network analysis
   yet — treat the field as a placeholder for ongoing research, not a
   finished attribute.
@@ -80,6 +80,26 @@ Clone and open `index.html` in a browser, or serve the folder:
 python3 -m http.server 8000
 # → http://localhost:8000
 ```
+
+## Adding people
+
+New people and new career stints go through `staging/` instead of straight
+into the main CSVs:
+
+1. Add rows to `staging/persons.csv` and `staging/positions.csv`. They have the
+   same columns as the main CSVs. Give new people a temporary `Id` (`NEW-1`,
+   `NEW-2`, …) and use that key as `Person_ID` on their positions. To add a
+   stint to someone already tracked, use their existing `P0xx`.
+2. `python3 merge_staging.py` runs a dry run. It assigns the real IDs and
+   blocks the merge on errors (unknown person, missing source, start year after
+   end year, an identity outside the existing categories). It also warns about
+   values that would silently break ties: a new spelling of a region, school or
+   institution, or a name that looks like someone already in the roster.
+3. `python3 merge_staging.py --apply` appends the rows to the main CSVs, clears
+   staging and rebuilds `data.json`.
+
+Merging is append-only. To change an existing row, such as closing a stint
+that has ended, edit the main CSV directly.
 
 ## Building the data
 

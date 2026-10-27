@@ -774,6 +774,94 @@
    "school": "Academy of the Border Service of the National Security Committee",
    "zhuz": "",
    "category": "State-Security / Silovik"
+  },
+  {
+   "id": 71,
+   "name": "Dauren Zhumatayuly Kosanov",
+   "age": 56,
+   "role": "Minister of Defense",
+   "institution": "Ministry of Defense",
+   "region": "Pavlodar Region",
+   "school": "Military Academy of the General Staff of the Armed Forces of the Russian Federation",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 72,
+   "name": "Kanysh Asankhanuly Abubakirov",
+   "age": 49,
+   "role": "First Deputy Minister of Defense – Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "region": "Turkestan Region",
+   "school": "National Defense University",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 73,
+   "name": "Askar Dosbosynuly Mustabekov",
+   "age": 56,
+   "role": "Deputy Minister of Defense",
+   "institution": "Ministry of Defense",
+   "region": "Zhetysu Region",
+   "school": "National Defense University",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 74,
+   "name": "Almaz Dzhenishevich Jumakeyev",
+   "age": 56,
+   "role": "Deputy Minister of Defense for Logistics and Military Infrastructure",
+   "institution": "Ministry of Defense",
+   "region": "Kyrgyzstan",
+   "school": "Ryazan Higher Airborne Command School",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 75,
+   "name": "Shaikh-Khasan Satarkululy Zhazykbayev",
+   "age": 49,
+   "role": "Deputy Minister of Defense for Education and Ideological Work",
+   "institution": "Ministry of Defense",
+   "region": "Zhambyl Region",
+   "school": "Military Academy of the General Staff of the Armed Forces of the Russian Federation",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 76,
+   "name": "Kairat Anuarbekuly Sadykov",
+   "age": 59,
+   "role": "Deputy Minister of Defense – Commander-in-Chief of the Air Defense Forces",
+   "institution": "Ministry of Defense",
+   "region": "East Kazakhstan Region",
+   "school": "National Defense University",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 77,
+   "name": "Asker Kurmangaliuly Beisenov",
+   "age": 47,
+   "role": "Deputy Minister of Defense",
+   "institution": "Ministry of Defense",
+   "region": "North Kazakhstan Region",
+   "school": "Academy of Finance",
+   "zhuz": "",
+   "category": "State-Security / Silovik"
+  },
+  {
+   "id": 78,
+   "name": "Darkhan Meiramuly Akhmediyev",
+   "age": null,
+   "role": "Deputy Minister of Defense",
+   "institution": "Ministry of Defense",
+   "region": "",
+   "school": "King's College London",
+   "zhuz": "",
+   "category": "Technocrat"
   }
  ],
  "workExperience": [
@@ -5728,6 +5816,206 @@
    "startYear": 2022,
    "endYear": "Present",
    "source": ""
+  },
+  {
+   "personId": 71,
+   "title": "Commander-in-Chief of the Air Defense Forces",
+   "institution": "Air Defense Forces",
+   "startYear": 2022,
+   "endYear": 2024,
+   "source": ""
+  },
+  {
+   "personId": 71,
+   "title": "Deputy Minister of Defense – Commander-in-Chief of the Air Defense Forces",
+   "institution": "Ministry of Defense",
+   "startYear": 2024,
+   "endYear": 2025,
+   "source": ""
+  },
+  {
+   "personId": 71,
+   "title": "Deputy Minister of Defense – Commander-in-Chief of the Air Defense Forces",
+   "institution": "Air Defense Forces",
+   "startYear": 2024,
+   "endYear": 2025,
+   "source": ""
+  },
+  {
+   "personId": 71,
+   "title": "Minister of Defense",
+   "institution": "Ministry of Defense",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": ""
+  },
+  {
+   "personId": 72,
+   "title": "First Deputy Minister of Defense – Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.akorda.kz/kz/memleket-basshysynyn-okimimen-kanysh-asanhanuly-abubakirov-kazakstan-respublikasy-korganys-ministrinin-birinshi-orynbasary-kazakstan-respublikasy-karuly-kushteri-bas-shtabynyn-bastygy-bolyp-tagayyndaldy-ol-buryngy-atkargan-lauazymynan-bosatyldy-1704635"
+  },
+  {
+   "personId": 73,
+   "title": "Military Attaché to Tajikistan",
+   "institution": "Ministry of Defense",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": ""
+  },
+  {
+   "personId": 73,
+   "title": "Head, Educational-Methodological Directorate; First Deputy Head; Head of the University",
+   "institution": "National Defense University",
+   "startYear": 2023,
+   "endYear": 2026,
+   "source": ""
+  },
+  {
+   "personId": 73,
+   "title": "Deputy Minister of Defense",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": ""
+  },
+  {
+   "personId": 74,
+   "title": "Commander of the Airborne (Air-Assault) Troops",
+   "institution": "Ground Forces",
+   "startYear": 2022,
+   "endYear": 2026,
+   "source": ""
+  },
+  {
+   "personId": 74,
+   "title": "Deputy Minister of Defense for Logistics and Military Infrastructure",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": ""
+  },
+  {
+   "personId": 75,
+   "title": "Deputy Minister of Defense for Education and Ideological Work",
+   "institution": "Ministry of Defense",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": ""
+  },
+  {
+   "personId": 76,
+   "title": "Head of the Radioelectronics and Communications Military-Engineering Institute",
+   "institution": "Radioelectronics and Communications Military-Engineering Institute",
+   "startYear": 2010,
+   "endYear": 2017,
+   "source": ""
+  },
+  {
+   "personId": 76,
+   "title": "Deputy Commander-in-Chief of the Air Defense Forces (Education and Ideological Work) – Head of the Main Directorate",
+   "institution": "Air Defense Forces",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": ""
+  },
+  {
+   "personId": 76,
+   "title": "Commander of the Anti-Air-Attack Defense Troops",
+   "institution": "Air Defense Forces",
+   "startYear": 2019,
+   "endYear": 2023,
+   "source": ""
+  },
+  {
+   "personId": 76,
+   "title": "Chief of Staff – First Deputy Commander-in-Chief of the Air Defense Forces",
+   "institution": "Air Defense Forces",
+   "startYear": 2023,
+   "endYear": 2025,
+   "source": ""
+  },
+  {
+   "personId": 76,
+   "title": "Deputy Minister of Defense – Commander-in-Chief of the Air Defense Forces",
+   "institution": "Ministry of Defense",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": ""
+  },
+  {
+   "personId": 76,
+   "title": "Deputy Minister of Defense – Commander-in-Chief of the Air Defense Forces",
+   "institution": "Air Defense Forces",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": ""
+  },
+  {
+   "personId": 77,
+   "title": "Deputy Minister of Defense",
+   "institution": "Ministry of Defense",
+   "startYear": 2023,
+   "endYear": "Present",
+   "source": ""
+  },
+  {
+   "personId": 78,
+   "title": "Analyst",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2012,
+   "endYear": 2012,
+   "source": ""
+  },
+  {
+   "personId": 78,
+   "title": "Expert",
+   "institution": "Ministry of Emergency Situations",
+   "startYear": 2013,
+   "endYear": 2015,
+   "source": ""
+  },
+  {
+   "personId": 78,
+   "title": "Expert",
+   "institution": "Emergency Situations Committee (Ministry of Internal Affairs)",
+   "startYear": 2013,
+   "endYear": 2015,
+   "source": ""
+  },
+  {
+   "personId": 78,
+   "title": "Head of Directorate",
+   "institution": "Ministry of Defense and Aerospace Industry",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": ""
+  },
+  {
+   "personId": 78,
+   "title": "Deputy Director, Electronics Industry Development Department",
+   "institution": "Ministry of Digital Development, Innovations and Aerospace Industry",
+   "startYear": 2019,
+   "endYear": 2020,
+   "source": ""
+  },
+  {
+   "personId": 78,
+   "title": "Director, IT Development Department",
+   "institution": "Ministry of Digital Development, Innovations and Aerospace Industry",
+   "startYear": 2020,
+   "endYear": 2022,
+   "source": ""
+  },
+  {
+   "personId": 78,
+   "title": "Deputy Minister of Defense",
+   "institution": "Ministry of Defense",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": ""
   }
  ],
  "edges": [
@@ -5826,6 +6114,13 @@
    "id": "region:2-47",
    "from": 2,
    "to": 47,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:2-72",
+   "from": 2,
+   "to": 72,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -6124,6 +6419,13 @@
    "title": "Same region: Pavlodar Region"
   },
   {
+   "id": "region:11-71",
+   "from": 11,
+   "to": 71,
+   "ltype": "region",
+   "title": "Same region: Pavlodar Region"
+  },
+  {
    "id": "region:12-52",
    "from": 12,
    "to": 52,
@@ -6155,6 +6457,13 @@
    "id": "region:13-67",
    "from": 13,
    "to": 67,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:13-75",
+   "from": 13,
+   "to": 75,
    "ltype": "region",
    "title": "Same region: Zhambyl Region"
   },
@@ -6285,6 +6594,13 @@
    "title": "Same region: Turkestan Region"
   },
   {
+   "id": "region:18-72",
+   "from": 18,
+   "to": 72,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
    "id": "region:19-22",
    "from": 19,
    "to": 22,
@@ -6355,6 +6671,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:20-76",
+   "from": 20,
+   "to": 76,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:21-61",
    "from": 21,
    "to": 61,
@@ -6397,6 +6720,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:24-73",
+   "from": 24,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Zhetysu Region"
+  },
+  {
    "id": "region:25-27",
    "from": 25,
    "to": 27,
@@ -6414,6 +6744,13 @@
    "id": "region:25-47",
    "from": 25,
    "to": 47,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:25-72",
+   "from": 25,
+   "to": 72,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -6449,6 +6786,13 @@
    "id": "region:27-47",
    "from": 27,
    "to": 47,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:27-72",
+   "from": 27,
+   "to": 72,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -6502,6 +6846,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:30-76",
+   "from": 30,
+   "to": 76,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:31-36",
    "from": 31,
    "to": 36,
@@ -6512,6 +6863,13 @@
    "id": "region:31-55",
    "from": 31,
    "to": 55,
+   "ltype": "region",
+   "title": "Same region: Pavlodar Region"
+  },
+  {
+   "id": "region:31-71",
+   "from": 31,
+   "to": 71,
    "ltype": "region",
    "title": "Same region: Pavlodar Region"
   },
@@ -6537,6 +6895,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:32-75",
+   "from": 32,
+   "to": 75,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:33-39",
    "from": 33,
    "to": 39,
@@ -6551,9 +6916,23 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:33-75",
+   "from": 33,
+   "to": 75,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:36-55",
    "from": 36,
    "to": 55,
+   "ltype": "region",
+   "title": "Same region: Pavlodar Region"
+  },
+  {
+   "id": "region:36-71",
+   "from": 36,
+   "to": 71,
    "ltype": "region",
    "title": "Same region: Pavlodar Region"
   },
@@ -6600,9 +6979,23 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:39-75",
+   "from": 39,
+   "to": 75,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:40-47",
    "from": 40,
    "to": 47,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:40-72",
+   "from": 40,
+   "to": 72,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -6624,6 +7017,13 @@
    "id": "region:42-70",
    "from": 42,
    "to": 70,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:42-76",
+   "from": 42,
+   "to": 76,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -6656,6 +7056,13 @@
    "title": "Same region: West Kazakhstan Region"
   },
   {
+   "id": "region:47-72",
+   "from": 47,
+   "to": 72,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
    "id": "region:49-59",
    "from": 49,
    "to": 59,
@@ -6677,6 +7084,13 @@
    "title": "Same region: Kostanay Region"
   },
   {
+   "id": "region:55-71",
+   "from": 55,
+   "to": 71,
+   "ltype": "region",
+   "title": "Same region: Pavlodar Region"
+  },
+  {
    "id": "region:59-60",
    "from": 59,
    "to": 60,
@@ -6687,6 +7101,27 @@
    "id": "region:62-70",
    "from": 62,
    "to": 70,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:62-76",
+   "from": 62,
+   "to": 76,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:67-75",
+   "from": 67,
+   "to": 75,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:70-76",
+   "from": 70,
+   "to": 76,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -7186,6 +7621,34 @@
    "to": 64,
    "ltype": "school",
    "title": "Same school: M. Auezov South Kazakhstan University"
+  },
+  {
+   "id": "school:71-75",
+   "from": 71,
+   "to": 75,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the General Staff of the Armed Forces of the Russian Federation"
+  },
+  {
+   "id": "school:72-73",
+   "from": 72,
+   "to": 73,
+   "ltype": "school",
+   "title": "Same school: National Defense University"
+  },
+  {
+   "id": "school:72-76",
+   "from": 72,
+   "to": 76,
+   "ltype": "school",
+   "title": "Same school: National Defense University"
+  },
+  {
+   "id": "school:73-76",
+   "from": 73,
+   "to": 76,
+   "ltype": "school",
+   "title": "Same school: National Defense University"
   },
   {
    "id": "work:1-2",
@@ -11213,6 +11676,48 @@
    "title": "Shared workplace: Ministry of Defense (2022–2024)"
   },
   {
+   "id": "work:19-71",
+   "from": 19,
+   "to": 71,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2025)"
+  },
+  {
+   "id": "work:19-73",
+   "from": 19,
+   "to": 73,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2022–2023)"
+  },
+  {
+   "id": "work:19-75",
+   "from": 19,
+   "to": 75,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2025)"
+  },
+  {
+   "id": "work:19-76",
+   "from": 19,
+   "to": 76,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025)"
+  },
+  {
+   "id": "work:19-77",
+   "from": 19,
+   "to": 77,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2025)"
+  },
+  {
+   "id": "work:19-78",
+   "from": 19,
+   "to": 78,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2022–2025)"
+  },
+  {
    "id": "work:20-21",
    "from": 20,
    "to": 21,
@@ -12711,6 +13216,41 @@
    "title": "Shared workplace: Akorda (2024)"
   },
   {
+   "id": "work:35-71",
+   "from": 35,
+   "to": 71,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024)"
+  },
+  {
+   "id": "work:35-73",
+   "from": 35,
+   "to": 73,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2022–2023)"
+  },
+  {
+   "id": "work:35-75",
+   "from": 35,
+   "to": 75,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024)"
+  },
+  {
+   "id": "work:35-77",
+   "from": 35,
+   "to": 77,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2024)"
+  },
+  {
+   "id": "work:35-78",
+   "from": 35,
+   "to": 78,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2022–2024)"
+  },
+  {
    "id": "work:36-37",
    "from": 36,
    "to": 37,
@@ -13584,6 +14124,202 @@
    "to": 70,
    "ltype": "work",
    "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+  },
+  {
+   "id": "work:71-72",
+   "from": 71,
+   "to": 72,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:71-73",
+   "from": 71,
+   "to": 73,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:71-74",
+   "from": 71,
+   "to": 74,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:71-75",
+   "from": 71,
+   "to": 75,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:71-76",
+   "from": 71,
+   "to": 76,
+   "ltype": "work",
+   "title": "Shared workplace: Air Defense Forces (2022–2025); Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:71-77",
+   "from": 71,
+   "to": 77,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:71-78",
+   "from": 71,
+   "to": 78,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:72-73",
+   "from": 72,
+   "to": 73,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-74",
+   "from": 72,
+   "to": 74,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-75",
+   "from": 72,
+   "to": 75,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-76",
+   "from": 72,
+   "to": 76,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-77",
+   "from": 72,
+   "to": 77,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-78",
+   "from": 72,
+   "to": 78,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-74",
+   "from": 73,
+   "to": 74,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-75",
+   "from": 73,
+   "to": 75,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-76",
+   "from": 73,
+   "to": 76,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-77",
+   "from": 73,
+   "to": 77,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023, 2026)"
+  },
+  {
+   "id": "work:73-78",
+   "from": 73,
+   "to": 78,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2022–2023, 2026)"
+  },
+  {
+   "id": "work:74-75",
+   "from": 74,
+   "to": 75,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-76",
+   "from": 74,
+   "to": 76,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-77",
+   "from": 74,
+   "to": 77,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-78",
+   "from": 74,
+   "to": 78,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:75-76",
+   "from": 75,
+   "to": 76,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:75-77",
+   "from": 75,
+   "to": 77,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:75-78",
+   "from": 75,
+   "to": 78,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:76-77",
+   "from": 76,
+   "to": 77,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:76-78",
+   "from": 76,
+   "to": 78,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:77-78",
+   "from": 77,
+   "to": 78,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   }
  ]
 }
