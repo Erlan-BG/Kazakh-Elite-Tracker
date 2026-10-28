@@ -1156,6 +1156,54 @@
    "zhuz": "",
    "category": "Military",
    "status": "In office"
+  },
+  {
+   "id": 97,
+   "name": "Baglan Abdizhaleluly Userbayev",
+   "age": 47,
+   "role": "Commander of Regional Command Astana",
+   "institution": "Regional Command Astana",
+   "region": "Turkestan Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 98,
+   "name": "Yerzhan Uakasuly Ibrayev",
+   "age": 48,
+   "role": "Commander of Regional Command South",
+   "institution": "Regional Command South",
+   "region": "East Kazakhstan Region",
+   "school": "Almaty Higher Combined Arms Command School",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 99,
+   "name": "Zhenis Mukhamedkaliuly Maralov",
+   "age": 49,
+   "role": "Commander of Regional Command East",
+   "institution": "Regional Command East",
+   "region": "Karaganda Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 100,
+   "name": "Nurlan Serikbayuly Karibayev",
+   "age": 48,
+   "role": "Commander of Regional Command West",
+   "institution": "Regional Command West",
+   "region": "Kyzylorda Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
   }
  ],
  "workExperience": [
@@ -7150,6 +7198,94 @@
    "startYear": 2022,
    "endYear": "Present",
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 97,
+   "title": "Chief of Staff – First Deputy Commander",
+   "institution": "Regional Command West",
+   "startYear": null,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 97,
+   "title": "Commander of Regional Command Astana",
+   "institution": "Regional Command Astana",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://tengrinews.kz/kazakhstan_news/tokaev-provl-naznacheniya-v-voorujennyih-silah-596224/"
+  },
+  {
+   "personId": 98,
+   "title": "Platoon Commander to Deputy Commander of Troops",
+   "institution": "Armed Forces",
+   "startYear": 1995,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 98,
+   "title": "Commander of Regional Command Astana",
+   "institution": "Regional Command Astana",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://bizmedia.kz/2023-11-07-erzhan-ibraev-stal-rukovoditelem-regionalnogo-komandovaniya-astana/"
+  },
+  {
+   "personId": 98,
+   "title": "Commander of Regional Command South",
+   "institution": "Regional Command South",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 99,
+   "title": "Platoon Commander to Military Unit Commander",
+   "institution": "Armed Forces",
+   "startYear": 1998,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 99,
+   "title": "Deputy Commander for Combat Training – Head of Combat Training Department",
+   "institution": "Regional Command West",
+   "startYear": 2018,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 99,
+   "title": "Chief of Staff – First Deputy Commander",
+   "institution": "Regional Command East",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 99,
+   "title": "Commander of Regional Command East",
+   "institution": "Regional Command East",
+   "startYear": 2023,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 100,
+   "title": "Chief of Staff – First Deputy Commander",
+   "institution": "Regional Command South",
+   "startYear": null,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 100,
+   "title": "Commander of Regional Command West",
+   "institution": "Regional Command West",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.zakon.kz/politika/6514558-tokaev-naznachil-komanduyushchego-voyskami-regionalnogo-komandovaniya-zapad.html"
   }
  ],
  "edges": [
@@ -7283,6 +7419,13 @@
    "id": "region:2-93",
    "from": 2,
    "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:2-97",
+   "from": 2,
+   "to": 97,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -7714,6 +7857,13 @@
    "title": "Same region: Kyzylorda Region"
   },
   {
+   "id": "region:12-100",
+   "from": 12,
+   "to": 100,
+   "ltype": "region",
+   "title": "Same region: Kyzylorda Region"
+  },
+  {
    "id": "region:13-32",
    "from": 13,
    "to": 32,
@@ -7973,6 +8123,13 @@
    "title": "Same region: Turkestan Region"
   },
   {
+   "id": "region:18-97",
+   "from": 18,
+   "to": 97,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
    "id": "region:19-22",
    "from": 19,
    "to": 22,
@@ -8109,6 +8266,13 @@
    "id": "region:20-90",
    "from": 20,
    "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:20-98",
+   "from": 20,
+   "to": 98,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -8323,6 +8487,13 @@
    "title": "Same region: Turkestan Region"
   },
   {
+   "id": "region:25-97",
+   "from": 25,
+   "to": 97,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
    "id": "region:26-28",
    "from": 26,
    "to": 28,
@@ -8375,6 +8546,13 @@
    "id": "region:27-93",
    "from": 27,
    "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:27-97",
+   "from": 27,
+   "to": 97,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -8452,6 +8630,13 @@
    "id": "region:30-90",
    "from": 30,
    "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:30-98",
+   "from": 30,
+   "to": 98,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -8694,6 +8879,13 @@
    "title": "Same region: Turkestan Region"
   },
   {
+   "id": "region:40-97",
+   "from": 40,
+   "to": 97,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
    "id": "region:41-57",
    "from": 41,
    "to": 57,
@@ -8739,6 +8931,13 @@
    "id": "region:42-90",
    "from": 42,
    "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:42-98",
+   "from": 42,
+   "to": 98,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -8827,6 +9026,13 @@
    "title": "Same region: Turkestan Region"
   },
   {
+   "id": "region:47-97",
+   "from": 47,
+   "to": 97,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
    "id": "region:49-59",
    "from": 49,
    "to": 59,
@@ -8883,6 +9089,13 @@
    "title": "Same region: Karaganda Region"
   },
   {
+   "id": "region:50-99",
+   "from": 50,
+   "to": 99,
+   "ltype": "region",
+   "title": "Same region: Karaganda Region"
+  },
+  {
    "id": "region:51-54",
    "from": 51,
    "to": 54,
@@ -8897,11 +9110,25 @@
    "title": "Same region: Kyzylorda Region"
   },
   {
+   "id": "region:52-100",
+   "from": 52,
+   "to": 100,
+   "ltype": "region",
+   "title": "Same region: Kyzylorda Region"
+  },
+  {
    "id": "region:55-71",
    "from": 55,
    "to": 71,
    "ltype": "region",
    "title": "Same region: Pavlodar Region"
+  },
+  {
+   "id": "region:58-99",
+   "from": 58,
+   "to": 99,
+   "ltype": "region",
+   "title": "Same region: Karaganda Region"
   },
   {
    "id": "region:59-60",
@@ -9030,6 +9257,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:62-98",
+   "from": 62,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:67-75",
    "from": 67,
    "to": 75,
@@ -9072,6 +9306,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:70-98",
+   "from": 70,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:72-85",
    "from": 72,
    "to": 85,
@@ -9082,6 +9323,13 @@
    "id": "region:72-93",
    "from": 72,
    "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:72-97",
+   "from": 72,
+   "to": 97,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -9149,6 +9397,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:76-98",
+   "from": 76,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:79-87",
    "from": 79,
    "to": 87,
@@ -9184,6 +9439,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:80-98",
+   "from": 80,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:81-86",
    "from": 81,
    "to": 86,
@@ -9198,9 +9460,23 @@
    "title": "Same region: Akmola Region"
   },
   {
+   "id": "region:84-100",
+   "from": 84,
+   "to": 100,
+   "ltype": "region",
+   "title": "Same region: Kyzylorda Region"
+  },
+  {
    "id": "region:85-93",
    "from": 85,
    "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:85-97",
+   "from": 85,
+   "to": 97,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -9240,11 +9516,32 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:89-98",
+   "from": 89,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:90-98",
+   "from": 90,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:92-96",
    "from": 92,
    "to": 96,
    "ltype": "region",
    "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:93-97",
+   "from": 93,
+   "to": 97,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
   },
   {
    "id": "school:4-61",
@@ -9576,6 +9873,13 @@
    "title": "Same school: Almaty Higher Combined Arms Command School"
   },
   {
+   "id": "school:19-98",
+   "from": 19,
+   "to": 98,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
    "id": "school:21-60",
    "from": 21,
    "to": 60,
@@ -9842,6 +10146,27 @@
    "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
   },
   {
+   "id": "school:79-97",
+   "from": 79,
+   "to": 97,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:79-99",
+   "from": 79,
+   "to": 99,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:79-100",
+   "from": 79,
+   "to": 100,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
    "id": "school:81-95",
    "from": 81,
    "to": 95,
@@ -9856,9 +10181,86 @@
    "title": "Same school: Almaty Higher Combined Arms Command School"
   },
   {
+   "id": "school:83-98",
+   "from": 83,
+   "to": 98,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
    "id": "school:90-96",
    "from": 90,
    "to": 96,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:90-97",
+   "from": 90,
+   "to": 97,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:90-99",
+   "from": 90,
+   "to": 99,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:90-100",
+   "from": 90,
+   "to": 100,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:91-98",
+   "from": 91,
+   "to": 98,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
+   "id": "school:96-97",
+   "from": 96,
+   "to": 97,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:96-99",
+   "from": 96,
+   "to": 99,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:96-100",
+   "from": 96,
+   "to": 100,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:97-99",
+   "from": 97,
+   "to": 99,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:97-100",
+   "from": 97,
+   "to": 100,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:99-100",
+   "from": 99,
+   "to": 100,
    "ltype": "school",
    "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
   },
@@ -14021,6 +14423,20 @@
    "title": "Shared workplace: Armed Forces (2005)"
   },
   {
+   "id": "work:19-98",
+   "from": 19,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1995–2006)"
+  },
+  {
+   "id": "work:19-99",
+   "from": 19,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1998–2006)"
+  },
+  {
    "id": "work:20-21",
    "from": 20,
    "to": 21,
@@ -17262,6 +17678,20 @@
    "title": "Shared workplace: Armed Forces (2005)"
   },
   {
+   "id": "work:76-98",
+   "from": 76,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1995–2010)"
+  },
+  {
+   "id": "work:76-99",
+   "from": 76,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1998–2010)"
+  },
+  {
    "id": "work:77-78",
    "from": 77,
    "to": 78,
@@ -17773,6 +18203,20 @@
    "title": "Shared workplace: Armed Forces (2005)"
   },
   {
+   "id": "work:83-98",
+   "from": 83,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1997–2017)"
+  },
+  {
+   "id": "work:83-99",
+   "from": 83,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1998–2018)"
+  },
+  {
    "id": "work:84-85",
    "from": 84,
    "to": 85,
@@ -17850,6 +18294,20 @@
    "title": "Shared workplace: Military Police (2000–2002, 2004–2017)"
   },
   {
+   "id": "work:84-98",
+   "from": 84,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1998–1999)"
+  },
+  {
+   "id": "work:84-99",
+   "from": 84,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1998–1999)"
+  },
+  {
    "id": "work:85-86",
    "from": 85,
    "to": 86,
@@ -17899,6 +18357,20 @@
    "title": "Shared workplace: Armed Forces (2005)"
   },
   {
+   "id": "work:85-98",
+   "from": 85,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1995–2017)"
+  },
+  {
+   "id": "work:85-99",
+   "from": 85,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1998–2018)"
+  },
+  {
    "id": "work:86-87",
    "from": 86,
    "to": 87,
@@ -17932,6 +18404,20 @@
    "to": 94,
    "ltype": "work",
    "title": "Shared workplace: Armed Forces (2005)"
+  },
+  {
+   "id": "work:86-98",
+   "from": 86,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005–2011)"
+  },
+  {
+   "id": "work:86-99",
+   "from": 86,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005–2011)"
   },
   {
    "id": "work:87-88",
@@ -17976,6 +18462,20 @@
    "title": "Shared workplace: Armed Forces (2005)"
   },
   {
+   "id": "work:88-98",
+   "from": 88,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1995–2006)"
+  },
+  {
+   "id": "work:88-99",
+   "from": 88,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1998–2006)"
+  },
+  {
    "id": "work:89-90",
    "from": 89,
    "to": 90,
@@ -18004,6 +18504,34 @@
    "title": "Shared workplace: Armed Forces (2005)"
   },
   {
+   "id": "work:90-98",
+   "from": 90,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2000–2017)"
+  },
+  {
+   "id": "work:90-99",
+   "from": 90,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2000–2018)"
+  },
+  {
+   "id": "work:91-98",
+   "from": 91,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Regional Command South (2024)"
+  },
+  {
+   "id": "work:91-99",
+   "from": 91,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Regional Command East (2022–2023)"
+  },
+  {
    "id": "work:92-93",
    "from": 92,
    "to": 93,
@@ -18030,6 +18558,20 @@
    "to": 96,
    "ltype": "work",
    "title": "Shared workplace: Military Police (2000–2002, 2004–2011, 2014–2026)"
+  },
+  {
+   "id": "work:92-98",
+   "from": 92,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2013–2014)"
+  },
+  {
+   "id": "work:92-99",
+   "from": 92,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2013–2014)"
   },
   {
    "id": "work:93-94",
@@ -18067,11 +18609,46 @@
    "title": "Shared workplace: Military Police (2005–2026)"
   },
   {
+   "id": "work:94-98",
+   "from": 94,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005)"
+  },
+  {
+   "id": "work:94-99",
+   "from": 94,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005)"
+  },
+  {
    "id": "work:95-96",
    "from": 95,
    "to": 96,
    "ltype": "work",
    "title": "Shared workplace: Military Police (2000–2002, 2004–2026)"
+  },
+  {
+   "id": "work:97-100",
+   "from": 97,
+   "to": 100,
+   "ltype": "work",
+   "title": "Shared workplace: Regional Command West (2026)"
+  },
+  {
+   "id": "work:98-99",
+   "from": 98,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1998–2017)"
+  },
+  {
+   "id": "work:98-100",
+   "from": 98,
+   "to": 100,
+   "ltype": "work",
+   "title": "Shared workplace: Regional Command South (2026)"
   }
  ]
 }
