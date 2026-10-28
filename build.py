@@ -115,7 +115,7 @@ def build_people(rows, warn):
             "name": clean(r.get("Name")),
             "age": int(age) if age.isdigit() else None,
             "role": clean(r.get("Current_Role")),
-            "institution": clean(r.get("Current Instution")),
+            "institution": normalize(r.get("Current Instution"), "institution"),
             "region": normalize(r.get("Birth Region"), "region"),
             "school": normalize(r.get("School"), "school"),
             "zhuz": normalize(r.get("Zhuz"), "zhuz"),
@@ -185,6 +185,23 @@ def build_work(rows, valid_ids, warn):
     return work
 
 
+IN_OFFICE = "In office"
+OUT_OF_GOVERNMENT = "Out of government"
+
+
+def mark_status(people, work):
+    """In office, or out of government (e.g. dismissed, next post unknown).
+
+    Derived rather than hand-coded: someone with no open-ended ("Present")
+    stint holds no current post we know of. This is a separate axis from the
+    institutional identity, which follows the career track and so stays put
+    when a person leaves office.
+    """
+    current = {w["personId"] for w in work if w["endYear"] == PRESENT}
+    for p in people:
+        p["status"] = IN_OFFICE if p["id"] in current else OUT_OF_GOVERNMENT
+
+
 def attribute_edges(people, field, etype):
     """Link everyone sharing an exact attribute value (school, birth region)."""
     groups = defaultdict(list)
@@ -218,6 +235,20 @@ def merge_ranges(ranges):
     return ", ".join(str(s) if s == e else f"{s}–{e}" for s, e in out)
 
 
+# Labels used when a bio names no specific unit ("platoon commander to unit
+# commander, 1998-2018"). Two people filed under one of these were not
+# necessarily ever in the same place, so they would link for decades on the
+# strength of what the bios leave out. Their stints still show in career
+# histories; they just never create a workplace tie. Rows whose bio does name
+# the unit are filed under that unit instead.
+CATCH_ALL_INSTITUTIONS = {
+    "Armed Forces",
+    "Ground Forces",
+    "Military Police",
+    "National Security Committee (KNB)",
+}
+
+
 def workplace_edges(work):
     """Co-tenure: same institution, overlapping years.
 
@@ -226,7 +257,7 @@ def workplace_edges(work):
     """
     by_inst = defaultdict(list)
     for w in work:
-        if not w["institution"]:
+        if not w["institution"] or w["institution"] in CATCH_ALL_INSTITUTIONS:
             continue
         s, e = year_of(w["startYear"]), year_of(w["endYear"])
         if s is None and e is None:
@@ -285,6 +316,7 @@ def main():
         die(f"no people parsed from {GENERAL_CSV}")
     check_near_duplicates(people, warn)
     work = build_work(read_rows(POSITIONS_CSV), {p["id"] for p in people}, warn)
+    mark_status(people, work)
 
     edges = (workplace_edges(work)
              + attribute_edges(people, "school", "school")

@@ -14,7 +14,8 @@
    "region": "Almaty City",
    "school": "Moscow State Institute of International Relations",
    "zhuz": "Senior Zhuz / Ulu Zhuz",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 2,
@@ -25,7 +26,8 @@
    "region": "Turkestan Region",
    "school": "K. Zhubanov Aktobe Regional University",
    "zhuz": "Junior Zhuz / Kishi Zhuz",
-   "category": "Political Ideologue"
+   "category": "Political Ideologue",
+   "status": "In office"
   },
   {
    "id": 3,
@@ -36,7 +38,8 @@
    "region": "Almaty City",
    "school": "University of Cambridge",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 4,
@@ -47,7 +50,8 @@
    "region": "Almaty City",
    "school": "Turan University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 5,
@@ -58,7 +62,8 @@
    "region": "Almaty Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 6,
@@ -69,7 +74,8 @@
    "region": "Astana City",
    "school": "Narxoz University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 7,
@@ -80,7 +86,8 @@
    "region": "Almaty City",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 8,
@@ -91,7 +98,8 @@
    "region": "Almaty City",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 9,
@@ -102,7 +110,8 @@
    "region": "",
    "school": "Kazakh State Academy of Management",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 10,
@@ -113,7 +122,8 @@
    "region": "Almaty City",
    "school": "Kazakh State Academy of Architecture and Civil Engineering",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 11,
@@ -124,7 +134,8 @@
    "region": "Pavlodar Region",
    "school": "S. Toraighyrov University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 12,
@@ -135,7 +146,8 @@
    "region": "Kyzylorda Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Political Ideologue"
+   "category": "Political Ideologue",
+   "status": "In office"
   },
   {
    "id": 13,
@@ -146,7 +158,8 @@
    "region": "Zhambyl Region",
    "school": "Suleyman Demirel University",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 14,
@@ -157,7 +170,8 @@
    "region": "Almaty City",
    "school": "Abai Kazakh National Pedagogical University (KazNPU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 15,
@@ -168,7 +182,8 @@
    "region": "Almaty Region",
    "school": "Kazakh Agricultural Institute",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 16,
@@ -179,7 +194,8 @@
    "region": "Almaty City",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 17,
@@ -190,7 +206,8 @@
    "region": "Shymkent City",
    "school": "South Kazakhstan Medical Academy",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 18,
@@ -201,7 +218,8 @@
    "region": "Turkestan Region",
    "school": "Ablai Khan University of International Relations and World Languages",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 19,
@@ -212,7 +230,8 @@
    "region": "Almaty Region",
    "school": "Almaty Higher Combined Arms Command School",
    "zhuz": "Middle Zhuz / Orta Zhuz",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 20,
@@ -223,7 +242,8 @@
    "region": "East Kazakhstan Region",
    "school": "Kazakh Agricultural Institute",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 21,
@@ -234,7 +254,8 @@
    "region": "Almaty City",
    "school": "Kazakh State Academy of Management",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 22,
@@ -245,7 +266,8 @@
    "region": "Almaty Region",
    "school": "Lomonosov Moscow State University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 23,
@@ -256,7 +278,8 @@
    "region": "",
    "school": "L.N. Gumilyov Eurasian National University (ENU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 24,
@@ -264,10 +287,11 @@
    "age": 38,
    "role": "Head of Social and Economic Policy Department",
    "institution": "Akorda",
-   "region": "Zhetysu Region",
+   "region": "Almaty Region",
    "school": "Kazakhstan-British Technical University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 25,
@@ -278,7 +302,8 @@
    "region": "Turkestan Region",
    "school": "Lomonosov Moscow State University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 26,
@@ -289,7 +314,8 @@
    "region": "Kostanay Region",
    "school": "A. Baitursynov Kostanay Regional University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 27,
@@ -300,7 +326,8 @@
    "region": "Turkestan Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Political Ideologue"
+   "category": "Political Ideologue",
+   "status": "In office"
   },
   {
    "id": 28,
@@ -311,7 +338,8 @@
    "region": "Kostanay Region",
    "school": "L.N. Gumilyov Eurasian National University (ENU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 29,
@@ -322,7 +350,8 @@
    "region": "West Kazakhstan Region",
    "school": "Pushkin West Kazakhstan University",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 30,
@@ -333,7 +362,8 @@
    "region": "East Kazakhstan Region",
    "school": "Semey Medical University (formerly Semey State University)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 31,
@@ -344,7 +374,8 @@
    "region": "Pavlodar Region",
    "school": "M. Narikbayev KAZGUU University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 32,
@@ -355,7 +386,8 @@
    "region": "Zhambyl Region",
    "school": "M. Narikbayev KAZGUU University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 33,
@@ -366,7 +398,8 @@
    "region": "Zhambyl Region",
    "school": "KIMEP University",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 34,
@@ -377,7 +410,8 @@
    "region": "Akmola Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 35,
@@ -388,7 +422,8 @@
    "region": "",
    "school": "Military Institute of the Kazakh Ground Forces",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 36,
@@ -399,7 +434,8 @@
    "region": "Pavlodar Region",
    "school": "Shakarim Semipalatinsk State University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 37,
@@ -410,7 +446,8 @@
    "region": "Russia",
    "school": "Adilet Law School",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 38,
@@ -421,7 +458,8 @@
    "region": "Almaty Region",
    "school": "Narxoz University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 39,
@@ -432,7 +470,8 @@
    "region": "Zhambyl Region",
    "school": "Kazakh State Academy of Architecture and Civil Engineering",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 40,
@@ -441,9 +480,10 @@
    "role": "Akim of Almaty City",
    "institution": "Almaty City Akimat",
    "region": "Turkestan Region",
-   "school": "S. Seifullin Kazakh Agrotechnical University",
+   "school": "S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 41,
@@ -454,7 +494,8 @@
    "region": "Shymkent City",
    "school": "M. Narikbayev KAZGUU University",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 42,
@@ -465,7 +506,8 @@
    "region": "East Kazakhstan Region",
    "school": "T. Zhurgenov Kazakh National Academy of Arts",
    "zhuz": "",
-   "category": "Political Ideologue"
+   "category": "Political Ideologue",
+   "status": "In office"
   },
   {
    "id": 43,
@@ -476,7 +518,8 @@
    "region": "Astana City",
    "school": "L.N. Gumilyov Eurasian National University (ENU)",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 44,
@@ -487,7 +530,8 @@
    "region": "Russia",
    "school": "Kazakh Academy of Sport and Tourism",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 45,
@@ -498,7 +542,8 @@
    "region": "Almaty Region",
    "school": "Abai Kazakh National Pedagogical University (KazNPU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 46,
@@ -509,7 +554,8 @@
    "region": "West Kazakhstan Region",
    "school": "M. Utemisov West Kazakhstan University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 47,
@@ -520,7 +566,8 @@
    "region": "Turkestan Region",
    "school": "Korkyt Ata Kyzylorda University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 48,
@@ -531,7 +578,8 @@
    "region": "",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 49,
@@ -542,7 +590,8 @@
    "region": "Almaty Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 50,
@@ -553,7 +602,8 @@
    "region": "Karaganda Region",
    "school": "E.A. Buketov Karaganda University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 51,
@@ -564,7 +614,8 @@
    "region": "Kostanay Region",
    "school": "V.P. Goryachkin Moscow Institute of Agricultural Engineers",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 52,
@@ -575,7 +626,8 @@
    "region": "Kyzylorda Region",
    "school": "Narxoz University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 53,
@@ -586,7 +638,8 @@
    "region": "Mangystau Region",
    "school": "Kazakh Academy of Transport and Communications",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 54,
@@ -595,9 +648,10 @@
    "role": "Akim of North Kazakhstan Region",
    "institution": "North Kazakhstan Region Akimat",
    "region": "Kostanay Region",
-   "school": "S. Seifullin Kazakh Agrotechnical University",
+   "school": "S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 55,
@@ -608,7 +662,8 @@
    "region": "Pavlodar Region",
    "school": "Pavlodar University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 56,
@@ -619,7 +674,8 @@
    "region": "West Kazakhstan Region",
    "school": "Zhambyl Hydromelioration and Construction Institute",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 57,
@@ -630,7 +686,8 @@
    "region": "Shymkent City",
    "school": "M. Auezov South Kazakhstan University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 58,
@@ -638,10 +695,11 @@
    "age": 42,
    "role": "Akim of Ulytau Region",
    "institution": "Ulytau Region Akimat",
-   "region": "Ulytau Region",
+   "region": "Karaganda Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 59,
@@ -650,9 +708,10 @@
    "role": "Chairman of the KNB",
    "institution": "National Security Committee (KNB)",
    "region": "Almaty Region",
-   "school": "Satbayev University",
+   "school": "Satbayev University (Kazakh Polytechnic Institute)",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 60,
@@ -663,7 +722,8 @@
    "region": "Almaty Region",
    "school": "Kazakh State Academy of Management",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 61,
@@ -674,7 +734,8 @@
    "region": "Almaty City",
    "school": "Turan University",
    "zhuz": "",
-   "category": "Political Ideologue"
+   "category": "Political Ideologue",
+   "status": "In office"
   },
   {
    "id": 62,
@@ -685,7 +746,8 @@
    "region": "East Kazakhstan Region",
    "school": "University of York",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 63,
@@ -696,7 +758,8 @@
    "region": "",
    "school": "L.N. Gumilyov Eurasian National University (ENU)",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 64,
@@ -707,7 +770,8 @@
    "region": "",
    "school": "M. Auezov South Kazakhstan University",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 65,
@@ -718,7 +782,8 @@
    "region": "",
    "school": "Kazakh State Academy of Architecture and Civil Engineering",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 66,
@@ -729,7 +794,8 @@
    "region": "",
    "school": "Academy of the FSB of the Russian Federation",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 67,
@@ -740,7 +806,8 @@
    "region": "Zhambyl Region",
    "school": "Abai Kazakh National Pedagogical University (KazNPU)",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 68,
@@ -751,7 +818,8 @@
    "region": "",
    "school": "National Security Committee Academy",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 69,
@@ -762,7 +830,8 @@
    "region": "",
    "school": "Zhangir Khan West Kazakhstan Agrarian-Technical University",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 70,
@@ -771,64 +840,70 @@
    "role": "Deputy Chairman of the KNB - Director, Border Service",
    "institution": "National Security Committee (KNB)",
    "region": "East Kazakhstan Region",
-   "school": "Academy of the Border Service of the National Security Committee",
+   "school": "Academy of the Border Service of the National Security Committee (Border Troops Military Institute)",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 71,
    "name": "Dauren Zhumatayuly Kosanov",
    "age": 56,
-   "role": "Minister of Defense",
-   "institution": "Ministry of Defense",
+   "role": "Former Minister of Defense",
+   "institution": "",
    "region": "Pavlodar Region",
    "school": "Military Academy of the General Staff of the Armed Forces of the Russian Federation",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "Out of government"
   },
   {
    "id": 72,
    "name": "Kanysh Asankhanuly Abubakirov",
    "age": 49,
-   "role": "First Deputy Minister of Defense – Chief of the General Staff",
-   "institution": "Ministry of Defense",
+   "role": "Former First Deputy Minister of Defense – Chief of the General Staff",
+   "institution": "",
    "region": "Turkestan Region",
    "school": "National Defense University",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "Out of government"
   },
   {
    "id": 73,
    "name": "Askar Dosbosynuly Mustabekov",
    "age": 56,
-   "role": "Deputy Minister of Defense",
+   "role": "Deputy Minister of Defense for Educational and Ideological Work",
    "institution": "Ministry of Defense",
-   "region": "Zhetysu Region",
+   "region": "Almaty Region",
    "school": "National Defense University",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 74,
    "name": "Almaz Dzhenishevich Jumakeyev",
    "age": 56,
-   "role": "Deputy Minister of Defense for Logistics and Military Infrastructure",
-   "institution": "Ministry of Defense",
+   "role": "Former Deputy Minister of Defense for Logistics and Military Infrastructure",
+   "institution": "",
    "region": "Kyrgyzstan",
    "school": "Ryazan Higher Airborne Command School",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "Out of government"
   },
   {
    "id": 75,
    "name": "Shaikh-Khasan Satarkululy Zhazykbayev",
-   "age": 49,
-   "role": "Deputy Minister of Defense for Education and Ideological Work",
+   "age": 50,
+   "role": "Deputy Minister of Defense for Weapons and Military Equipment",
    "institution": "Ministry of Defense",
    "region": "Zhambyl Region",
    "school": "Military Academy of the General Staff of the Armed Forces of the Russian Federation",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 76,
@@ -839,29 +914,296 @@
    "region": "East Kazakhstan Region",
    "school": "National Defense University",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 77,
    "name": "Asker Kurmangaliuly Beisenov",
-   "age": 47,
-   "role": "Deputy Minister of Defense",
-   "institution": "Ministry of Defense",
+   "age": 48,
+   "role": "Former Deputy Minister of Defense",
+   "institution": "",
    "region": "North Kazakhstan Region",
    "school": "Academy of Finance",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "Out of government"
   },
   {
    "id": 78,
    "name": "Darkhan Meiramuly Akhmediyev",
-   "age": null,
-   "role": "Deputy Minister of Defense",
-   "institution": "Ministry of Defense",
+   "age": 35,
+   "role": "Chairman, Committee on Digitalization, Innovation and Science",
+   "institution": "Kurultai",
    "region": "",
    "school": "King's College London",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
+  },
+  {
+   "id": 79,
+   "name": "Aidos Sakenovich Myrzakhmetov",
+   "age": 45,
+   "role": "Minister of Defense",
+   "institution": "Ministry of Defense",
+   "region": "Almaty Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 80,
+   "name": "Aitkurman Zholamanuly Omarbekov",
+   "age": 48,
+   "role": "First Deputy Minister of Defense – Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "region": "East Kazakhstan Region",
+   "school": "Eurasian Humanitarian Institute",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 81,
+   "name": "Tatyana Mikhailovna Savelyeva",
+   "age": 50,
+   "role": "Deputy Minister of Defense for Economics and Finance",
+   "institution": "Ministry of Defense",
+   "region": "Akmola Region",
+   "school": "S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)",
+   "zhuz": "",
+   "category": "Technocrat",
+   "status": "In office"
+  },
+  {
+   "id": 82,
+   "name": "Daulet Nysankhululy Bekmanov",
+   "age": 42,
+   "role": "Deputy Minister of Defense",
+   "institution": "Ministry of Defense",
+   "region": "Uzbekistan",
+   "school": "Miras University",
+   "zhuz": "",
+   "category": "Technocrat",
+   "status": "In office"
+  },
+  {
+   "id": 83,
+   "name": "Meirbek Mukhamedaliuly Nurbayev",
+   "age": 51,
+   "role": "Head of the Personnel Work Department",
+   "institution": "Ministry of Defense",
+   "region": "Kyrgyzstan",
+   "school": "Almaty Higher Combined Arms Command School",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 84,
+   "name": "Tleukhan Kalilauly Baskozhayev",
+   "age": 51,
+   "role": "Head of the Department of Educational and Ideological Work",
+   "institution": "Ministry of Defense",
+   "region": "Kyzylorda Region",
+   "school": "Kazakh State Law University",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 85,
+   "name": "Murat Kuatbekuly Olzhabayev",
+   "age": 53,
+   "role": "Head of the Department of Military Education and Science",
+   "institution": "Ministry of Defense",
+   "region": "Turkestan Region",
+   "school": "Krasnoyarsk Higher Command School of Air Defense Radio Electronics",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 86,
+   "name": "Olzhas Sagyndykuly Kusainov",
+   "age": 45,
+   "role": "Head of the International Cooperation Department",
+   "institution": "Ministry of Defense",
+   "region": "Akmola Region",
+   "school": "Aktobe Higher Military Aviation School",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 87,
+   "name": "Almas Bolatuly Koralasov",
+   "age": 48,
+   "role": "Head of the Pension Provision Center",
+   "institution": "Ministry of Defense",
+   "region": "Almaty Region",
+   "school": "Yaroslavl Higher Military Financial School",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 88,
+   "name": "Ruslan Isauly Zhumabayev",
+   "age": 58,
+   "role": "Chairman of the State Defense Order Committee",
+   "institution": "Ministry of Defense",
+   "region": "Almaty City",
+   "school": "Tambov Higher Military Aviation School of Pilots",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 89,
+   "name": "Askar Akhmetuly Zholamanov",
+   "age": 55,
+   "role": "Head of the Territorial Defense Department – Deputy Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "region": "East Kazakhstan Region",
+   "school": "Satbayev University (Kazakh Polytechnic Institute)",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 90,
+   "name": "Almas Tynyshbekuly Isabekov",
+   "age": 47,
+   "role": "Deputy Chief of the General Staff – Head of the Organizational and Mobilization Department",
+   "institution": "Ministry of Defense",
+   "region": "East Kazakhstan Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 91,
+   "name": "Kuanyshbek Uskenbayuly Ushtayev",
+   "age": 50,
+   "role": "Commander-in-Chief of the Ground Forces",
+   "institution": "Ground Forces",
+   "region": "Zhambyl Region",
+   "school": "Almaty Higher Combined Arms Command School",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 92,
+   "name": "Yerik Nurbakhytuly Bakirbayev",
+   "age": 52,
+   "role": "Chief of Staff – First Deputy Head of the Main Directorate of Military Police",
+   "institution": "Military Police",
+   "region": "Almaty Region",
+   "school": "Academy of the Border Service of the National Security Committee (Border Troops Military Institute)",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 93,
+   "name": "Nurdaulet Akzholuly Yelubayev",
+   "age": 45,
+   "role": "Deputy Head of the Main Directorate of Military Police (Prevention and Criminal Prosecution)",
+   "institution": "Military Police",
+   "region": "Turkestan Region",
+   "school": "Kazakh Humanitarian Law University",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 94,
+   "name": "Dastan Smagululy Nurkeldiyev",
+   "age": 43,
+   "role": "Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate",
+   "institution": "Military Police",
+   "region": "Almaty City",
+   "school": "Radioelectronics and Communications Military-Engineering Institute",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 95,
+   "name": "Rustem Makatuly Zhanbyrov",
+   "age": 52,
+   "role": "Deputy Head of the Main Directorate of Military Police – Head of the Troops Service and Military Service Safety Directorate",
+   "institution": "Military Police",
+   "region": "Akmola Region",
+   "school": "S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 96,
+   "name": "Aidos Kamaluly Uldakhanov",
+   "age": 47,
+   "role": "Deputy Head of the Main Directorate of Military Police – Head of the Educational and Ideological Work Department",
+   "institution": "Military Police",
+   "region": "Almaty Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 97,
+   "name": "Baglan Abdizhaleluly Userbayev",
+   "age": 47,
+   "role": "Commander of Regional Command Astana",
+   "institution": "Regional Command Astana",
+   "region": "Turkestan Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 98,
+   "name": "Yerzhan Uakasuly Ibrayev",
+   "age": 48,
+   "role": "Commander of Regional Command South",
+   "institution": "Regional Command South",
+   "region": "East Kazakhstan Region",
+   "school": "Almaty Higher Combined Arms Command School",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 99,
+   "name": "Zhenis Mukhamedkaliuly Maralov",
+   "age": 49,
+   "role": "Commander of Regional Command East",
+   "institution": "Regional Command East",
+   "region": "Karaganda Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 100,
+   "name": "Nurlan Serikbayuly Karibayev",
+   "age": 48,
+   "role": "Commander of Regional Command West",
+   "institution": "Regional Command West",
+   "region": "Kyzylorda Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
   }
  ],
  "workExperience": [
@@ -1180,7 +1522,7 @@
   {
    "personId": 5,
    "title": "Head of Department of the National Security Committee for Almaty Region",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Department for Almaty Region",
    "startYear": 2007,
    "endYear": 2017,
    "source": "https://prg.kz/document/?doc_id=31386249"
@@ -1548,7 +1890,7 @@
   {
    "personId": 8,
    "title": "First Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2022,
    "endYear": 2022,
    "source": "https://www.akorda.kz/ru/rasporyazheniem-glavy-gosudarstva-nurtleu-murat-abugalievich-naznachen-pervym-zamestitelem-predsedatelya-komiteta-nacionalnoy-bezopasnosti-respubliki-kazahstan-502125"
@@ -5412,7 +5754,7 @@
   {
    "personId": 59,
    "title": "Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2022,
    "endYear": "Present",
    "source": ""
@@ -5444,7 +5786,7 @@
   {
    "personId": 60,
    "title": "Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2022,
    "endYear": 2024,
    "source": ""
@@ -5452,7 +5794,7 @@
   {
    "personId": 60,
    "title": "First Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -5644,7 +5986,7 @@
   {
    "personId": 63,
    "title": "Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2023,
    "endYear": "Present",
    "source": ""
@@ -5668,7 +6010,7 @@
   {
    "personId": 64,
    "title": "Deputy Chairman - Head, Anti-Terror Service",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -5692,7 +6034,7 @@
   {
    "personId": 65,
    "title": "Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -5716,7 +6058,7 @@
   {
    "personId": 66,
    "title": "Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -5740,7 +6082,7 @@
   {
    "personId": 67,
    "title": "Deputy Chairman - Director, Special Purpose Service \"A\" (Arystan)",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -5764,7 +6106,7 @@
   {
    "personId": 68,
    "title": "Deputy Chairman - Director, Foreign Intelligence Service",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -5788,7 +6130,7 @@
   {
    "personId": 69,
    "title": "Head, KNB Department for Almaty City",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Department for Almaty City",
    "startYear": 2022,
    "endYear": 2025,
    "source": "https://online.zakon.kz/Document/?doc_id=37837349"
@@ -5796,7 +6138,7 @@
   {
    "personId": 69,
    "title": "Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2025,
    "endYear": "Present",
    "source": ""
@@ -5804,7 +6146,7 @@
   {
    "personId": 70,
    "title": "Officer and leadership posts, Border Service",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Border Service",
    "startYear": 1987,
    "endYear": 2022,
    "source": ""
@@ -5812,7 +6154,15 @@
   {
    "personId": 70,
    "title": "Deputy Chairman - Director, Border Service",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": ""
+  },
+  {
+   "personId": 70,
+   "title": "Deputy Chairman - Director, Border Service",
+   "institution": "KNB Border Service",
    "startYear": 2022,
    "endYear": "Present",
    "source": ""
@@ -5846,7 +6196,7 @@
    "title": "Minister of Defense",
    "institution": "Ministry of Defense",
    "startYear": 2025,
-   "endYear": "Present",
+   "endYear": 2026,
    "source": ""
   },
   {
@@ -5854,7 +6204,7 @@
    "title": "First Deputy Minister of Defense – Chief of the General Staff",
    "institution": "Ministry of Defense",
    "startYear": 2026,
-   "endYear": "Present",
+   "endYear": 2026,
    "source": "https://www.akorda.kz/kz/memleket-basshysynyn-okimimen-kanysh-asanhanuly-abubakirov-kazakstan-respublikasy-korganys-ministrinin-birinshi-orynbasary-kazakstan-respublikasy-karuly-kushteri-bas-shtabynyn-bastygy-bolyp-tagayyndaldy-ol-buryngy-atkargan-lauazymynan-bosatyldy-1704635"
   },
   {
@@ -5875,16 +6225,24 @@
   },
   {
    "personId": 73,
-   "title": "Deputy Minister of Defense",
+   "title": "Deputy Minister of Defense for Educational and Ideological Work",
    "institution": "Ministry of Defense",
    "startYear": 2026,
    "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/people/42576?lang=kk"
+  },
+  {
+   "personId": 74,
+   "title": "Commander of the Airborne (Air-Assault) Troops",
+   "institution": "Air Assault Troops",
+   "startYear": 2022,
+   "endYear": 2022,
    "source": ""
   },
   {
    "personId": 74,
    "title": "Commander of the Airborne (Air-Assault) Troops",
-   "institution": "Ground Forces",
+   "institution": "Air Assault Troops",
    "startYear": 2022,
    "endYear": 2026,
    "source": ""
@@ -5894,16 +6252,48 @@
    "title": "Deputy Minister of Defense for Logistics and Military Infrastructure",
    "institution": "Ministry of Defense",
    "startYear": 2026,
-   "endYear": "Present",
-   "source": ""
+   "endYear": 2026,
+   "source": "https://www.inform.kz/ru/tokaev-osvobodil-ot-dolzhnostey-treh-rukovoditeley-ministerstva-oboroni-25bd671a"
   },
   {
    "personId": 75,
-   "title": "Deputy Minister of Defense for Education and Ideological Work",
+   "title": "Officer to Chief of Staff – First Deputy Commander, Regional Command West",
+   "institution": "Armed Forces",
+   "startYear": 1999,
+   "endYear": 2021,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/388?lang=ru"
+  },
+  {
+   "personId": 75,
+   "title": "Commander of Regional Command Astana",
+   "institution": "Regional Command Astana",
+   "startYear": 2021,
+   "endYear": 2023,
+   "source": "https://www.inform.kz/person/shaikh-khasan-satarkululy-zhazykbaev-1747832965"
+  },
+  {
+   "personId": 75,
+   "title": "Deputy Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/388?lang=ru"
+  },
+  {
+   "personId": 75,
+   "title": "Deputy Minister of Defense (Education and Ideological Work; later Weapons and Military Equipment)",
    "institution": "Ministry of Defense",
    "startYear": 2024,
    "endYear": "Present",
-   "source": ""
+   "source": "https://www.akorda.kz/ru/rasporyazheniem-glavy-gosudarstva-zhazykbaev-shayh-hasan-satarkululy-naznachen-zamestitelem-ministra-oborony-respubliki-kazahstan-911827"
+  },
+  {
+   "personId": 76,
+   "title": "Platoon Commander to Commander of several military units",
+   "institution": "Armed Forces",
+   "startYear": 1988,
+   "endYear": 2010,
+   "source": "https://www.gov.kz/org/mod/about/structure/20001156/1?lang=kk"
   },
   {
    "personId": 76,
@@ -5958,8 +6348,8 @@
    "title": "Deputy Minister of Defense",
    "institution": "Ministry of Defense",
    "startYear": 2023,
-   "endYear": "Present",
-   "source": ""
+   "endYear": 2026,
+   "source": "https://prokadry.kz/beysenov_zamminoborony_osvob_26/"
   },
   {
    "personId": 78,
@@ -6014,8 +6404,936 @@
    "title": "Deputy Minister of Defense",
    "institution": "Ministry of Defense",
    "startYear": 2022,
+   "endYear": 2026,
+   "source": "https://www.zakon.kz/sobytiia/6529549-darkhan-akhmediev-osvobozhden-ot-dolzhnosti-zamministra-oborony.html"
+  },
+  {
+   "personId": 78,
+   "title": "Chairman, Committee on Digitalization, Innovation and Science",
+   "institution": "Kurultai",
+   "startYear": 2026,
    "endYear": "Present",
-   "source": ""
+   "source": "https://bizmedia.kz/2026-08-28-v-kurultae-naznachili-rukovoditelej-8-mi-komitetov/"
+  },
+  {
+   "personId": 79,
+   "title": "Officer (command and senior leadership positions)",
+   "institution": "State Security Service",
+   "startYear": 2002,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/24538"
+  },
+  {
+   "personId": 79,
+   "title": "Commander of the Special Operations Forces",
+   "institution": "Special Operations Forces",
+   "startYear": 2024,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/24538"
+  },
+  {
+   "personId": 79,
+   "title": "Minister of Defense",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/people/24538"
+  },
+  {
+   "personId": 80,
+   "title": "Rifleman to senior officer, Directorate of Educational and Ideological Work",
+   "institution": "Republican Guard",
+   "startYear": 1995,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/40314"
+  },
+  {
+   "personId": 80,
+   "title": "Officer and command posts in personnel and protection units",
+   "institution": "State Security Service",
+   "startYear": 2014,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/40314"
+  },
+  {
+   "personId": 80,
+   "title": "Deputy Head of the State Security Service – Commander of the Special Purpose Forces",
+   "institution": "State Security Service",
+   "startYear": 2022,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/40314"
+  },
+  {
+   "personId": 80,
+   "title": "First Deputy Minister of Defense – Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/people/40314"
+  },
+  {
+   "personId": 81,
+   "title": "Chief Budget Specialist",
+   "institution": "Astana City Finance Department",
+   "startYear": 1999,
+   "endYear": 2002,
+   "source": "https://ru.wikipedia.org/wiki/Савельева,_Татьяна_Михайловна"
+  },
+  {
+   "personId": 81,
+   "title": "Chief Specialist, Budget Development Division, State Budget Department",
+   "institution": "Ministry of Finance",
+   "startYear": 2002,
+   "endYear": 2002,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Chief Specialist to Deputy Director, Budget Policy and Planning Department",
+   "institution": "Ministry of Economy and Budget Planning",
+   "startYear": 2002,
+   "endYear": 2009,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Director, Budget Planning (and Forecasting) Department",
+   "institution": "Ministry of Finance",
+   "startYear": 2012,
+   "endYear": 2016,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Vice Minister of Finance",
+   "institution": "Ministry of Finance",
+   "startYear": 2016,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Deputy of the Mazhilis (VIII convocation); Chair, Committee on Finance and Budget from February 2024",
+   "institution": "Mazhilis",
+   "startYear": 2023,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Deputy of the Kurultai (I convocation); member, Committee on Finance and Budget",
+   "institution": "Kurultai",
+   "startYear": 2026,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Deputy Minister of Defense for Economics and Finance",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 82,
+   "title": "Leading IT Specialist; Chief Manager; IT Consulting Analyst",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2007,
+   "endYear": 2009,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Leading Specialist",
+   "institution": "Healthcare Investment Projects Management Center LLP",
+   "startYear": 2009,
+   "endYear": 2011,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Chief Analyst; Head of Directorate, Committee for Control of Public Service Automation",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2011,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Chief Analyst; Head of Directorate, Committee for Control of Public Service Automation",
+   "institution": "Ministry of Communications and Information",
+   "startYear": 2011,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Head, Electronic Services Control Directorate",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2012,
+   "endYear": 2013,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Deputy Director, Department for E-Services and Public Service Centers",
+   "institution": "Agency for Communications and Information",
+   "startYear": 2014,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Head, Electronic Services Control Directorate, Committee of Communications, Informatization and Information",
+   "institution": "Ministry for Investment and Development",
+   "startYear": 2014,
+   "endYear": 2016,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Deputy Director, Public Services Development Department; Director, Informatization Department",
+   "institution": "Ministry of Information and Communications",
+   "startYear": 2016,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Deputy Chairman of the Management Board",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2017,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Chairman, Committee of Public Services",
+   "institution": "Ministry of Digital Development, Innovations and Aerospace Industry",
+   "startYear": 2020,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Managing Director for Public Services",
+   "institution": "Kazpost JSC",
+   "startYear": 2023,
+   "endYear": 2025,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Chairman of the Management Board",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2025,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Deputy Minister of Defense",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 83,
+   "title": "Platoon Commander to Deputy Department Head – Head of the Officer Personnel Division",
+   "institution": "Armed Forces",
+   "startYear": 1997,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 83,
+   "title": "Head of the Personnel Work Department",
+   "institution": "Ministry of Defense",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 84,
+   "title": "Deputy Company Commander for Educational and Social-Legal Work, Military Unit 28237",
+   "institution": "Military Unit 28237",
+   "startYear": 1998,
+   "endYear": 1999,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 84,
+   "title": "Inquiry Officer to Deputy Detachment Head (Legal Affairs), Almaty Regional Garrison Military Police Detachment",
+   "institution": "Military Police – Almaty Regional Garrison",
+   "startYear": 2000,
+   "endYear": 2006,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 84,
+   "title": "Head of Military Police Department, Kapchagay Garrison",
+   "institution": "Military Police – Kapchagay Garrison",
+   "startYear": 2006,
+   "endYear": 2010,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 84,
+   "title": "Head of Military Police Department, Taldykorgan Garrison",
+   "institution": "Military Police – Taldykorgan Garrison",
+   "startYear": 2010,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 84,
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of Criminal Prosecution Directorate",
+   "institution": "Main Directorate of Military Police",
+   "startYear": 2012,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 84,
+   "title": "Head of the Main Directorate of Military Police",
+   "institution": "Main Directorate of Military Police",
+   "startYear": 2017,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 84,
+   "title": "Head of the Advanced Training Faculty",
+   "institution": "National Defense University",
+   "startYear": 2017,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 84,
+   "title": "Head of the Sagadat Nurmagambetov Military College",
+   "institution": "Sagadat Nurmagambetov Military College",
+   "startYear": 2021,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 84,
+   "title": "Head of the Department of Educational and Ideological Work",
+   "institution": "Ministry of Defense",
+   "startYear": 2023,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 85,
+   "title": "Platoon Commander to Military Unit Commander",
+   "institution": "Armed Forces",
+   "startYear": 1995,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 85,
+   "title": "Head of the Department of Military Education and Science",
+   "institution": "Ministry of Defense",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 86,
+   "title": "Officer",
+   "institution": "Air Defense Forces",
+   "startYear": 2002,
+   "endYear": 2005,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 86,
+   "title": "Section Officer, Main Directorate of International Programs",
+   "institution": "Main Directorate of International Programs (Armed Forces)",
+   "startYear": 2005,
+   "endYear": 2007,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 86,
+   "title": "Senior Officer, Operational Planning Department, Chiefs of Staff Committee",
+   "institution": "General Staff",
+   "startYear": 2007,
+   "endYear": 2011,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 86,
+   "title": "Division Head, International Cooperation Department",
+   "institution": "Ministry of Defense",
+   "startYear": 2011,
+   "endYear": 2015,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 86,
+   "title": "Directorate Head, International Cooperation Department",
+   "institution": "Ministry of Defense",
+   "startYear": 2015,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 86,
+   "title": "Deputy Head – Directorate Head, International Cooperation Department",
+   "institution": "Ministry of Defense",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 86,
+   "title": "Head of the International Cooperation Department",
+   "institution": "Ministry of Defense",
+   "startYear": 2019,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+  },
+  {
+   "personId": 87,
+   "title": "Head of the Pension Provision Center",
+   "institution": "Ministry of Defense",
+   "startYear": 2023,
+   "endYear": "Present",
+   "source": "https://informburo.kz/novosti/kak-minoborony-budet-ulucsat-pensionnoe-obespecenie-voennosluzashhix"
+  },
+  {
+   "personId": 88,
+   "title": "Pilot to Air Base Commander (military transport aviation)",
+   "institution": "Armed Forces",
+   "startYear": 1989,
+   "endYear": 2006,
+   "source": "https://prokadry.kz/%D0%B6%D1%83%D0%BC%D0%B0%D0%B1%D0%B0%D0%B5%D0%B2-%D1%80%D1%83%D1%81%D0%BB%D0%B0%D0%BD-%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5/"
+  },
+  {
+   "personId": 88,
+   "title": "Deputy General Director for Operations",
+   "institution": "Kazakhstan Aviation Industry LLP",
+   "startYear": 2023,
+   "endYear": 2025,
+   "source": "https://prokadry.kz/%D0%B6%D1%83%D0%BC%D0%B0%D0%B1%D0%B0%D0%B5%D0%B2-%D1%80%D1%83%D1%81%D0%BB%D0%B0%D0%BD-%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5/"
+  },
+  {
+   "personId": 88,
+   "title": "Deputy Chairman of the State Defense Order Committee",
+   "institution": "Ministry of Defense",
+   "startYear": 2025,
+   "endYear": 2026,
+   "source": "https://prokadry.kz/%D0%B6%D1%83%D0%BC%D0%B0%D0%B1%D0%B0%D0%B5%D0%B2-%D1%80%D1%83%D1%81%D0%BB%D0%B0%D0%BD-%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5/"
+  },
+  {
+   "personId": 88,
+   "title": "Deputy Chairman of the State Defense Order Committee",
+   "institution": "State Defense Order Committee",
+   "startYear": 2025,
+   "endYear": 2026,
+   "source": "https://prokadry.kz/%D0%B6%D1%83%D0%BC%D0%B0%D0%B1%D0%B0%D0%B5%D0%B2-%D1%80%D1%83%D1%81%D0%BB%D0%B0%D0%BD-%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5/"
+  },
+  {
+   "personId": 88,
+   "title": "Chairman of the State Defense Order Committee",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://prokadry.kz/%D0%B6%D1%83%D0%BC%D0%B0%D0%B1%D0%B0%D0%B5%D0%B2-%D1%80%D1%83%D1%81%D0%BB%D0%B0%D0%BD-%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5/"
+  },
+  {
+   "personId": 88,
+   "title": "Chairman of the State Defense Order Committee",
+   "institution": "State Defense Order Committee",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://prokadry.kz/%D0%B6%D1%83%D0%BC%D0%B0%D0%B1%D0%B0%D0%B5%D0%B2-%D1%80%D1%83%D1%81%D0%BB%D0%B0%D0%BD-%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5/"
+  },
+  {
+   "personId": 89,
+   "title": "Platoon Commander to Commander of Missile and Artillery Troops",
+   "institution": "Ground Forces",
+   "startYear": 1995,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 89,
+   "title": "Deputy Head of the University – Head of the General Staff Academy Faculty",
+   "institution": "National Defense University",
+   "startYear": 2022,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 89,
+   "title": "Head of the Territorial Defense Department – Deputy Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 90,
+   "title": "Platoon Commander to senior operations posts, Air Assault Troops",
+   "institution": "Air Assault Troops",
+   "startYear": 2000,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 90,
+   "title": "Chief of Staff – First Deputy Commander of the Air Assault Troops",
+   "institution": "Air Assault Troops",
+   "startYear": 2023,
+   "endYear": 2025,
+   "source": "https://dknews.kz/ru/v-strane/280734-strategicheskie-voennye-ucheniya-batyl-toytarys-2023"
+  },
+  {
+   "personId": 90,
+   "title": "Deputy Chief of the General Staff – Head of the Organizational and Mobilization Department",
+   "institution": "Ministry of Defense",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 91,
+   "title": "Officer, Military Unit 25717; battalion and unit commander",
+   "institution": "Ground Forces",
+   "startYear": 1997,
+   "endYear": 2015,
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 91,
+   "title": "Deputy Commander for Combat Training – Head of Combat Training Directorate",
+   "institution": "Regional Command South",
+   "startYear": 2015,
+   "endYear": 2018,
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 91,
+   "title": "Chief of Staff – First Deputy Commander",
+   "institution": "Regional Command East",
+   "startYear": 2018,
+   "endYear": 2022,
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 91,
+   "title": "Commander",
+   "institution": "Regional Command East",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 91,
+   "title": "Commander",
+   "institution": "Regional Command South",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 91,
+   "title": "First Deputy Commander-in-Chief of the Ground Forces",
+   "institution": "Ground Forces Command",
+   "startYear": 2024,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/20001156/1?lang=kk"
+  },
+  {
+   "personId": 91,
+   "title": "Commander-in-Chief of the Ground Forces",
+   "institution": "Ground Forces Command",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 92,
+   "title": "Conscript; Platoon Commander, guard company",
+   "institution": "Soviet / Russian Armed Forces",
+   "startYear": 1992,
+   "endYear": 1994,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Platoon Commander; Commander, 3rd Company, Government Guard Battalion (Unit 0111)",
+   "institution": "Republican Guard",
+   "startYear": 1996,
+   "endYear": 2000,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Senior Inspector, Duty Unit, Akmola Garrison Military Police Detachment",
+   "institution": "Military Police – Akmola Regional Garrison",
+   "startYear": 2000,
+   "endYear": 2002,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Commandant of the General Staff",
+   "institution": "General Staff",
+   "startYear": 2002,
+   "endYear": 2003,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Head of Commandant Division; Deputy Head; Chief of Staff of the Detachment",
+   "institution": "Military Police",
+   "startYear": 2003,
+   "endYear": 2005,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Head of the Defense Ministry Guard, Military Police Detachment",
+   "institution": "Military Police – Defense Ministry Regime and Security Detachment",
+   "startYear": 2005,
+   "endYear": 2011,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Garrison Commandant, 40th Military Base (Gvardeysk)",
+   "institution": "40th Military Base",
+   "startYear": 2013,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Head of the Military Police Detachment for Regime and Security, Ministry of Defense",
+   "institution": "Military Police – Defense Ministry Regime and Security Detachment",
+   "startYear": 2014,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Chief of Staff – First Deputy Head of the Main Directorate of Military Police",
+   "institution": "Main Directorate of Military Police",
+   "startYear": 2019,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Inquiry Officer-Inspector, Semipalatinsk Regional Garrison Military Police Detachment",
+   "institution": "Military Police – Semey Regional Garrison",
+   "startYear": 2003,
+   "endYear": 2005,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Inquiry Officer to Deputy Head (Legal Affairs), Shymkent Garrison Military Police",
+   "institution": "Military Police – Shymkent Garrison",
+   "startYear": 2005,
+   "endYear": 2015,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Deputy Detachment Head (Legal Affairs) – Head of Inquiry, Semipalatinsk Regional Garrison Military Police",
+   "institution": "Military Police – Semey Regional Garrison",
+   "startYear": 2015,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Head of Military Police, Taraz Garrison",
+   "institution": "Military Police – Taraz Garrison",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Head of Military Police Detachment, Akmola Regional Garrison",
+   "institution": "Military Police – Akmola Regional Garrison",
+   "startYear": 2019,
+   "endYear": 2021,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Head of Military Police, Ust-Kamenogorsk Garrison",
+   "institution": "Military Police – Ust-Kamenogorsk Garrison",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Head of Military Police Directorate, Taraz Regional Garrison",
+   "institution": "Military Police – Taraz Garrison",
+   "startYear": 2022,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Deputy Head of the Main Directorate of Military Police (Prevention and Criminal Prosecution)",
+   "institution": "Main Directorate of Military Police",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Radar Station Chief, Military Unit 53975",
+   "institution": "Military Unit 53975",
+   "startYear": 2005,
+   "endYear": 2005,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Military Automobile Police posts; Head of Administrative Practice Section, Almaty Regional Garrison Military Police",
+   "institution": "Military Police – Almaty Regional Garrison",
+   "startYear": 2005,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Head of Military Automobile Police Department, Almaty Regional Garrison",
+   "institution": "Military Police – Almaty Regional Garrison",
+   "startYear": 2014,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Head of Military Police, Kapchagay Garrison",
+   "institution": "Military Police – Kapchagay Garrison",
+   "startYear": 2017,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Deputy Head (Educational and Ideological Work); Chief of Staff – Deputy Head, Almaty Regional Garrison Military Police Detachment",
+   "institution": "Military Police – Almaty Regional Garrison",
+   "startYear": 2018,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Head of Military Police Directorate, Almaty Regional Garrison",
+   "institution": "Military Police – Almaty Regional Garrison",
+   "startYear": 2020,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate",
+   "institution": "Main Directorate of Military Police",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 95,
+   "title": "Deputy Section Head to Head of Military Police Department, Akmola Regional Garrison Military Police Detachment",
+   "institution": "Military Police – Akmola Regional Garrison",
+   "startYear": 1998,
+   "endYear": 2008,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 95,
+   "title": "Senior Inspector; Head of Security and Law Enforcement Division, Public Security Directorate, Main Directorate of Military Police",
+   "institution": "Main Directorate of Military Police",
+   "startYear": 2008,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 95,
+   "title": "Head of the Public Security Directorate, Main Directorate of Military Police",
+   "institution": "Main Directorate of Military Police",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 95,
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Troops Service and Military Service Safety Directorate",
+   "institution": "Main Directorate of Military Police",
+   "startYear": 2019,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Road Patrol Section Head; Head of Military Road Police, Semey Garrison Military Police Detachment",
+   "institution": "Military Police – Semey Regional Garrison",
+   "startYear": 2000,
+   "endYear": 2002,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Senior Inspector – Chair, Qualification Commission; Head of Military Automobile Police, Semey Regional Garrison",
+   "institution": "Military Police",
+   "startYear": 2004,
+   "endYear": 2008,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Senior Lecturer to Deputy Head (Training), Military Police Training Center",
+   "institution": "Military Police – Training Center",
+   "startYear": 2008,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Head of Military Police, Kapchagay and Saryozek Garrisons",
+   "institution": "Military Police – Kapchagay Garrison",
+   "startYear": 2012,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Head of Military Police, Kapchagay and Saryozek Garrisons",
+   "institution": "Military Police – Saryozek Garrison",
+   "startYear": 2012,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Deputy Detachment Head – Chief of Staff, Almaty Regional Garrison Military Police Detachment",
+   "institution": "Military Police – Almaty Regional Garrison",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate",
+   "institution": "Main Directorate of Military Police",
+   "startYear": 2019,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Educational and Ideological Work Department",
+   "institution": "Main Directorate of Military Police",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 97,
+   "title": "Chief of Staff – First Deputy Commander",
+   "institution": "Regional Command West",
+   "startYear": null,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 97,
+   "title": "Commander of Regional Command Astana",
+   "institution": "Regional Command Astana",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://tengrinews.kz/kazakhstan_news/tokaev-provl-naznacheniya-v-voorujennyih-silah-596224/"
+  },
+  {
+   "personId": 98,
+   "title": "Platoon Commander to Deputy Commander of Troops",
+   "institution": "Armed Forces",
+   "startYear": 1995,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 98,
+   "title": "Commander of Regional Command Astana",
+   "institution": "Regional Command Astana",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://bizmedia.kz/2023-11-07-erzhan-ibraev-stal-rukovoditelem-regionalnogo-komandovaniya-astana/"
+  },
+  {
+   "personId": 98,
+   "title": "Commander of Regional Command South",
+   "institution": "Regional Command South",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 99,
+   "title": "Platoon Commander to Military Unit Commander",
+   "institution": "Armed Forces",
+   "startYear": 1998,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 99,
+   "title": "Deputy Commander for Combat Training – Head of Combat Training Department",
+   "institution": "Regional Command West",
+   "startYear": 2018,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 99,
+   "title": "Chief of Staff – First Deputy Commander",
+   "institution": "Regional Command East",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 99,
+   "title": "Commander of Regional Command East",
+   "institution": "Regional Command East",
+   "startYear": 2023,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 100,
+   "title": "Chief of Staff – First Deputy Commander",
+   "institution": "Regional Command South",
+   "startYear": null,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/329/1?lang=kk"
+  },
+  {
+   "personId": 100,
+   "title": "Commander of Regional Command West",
+   "institution": "Regional Command West",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.zakon.kz/politika/6514558-tokaev-naznachil-komanduyushchego-voyskami-regionalnogo-komandovaniya-zapad.html"
   }
  ],
  "edges": [
@@ -6083,6 +7401,20 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:1-88",
+   "from": 1,
+   "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:1-94",
+   "from": 1,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:2-18",
    "from": 2,
    "to": 18,
@@ -6121,6 +7453,27 @@
    "id": "region:2-72",
    "from": 2,
    "to": 72,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:2-85",
+   "from": 2,
+   "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:2-93",
+   "from": 2,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:2-97",
+   "from": 2,
+   "to": 97,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -6181,6 +7534,20 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:3-88",
+   "from": 3,
+   "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:3-94",
+   "from": 3,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:4-7",
    "from": 4,
    "to": 7,
@@ -6230,6 +7597,20 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:4-88",
+   "from": 4,
+   "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:4-94",
+   "from": 4,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:5-15",
    "from": 5,
    "to": 15,
@@ -6247,6 +7628,13 @@
    "id": "region:5-22",
    "from": 5,
    "to": 22,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:5-24",
+   "from": 5,
+   "to": 24,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -6282,6 +7670,41 @@
    "id": "region:5-60",
    "from": 5,
    "to": 60,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:5-73",
+   "from": 5,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:5-79",
+   "from": 5,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:5-87",
+   "from": 5,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:5-92",
+   "from": 5,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:5-96",
+   "from": 5,
+   "to": 96,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -6335,6 +7758,20 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:7-88",
+   "from": 7,
+   "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:7-94",
+   "from": 7,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:8-10",
    "from": 8,
    "to": 10,
@@ -6370,6 +7807,20 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:8-88",
+   "from": 8,
+   "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:8-94",
+   "from": 8,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:10-14",
    "from": 10,
    "to": 14,
@@ -6394,6 +7845,20 @@
    "id": "region:10-61",
    "from": 10,
    "to": 61,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:10-88",
+   "from": 10,
+   "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:10-94",
+   "from": 10,
+   "to": 94,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -6433,6 +7898,20 @@
    "title": "Same region: Kyzylorda Region"
   },
   {
+   "id": "region:12-84",
+   "from": 12,
+   "to": 84,
+   "ltype": "region",
+   "title": "Same region: Kyzylorda Region"
+  },
+  {
+   "id": "region:12-100",
+   "from": 12,
+   "to": 100,
+   "ltype": "region",
+   "title": "Same region: Kyzylorda Region"
+  },
+  {
    "id": "region:13-32",
    "from": 13,
    "to": 32,
@@ -6468,6 +7947,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:13-91",
+   "from": 13,
+   "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:14-16",
    "from": 14,
    "to": 16,
@@ -6489,6 +7975,20 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:14-88",
+   "from": 14,
+   "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:14-94",
+   "from": 14,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:15-19",
    "from": 15,
    "to": 19,
@@ -6499,6 +7999,13 @@
    "id": "region:15-22",
    "from": 15,
    "to": 22,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:15-24",
+   "from": 15,
+   "to": 24,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -6538,6 +8045,41 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:15-73",
+   "from": 15,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:15-79",
+   "from": 15,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:15-87",
+   "from": 15,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:15-92",
+   "from": 15,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:15-96",
+   "from": 15,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:16-21",
    "from": 16,
    "to": 21,
@@ -6548,6 +8090,20 @@
    "id": "region:16-61",
    "from": 16,
    "to": 61,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:16-88",
+   "from": 16,
+   "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:16-94",
+   "from": 16,
+   "to": 94,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -6601,9 +8157,37 @@
    "title": "Same region: Turkestan Region"
   },
   {
+   "id": "region:18-85",
+   "from": 18,
+   "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:18-93",
+   "from": 18,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:18-97",
+   "from": 18,
+   "to": 97,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
    "id": "region:19-22",
    "from": 19,
    "to": 22,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:19-24",
+   "from": 19,
+   "to": 24,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -6643,6 +8227,41 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:19-73",
+   "from": 19,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:19-79",
+   "from": 19,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:19-87",
+   "from": 19,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:19-92",
+   "from": 19,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:19-96",
+   "from": 19,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:20-30",
    "from": 20,
    "to": 30,
@@ -6678,11 +8297,60 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:20-80",
+   "from": 20,
+   "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:20-89",
+   "from": 20,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:20-90",
+   "from": 20,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:20-98",
+   "from": 20,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:21-61",
    "from": 21,
    "to": 61,
    "ltype": "region",
    "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:21-88",
+   "from": 21,
+   "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:21-94",
+   "from": 21,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:22-24",
+   "from": 22,
+   "to": 24,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
   },
   {
    "id": "region:22-38",
@@ -6720,11 +8388,109 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:22-73",
+   "from": 22,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:22-79",
+   "from": 22,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:22-87",
+   "from": 22,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:22-92",
+   "from": 22,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:22-96",
+   "from": 22,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-38",
+   "from": 24,
+   "to": 38,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-45",
+   "from": 24,
+   "to": 45,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-49",
+   "from": 24,
+   "to": 49,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-59",
+   "from": 24,
+   "to": 59,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-60",
+   "from": 24,
+   "to": 60,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:24-73",
    "from": 24,
    "to": 73,
    "ltype": "region",
-   "title": "Same region: Zhetysu Region"
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-79",
+   "from": 24,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-87",
+   "from": 24,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-92",
+   "from": 24,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-96",
+   "from": 24,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
   },
   {
    "id": "region:25-27",
@@ -6751,6 +8517,27 @@
    "id": "region:25-72",
    "from": 25,
    "to": 72,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:25-85",
+   "from": 25,
+   "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:25-93",
+   "from": 25,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:25-97",
+   "from": 25,
+   "to": 97,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -6793,6 +8580,27 @@
    "id": "region:27-72",
    "from": 27,
    "to": 72,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:27-85",
+   "from": 27,
+   "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:27-93",
+   "from": 27,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:27-97",
+   "from": 27,
+   "to": 97,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -6853,6 +8661,34 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:30-80",
+   "from": 30,
+   "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:30-89",
+   "from": 30,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:30-90",
+   "from": 30,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:30-98",
+   "from": 30,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:31-36",
    "from": 31,
    "to": 36,
@@ -6902,6 +8738,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:32-91",
+   "from": 32,
+   "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:33-39",
    "from": 33,
    "to": 39,
@@ -6921,6 +8764,34 @@
    "to": 75,
    "ltype": "region",
    "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:33-91",
+   "from": 33,
+   "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:34-81",
+   "from": 34,
+   "to": 81,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:34-86",
+   "from": 34,
+   "to": 86,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:34-95",
+   "from": 34,
+   "to": 95,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
   },
   {
    "id": "region:36-55",
@@ -6972,6 +8843,41 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:38-73",
+   "from": 38,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:38-79",
+   "from": 38,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:38-87",
+   "from": 38,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:38-92",
+   "from": 38,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:38-96",
+   "from": 38,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:39-67",
    "from": 39,
    "to": 67,
@@ -6986,6 +8892,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:39-91",
+   "from": 39,
+   "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:40-47",
    "from": 40,
    "to": 47,
@@ -6996,6 +8909,27 @@
    "id": "region:40-72",
    "from": 40,
    "to": 72,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:40-85",
+   "from": 40,
+   "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:40-93",
+   "from": 40,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:40-97",
+   "from": 40,
+   "to": 97,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -7028,6 +8962,34 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:42-80",
+   "from": 42,
+   "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:42-89",
+   "from": 42,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:42-90",
+   "from": 42,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:42-98",
+   "from": 42,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:45-49",
    "from": 45,
    "to": 49,
@@ -7049,6 +9011,41 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:45-73",
+   "from": 45,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:45-79",
+   "from": 45,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:45-87",
+   "from": 45,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:45-92",
+   "from": 45,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:45-96",
+   "from": 45,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:46-56",
    "from": 46,
    "to": 56,
@@ -7059,6 +9056,27 @@
    "id": "region:47-72",
    "from": 47,
    "to": 72,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:47-85",
+   "from": 47,
+   "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:47-93",
+   "from": 47,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:47-97",
+   "from": 47,
+   "to": 97,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -7077,11 +9095,74 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:49-73",
+   "from": 49,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:49-79",
+   "from": 49,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:49-87",
+   "from": 49,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:49-92",
+   "from": 49,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:49-96",
+   "from": 49,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:50-58",
+   "from": 50,
+   "to": 58,
+   "ltype": "region",
+   "title": "Same region: Karaganda Region"
+  },
+  {
+   "id": "region:50-99",
+   "from": 50,
+   "to": 99,
+   "ltype": "region",
+   "title": "Same region: Karaganda Region"
+  },
+  {
    "id": "region:51-54",
    "from": 51,
    "to": 54,
    "ltype": "region",
    "title": "Same region: Kostanay Region"
+  },
+  {
+   "id": "region:52-84",
+   "from": 52,
+   "to": 84,
+   "ltype": "region",
+   "title": "Same region: Kyzylorda Region"
+  },
+  {
+   "id": "region:52-100",
+   "from": 52,
+   "to": 100,
+   "ltype": "region",
+   "title": "Same region: Kyzylorda Region"
   },
   {
    "id": "region:55-71",
@@ -7091,11 +9172,102 @@
    "title": "Same region: Pavlodar Region"
   },
   {
+   "id": "region:58-99",
+   "from": 58,
+   "to": 99,
+   "ltype": "region",
+   "title": "Same region: Karaganda Region"
+  },
+  {
    "id": "region:59-60",
    "from": 59,
    "to": 60,
    "ltype": "region",
    "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:59-73",
+   "from": 59,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:59-79",
+   "from": 59,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:59-87",
+   "from": 59,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:59-92",
+   "from": 59,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:59-96",
+   "from": 59,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:60-73",
+   "from": 60,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:60-79",
+   "from": 60,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:60-87",
+   "from": 60,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:60-92",
+   "from": 60,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:60-96",
+   "from": 60,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:61-88",
+   "from": 61,
+   "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:61-94",
+   "from": 61,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
   },
   {
    "id": "region:62-70",
@@ -7112,9 +9284,44 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:62-80",
+   "from": 62,
+   "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:62-89",
+   "from": 62,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:62-90",
+   "from": 62,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:62-98",
+   "from": 62,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:67-75",
    "from": 67,
    "to": 75,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:67-91",
+   "from": 67,
+   "to": 91,
    "ltype": "region",
    "title": "Same region: Zhambyl Region"
   },
@@ -7124,6 +9331,265 @@
    "to": 76,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:70-80",
+   "from": 70,
+   "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:70-89",
+   "from": 70,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:70-90",
+   "from": 70,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:70-98",
+   "from": 70,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:72-85",
+   "from": 72,
+   "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:72-93",
+   "from": 72,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:72-97",
+   "from": 72,
+   "to": 97,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:73-79",
+   "from": 73,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:73-87",
+   "from": 73,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:73-92",
+   "from": 73,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:73-96",
+   "from": 73,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:74-83",
+   "from": 74,
+   "to": 83,
+   "ltype": "region",
+   "title": "Same region: Kyrgyzstan"
+  },
+  {
+   "id": "region:75-91",
+   "from": 75,
+   "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:76-80",
+   "from": 76,
+   "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:76-89",
+   "from": 76,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:76-90",
+   "from": 76,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:76-98",
+   "from": 76,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:79-87",
+   "from": 79,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:79-92",
+   "from": 79,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:79-96",
+   "from": 79,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:80-89",
+   "from": 80,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:80-90",
+   "from": 80,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:80-98",
+   "from": 80,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:81-86",
+   "from": 81,
+   "to": 86,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:81-95",
+   "from": 81,
+   "to": 95,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:84-100",
+   "from": 84,
+   "to": 100,
+   "ltype": "region",
+   "title": "Same region: Kyzylorda Region"
+  },
+  {
+   "id": "region:85-93",
+   "from": 85,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:85-97",
+   "from": 85,
+   "to": 97,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:86-95",
+   "from": 86,
+   "to": 95,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:87-92",
+   "from": 87,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:87-96",
+   "from": 87,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:88-94",
+   "from": 88,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:89-90",
+   "from": 89,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:89-98",
+   "from": 89,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:90-98",
+   "from": 90,
+   "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:92-96",
+   "from": 92,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:93-97",
+   "from": 93,
+   "to": 97,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
   },
   {
    "id": "school:4-61",
@@ -7441,6 +9907,27 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:19-83",
+   "from": 19,
+   "to": 83,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
+   "id": "school:19-91",
+   "from": 19,
+   "to": 91,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
+   "id": "school:19-98",
+   "from": 19,
+   "to": 98,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
    "id": "school:21-60",
    "from": 21,
    "to": 60,
@@ -7578,7 +10065,21 @@
    "from": 40,
    "to": 54,
    "ltype": "school",
-   "title": "Same school: S. Seifullin Kazakh Agrotechnical University"
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
+  },
+  {
+   "id": "school:40-81",
+   "from": 40,
+   "to": 81,
+   "ltype": "school",
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
+  },
+  {
+   "id": "school:40-95",
+   "from": 40,
+   "to": 95,
+   "ltype": "school",
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
   },
   {
    "id": "school:43-63",
@@ -7616,11 +10117,39 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:54-81",
+   "from": 54,
+   "to": 81,
+   "ltype": "school",
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
+  },
+  {
+   "id": "school:54-95",
+   "from": 54,
+   "to": 95,
+   "ltype": "school",
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
+  },
+  {
    "id": "school:57-64",
    "from": 57,
    "to": 64,
    "ltype": "school",
    "title": "Same school: M. Auezov South Kazakhstan University"
+  },
+  {
+   "id": "school:59-89",
+   "from": 59,
+   "to": 89,
+   "ltype": "school",
+   "title": "Same school: Satbayev University (Kazakh Polytechnic Institute)"
+  },
+  {
+   "id": "school:70-92",
+   "from": 70,
+   "to": 92,
+   "ltype": "school",
+   "title": "Same school: Academy of the Border Service of the National Security Committee (Border Troops Military Institute)"
   },
   {
    "id": "school:71-75",
@@ -7649,6 +10178,139 @@
    "to": 76,
    "ltype": "school",
    "title": "Same school: National Defense University"
+  },
+  {
+   "id": "school:79-90",
+   "from": 79,
+   "to": 90,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:79-96",
+   "from": 79,
+   "to": 96,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:79-97",
+   "from": 79,
+   "to": 97,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:79-99",
+   "from": 79,
+   "to": 99,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:79-100",
+   "from": 79,
+   "to": 100,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:81-95",
+   "from": 81,
+   "to": 95,
+   "ltype": "school",
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
+  },
+  {
+   "id": "school:83-91",
+   "from": 83,
+   "to": 91,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
+   "id": "school:83-98",
+   "from": 83,
+   "to": 98,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
+   "id": "school:90-96",
+   "from": 90,
+   "to": 96,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:90-97",
+   "from": 90,
+   "to": 97,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:90-99",
+   "from": 90,
+   "to": 99,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:90-100",
+   "from": 90,
+   "to": 100,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:91-98",
+   "from": 91,
+   "to": 98,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
+   "id": "school:96-97",
+   "from": 96,
+   "to": 97,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:96-99",
+   "from": 96,
+   "to": 99,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:96-100",
+   "from": 96,
+   "to": 100,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:97-99",
+   "from": 97,
+   "to": 99,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:97-100",
+   "from": 97,
+   "to": 100,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:99-100",
+   "from": 99,
+   "to": 100,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
   },
   {
    "id": "work:1-2",
@@ -8435,6 +11097,13 @@
    "title": "Shared workplace: Akorda (2025)"
   },
   {
+   "id": "work:3-82",
+   "from": 3,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Kazpost JSC (2023–2025)"
+  },
+  {
    "id": "work:4-6",
    "from": 4,
    "to": 6,
@@ -8734,76 +11403,6 @@
    "to": 21,
    "ltype": "work",
    "title": "Shared workplace: Security Council (Akorda) (2022–2026)"
-  },
-  {
-   "id": "work:5-40",
-   "from": 5,
-   "to": 40,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:5-59",
-   "from": 5,
-   "to": 59,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2006)"
-  },
-  {
-   "id": "work:5-63",
-   "from": 5,
-   "to": 63,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
-   "id": "work:5-64",
-   "from": 5,
-   "to": 64,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
-   "id": "work:5-65",
-   "from": 5,
-   "to": 65,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2017)"
-  },
-  {
-   "id": "work:5-66",
-   "from": 5,
-   "to": 66,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
-   "id": "work:5-67",
-   "from": 5,
-   "to": 67,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2017)"
-  },
-  {
-   "id": "work:5-68",
-   "from": 5,
-   "to": 68,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
-   "id": "work:5-69",
-   "from": 5,
-   "to": 69,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
-   "id": "work:5-70",
-   "from": 5,
-   "to": 70,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
   },
   {
    "id": "work:6-7",
@@ -9268,6 +11867,13 @@
    "title": "Shared workplace: Ministry of Finance (2002–2004)"
   },
   {
+   "id": "work:7-81",
+   "from": 7,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Economy and Budget Planning (2002–2003); Ministry of Finance (2002)"
+  },
+  {
    "id": "work:8-9",
    "from": 8,
    "to": 9,
@@ -9545,63 +12151,21 @@
    "from": 8,
    "to": 59,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
+   "title": "Shared workplace: KNB Leadership (2022)"
   },
   {
    "id": "work:8-60",
    "from": 8,
    "to": 60,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-63",
-   "from": 8,
-   "to": 63,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-64",
-   "from": 8,
-   "to": 64,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-65",
-   "from": 8,
-   "to": 65,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-66",
-   "from": 8,
-   "to": 66,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-68",
-   "from": 8,
-   "to": 68,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-69",
-   "from": 8,
-   "to": 69,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
+   "title": "Shared workplace: KNB Leadership (2022)"
   },
   {
    "id": "work:8-70",
    "from": 8,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
+   "title": "Shared workplace: KNB Leadership (2022)"
   },
   {
    "id": "work:9-10",
@@ -9833,6 +12397,13 @@
    "to": 62,
    "ltype": "work",
    "title": "Shared workplace: Ministry of National Economy (2014–2016)"
+  },
+  {
+   "id": "work:9-81",
+   "from": 9,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2002)"
   },
   {
    "id": "work:10-11",
@@ -10288,6 +12859,13 @@
    "to": 62,
    "ltype": "work",
    "title": "Shared workplace: Ministry of National Economy (2016)"
+  },
+  {
+   "id": "work:11-82",
+   "from": 11,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry for Investment and Development (2016); Ministry of Transport and Communications (2012–2013)"
   },
   {
    "id": "work:12-13",
@@ -11694,7 +14272,7 @@
    "from": 19,
    "to": 75,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024–2025)"
+   "title": "Shared workplace: Ministry of Defense (2023–2025)"
   },
   {
    "id": "work:19-76",
@@ -11716,6 +14294,62 @@
    "to": 78,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2022–2025)"
+  },
+  {
+   "id": "work:19-83",
+   "from": 19,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2025)"
+  },
+  {
+   "id": "work:19-84",
+   "from": 19,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2025)"
+  },
+  {
+   "id": "work:19-85",
+   "from": 19,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2025)"
+  },
+  {
+   "id": "work:19-86",
+   "from": 19,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2022–2025)"
+  },
+  {
+   "id": "work:19-87",
+   "from": 19,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2025)"
+  },
+  {
+   "id": "work:19-88",
+   "from": 19,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025)"
+  },
+  {
+   "id": "work:19-89",
+   "from": 19,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2025)"
+  },
+  {
+   "id": "work:19-90",
+   "from": 19,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025)"
   },
   {
    "id": "work:20-21",
@@ -12089,6 +14723,13 @@
    "title": "Shared workplace: Akorda (2024)"
   },
   {
+   "id": "work:23-82",
+   "from": 23,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: National Information Technologies JSC (2009)"
+  },
+  {
    "id": "work:24-25",
    "from": 24,
    "to": 25,
@@ -12320,6 +14961,13 @@
    "title": "Shared workplace: Akorda (2025)"
   },
   {
+   "id": "work:25-82",
+   "from": 25,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Kazpost JSC (2025)"
+  },
+  {
    "id": "work:26-27",
    "from": 26,
    "to": 27,
@@ -12528,6 +15176,13 @@
    "to": 58,
    "ltype": "work",
    "title": "Shared workplace: Almaty City Akimat (2015)"
+  },
+  {
+   "id": "work:27-81",
+   "from": 27,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Mazhilis (2023–2026)"
   },
   {
    "id": "work:28-29",
@@ -13234,7 +15889,7 @@
    "from": 35,
    "to": 75,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024)"
+   "title": "Shared workplace: Ministry of Defense (2023–2024)"
   },
   {
    "id": "work:35-77",
@@ -13249,6 +15904,48 @@
    "to": 78,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2022–2024)"
+  },
+  {
+   "id": "work:35-83",
+   "from": 35,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024)"
+  },
+  {
+   "id": "work:35-84",
+   "from": 35,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2024)"
+  },
+  {
+   "id": "work:35-85",
+   "from": 35,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024)"
+  },
+  {
+   "id": "work:35-86",
+   "from": 35,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2021–2024)"
+  },
+  {
+   "id": "work:35-87",
+   "from": 35,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2024)"
+  },
+  {
+   "id": "work:35-89",
+   "from": 35,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024)"
   },
   {
    "id": "work:36-37",
@@ -13461,6 +16158,13 @@
    "title": "Shared workplace: Ministry of Transport and Communications (2005–2013)"
   },
   {
+   "id": "work:39-82",
+   "from": 39,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry for Investment and Development (2014–2016); Ministry of Transport and Communications (2012–2013)"
+  },
+  {
    "id": "work:40-41",
    "from": 40,
    "to": 41,
@@ -13510,60 +16214,11 @@
    "title": "Shared workplace: Ministry of Finance (2001–2002)"
   },
   {
-   "id": "work:40-63",
+   "id": "work:40-81",
    "from": 40,
-   "to": 63,
+   "to": 81,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-64",
-   "from": 40,
-   "to": 64,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-65",
-   "from": 40,
-   "to": 65,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-66",
-   "from": 40,
-   "to": 66,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-67",
-   "from": 40,
-   "to": 67,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-68",
-   "from": 40,
-   "to": 68,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-69",
-   "from": 40,
-   "to": 69,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-70",
-   "from": 40,
-   "to": 70,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
+   "title": "Shared workplace: Ministry of Finance (2002)"
   },
   {
    "id": "work:41-49",
@@ -13620,6 +16275,13 @@
    "to": 61,
    "ltype": "work",
    "title": "Shared workplace: Nur Otan Party (2009–2010)"
+  },
+  {
+   "id": "work:42-82",
+   "from": 42,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry for Investment and Development (2016)"
   },
   {
    "id": "work:43-45",
@@ -13706,6 +16368,13 @@
    "title": "Shared workplace: Ministry of Finance (2001–2012, 2014–2022)"
   },
   {
+   "id": "work:45-81",
+   "from": 45,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2002, 2012, 2014–2022)"
+  },
+  {
    "id": "work:46-48",
    "from": 46,
    "to": 48,
@@ -13732,6 +16401,13 @@
    "to": 56,
    "ltype": "work",
    "title": "Shared workplace: West Kazakhstan Region Akimat (2010–2014)"
+  },
+  {
+   "id": "work:47-81",
+   "from": 47,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Economy and Budget Planning (2007)"
   },
   {
    "id": "work:48-49",
@@ -13769,6 +16445,13 @@
    "title": "Shared workplace: Ministry of Finance (2006–2007, 2019, 2021)"
   },
   {
+   "id": "work:48-81",
+   "from": 48,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2019, 2021)"
+  },
+  {
    "id": "work:49-56",
    "from": 49,
    "to": 56,
@@ -13804,6 +16487,20 @@
    "title": "Shared workplace: Ministry of National Economy (2014–2016)"
   },
   {
+   "id": "work:52-81",
+   "from": 52,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Mazhilis (2023–2026)"
+  },
+  {
+   "id": "work:53-82",
+   "from": 53,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Transport and Communications (2012–2013)"
+  },
+  {
    "id": "work:57-60",
    "from": 57,
    "to": 60,
@@ -13811,319 +16508,333 @@
    "title": "Shared workplace: Ministry of Finance (2014–2015, 2018–2022)"
   },
   {
+   "id": "work:57-81",
+   "from": 57,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2014–2015, 2018–2023)"
+  },
+  {
    "id": "work:59-60",
    "from": 59,
    "to": 60,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2022–2026)"
   },
   {
    "id": "work:59-63",
    "from": 59,
    "to": 63,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1994–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2023–2026)"
   },
   {
    "id": "work:59-64",
    "from": 59,
    "to": 64,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:59-65",
    "from": 59,
    "to": 65,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:59-66",
    "from": 59,
    "to": 66,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1994–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:59-67",
    "from": 59,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2006, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:59-68",
    "from": 59,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:59-69",
    "from": 59,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:59-70",
    "from": 59,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1994–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2022–2026)"
   },
   {
    "id": "work:60-63",
    "from": 60,
    "to": 63,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2023–2026)"
   },
   {
    "id": "work:60-64",
    "from": 60,
    "to": 64,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:60-65",
    "from": 60,
    "to": 65,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:60-66",
    "from": 60,
    "to": 66,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:60-67",
    "from": 60,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:60-68",
    "from": 60,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:60-69",
    "from": 60,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:60-70",
    "from": 60,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2022–2026)"
+  },
+  {
+   "id": "work:60-81",
+   "from": 60,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2002, 2012–2022)"
   },
   {
    "id": "work:63-64",
    "from": 63,
    "to": 64,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:63-65",
    "from": 63,
    "to": 65,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:63-66",
    "from": 63,
    "to": 66,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1994–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:63-67",
    "from": 63,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:63-68",
    "from": 63,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:63-69",
    "from": 63,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:63-70",
    "from": 63,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1994–2026)"
+   "title": "Shared workplace: KNB Leadership (2023–2026)"
   },
   {
    "id": "work:64-65",
    "from": 64,
    "to": 65,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:64-66",
    "from": 64,
    "to": 66,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:64-67",
    "from": 64,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:64-68",
    "from": 64,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:64-69",
    "from": 64,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:64-70",
    "from": 64,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:65-66",
    "from": 65,
    "to": 66,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:65-67",
    "from": 65,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:65-68",
    "from": 65,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:65-69",
    "from": 65,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:65-70",
    "from": 65,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:66-67",
    "from": 66,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:66-68",
    "from": 66,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:66-69",
    "from": 66,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:66-70",
    "from": 66,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1993–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:67-68",
    "from": 67,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:67-69",
    "from": 67,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:67-70",
    "from": 67,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:68-69",
    "from": 68,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:68-70",
    "from": 68,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:69-70",
    "from": 69,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:71-72",
@@ -14175,6 +16886,90 @@
    "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
+   "id": "work:71-79",
+   "from": 71,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:71-80",
+   "from": 71,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:71-81",
+   "from": 71,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:71-82",
+   "from": 71,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:71-83",
+   "from": 71,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:71-84",
+   "from": 71,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:71-85",
+   "from": 71,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:71-86",
+   "from": 71,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:71-87",
+   "from": 71,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:71-88",
+   "from": 71,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:71-89",
+   "from": 71,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:71-90",
+   "from": 71,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:72-73",
    "from": 72,
    "to": 73,
@@ -14217,6 +17012,90 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:72-79",
+   "from": 72,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-80",
+   "from": 72,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-81",
+   "from": 72,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-82",
+   "from": 72,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-83",
+   "from": 72,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-84",
+   "from": 72,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-85",
+   "from": 72,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-86",
+   "from": 72,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-87",
+   "from": 72,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-88",
+   "from": 72,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-89",
+   "from": 72,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-90",
+   "from": 72,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:73-74",
    "from": 73,
    "to": 74,
@@ -14228,7 +17107,7 @@
    "from": 73,
    "to": 75,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2023, 2026)"
   },
   {
    "id": "work:73-76",
@@ -14250,6 +17129,90 @@
    "to": 78,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2022–2023, 2026)"
+  },
+  {
+   "id": "work:73-79",
+   "from": 73,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-80",
+   "from": 73,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-81",
+   "from": 73,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-82",
+   "from": 73,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-83",
+   "from": 73,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-84",
+   "from": 73,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023, 2026)"
+  },
+  {
+   "id": "work:73-85",
+   "from": 73,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-86",
+   "from": 73,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2022–2023, 2026)"
+  },
+  {
+   "id": "work:73-87",
+   "from": 73,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023, 2026)"
+  },
+  {
+   "id": "work:73-88",
+   "from": 73,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-89",
+   "from": 73,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026); National Defense University (2023–2024)"
+  },
+  {
+   "id": "work:73-90",
+   "from": 73,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
    "id": "work:74-75",
@@ -14280,6 +17243,90 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:74-79",
+   "from": 74,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-80",
+   "from": 74,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-81",
+   "from": 74,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-82",
+   "from": 74,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-83",
+   "from": 74,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-84",
+   "from": 74,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-85",
+   "from": 74,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-86",
+   "from": 74,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-87",
+   "from": 74,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-88",
+   "from": 74,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-89",
+   "from": 74,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-90",
+   "from": 74,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Air Assault Troops (2022–2025); Ministry of Defense (2026)"
+  },
+  {
    "id": "work:75-76",
    "from": 75,
    "to": 76,
@@ -14291,14 +17338,105 @@
    "from": 75,
    "to": 77,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:75-78",
    "from": 75,
    "to": 78,
    "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:75-79",
+   "from": 75,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:75-80",
+   "from": 75,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:75-81",
+   "from": 75,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:75-82",
+   "from": 75,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:75-83",
+   "from": 75,
+   "to": 83,
+   "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:75-84",
+   "from": 75,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:75-85",
+   "from": 75,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:75-86",
+   "from": 75,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:75-87",
+   "from": 75,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:75-88",
+   "from": 75,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:75-89",
+   "from": 75,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:75-90",
+   "from": 75,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:75-98",
+   "from": 75,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Regional Command Astana (2023)"
   },
   {
    "id": "work:76-77",
@@ -14315,11 +17453,844 @@
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:76-79",
+   "from": 76,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:76-80",
+   "from": 76,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:76-81",
+   "from": 76,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:76-82",
+   "from": 76,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:76-83",
+   "from": 76,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:76-84",
+   "from": 76,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:76-85",
+   "from": 76,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:76-86",
+   "from": 76,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:76-87",
+   "from": 76,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:76-88",
+   "from": 76,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:76-89",
+   "from": 76,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:76-90",
+   "from": 76,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:77-78",
    "from": 77,
    "to": 78,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:77-79",
+   "from": 77,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:77-80",
+   "from": 77,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:77-81",
+   "from": 77,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:77-82",
+   "from": 77,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:77-83",
+   "from": 77,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:77-84",
+   "from": 77,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:77-85",
+   "from": 77,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:77-86",
+   "from": 77,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:77-87",
+   "from": 77,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:77-88",
+   "from": 77,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:77-89",
+   "from": 77,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:77-90",
+   "from": 77,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:78-79",
+   "from": 78,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:78-80",
+   "from": 78,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:78-81",
+   "from": 78,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Kurultai (2026); Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:78-82",
+   "from": 78,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026); Ministry of Digital Development, Innovations and Aerospace Industry (2020–2022); National Information Technologies JSC (2012)"
+  },
+  {
+   "id": "work:78-83",
+   "from": 78,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:78-84",
+   "from": 78,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:78-85",
+   "from": 78,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:78-86",
+   "from": 78,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2022–2026)"
+  },
+  {
+   "id": "work:78-87",
+   "from": 78,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:78-88",
+   "from": 78,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:78-89",
+   "from": 78,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:78-90",
+   "from": 78,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:79-80",
+   "from": 79,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026); State Security Service (2014–2024)"
+  },
+  {
+   "id": "work:79-81",
+   "from": 79,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-82",
+   "from": 79,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-83",
+   "from": 79,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-84",
+   "from": 79,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-85",
+   "from": 79,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-86",
+   "from": 79,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-87",
+   "from": 79,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-88",
+   "from": 79,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-89",
+   "from": 79,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-90",
+   "from": 79,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-81",
+   "from": 80,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-82",
+   "from": 80,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-83",
+   "from": 80,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-84",
+   "from": 80,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-85",
+   "from": 80,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-86",
+   "from": 80,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-87",
+   "from": 80,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-88",
+   "from": 80,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-89",
+   "from": 80,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-90",
+   "from": 80,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-92",
+   "from": 80,
+   "to": 92,
+   "ltype": "work",
+   "title": "Shared workplace: Republican Guard (1996–2000)"
+  },
+  {
+   "id": "work:81-82",
+   "from": 81,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-83",
+   "from": 81,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-84",
+   "from": 81,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-85",
+   "from": 81,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-86",
+   "from": 81,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-87",
+   "from": 81,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-88",
+   "from": 81,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-89",
+   "from": 81,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-90",
+   "from": 81,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:82-83",
+   "from": 82,
+   "to": 83,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:82-84",
+   "from": 82,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:82-85",
+   "from": 82,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:82-86",
+   "from": 82,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:82-87",
+   "from": 82,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:82-88",
+   "from": 82,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:82-89",
+   "from": 82,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:82-90",
+   "from": 82,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:83-84",
+   "from": 83,
+   "to": 84,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:83-85",
+   "from": 83,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:83-86",
+   "from": 83,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:83-87",
+   "from": 83,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:83-88",
+   "from": 83,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:83-89",
+   "from": 83,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:83-90",
+   "from": 83,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:84-85",
+   "from": 84,
+   "to": 85,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:84-86",
+   "from": 84,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:84-87",
+   "from": 84,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:84-88",
+   "from": 84,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:84-89",
+   "from": 84,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:84-90",
+   "from": 84,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:84-94",
+   "from": 84,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police – Almaty Regional Garrison (2005–2006)"
+  },
+  {
+   "id": "work:84-95",
+   "from": 84,
+   "to": 95,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2012–2017)"
+  },
+  {
+   "id": "work:85-86",
+   "from": 85,
+   "to": 86,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:85-87",
+   "from": 85,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:85-88",
+   "from": 85,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:85-89",
+   "from": 85,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:85-90",
+   "from": 85,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:86-87",
+   "from": 86,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:86-88",
+   "from": 86,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:86-89",
+   "from": 86,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:86-90",
+   "from": 86,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:87-88",
+   "from": 87,
+   "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:87-89",
+   "from": 87,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:87-90",
+   "from": 87,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:88-89",
+   "from": 88,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:88-90",
+   "from": 88,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:89-90",
+   "from": 89,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:91-98",
+   "from": 91,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Regional Command South (2024)"
+  },
+  {
+   "id": "work:91-99",
+   "from": 91,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Regional Command East (2022–2023)"
+  },
+  {
+   "id": "work:92-93",
+   "from": 92,
+   "to": 93,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2024–2026)"
+  },
+  {
+   "id": "work:92-94",
+   "from": 92,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2022–2026)"
+  },
+  {
+   "id": "work:92-95",
+   "from": 92,
+   "to": 95,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2019–2026); Military Police – Akmola Regional Garrison (2000–2002)"
+  },
+  {
+   "id": "work:92-96",
+   "from": 92,
+   "to": 96,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2019–2026)"
+  },
+  {
+   "id": "work:93-94",
+   "from": 93,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2024–2026)"
+  },
+  {
+   "id": "work:93-95",
+   "from": 93,
+   "to": 95,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2024–2026)"
+  },
+  {
+   "id": "work:93-96",
+   "from": 93,
+   "to": 96,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2024–2026)"
+  },
+  {
+   "id": "work:94-95",
+   "from": 94,
+   "to": 95,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2022–2026)"
+  },
+  {
+   "id": "work:94-96",
+   "from": 94,
+   "to": 96,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2022–2026); Military Police – Almaty Regional Garrison (2017–2019); Military Police – Kapchagay Garrison (2017)"
+  },
+  {
+   "id": "work:95-96",
+   "from": 95,
+   "to": 96,
+   "ltype": "work",
+   "title": "Shared workplace: Main Directorate of Military Police (2019–2026)"
+  },
+  {
+   "id": "work:97-100",
+   "from": 97,
+   "to": 100,
+   "ltype": "work",
+   "title": "Shared workplace: Regional Command West (2026)"
+  },
+  {
+   "id": "work:98-100",
+   "from": 98,
+   "to": 100,
+   "ltype": "work",
+   "title": "Shared workplace: Regional Command South (2026)"
   }
  ]
 }

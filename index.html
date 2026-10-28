@@ -76,6 +76,8 @@
       <div class="filter-list" id="f-region"></div>
       <div style="font-size:11px;margin:8px 0 4px;color:var(--muted)">Institutional identity</div>
       <div class="filter-list" id="f-category"></div>
+      <div style="font-size:11px;margin:8px 0 4px;color:var(--muted)">Current status</div>
+      <div class="filter-list" id="f-status"></div>
       <button class="btn" id="clearFilters">Clear all filters</button>
     </div>
 
@@ -137,13 +139,22 @@ const EDGE_OPACITY = 0.22;
 let DATA = { people:[], workExperience:[], edges:[] };
 let network = null;
 let lastCommunity = null;
-let nodesDS = null, edgesDS = null, nodeBase = new Map(), neighborMap = new Map(), focusedId = null;
+let nodesDS = null, edgesDS = null, nodeBase = new Map(), nodeBorder = new Map(), neighborMap = new Map(), focusedId = null;
 
 function hexFade(hex, a){
   const h=hex.replace('#',''); const n=parseInt(h.length===3?h.split('').map(c=>c+c).join(''):h,16);
   const r=(n>>16)&255,g=(n>>8)&255,b=n&255;
   return `rgba(${r},${g},${b},${a})`;
 }
+// Mix toward white, staying a hex so hexFade still applies on focus
+function shade(hex, t=0.55){
+  const n=parseInt(hex.replace('#',''),16);
+  return '#'+[16,8,0].map(s=>Math.round(((n>>s)&255)+(255-((n>>s)&255))*t).toString(16).padStart(2,'0')).join('');
+}
+
+const OUT_OF_GOVERNMENT = "Out of government";
+const OUT_BORDER = "#667085";
+const restBorder = nid => nodeBorder.get(nid) || '#ffffff';
 
 // Center the camera on a node and light up its ego network. Background links
 // are hidden outright and physics pauses so the focused view sits still.
@@ -158,7 +169,7 @@ function focusNode(id){
     const on = keep.has(nid);
     const base = nodeBase.get(nid) || '#8899aa';
     return { id:nid,
-      color:{ background: on?base:hexFade(base,0.15), border: on?(nid===id?'#16202e':'#ffffff'):'rgba(148,163,184,0.2)',
+      color:{ background: on?base:hexFade(base,0.15), border: on?(nid===id?'#16202e':restBorder(nid)):'rgba(148,163,184,0.2)',
               highlight:{background:base,border:'#16202e'} },
       font:{ ...NODE_FONT, color: on?NODE_FONT.color:'rgba(100,116,139,0.35)' },
       borderWidth: nid===id?3:2 };
@@ -181,7 +192,7 @@ function clearFocus(){
   network.unselectAll();
   nodesDS.update(nodesDS.getIds().map(nid=>{
     const base = nodeBase.get(nid) || '#8899aa';
-    return { id:nid, color:{ background:base, border:'#ffffff', highlight:{background:base,border:'#16202e'} },
+    return { id:nid, color:{ background:base, border:restBorder(nid), highlight:{background:base,border:'#16202e'} },
              font:{ ...NODE_FONT }, borderWidth:2 };
   }));
   // Restore work/school/region color coding (highlight/hover included so
@@ -336,6 +347,8 @@ function passesFilters(p){
   if(fi.length && !fi.includes(p.institution)) return false;
   if(fr.length && !fr.includes(p.region)) return false;
   if(fc.length && !fc.includes(p.category)) return false;
+  const ft = checkedValues('f-status');
+  if(ft.length && !ft.includes(p.status)) return false;
   return true;
 }
 
@@ -395,13 +408,16 @@ function render(){
     if(sizeMode==='betweenness') val = 1 + 20*(bc[p.id]/maxBc);
     else if(sizeMode==='seniority') val = Math.pow(seniorityScore(p), 1.6);
     else val = (deg[p.id]||0)+1;
-    const col = nodeColor(p);
+    // out of government keeps its identity color, drawn as a shadow of it
+    const out = p.status===OUT_OF_GOVERNMENT;
+    const col = out ? shade(nodeColor(p)) : nodeColor(p);
     return {
       id:p.id,
       label:p.name,
       value: val,
-      color:{ background:col, border:"#ffffff",
+      color:{ background:col, border: out ? OUT_BORDER : "#ffffff",
               highlight:{background:col,border:"#16202e"} },
+      shapeProperties:{ borderDashes: out ? [4,3] : false },
       font:{ ...NODE_FONT },
       shape:"dot"
     };
@@ -410,6 +426,7 @@ function render(){
 
   // globals used by the focus/highlight interaction
   nodeBase = new Map(nodes.map(n=>[n.id, n.color.background]));
+  nodeBorder = new Map(nodes.map(n=>[n.id, n.color.border]));
   neighborMap = adjMap;
 
   focusedId = null;
@@ -466,6 +483,8 @@ function updateLegend(colorMode, community, visible){
     const used=[...new Set(visible.map(p=>p.category))];
     box.innerHTML = used.map(c=>`<div class="row"><span class="swatch" style="background:${CATEGORY_COLORS[c]??'#8899aa'}"></span>${c||'(unspecified)'}</div>`).join('');
   }
+  if(visible.some(p=>p.status===OUT_OF_GOVERNMENT))
+    box.innerHTML += `<div class="row"><span class="swatch" style="background:#d0d5dd;border:1px dashed ${OUT_BORDER}"></span>Faded, dashed = out of government</div>`;
 }
 
 function showInfo(id){
@@ -479,7 +498,7 @@ function showInfo(id){
     `<h3>${p.name}</h3>`+
     `<div class="role">${p.role||''}${p.institution?(' · '+p.institution):''}</div>`+
     kv('Age',p.age)+kv('Region',p.region)+kv('School',p.school)+
-    kv('Zhuz',p.zhuz)+kv('Category',p.category)+
+    kv('Zhuz',p.zhuz)+kv('Category',p.category)+kv('Status',p.status)+
     (exp.length?`<div class="exp"><div class="muted" style="margin:8px 0 4px">Career</div><ul style="margin:0;padding:0">`+
       exp.map(w=>`<li>${w.title||''} — ${w.institution||''} <span class="muted">(${w.startYear||'?'}–${w.endYear||'?'})</span></li>`).join('')+
       `</ul></div>`:'');
@@ -496,7 +515,7 @@ function buildFilterLists(){
        || '<div class="muted" style="padding:4px">none</div>');
   };
   mk('school','f-school'); mk('institution','f-institution');
-  mk('region','f-region'); mk('category','f-category');
+  mk('region','f-region'); mk('category','f-category'); mk('status','f-status');
   document.querySelectorAll('.filter-list').forEach(list=>{
     const all=list.querySelector('.fl-all');
     const specifics=()=>[...list.querySelectorAll('input:not(.fl-all)')];
