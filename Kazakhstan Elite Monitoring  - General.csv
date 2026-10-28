@@ -1,9 +1,9 @@
 Id,Name,Age,Current_Role,Current Instution,Birth Region,School,Zhuz ,Institutional Identity
 ,,,,,,,,
 P001,Kassym-Jomart Tokayev,53,President,Akorda,Almaty City,Moscow State Institute of International Relations,Senior Zhuz / Ulu Zhuz,Diplomat
-P002,Erlan Karin,50,Deputy Head of the Administration of the President of the Republic of Kazakhstan,Akorda,Turkestan Region,K. Zhubanov Aktobe Regional University,Junior Zhuz / Kishi Zhuz,Ideologue / Political Bureaucrat
+P002,Erlan Karin,50,Deputy Head of the Administration of the President of the Republic of Kazakhstan,Akorda,Turkestan Region,K. Zhubanov Aktobe Regional University,Junior Zhuz / Kishi Zhuz,Political Ideologue
 P003,Asel Zhubanyshevna Zhanasova,38,Deputy Head of the Administration of the President of the Republic of Kazakhstan,Akorda,Almaty City,University of Cambridge,Unknown,Technocrat
-P004,Yerzhan Zhiyenbayev,44,Deputy Head of the Administration of the President of the Republic of Kazakhstan,Akorda,Almaty City,Turan University,Unknown,Bureaucrat
+P004,Yerzhan Zhiyenbayev,44,Deputy Head of the Administration of the President of the Republic of Kazakhstan,Akorda,Almaty City,Turan University,Unknown,Technocrat
 P005,Gizat Nurdauletov,61,Secretary of the Security Council of Kazakhstan,Akorda,Almaty Region,Al-Farabi Kazakh National University (KazNU),Unknown,State-Security / Silovik
 P006,Arman Orazbaevich Kyrykbayev,49,Assistant to the President of the Republic of Kazakhstan on Domestic Policy and Communications,Akorda,Astana City,Narxoz University,Unknown,Akimat
 P007,Kuanyshbek Esekeev,51,Assistant to the President of Kazakhstan,Akorda,Almaty City,Al-Farabi Kazakh National University (KazNU),Unknown,Technocrat
@@ -11,7 +11,7 @@ P008,Murat Nurtleu,50,Assistant to the President for International Investment an
 P009,Nurlan Baibazarov,50,Assistant to the President of Kazakhstan on Economic Affairs,Akorda,Unknown,Kazakh State Academy of Management,Unknown,Technocrat
 P010,Bakytzhan Sariev,54,Head of the Office of the President of Kazakhstan,Akorda,Almaty City,Kazakh State Academy of Architecture and Civil Engineering,Unknown,Diplomat
 P011,Roman Sklyar,55,Head of Administration of the President of Kazakhstan,Akorda,Pavlodar Region,S. Toraighyrov University,Unknown,Technocrat
-P012,Bauyrzhan Omarov,64,Advisor to the President of Kazakhstan,Akorda,Kyzylorda Region,Al-Farabi Kazakh National University (KazNU),Unknown,Ideologue / Political Bureaucrat
+P012,Bauyrzhan Omarov,64,Advisor to the President of Kazakhstan,Akorda,Kyzylorda Region,Al-Farabi Kazakh National University (KazNU),Unknown,Political Ideologue
 P013,Malik Otarbayev,46,Advisor to the President of Kazakhstan,Akorda,Zhambyl Region,Suleyman Demirel University,Unknown,Diplomat
 P014,Marat Ashim,39,Advisor to the President of Kazakhstan for Protocol,Akorda,Almaty City,Abai Kazakh National Pedagogical University (KazNPU),Unknown,Technocrat
 P015,Bakhytzhan Sapiev,60,Advisor to the President of Kazakhstan,Akorda,Almaty Region (Zharkent),Kazakh Agricultural Institute,Unknown,Akimat
@@ -26,7 +26,7 @@ P023,Kuat Sandalov,39,Head of Digitalization Development Department,Akorda,Unkno
 P024,Rakymzhan Yernazar,38,Head of Social and Economic Policy Department,Akorda,Zhetysu Region (Taldykorgan),Kazakhstan-British Technical University,Unknown,Technocrat
 P025,Azamat Keskinbayev,40,Head of Transport and Logistics Industry Development Department,Akorda,Turkestan Region (Otyrar district),Lomonosov Moscow State University,Unknown,Technocrat
 P026,Yerbol Adayev,48,Head of General Department,Akorda,Kostanay Region,A. Baitursynov Kostanay Regional University,Unknown,Technocrat
-P027,Yelnur Beisenbayev,40,Head of Domestic Policy Department,Akorda,Turkestan Region (Kentau),Al-Farabi Kazakh National University (KazNU),Unknown,Politician
+P027,Yelnur Beisenbayev,40,Head of Domestic Policy Department,Akorda,Turkestan Region (Kentau),Al-Farabi Kazakh National University (KazNU),Unknown,Political Ideologue
 P028,Kanat Kulshmanov,38,Head of Communications Department,Akorda,Kostanay Region,L.N. Gumilyov Eurasian National University (ENU),Unknown,Technocrat
 P029,Dauren Yergarin,44,Head of Law Enforcement Department,Akorda,West Kazakhstan Region,Pushkin West Kazakhstan University,Unknown,State-Security / Silovik
 P030,Aidar Zharylganov,48,Head of State and Legal Department,Akorda,East Kazakhstan Region (Semey),Semey Medical University (formerly Semey State University),Unknown,Technocrat
@@ -60,7 +60,7 @@ P057,Nuralkhan Kusherov,41,Akim of Turkestan Region,Turkestan Region Akimat,Shym
 P058,Dastan Ryspekov,42,Akim of Ulytau Region,Ulytau Region Akimat,Ulytau Region ,Al-Farabi Kazakh National University (KazNU),Unknown,Akimat
 P059,Yermek Sagimbayev,58,Chairman of the KNB,National Security Committee (KNB),Almaty Region,Satbayev University,Unknown,State-Security / Silovik
 P060,Ali Altynbayev,47,First Deputy Chairman of the KNB,National Security Committee (KNB),Almaty Region,Kazakh State Academy of Management,Unknown,State-Security / Silovik
-P061,Askar Omarov,50,Director of the Central Communications Service,Central Communications Service,Almaty City,Turan University,Unknown,Ideologue / Political Bureaucrat
+P061,Askar Omarov,50,Director of the Central Communications Service,Central Communications Service,Almaty City,Turan University,Unknown,Political Ideologue
 P062,Zhandos Shaimardanov,39,Director of the Kazakhstan Institute for Strategic Studies,Kazakhstan Institute for Strategic Studies,East Kazakhstan Region,University of York,Unknown,Technocrat
 P063,Askhat Tuleuov,59,Deputy Chairman of the KNB,National Security Committee (KNB),Unknown,L.N. Gumilyov Eurasian National University (ENU),Unknown,State-Security / Silovik
 P064,Bakytbek Rakhymberdiyev,54,Deputy Chairman of the KNB,National Security Committee (KNB),Unknown,M. Auezov South Kazakhstan University,Unknown,State-Security / Silovik
