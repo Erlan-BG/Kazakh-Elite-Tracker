@@ -287,7 +287,7 @@
    "age": 38,
    "role": "Head of Social and Economic Policy Department",
    "institution": "Akorda",
-   "region": "Zhetysu Region",
+   "region": "Almaty Region",
    "school": "Kazakhstan-British Technical University",
    "zhuz": "",
    "category": "Technocrat",
@@ -875,7 +875,7 @@
    "age": 56,
    "role": "Deputy Minister of Defense",
    "institution": "Ministry of Defense",
-   "region": "Zhetysu Region",
+   "region": "Almaty Region",
    "school": "National Defense University",
    "zhuz": "",
    "category": "Military",
@@ -7441,6 +7441,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:5-24",
+   "from": 5,
+   "to": 24,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:5-38",
    "from": 5,
    "to": 38,
@@ -7472,6 +7479,13 @@
    "id": "region:5-60",
    "from": 5,
    "to": 60,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:5-73",
+   "from": 5,
+   "to": 73,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -7791,6 +7805,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:15-24",
+   "from": 15,
+   "to": 24,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:15-38",
    "from": 15,
    "to": 38,
@@ -7822,6 +7843,13 @@
    "id": "region:15-60",
    "from": 15,
    "to": 60,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:15-73",
+   "from": 15,
+   "to": 73,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -7952,6 +7980,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:19-24",
+   "from": 19,
+   "to": 24,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:19-38",
    "from": 19,
    "to": 38,
@@ -7983,6 +8018,13 @@
    "id": "region:19-60",
    "from": 19,
    "to": 60,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:19-73",
+   "from": 19,
+   "to": 73,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -8092,6 +8134,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:22-24",
+   "from": 22,
+   "to": 24,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:22-38",
    "from": 22,
    "to": 38,
@@ -8127,6 +8176,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:22-73",
+   "from": 22,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:22-79",
    "from": 22,
    "to": 79,
@@ -8155,11 +8211,74 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:24-38",
+   "from": 24,
+   "to": 38,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-45",
+   "from": 24,
+   "to": 45,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-49",
+   "from": 24,
+   "to": 49,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-59",
+   "from": 24,
+   "to": 59,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-60",
+   "from": 24,
+   "to": 60,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:24-73",
    "from": 24,
    "to": 73,
    "ltype": "region",
-   "title": "Same region: Zhetysu Region"
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-79",
+   "from": 24,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-87",
+   "from": 24,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-92",
+   "from": 24,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:24-96",
+   "from": 24,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
   },
   {
    "id": "region:25-27",
@@ -8491,6 +8610,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:38-73",
+   "from": 38,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:38-79",
    "from": 38,
    "to": 79,
@@ -8638,6 +8764,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:45-73",
+   "from": 45,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:45-79",
    "from": 45,
    "to": 79,
@@ -8708,6 +8841,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:49-73",
+   "from": 49,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:49-79",
    "from": 49,
    "to": 79,
@@ -8764,6 +8904,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:59-73",
+   "from": 59,
+   "to": 73,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:59-79",
    "from": 59,
    "to": 79,
@@ -8788,6 +8935,13 @@
    "id": "region:59-96",
    "from": 59,
    "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:60-73",
+   "from": 60,
+   "to": 73,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -8923,6 +9077,34 @@
    "to": 93,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:73-79",
+   "from": 73,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:73-87",
+   "from": 73,
+   "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:73-92",
+   "from": 73,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:73-96",
+   "from": 73,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
   },
   {
    "id": "region:74-83",
