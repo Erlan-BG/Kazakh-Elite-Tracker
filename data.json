@@ -779,8 +779,8 @@
    "id": 71,
    "name": "Dauren Zhumatayuly Kosanov",
    "age": 56,
-   "role": "Minister of Defense",
-   "institution": "Ministry of Defense",
+   "role": "Former Minister of Defense",
+   "institution": "Unknown",
    "region": "Pavlodar Region",
    "school": "Military Academy of the General Staff of the Armed Forces of the Russian Federation",
    "zhuz": "",
@@ -862,6 +862,17 @@
    "school": "King's College London",
    "zhuz": "",
    "category": "Technocrat"
+  },
+  {
+   "id": 79,
+   "name": "Aidos Sakenovich Myrzakhmetov",
+   "age": 45,
+   "role": "Minister of Defense",
+   "institution": "Ministry of Defense",
+   "region": "Almaty Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "State Security"
   }
  ],
  "workExperience": [
@@ -5846,7 +5857,7 @@
    "title": "Minister of Defense",
    "institution": "Ministry of Defense",
    "startYear": 2025,
-   "endYear": "Present",
+   "endYear": 2026,
    "source": ""
   },
   {
@@ -6016,6 +6027,30 @@
    "startYear": 2022,
    "endYear": "Present",
    "source": ""
+  },
+  {
+   "personId": 79,
+   "title": "Officer (command and senior leadership positions)",
+   "institution": "State Security Service",
+   "startYear": 2002,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/24538"
+  },
+  {
+   "personId": 79,
+   "title": "Commander of the Special Operations Forces",
+   "institution": "Special Operations Forces",
+   "startYear": 2024,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/24538"
+  },
+  {
+   "personId": 79,
+   "title": "Minister of Defense",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/people/24538"
   }
  ],
  "edges": [
@@ -6286,6 +6321,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:5-79",
+   "from": 5,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:6-43",
    "from": 6,
    "to": 43,
@@ -6538,6 +6580,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:15-79",
+   "from": 15,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:16-21",
    "from": 16,
    "to": 21,
@@ -6643,6 +6692,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:19-79",
+   "from": 19,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:20-30",
    "from": 20,
    "to": 30,
@@ -6716,6 +6772,13 @@
    "id": "region:22-60",
    "from": 22,
    "to": 60,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:22-79",
+   "from": 22,
+   "to": 79,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -6972,6 +7035,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:38-79",
+   "from": 38,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:39-67",
    "from": 39,
    "to": 67,
@@ -7049,6 +7119,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:45-79",
+   "from": 45,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:46-56",
    "from": 46,
    "to": 56,
@@ -7077,6 +7154,13 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:49-79",
+   "from": 49,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:51-54",
    "from": 51,
    "to": 54,
@@ -7094,6 +7178,20 @@
    "id": "region:59-60",
    "from": 59,
    "to": 60,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:59-79",
+   "from": 59,
+   "to": 79,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:60-79",
+   "from": 60,
+   "to": 79,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -14175,6 +14273,13 @@
    "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
+   "id": "work:71-79",
+   "from": 71,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:72-73",
    "from": 72,
    "to": 73,
@@ -14217,6 +14322,13 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:72-79",
+   "from": 72,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:73-74",
    "from": 73,
    "to": 74,
@@ -14252,6 +14364,13 @@
    "title": "Shared workplace: Ministry of Defense (2022–2023, 2026)"
   },
   {
+   "id": "work:73-79",
+   "from": 73,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:74-75",
    "from": 74,
    "to": 75,
@@ -14280,6 +14399,13 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:74-79",
+   "from": 74,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:75-76",
    "from": 75,
    "to": 76,
@@ -14301,6 +14427,13 @@
    "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
+   "id": "work:75-79",
+   "from": 75,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:76-77",
    "from": 76,
    "to": 77,
@@ -14315,11 +14448,32 @@
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:76-79",
+   "from": 76,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:77-78",
    "from": 77,
    "to": 78,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2023–2026)"
+  },
+  {
+   "id": "work:77-79",
+   "from": 77,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:78-79",
+   "from": 78,
+   "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
   }
  ]
 }
