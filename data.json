@@ -6611,9 +6611,9 @@
    "personId": 87,
    "title": "Head of the Pension Provision Center",
    "institution": "Ministry of Defense",
-   "startYear": null,
+   "startYear": 2023,
    "endYear": "Present",
-   "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
+   "source": "https://informburo.kz/novosti/kak-minoborony-budet-ulucsat-pensionnoe-obespecenie-voennosluzashhix"
   },
   {
    "personId": 88,
@@ -12777,6 +12777,13 @@
    "title": "Shared workplace: Armed Forces (2005–2006); Ministry of Defense (2022–2025)"
   },
   {
+   "id": "work:19-87",
+   "from": 19,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2025)"
+  },
+  {
    "id": "work:19-88",
    "from": 19,
    "to": 88,
@@ -14366,6 +14373,13 @@
    "title": "Shared workplace: Ministry of Defense (2021–2024)"
   },
   {
+   "id": "work:35-87",
+   "from": 35,
+   "to": 87,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2023–2024)"
+  },
+  {
    "id": "work:36-37",
    "from": 36,
    "to": 37,
@@ -15420,7 +15434,7 @@
    "from": 71,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:71-88",
@@ -15637,7 +15651,7 @@
    "from": 73,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2023, 2026)"
   },
   {
    "id": "work:73-88",
@@ -15826,7 +15840,7 @@
    "from": 75,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:75-88",
@@ -15910,7 +15924,7 @@
    "from": 76,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-88",
@@ -15987,7 +16001,7 @@
    "from": 77,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:77-88",
@@ -16057,7 +16071,7 @@
    "from": 78,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:78-88",
@@ -16302,7 +16316,7 @@
    "from": 83,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:83-88",
@@ -16330,7 +16344,7 @@
    "from": 84,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:84-88",
@@ -16351,7 +16365,7 @@
    "from": 85,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:85-88",
@@ -16365,7 +16379,7 @@
    "from": 86,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:86-88",
@@ -16379,7 +16393,7 @@
    "from": 87,
    "to": 88,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   }
  ]
 }
