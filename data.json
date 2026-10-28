@@ -840,7 +840,7 @@
    "role": "Deputy Chairman of the KNB - Director, Border Service",
    "institution": "National Security Committee (KNB)",
    "region": "East Kazakhstan Region",
-   "school": "Academy of the Border Service of the National Security Committee",
+   "school": "Academy of the Border Service of the National Security Committee (Border Troops Military Institute)",
    "zhuz": "",
    "category": "State Security",
    "status": "In office"
@@ -1080,6 +1080,78 @@
    "role": "Deputy Chief of the General Staff – Head of the Organizational and Mobilization Department",
    "institution": "Ministry of Defense",
    "region": "East Kazakhstan Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 91,
+   "name": "Kuanyshbek Uskenbayuly Ushtayev",
+   "age": 50,
+   "role": "Commander-in-Chief of the Ground Forces",
+   "institution": "Ground Forces",
+   "region": "Zhambyl Region",
+   "school": "Almaty Higher Combined Arms Command School",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 92,
+   "name": "Yerik Nurbakhytuly Bakirbayev",
+   "age": 52,
+   "role": "Chief of Staff – First Deputy Head of the Main Directorate of Military Police",
+   "institution": "Military Police",
+   "region": "Almaty Region",
+   "school": "Academy of the Border Service of the National Security Committee (Border Troops Military Institute)",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 93,
+   "name": "Nurdaulet Akzholuly Yelubayev",
+   "age": 45,
+   "role": "Deputy Head of the Main Directorate of Military Police (Prevention and Criminal Prosecution)",
+   "institution": "Military Police",
+   "region": "Turkestan Region",
+   "school": "Kazakh Humanitarian Law University",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 94,
+   "name": "Dastan Smagululy Nurkeldiyev",
+   "age": 43,
+   "role": "Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate",
+   "institution": "Military Police",
+   "region": "Almaty City",
+   "school": "Radioelectronics and Communications Military-Engineering Institute",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 95,
+   "name": "Rustem Makatuly Zhanbyrov",
+   "age": 52,
+   "role": "Deputy Head of the Main Directorate of Military Police – Head of the Troops Service and Military Service Safety Directorate",
+   "institution": "Military Police",
+   "region": "Akmola Region",
+   "school": "S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 96,
+   "name": "Aidos Kamaluly Uldakhanov",
+   "age": 47,
+   "role": "Deputy Head of the Main Directorate of Military Police – Head of the Educational and Ideological Work Department",
+   "institution": "Military Police",
+   "region": "Almaty Region",
    "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
    "zhuz": "",
    "category": "Military",
@@ -6108,7 +6180,7 @@
    "title": "Commander of the Airborne (Air-Assault) Troops",
    "institution": "Ground Forces",
    "startYear": 2022,
-   "endYear": 2026,
+   "endYear": 2022,
    "source": ""
   },
   {
@@ -6134,6 +6206,14 @@
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
+  },
+  {
+   "personId": 76,
+   "title": "Platoon Commander to Commander of several military units",
+   "institution": "Armed Forces",
+   "startYear": 1988,
+   "endYear": 2010,
+   "source": "https://www.gov.kz/org/mod/about/structure/20001156/1?lang=kk"
   },
   {
    "personId": 76,
@@ -6742,6 +6822,334 @@
    "startYear": 2025,
    "endYear": "Present",
    "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 91,
+   "title": "Officer, Military Unit 25717; battalion and unit commander",
+   "institution": "Ground Forces",
+   "startYear": 1997,
+   "endYear": 2015,
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 91,
+   "title": "Deputy Commander for Combat Training – Head of Combat Training Directorate",
+   "institution": "Regional Command South",
+   "startYear": 2015,
+   "endYear": 2018,
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 91,
+   "title": "Chief of Staff – First Deputy Commander",
+   "institution": "Regional Command East",
+   "startYear": 2018,
+   "endYear": 2022,
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 91,
+   "title": "Commander",
+   "institution": "Regional Command East",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 91,
+   "title": "Commander",
+   "institution": "Regional Command South",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 91,
+   "title": "First Deputy Commander-in-Chief of the Ground Forces",
+   "institution": "Ground Forces",
+   "startYear": 2024,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/20001156/1?lang=kk"
+  },
+  {
+   "personId": 91,
+   "title": "Commander-in-Chief of the Ground Forces",
+   "institution": "Ground Forces",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
+  },
+  {
+   "personId": 92,
+   "title": "Conscript; Platoon Commander, guard company",
+   "institution": "Soviet / Russian Armed Forces",
+   "startYear": 1992,
+   "endYear": 1994,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Platoon Commander; Commander, 3rd Company, Government Guard Battalion (Unit 0111)",
+   "institution": "Republican Guard",
+   "startYear": 1996,
+   "endYear": 2000,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Senior Inspector, Duty Unit, Akmola Garrison Military Police Detachment",
+   "institution": "Military Police",
+   "startYear": 2000,
+   "endYear": 2002,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Commandant of the General Staff",
+   "institution": "Military Police",
+   "startYear": 2002,
+   "endYear": 2003,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Head of Commandant Division; Deputy Head; Chief of Staff of the Detachment",
+   "institution": "Military Police",
+   "startYear": 2003,
+   "endYear": 2005,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Head of the Defense Ministry Guard, Military Police Detachment",
+   "institution": "Military Police",
+   "startYear": 2005,
+   "endYear": 2011,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Garrison Commandant, 40th Military Base (Gvardeysk)",
+   "institution": "Armed Forces",
+   "startYear": 2013,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Head of the Military Police Detachment for Regime and Security, Ministry of Defense",
+   "institution": "Military Police",
+   "startYear": 2014,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 92,
+   "title": "Chief of Staff – First Deputy Head of the Main Directorate of Military Police",
+   "institution": "Military Police",
+   "startYear": 2019,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Inquiry Officer-Inspector, Semipalatinsk Regional Garrison Military Police Detachment",
+   "institution": "Military Police",
+   "startYear": 2003,
+   "endYear": 2005,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Inquiry Officer to Deputy Head (Legal Affairs), Shymkent Garrison Military Police",
+   "institution": "Military Police",
+   "startYear": 2005,
+   "endYear": 2015,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Deputy Detachment Head (Legal Affairs) – Head of Inquiry, Semipalatinsk Regional Garrison Military Police",
+   "institution": "Military Police",
+   "startYear": 2015,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Head of Military Police, Taraz Garrison",
+   "institution": "Military Police",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Head of Military Police Detachment, Akmola Regional Garrison",
+   "institution": "Military Police",
+   "startYear": 2019,
+   "endYear": 2021,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Head of Military Police, Ust-Kamenogorsk Garrison",
+   "institution": "Military Police",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Head of Military Police Directorate, Taraz Regional Garrison",
+   "institution": "Military Police",
+   "startYear": 2022,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 93,
+   "title": "Deputy Head of the Main Directorate of Military Police (Prevention and Criminal Prosecution)",
+   "institution": "Military Police",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Radar Station Chief, Military Unit 53975",
+   "institution": "Armed Forces",
+   "startYear": 2005,
+   "endYear": 2005,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Military Automobile Police posts; Head of Administrative Practice Section, Almaty Regional Garrison Military Police",
+   "institution": "Military Police",
+   "startYear": 2005,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Head of Military Automobile Police Department, Almaty Regional Garrison",
+   "institution": "Military Police",
+   "startYear": 2014,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Head of Military Police, Kapchagay Garrison",
+   "institution": "Military Police",
+   "startYear": 2017,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Deputy Head (Educational and Ideological Work); Chief of Staff – Deputy Head, Almaty Regional Garrison Military Police Detachment",
+   "institution": "Military Police",
+   "startYear": 2018,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Head of Military Police Directorate, Almaty Regional Garrison",
+   "institution": "Military Police",
+   "startYear": 2020,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 94,
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate",
+   "institution": "Military Police",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 95,
+   "title": "Deputy Section Head to Head of Military Police Department, Akmola Regional Garrison Military Police Detachment",
+   "institution": "Military Police",
+   "startYear": 1998,
+   "endYear": 2008,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 95,
+   "title": "Senior Inspector; Head of Security and Law Enforcement Division, Public Security Directorate, Main Directorate of Military Police",
+   "institution": "Military Police",
+   "startYear": 2008,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 95,
+   "title": "Head of the Public Security Directorate, Main Directorate of Military Police",
+   "institution": "Military Police",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 95,
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Troops Service Directorate",
+   "institution": "Military Police",
+   "startYear": 2019,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Road Patrol Section Head; Head of Military Road Police, Semey Garrison Military Police Detachment",
+   "institution": "Military Police",
+   "startYear": 2000,
+   "endYear": 2002,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Senior Inspector – Chair, Qualification Commission; Head of Military Automobile Police, Semey Regional Garrison",
+   "institution": "Military Police",
+   "startYear": 2004,
+   "endYear": 2008,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Senior Lecturer to Deputy Head (Training), Military Police Training Center",
+   "institution": "Military Police",
+   "startYear": 2008,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Head of Military Police, Kapchagay and Saryozek Garrisons",
+   "institution": "Military Police",
+   "startYear": 2012,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate",
+   "institution": "Military Police",
+   "startYear": 2017,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Educational and Ideological Work Department",
+   "institution": "Military Police",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
   }
  ],
  "edges": [
@@ -6816,6 +7224,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:1-94",
+   "from": 1,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:2-18",
    "from": 2,
    "to": 18,
@@ -6861,6 +7276,13 @@
    "id": "region:2-85",
    "from": 2,
    "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:2-93",
+   "from": 2,
+   "to": 93,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -6928,6 +7350,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:3-94",
+   "from": 3,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:4-7",
    "from": 4,
    "to": 7,
@@ -6980,6 +7409,13 @@
    "id": "region:4-88",
    "from": 4,
    "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:4-94",
+   "from": 4,
+   "to": 94,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -7054,6 +7490,20 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:5-92",
+   "from": 5,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:5-96",
+   "from": 5,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:6-43",
    "from": 6,
    "to": 43,
@@ -7110,6 +7560,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:7-94",
+   "from": 7,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:8-10",
    "from": 8,
    "to": 10,
@@ -7152,6 +7609,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:8-94",
+   "from": 8,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:10-14",
    "from": 10,
    "to": 14,
@@ -7183,6 +7647,13 @@
    "id": "region:10-88",
    "from": 10,
    "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:10-94",
+   "from": 10,
+   "to": 94,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -7264,6 +7735,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:13-91",
+   "from": 13,
+   "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:14-16",
    "from": 14,
    "to": 16,
@@ -7288,6 +7766,13 @@
    "id": "region:14-88",
    "from": 14,
    "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:14-94",
+   "from": 14,
+   "to": 94,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -7355,6 +7840,20 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:15-92",
+   "from": 15,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:15-96",
+   "from": 15,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:16-21",
    "from": 16,
    "to": 21,
@@ -7372,6 +7871,13 @@
    "id": "region:16-88",
    "from": 16,
    "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:16-94",
+   "from": 16,
+   "to": 94,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -7432,6 +7938,13 @@
    "title": "Same region: Turkestan Region"
   },
   {
+   "id": "region:18-93",
+   "from": 18,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
    "id": "region:19-22",
    "from": 19,
    "to": 22,
@@ -7484,6 +7997,20 @@
    "id": "region:19-87",
    "from": 19,
    "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:19-92",
+   "from": 19,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:19-96",
+   "from": 19,
+   "to": 96,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -7558,6 +8085,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:21-94",
+   "from": 21,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:22-38",
    "from": 22,
    "to": 38,
@@ -7607,6 +8141,20 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:22-92",
+   "from": 22,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:22-96",
+   "from": 22,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:24-73",
    "from": 24,
    "to": 73,
@@ -7645,6 +8193,13 @@
    "id": "region:25-85",
    "from": 25,
    "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:25-93",
+   "from": 25,
+   "to": 93,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -7694,6 +8249,13 @@
    "id": "region:27-85",
    "from": 27,
    "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:27-93",
+   "from": 27,
+   "to": 93,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -7824,6 +8386,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:32-91",
+   "from": 32,
+   "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:33-39",
    "from": 33,
    "to": 39,
@@ -7845,6 +8414,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:33-91",
+   "from": 33,
+   "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:34-81",
    "from": 34,
    "to": 81,
@@ -7855,6 +8431,13 @@
    "id": "region:34-86",
    "from": 34,
    "to": 86,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:34-95",
+   "from": 34,
+   "to": 95,
    "ltype": "region",
    "title": "Same region: Akmola Region"
   },
@@ -7922,6 +8505,20 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:38-92",
+   "from": 38,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:38-96",
+   "from": 38,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:39-67",
    "from": 39,
    "to": 67,
@@ -7932,6 +8529,13 @@
    "id": "region:39-75",
    "from": 39,
    "to": 75,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:39-91",
+   "from": 39,
+   "to": 91,
    "ltype": "region",
    "title": "Same region: Zhambyl Region"
   },
@@ -7953,6 +8557,13 @@
    "id": "region:40-85",
    "from": 40,
    "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:40-93",
+   "from": 40,
+   "to": 93,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -8041,6 +8652,20 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:45-92",
+   "from": 45,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:45-96",
+   "from": 45,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:46-56",
    "from": 46,
    "to": 56,
@@ -8058,6 +8683,13 @@
    "id": "region:47-85",
    "from": 47,
    "to": 85,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:47-93",
+   "from": 47,
+   "to": 93,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
   },
@@ -8086,6 +8718,20 @@
    "id": "region:49-87",
    "from": 49,
    "to": 87,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:49-92",
+   "from": 49,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:49-96",
+   "from": 49,
+   "to": 96,
    "ltype": "region",
    "title": "Same region: Almaty Region"
   },
@@ -8132,6 +8778,20 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:59-92",
+   "from": 59,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:59-96",
+   "from": 59,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:60-79",
    "from": 60,
    "to": 79,
@@ -8146,9 +8806,30 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:60-92",
+   "from": 60,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:60-96",
+   "from": 60,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:61-88",
    "from": 61,
    "to": 88,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:61-94",
+   "from": 61,
+   "to": 94,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -8195,6 +8876,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:67-91",
+   "from": 67,
+   "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:70-76",
    "from": 70,
    "to": 76,
@@ -8230,11 +8918,25 @@
    "title": "Same region: Turkestan Region"
   },
   {
+   "id": "region:72-93",
+   "from": 72,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
    "id": "region:74-83",
    "from": 74,
    "to": 83,
    "ltype": "region",
    "title": "Same region: Kyrgyzstan"
+  },
+  {
+   "id": "region:75-91",
+   "from": 75,
+   "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
   },
   {
    "id": "region:76-80",
@@ -8265,6 +8967,20 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:79-92",
+   "from": 79,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:79-96",
+   "from": 79,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
    "id": "region:80-89",
    "from": 80,
    "to": 89,
@@ -8286,11 +9002,60 @@
    "title": "Same region: Akmola Region"
   },
   {
+   "id": "region:81-95",
+   "from": 81,
+   "to": 95,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:85-93",
+   "from": 85,
+   "to": 93,
+   "ltype": "region",
+   "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:86-95",
+   "from": 86,
+   "to": 95,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:87-92",
+   "from": 87,
+   "to": 92,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:87-96",
+   "from": 87,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:88-94",
+   "from": 88,
+   "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:89-90",
    "from": 89,
    "to": 90,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:92-96",
+   "from": 92,
+   "to": 96,
+   "ltype": "region",
+   "title": "Same region: Almaty Region"
   },
   {
    "id": "school:4-61",
@@ -8615,6 +9380,13 @@
    "title": "Same school: Almaty Higher Combined Arms Command School"
   },
   {
+   "id": "school:19-91",
+   "from": 19,
+   "to": 91,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
    "id": "school:21-60",
    "from": 21,
    "to": 60,
@@ -8762,6 +9534,13 @@
    "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
   },
   {
+   "id": "school:40-95",
+   "from": 40,
+   "to": 95,
+   "ltype": "school",
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
+  },
+  {
    "id": "school:43-63",
    "from": 43,
    "to": 63,
@@ -8804,6 +9583,13 @@
    "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
   },
   {
+   "id": "school:54-95",
+   "from": 54,
+   "to": 95,
+   "ltype": "school",
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
+  },
+  {
    "id": "school:57-64",
    "from": 57,
    "to": 64,
@@ -8816,6 +9602,13 @@
    "to": 89,
    "ltype": "school",
    "title": "Same school: Satbayev University (Kazakh Polytechnic Institute)"
+  },
+  {
+   "id": "school:70-92",
+   "from": 70,
+   "to": 92,
+   "ltype": "school",
+   "title": "Same school: Academy of the Border Service of the National Security Committee (Border Troops Military Institute)"
   },
   {
    "id": "school:71-75",
@@ -8849,6 +9642,34 @@
    "id": "school:79-90",
    "from": 79,
    "to": 90,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:79-96",
+   "from": 79,
+   "to": 96,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:81-95",
+   "from": 81,
+   "to": 95,
+   "ltype": "school",
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University)"
+  },
+  {
+   "id": "school:83-91",
+   "from": 83,
+   "to": 91,
+   "ltype": "school",
+   "title": "Same school: Almaty Higher Combined Arms Command School"
+  },
+  {
+   "id": "school:90-96",
+   "from": 90,
+   "to": 96,
    "ltype": "school",
    "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
   },
@@ -12931,7 +13752,7 @@
    "from": 19,
    "to": 76,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2025)"
+   "title": "Shared workplace: Armed Forces (1988–2006); Ministry of Defense (2025)"
   },
   {
    "id": "work:19-77",
@@ -13002,6 +13823,13 @@
    "to": 90,
    "ltype": "work",
    "title": "Shared workplace: Armed Forces (2000–2006); Ministry of Defense (2025)"
+  },
+  {
+   "id": "work:19-94",
+   "from": 19,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005)"
   },
   {
    "id": "work:20-21",
@@ -16186,28 +17014,28 @@
    "from": 76,
    "to": 83,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (1997–2010); Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-84",
    "from": 76,
    "to": 84,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (1998–1999); Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-85",
    "from": 76,
    "to": 85,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (1995–2010); Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-86",
    "from": 76,
    "to": 86,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (2005–2010); Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-87",
@@ -16221,7 +17049,7 @@
    "from": 76,
    "to": 88,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (1989–2006); Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-89",
@@ -16235,7 +17063,14 @@
    "from": 76,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (2000–2010); Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:76-94",
+   "from": 76,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005)"
   },
   {
    "id": "work:77-78",
@@ -16560,6 +17395,13 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:80-92",
+   "from": 80,
+   "to": 92,
+   "ltype": "work",
+   "title": "Shared workplace: Republican Guard (1996–2000)"
+  },
+  {
    "id": "work:81-82",
    "from": 81,
    "to": 82,
@@ -16728,6 +17570,20 @@
    "title": "Shared workplace: Armed Forces (2000–2023); Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:83-92",
+   "from": 83,
+   "to": 92,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2013–2014)"
+  },
+  {
+   "id": "work:83-94",
+   "from": 83,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005)"
+  },
+  {
    "id": "work:84-85",
    "from": 84,
    "to": 85,
@@ -16770,6 +17626,41 @@
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:84-92",
+   "from": 84,
+   "to": 92,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2000–2011, 2014–2017)"
+  },
+  {
+   "id": "work:84-93",
+   "from": 84,
+   "to": 93,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2003–2017)"
+  },
+  {
+   "id": "work:84-94",
+   "from": 84,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2005–2017)"
+  },
+  {
+   "id": "work:84-95",
+   "from": 84,
+   "to": 95,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2000–2017)"
+  },
+  {
+   "id": "work:84-96",
+   "from": 84,
+   "to": 96,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2000–2002, 2004–2017)"
+  },
+  {
    "id": "work:85-86",
    "from": 85,
    "to": 86,
@@ -16805,6 +17696,20 @@
    "title": "Shared workplace: Armed Forces (2000–2023); Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:85-92",
+   "from": 85,
+   "to": 92,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2013–2014)"
+  },
+  {
+   "id": "work:85-94",
+   "from": 85,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005)"
+  },
+  {
    "id": "work:86-87",
    "from": 86,
    "to": 87,
@@ -16831,6 +17736,13 @@
    "to": 90,
    "ltype": "work",
    "title": "Shared workplace: Armed Forces (2005–2011); Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:86-94",
+   "from": 86,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005)"
   },
   {
    "id": "work:87-88",
@@ -16868,11 +17780,109 @@
    "title": "Shared workplace: Armed Forces (2000–2006); Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:88-94",
+   "from": 88,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005)"
+  },
+  {
    "id": "work:89-90",
    "from": 89,
    "to": 90,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:89-91",
+   "from": 89,
+   "to": 91,
+   "ltype": "work",
+   "title": "Shared workplace: Ground Forces (1997–2015)"
+  },
+  {
+   "id": "work:90-92",
+   "from": 90,
+   "to": 92,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2013–2014)"
+  },
+  {
+   "id": "work:90-94",
+   "from": 90,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005)"
+  },
+  {
+   "id": "work:92-93",
+   "from": 92,
+   "to": 93,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2003–2011, 2014–2026)"
+  },
+  {
+   "id": "work:92-94",
+   "from": 92,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2005–2011, 2014–2026)"
+  },
+  {
+   "id": "work:92-95",
+   "from": 92,
+   "to": 95,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2000–2011, 2014–2026)"
+  },
+  {
+   "id": "work:92-96",
+   "from": 92,
+   "to": 96,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2000–2002, 2004–2011, 2014–2026)"
+  },
+  {
+   "id": "work:93-94",
+   "from": 93,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2005–2026)"
+  },
+  {
+   "id": "work:93-95",
+   "from": 93,
+   "to": 95,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2003–2026)"
+  },
+  {
+   "id": "work:93-96",
+   "from": 93,
+   "to": 96,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2004–2026)"
+  },
+  {
+   "id": "work:94-95",
+   "from": 94,
+   "to": 95,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2005–2026)"
+  },
+  {
+   "id": "work:94-96",
+   "from": 94,
+   "to": 96,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2005–2026)"
+  },
+  {
+   "id": "work:95-96",
+   "from": 95,
+   "to": 96,
+   "ltype": "work",
+   "title": "Shared workplace: Military Police (2000–2002, 2004–2026)"
   }
  ]
 }
