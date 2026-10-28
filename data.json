@@ -1522,7 +1522,7 @@
   {
    "personId": 5,
    "title": "Head of Department of the National Security Committee for Almaty Region",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Department for Almaty Region",
    "startYear": 2007,
    "endYear": 2017,
    "source": "https://prg.kz/document/?doc_id=31386249"
@@ -1890,7 +1890,7 @@
   {
    "personId": 8,
    "title": "First Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2022,
    "endYear": 2022,
    "source": "https://www.akorda.kz/ru/rasporyazheniem-glavy-gosudarstva-nurtleu-murat-abugalievich-naznachen-pervym-zamestitelem-predsedatelya-komiteta-nacionalnoy-bezopasnosti-respubliki-kazahstan-502125"
@@ -5754,7 +5754,7 @@
   {
    "personId": 59,
    "title": "Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2022,
    "endYear": "Present",
    "source": ""
@@ -5786,7 +5786,7 @@
   {
    "personId": 60,
    "title": "Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2022,
    "endYear": 2024,
    "source": ""
@@ -5794,7 +5794,7 @@
   {
    "personId": 60,
    "title": "First Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -5986,7 +5986,7 @@
   {
    "personId": 63,
    "title": "Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2023,
    "endYear": "Present",
    "source": ""
@@ -6010,7 +6010,7 @@
   {
    "personId": 64,
    "title": "Deputy Chairman - Head, Anti-Terror Service",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -6034,7 +6034,7 @@
   {
    "personId": 65,
    "title": "Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -6058,7 +6058,7 @@
   {
    "personId": 66,
    "title": "Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -6082,7 +6082,7 @@
   {
    "personId": 67,
    "title": "Deputy Chairman - Director, Special Purpose Service \"A\" (Arystan)",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -6106,7 +6106,7 @@
   {
    "personId": 68,
    "title": "Deputy Chairman - Director, Foreign Intelligence Service",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2024,
    "endYear": "Present",
    "source": ""
@@ -6130,7 +6130,7 @@
   {
    "personId": 69,
    "title": "Head, KNB Department for Almaty City",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Department for Almaty City",
    "startYear": 2022,
    "endYear": 2025,
    "source": "https://online.zakon.kz/Document/?doc_id=37837349"
@@ -6138,7 +6138,7 @@
   {
    "personId": 69,
    "title": "Deputy Chairman",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
    "startYear": 2025,
    "endYear": "Present",
    "source": ""
@@ -6146,7 +6146,7 @@
   {
    "personId": 70,
    "title": "Officer and leadership posts, Border Service",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Border Service",
    "startYear": 1987,
    "endYear": 2022,
    "source": ""
@@ -6154,7 +6154,15 @@
   {
    "personId": 70,
    "title": "Deputy Chairman - Director, Border Service",
-   "institution": "National Security Committee (KNB)",
+   "institution": "KNB Leadership",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": ""
+  },
+  {
+   "personId": 70,
+   "title": "Deputy Chairman - Director, Border Service",
+   "institution": "KNB Border Service",
    "startYear": 2022,
    "endYear": "Present",
    "source": ""
@@ -6226,7 +6234,7 @@
   {
    "personId": 74,
    "title": "Commander of the Airborne (Air-Assault) Troops",
-   "institution": "Ground Forces",
+   "institution": "Air Assault Troops",
    "startYear": 2022,
    "endYear": 2022,
    "source": ""
@@ -6650,7 +6658,7 @@
   {
    "personId": 84,
    "title": "Deputy Company Commander for Educational and Social-Legal Work, Military Unit 28237",
-   "institution": "Armed Forces",
+   "institution": "Military Unit 28237",
    "startYear": 1998,
    "endYear": 1999,
    "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
@@ -6658,7 +6666,7 @@
   {
    "personId": 84,
    "title": "Inquiry Officer to Deputy Detachment Head (Legal Affairs), Almaty Regional Garrison Military Police Detachment",
-   "institution": "Military Police",
+   "institution": "Military Police – Almaty Regional Garrison",
    "startYear": 2000,
    "endYear": 2006,
    "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
@@ -6666,7 +6674,7 @@
   {
    "personId": 84,
    "title": "Head of Military Police Department, Kapchagay Garrison",
-   "institution": "Military Police",
+   "institution": "Military Police – Kapchagay Garrison",
    "startYear": 2006,
    "endYear": 2010,
    "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
@@ -6674,7 +6682,7 @@
   {
    "personId": 84,
    "title": "Head of Military Police Department, Taldykorgan Garrison",
-   "institution": "Military Police",
+   "institution": "Military Police – Taldykorgan Garrison",
    "startYear": 2010,
    "endYear": 2012,
    "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
@@ -6682,7 +6690,7 @@
   {
    "personId": 84,
    "title": "Deputy Head of the Main Directorate of Military Police – Head of Criminal Prosecution Directorate",
-   "institution": "Military Police",
+   "institution": "Main Directorate of Military Police",
    "startYear": 2012,
    "endYear": 2017,
    "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
@@ -6690,7 +6698,7 @@
   {
    "personId": 84,
    "title": "Head of the Main Directorate of Military Police",
-   "institution": "Military Police",
+   "institution": "Main Directorate of Military Police",
    "startYear": 2017,
    "endYear": 2017,
    "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
@@ -6746,7 +6754,7 @@
   {
    "personId": 86,
    "title": "Section Officer, Main Directorate of International Programs",
-   "institution": "Armed Forces",
+   "institution": "Main Directorate of International Programs (Armed Forces)",
    "startYear": 2005,
    "endYear": 2007,
    "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
@@ -6754,7 +6762,7 @@
   {
    "personId": 86,
    "title": "Senior Officer, Operational Planning Department, Chiefs of Staff Committee",
-   "institution": "Armed Forces",
+   "institution": "General Staff",
    "startYear": 2007,
    "endYear": 2011,
    "source": "https://www.gov.kz/org/mod/about/structure/101/1?lang=kk"
@@ -6874,7 +6882,7 @@
   {
    "personId": 90,
    "title": "Platoon Commander to senior operations posts, Air Assault Troops",
-   "institution": "Armed Forces",
+   "institution": "Air Assault Troops",
    "startYear": 2000,
    "endYear": 2023,
    "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
@@ -6938,7 +6946,7 @@
   {
    "personId": 91,
    "title": "First Deputy Commander-in-Chief of the Ground Forces",
-   "institution": "Ground Forces",
+   "institution": "Ground Forces Command",
    "startYear": 2024,
    "endYear": 2026,
    "source": "https://www.gov.kz/org/mod/about/structure/20001156/1?lang=kk"
@@ -6946,7 +6954,7 @@
   {
    "personId": 91,
    "title": "Commander-in-Chief of the Ground Forces",
-   "institution": "Ground Forces",
+   "institution": "Ground Forces Command",
    "startYear": 2026,
    "endYear": "Present",
    "source": "https://prokadry.kz/ushtaev_sukhoput_v_26/"
@@ -6970,7 +6978,7 @@
   {
    "personId": 92,
    "title": "Senior Inspector, Duty Unit, Akmola Garrison Military Police Detachment",
-   "institution": "Military Police",
+   "institution": "Military Police – Akmola Regional Garrison",
    "startYear": 2000,
    "endYear": 2002,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -6978,7 +6986,7 @@
   {
    "personId": 92,
    "title": "Commandant of the General Staff",
-   "institution": "Military Police",
+   "institution": "General Staff",
    "startYear": 2002,
    "endYear": 2003,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -6994,7 +7002,7 @@
   {
    "personId": 92,
    "title": "Head of the Defense Ministry Guard, Military Police Detachment",
-   "institution": "Military Police",
+   "institution": "Military Police – Defense Ministry Regime and Security Detachment",
    "startYear": 2005,
    "endYear": 2011,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7002,7 +7010,7 @@
   {
    "personId": 92,
    "title": "Garrison Commandant, 40th Military Base (Gvardeysk)",
-   "institution": "Armed Forces",
+   "institution": "40th Military Base",
    "startYear": 2013,
    "endYear": 2014,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7010,7 +7018,7 @@
   {
    "personId": 92,
    "title": "Head of the Military Police Detachment for Regime and Security, Ministry of Defense",
-   "institution": "Military Police",
+   "institution": "Military Police – Defense Ministry Regime and Security Detachment",
    "startYear": 2014,
    "endYear": 2019,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7018,7 +7026,7 @@
   {
    "personId": 92,
    "title": "Chief of Staff – First Deputy Head of the Main Directorate of Military Police",
-   "institution": "Military Police",
+   "institution": "Main Directorate of Military Police",
    "startYear": 2019,
    "endYear": "Present",
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7026,7 +7034,7 @@
   {
    "personId": 93,
    "title": "Inquiry Officer-Inspector, Semipalatinsk Regional Garrison Military Police Detachment",
-   "institution": "Military Police",
+   "institution": "Military Police – Semey Regional Garrison",
    "startYear": 2003,
    "endYear": 2005,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7034,7 +7042,7 @@
   {
    "personId": 93,
    "title": "Inquiry Officer to Deputy Head (Legal Affairs), Shymkent Garrison Military Police",
-   "institution": "Military Police",
+   "institution": "Military Police – Shymkent Garrison",
    "startYear": 2005,
    "endYear": 2015,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7042,7 +7050,7 @@
   {
    "personId": 93,
    "title": "Deputy Detachment Head (Legal Affairs) – Head of Inquiry, Semipalatinsk Regional Garrison Military Police",
-   "institution": "Military Police",
+   "institution": "Military Police – Semey Regional Garrison",
    "startYear": 2015,
    "endYear": 2017,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7050,7 +7058,7 @@
   {
    "personId": 93,
    "title": "Head of Military Police, Taraz Garrison",
-   "institution": "Military Police",
+   "institution": "Military Police – Taraz Garrison",
    "startYear": 2017,
    "endYear": 2019,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7058,7 +7066,7 @@
   {
    "personId": 93,
    "title": "Head of Military Police Detachment, Akmola Regional Garrison",
-   "institution": "Military Police",
+   "institution": "Military Police – Akmola Regional Garrison",
    "startYear": 2019,
    "endYear": 2021,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7066,7 +7074,7 @@
   {
    "personId": 93,
    "title": "Head of Military Police, Ust-Kamenogorsk Garrison",
-   "institution": "Military Police",
+   "institution": "Military Police – Ust-Kamenogorsk Garrison",
    "startYear": 2021,
    "endYear": 2022,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7074,7 +7082,7 @@
   {
    "personId": 93,
    "title": "Head of Military Police Directorate, Taraz Regional Garrison",
-   "institution": "Military Police",
+   "institution": "Military Police – Taraz Garrison",
    "startYear": 2022,
    "endYear": 2024,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7082,7 +7090,7 @@
   {
    "personId": 93,
    "title": "Deputy Head of the Main Directorate of Military Police (Prevention and Criminal Prosecution)",
-   "institution": "Military Police",
+   "institution": "Main Directorate of Military Police",
    "startYear": 2024,
    "endYear": "Present",
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7090,7 +7098,7 @@
   {
    "personId": 94,
    "title": "Radar Station Chief, Military Unit 53975",
-   "institution": "Armed Forces",
+   "institution": "Military Unit 53975",
    "startYear": 2005,
    "endYear": 2005,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7098,7 +7106,7 @@
   {
    "personId": 94,
    "title": "Military Automobile Police posts; Head of Administrative Practice Section, Almaty Regional Garrison Military Police",
-   "institution": "Military Police",
+   "institution": "Military Police – Almaty Regional Garrison",
    "startYear": 2005,
    "endYear": 2014,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7106,7 +7114,7 @@
   {
    "personId": 94,
    "title": "Head of Military Automobile Police Department, Almaty Regional Garrison",
-   "institution": "Military Police",
+   "institution": "Military Police – Almaty Regional Garrison",
    "startYear": 2014,
    "endYear": 2017,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7114,7 +7122,7 @@
   {
    "personId": 94,
    "title": "Head of Military Police, Kapchagay Garrison",
-   "institution": "Military Police",
+   "institution": "Military Police – Kapchagay Garrison",
    "startYear": 2017,
    "endYear": 2018,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7122,7 +7130,7 @@
   {
    "personId": 94,
    "title": "Deputy Head (Educational and Ideological Work); Chief of Staff – Deputy Head, Almaty Regional Garrison Military Police Detachment",
-   "institution": "Military Police",
+   "institution": "Military Police – Almaty Regional Garrison",
    "startYear": 2018,
    "endYear": 2020,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7130,7 +7138,7 @@
   {
    "personId": 94,
    "title": "Head of Military Police Directorate, Almaty Regional Garrison",
-   "institution": "Military Police",
+   "institution": "Military Police – Almaty Regional Garrison",
    "startYear": 2020,
    "endYear": 2022,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7138,7 +7146,7 @@
   {
    "personId": 94,
    "title": "Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate",
-   "institution": "Military Police",
+   "institution": "Main Directorate of Military Police",
    "startYear": 2022,
    "endYear": "Present",
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7146,7 +7154,7 @@
   {
    "personId": 95,
    "title": "Deputy Section Head to Head of Military Police Department, Akmola Regional Garrison Military Police Detachment",
-   "institution": "Military Police",
+   "institution": "Military Police – Akmola Regional Garrison",
    "startYear": 1998,
    "endYear": 2008,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7154,7 +7162,7 @@
   {
    "personId": 95,
    "title": "Senior Inspector; Head of Security and Law Enforcement Division, Public Security Directorate, Main Directorate of Military Police",
-   "institution": "Military Police",
+   "institution": "Main Directorate of Military Police",
    "startYear": 2008,
    "endYear": 2017,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7162,7 +7170,7 @@
   {
    "personId": 95,
    "title": "Head of the Public Security Directorate, Main Directorate of Military Police",
-   "institution": "Military Police",
+   "institution": "Main Directorate of Military Police",
    "startYear": 2017,
    "endYear": 2019,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7170,7 +7178,7 @@
   {
    "personId": 95,
    "title": "Deputy Head of the Main Directorate of Military Police – Head of the Troops Service and Military Service Safety Directorate",
-   "institution": "Military Police",
+   "institution": "Main Directorate of Military Police",
    "startYear": 2019,
    "endYear": "Present",
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7178,7 +7186,7 @@
   {
    "personId": 96,
    "title": "Road Patrol Section Head; Head of Military Road Police, Semey Garrison Military Police Detachment",
-   "institution": "Military Police",
+   "institution": "Military Police – Semey Regional Garrison",
    "startYear": 2000,
    "endYear": 2002,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7194,7 +7202,7 @@
   {
    "personId": 96,
    "title": "Senior Lecturer to Deputy Head (Training), Military Police Training Center",
-   "institution": "Military Police",
+   "institution": "Military Police – Training Center",
    "startYear": 2008,
    "endYear": 2012,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7202,7 +7210,15 @@
   {
    "personId": 96,
    "title": "Head of Military Police, Kapchagay and Saryozek Garrisons",
-   "institution": "Military Police",
+   "institution": "Military Police – Kapchagay Garrison",
+   "startYear": 2012,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Head of Military Police, Kapchagay and Saryozek Garrisons",
+   "institution": "Military Police – Saryozek Garrison",
    "startYear": 2012,
    "endYear": 2017,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7210,7 +7226,7 @@
   {
    "personId": 96,
    "title": "Deputy Detachment Head – Chief of Staff, Almaty Regional Garrison Military Police Detachment",
-   "institution": "Military Police",
+   "institution": "Military Police – Almaty Regional Garrison",
    "startYear": 2017,
    "endYear": 2019,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7218,7 +7234,7 @@
   {
    "personId": 96,
    "title": "Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate",
-   "institution": "Military Police",
+   "institution": "Main Directorate of Military Police",
    "startYear": 2019,
    "endYear": 2022,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -7226,7 +7242,7 @@
   {
    "personId": 96,
    "title": "Deputy Head of the Main Directorate of Military Police – Head of the Educational and Ideological Work Department",
-   "institution": "Military Police",
+   "institution": "Main Directorate of Military Police",
    "startYear": 2022,
    "endYear": "Present",
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
@@ -11389,76 +11405,6 @@
    "title": "Shared workplace: Security Council (Akorda) (2022–2026)"
   },
   {
-   "id": "work:5-40",
-   "from": 5,
-   "to": 40,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:5-59",
-   "from": 5,
-   "to": 59,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2006)"
-  },
-  {
-   "id": "work:5-63",
-   "from": 5,
-   "to": 63,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
-   "id": "work:5-64",
-   "from": 5,
-   "to": 64,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
-   "id": "work:5-65",
-   "from": 5,
-   "to": 65,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2017)"
-  },
-  {
-   "id": "work:5-66",
-   "from": 5,
-   "to": 66,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
-   "id": "work:5-67",
-   "from": 5,
-   "to": 67,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2017)"
-  },
-  {
-   "id": "work:5-68",
-   "from": 5,
-   "to": 68,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
-   "id": "work:5-69",
-   "from": 5,
-   "to": 69,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
-   "id": "work:5-70",
-   "from": 5,
-   "to": 70,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1997–2017)"
-  },
-  {
    "id": "work:6-7",
    "from": 6,
    "to": 7,
@@ -12205,63 +12151,21 @@
    "from": 8,
    "to": 59,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
+   "title": "Shared workplace: KNB Leadership (2022)"
   },
   {
    "id": "work:8-60",
    "from": 8,
    "to": 60,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-63",
-   "from": 8,
-   "to": 63,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-64",
-   "from": 8,
-   "to": 64,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-65",
-   "from": 8,
-   "to": 65,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-66",
-   "from": 8,
-   "to": 66,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-68",
-   "from": 8,
-   "to": 68,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
-  },
-  {
-   "id": "work:8-69",
-   "from": 8,
-   "to": 69,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
+   "title": "Shared workplace: KNB Leadership (2022)"
   },
   {
    "id": "work:8-70",
    "from": 8,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022)"
+   "title": "Shared workplace: KNB Leadership (2022)"
   },
   {
    "id": "work:9-10",
@@ -14368,14 +14272,14 @@
    "from": 19,
    "to": 75,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1999–2006); Ministry of Defense (2023–2025)"
+   "title": "Shared workplace: Ministry of Defense (2023–2025)"
   },
   {
    "id": "work:19-76",
    "from": 19,
    "to": 76,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1988–2006); Ministry of Defense (2025)"
+   "title": "Shared workplace: Ministry of Defense (2025)"
   },
   {
    "id": "work:19-77",
@@ -14396,28 +14300,28 @@
    "from": 19,
    "to": 83,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1997–2006); Ministry of Defense (2024–2025)"
+   "title": "Shared workplace: Ministry of Defense (2024–2025)"
   },
   {
    "id": "work:19-84",
    "from": 19,
    "to": 84,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–1999); Ministry of Defense (2023–2025)"
+   "title": "Shared workplace: Ministry of Defense (2023–2025)"
   },
   {
    "id": "work:19-85",
    "from": 19,
    "to": 85,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1995–2006); Ministry of Defense (2024–2025)"
+   "title": "Shared workplace: Ministry of Defense (2024–2025)"
   },
   {
    "id": "work:19-86",
    "from": 19,
    "to": 86,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005–2006); Ministry of Defense (2022–2025)"
+   "title": "Shared workplace: Ministry of Defense (2022–2025)"
   },
   {
    "id": "work:19-87",
@@ -14431,7 +14335,7 @@
    "from": 19,
    "to": 88,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1989–2006); Ministry of Defense (2025)"
+   "title": "Shared workplace: Ministry of Defense (2025)"
   },
   {
    "id": "work:19-89",
@@ -14445,28 +14349,7 @@
    "from": 19,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2000–2006); Ministry of Defense (2025)"
-  },
-  {
-   "id": "work:19-94",
-   "from": 19,
-   "to": 94,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005)"
-  },
-  {
-   "id": "work:19-98",
-   "from": 19,
-   "to": 98,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1995–2006)"
-  },
-  {
-   "id": "work:19-99",
-   "from": 19,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–2006)"
+   "title": "Shared workplace: Ministry of Defense (2025)"
   },
   {
    "id": "work:20-21",
@@ -16331,62 +16214,6 @@
    "title": "Shared workplace: Ministry of Finance (2001–2002)"
   },
   {
-   "id": "work:40-63",
-   "from": 40,
-   "to": 63,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-64",
-   "from": 40,
-   "to": 64,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-65",
-   "from": 40,
-   "to": 65,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-66",
-   "from": 40,
-   "to": 66,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-67",
-   "from": 40,
-   "to": 67,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-68",
-   "from": 40,
-   "to": 68,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-69",
-   "from": 40,
-   "to": 69,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
-   "id": "work:40-70",
-   "from": 40,
-   "to": 70,
-   "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
-  },
-  {
    "id": "work:40-81",
    "from": 40,
    "to": 81,
@@ -16692,119 +16519,119 @@
    "from": 59,
    "to": 60,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2022–2026)"
   },
   {
    "id": "work:59-63",
    "from": 59,
    "to": 63,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1994–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2023–2026)"
   },
   {
    "id": "work:59-64",
    "from": 59,
    "to": 64,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:59-65",
    "from": 59,
    "to": 65,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:59-66",
    "from": 59,
    "to": 66,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1994–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:59-67",
    "from": 59,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2006, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:59-68",
    "from": 59,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:59-69",
    "from": 59,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:59-70",
    "from": 59,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1994–2006, 2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2022–2026)"
   },
   {
    "id": "work:60-63",
    "from": 60,
    "to": 63,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2023–2026)"
   },
   {
    "id": "work:60-64",
    "from": 60,
    "to": 64,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:60-65",
    "from": 60,
    "to": 65,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:60-66",
    "from": 60,
    "to": 66,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:60-67",
    "from": 60,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:60-68",
    "from": 60,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:60-69",
    "from": 60,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:60-70",
    "from": 60,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+   "title": "Shared workplace: KNB Leadership (2022–2026)"
   },
   {
    "id": "work:60-81",
@@ -16818,196 +16645,196 @@
    "from": 63,
    "to": 64,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:63-65",
    "from": 63,
    "to": 65,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:63-66",
    "from": 63,
    "to": 66,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1994–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:63-67",
    "from": 63,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:63-68",
    "from": 63,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:63-69",
    "from": 63,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:63-70",
    "from": 63,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1994–2026)"
+   "title": "Shared workplace: KNB Leadership (2023–2026)"
   },
   {
    "id": "work:64-65",
    "from": 64,
    "to": 65,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:64-66",
    "from": 64,
    "to": 66,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:64-67",
    "from": 64,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:64-68",
    "from": 64,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:64-69",
    "from": 64,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:64-70",
    "from": 64,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:65-66",
    "from": 65,
    "to": 66,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:65-67",
    "from": 65,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:65-68",
    "from": 65,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:65-69",
    "from": 65,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:65-70",
    "from": 65,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1998–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:66-67",
    "from": 66,
    "to": 67,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:66-68",
    "from": 66,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:66-69",
    "from": 66,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:66-70",
    "from": 66,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1993–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:67-68",
    "from": 67,
    "to": 68,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:67-69",
    "from": 67,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:67-70",
    "from": 67,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (2002–2020, 2024–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:68-69",
    "from": 68,
    "to": 69,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:68-70",
    "from": 68,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2024–2026)"
   },
   {
    "id": "work:69-70",
    "from": 69,
    "to": 70,
    "ltype": "work",
-   "title": "Shared workplace: National Security Committee (KNB) (1996–2026)"
+   "title": "Shared workplace: KNB Leadership (2025–2026)"
   },
   {
    "id": "work:71-72",
@@ -17490,21 +17317,21 @@
    "from": 74,
    "to": 89,
    "ltype": "work",
-   "title": "Shared workplace: Ground Forces (2022); Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
    "id": "work:74-90",
    "from": 74,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Air Assault Troops (2023–2025); Ministry of Defense (2026)"
+   "title": "Shared workplace: Air Assault Troops (2022–2025); Ministry of Defense (2026)"
   },
   {
    "id": "work:75-76",
    "from": 75,
    "to": 76,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1999–2010); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:75-77",
@@ -17553,28 +17380,28 @@
    "from": 75,
    "to": 83,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1999–2021); Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:75-84",
    "from": 75,
    "to": 84,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1999); Ministry of Defense (2023–2026)"
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:75-85",
    "from": 75,
    "to": 85,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1999–2021); Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:75-86",
    "from": 75,
    "to": 86,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005–2011); Ministry of Defense (2023–2026)"
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:75-87",
@@ -17588,7 +17415,7 @@
    "from": 75,
    "to": 88,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1999–2006); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:75-89",
@@ -17602,35 +17429,14 @@
    "from": 75,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2000–2021); Ministry of Defense (2025–2026)"
-  },
-  {
-   "id": "work:75-92",
-   "from": 75,
-   "to": 92,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2013–2014)"
-  },
-  {
-   "id": "work:75-94",
-   "from": 75,
-   "to": 94,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:75-98",
    "from": 75,
    "to": 98,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1999–2017); Regional Command Astana (2023)"
-  },
-  {
-   "id": "work:75-99",
-   "from": 75,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1999–2018)"
+   "title": "Shared workplace: Regional Command Astana (2023)"
   },
   {
    "id": "work:76-77",
@@ -17679,28 +17485,28 @@
    "from": 76,
    "to": 83,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1997–2010); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-84",
    "from": 76,
    "to": 84,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–1999); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-85",
    "from": 76,
    "to": 85,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1995–2010); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-86",
    "from": 76,
    "to": 86,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005–2010); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-87",
@@ -17714,7 +17520,7 @@
    "from": 76,
    "to": 88,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1989–2006); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:76-89",
@@ -17728,28 +17534,7 @@
    "from": 76,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2000–2010); Ministry of Defense (2025–2026)"
-  },
-  {
-   "id": "work:76-94",
-   "from": 76,
-   "to": 94,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005)"
-  },
-  {
-   "id": "work:76-98",
-   "from": 76,
-   "to": 98,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1995–2010)"
-  },
-  {
-   "id": "work:76-99",
-   "from": 76,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–2010)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:77-78",
@@ -18204,21 +17989,21 @@
    "from": 83,
    "to": 84,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–1999); Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:83-85",
    "from": 83,
    "to": 85,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1997–2024); Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:83-86",
    "from": 83,
    "to": 86,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005–2011); Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:83-87",
@@ -18232,7 +18017,7 @@
    "from": 83,
    "to": 88,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1997–2006); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:83-89",
@@ -18246,42 +18031,14 @@
    "from": 83,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2000–2023); Ministry of Defense (2025–2026)"
-  },
-  {
-   "id": "work:83-92",
-   "from": 83,
-   "to": 92,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2013–2014)"
-  },
-  {
-   "id": "work:83-94",
-   "from": 83,
-   "to": 94,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005)"
-  },
-  {
-   "id": "work:83-98",
-   "from": 83,
-   "to": 98,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1997–2017)"
-  },
-  {
-   "id": "work:83-99",
-   "from": 83,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–2018)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:84-85",
    "from": 84,
    "to": 85,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–1999); Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:84-86",
@@ -18302,7 +18059,7 @@
    "from": 84,
    "to": 88,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–1999); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:84-89",
@@ -18319,60 +18076,25 @@
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
-   "id": "work:84-92",
-   "from": 84,
-   "to": 92,
-   "ltype": "work",
-   "title": "Shared workplace: Military Police (2000–2011, 2014–2017)"
-  },
-  {
-   "id": "work:84-93",
-   "from": 84,
-   "to": 93,
-   "ltype": "work",
-   "title": "Shared workplace: Military Police (2003–2017)"
-  },
-  {
    "id": "work:84-94",
    "from": 84,
    "to": 94,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2005–2017)"
+   "title": "Shared workplace: Military Police – Almaty Regional Garrison (2005–2006)"
   },
   {
    "id": "work:84-95",
    "from": 84,
    "to": 95,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2000–2017)"
-  },
-  {
-   "id": "work:84-96",
-   "from": 84,
-   "to": 96,
-   "ltype": "work",
-   "title": "Shared workplace: Military Police (2000–2002, 2004–2017)"
-  },
-  {
-   "id": "work:84-98",
-   "from": 84,
-   "to": 98,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–1999)"
-  },
-  {
-   "id": "work:84-99",
-   "from": 84,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–1999)"
+   "title": "Shared workplace: Main Directorate of Military Police (2012–2017)"
   },
   {
    "id": "work:85-86",
    "from": 85,
    "to": 86,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005–2011); Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:85-87",
@@ -18386,7 +18108,7 @@
    "from": 85,
    "to": 88,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1995–2006); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:85-89",
@@ -18400,35 +18122,7 @@
    "from": 85,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2000–2023); Ministry of Defense (2025–2026)"
-  },
-  {
-   "id": "work:85-92",
-   "from": 85,
-   "to": 92,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2013–2014)"
-  },
-  {
-   "id": "work:85-94",
-   "from": 85,
-   "to": 94,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005)"
-  },
-  {
-   "id": "work:85-98",
-   "from": 85,
-   "to": 98,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1995–2017)"
-  },
-  {
-   "id": "work:85-99",
-   "from": 85,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–2018)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:86-87",
@@ -18442,7 +18136,7 @@
    "from": 86,
    "to": 88,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005–2006); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:86-89",
@@ -18456,28 +18150,7 @@
    "from": 86,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005–2011); Ministry of Defense (2025–2026)"
-  },
-  {
-   "id": "work:86-94",
-   "from": 86,
-   "to": 94,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005)"
-  },
-  {
-   "id": "work:86-98",
-   "from": 86,
-   "to": 98,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005–2011)"
-  },
-  {
-   "id": "work:86-99",
-   "from": 86,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005–2011)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:87-88",
@@ -18512,28 +18185,7 @@
    "from": 88,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2000–2006); Ministry of Defense (2025–2026)"
-  },
-  {
-   "id": "work:88-94",
-   "from": 88,
-   "to": 94,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005)"
-  },
-  {
-   "id": "work:88-98",
-   "from": 88,
-   "to": 98,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1995–2006)"
-  },
-  {
-   "id": "work:88-99",
-   "from": 88,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–2006)"
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:89-90",
@@ -18541,41 +18193,6 @@
    "to": 90,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
-  },
-  {
-   "id": "work:89-91",
-   "from": 89,
-   "to": 91,
-   "ltype": "work",
-   "title": "Shared workplace: Ground Forces (1997–2015)"
-  },
-  {
-   "id": "work:90-92",
-   "from": 90,
-   "to": 92,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2013–2014)"
-  },
-  {
-   "id": "work:90-94",
-   "from": 90,
-   "to": 94,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005)"
-  },
-  {
-   "id": "work:90-98",
-   "from": 90,
-   "to": 98,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2000–2017)"
-  },
-  {
-   "id": "work:90-99",
-   "from": 90,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2000–2018)"
   },
   {
    "id": "work:91-98",
@@ -18596,98 +18213,70 @@
    "from": 92,
    "to": 93,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2003–2011, 2014–2026)"
+   "title": "Shared workplace: Main Directorate of Military Police (2024–2026)"
   },
   {
    "id": "work:92-94",
    "from": 92,
    "to": 94,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2005–2011, 2014–2026)"
+   "title": "Shared workplace: Main Directorate of Military Police (2022–2026)"
   },
   {
    "id": "work:92-95",
    "from": 92,
    "to": 95,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2000–2011, 2014–2026)"
+   "title": "Shared workplace: Main Directorate of Military Police (2019–2026); Military Police – Akmola Regional Garrison (2000–2002)"
   },
   {
    "id": "work:92-96",
    "from": 92,
    "to": 96,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2000–2002, 2004–2011, 2014–2026)"
-  },
-  {
-   "id": "work:92-98",
-   "from": 92,
-   "to": 98,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2013–2014)"
-  },
-  {
-   "id": "work:92-99",
-   "from": 92,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2013–2014)"
+   "title": "Shared workplace: Main Directorate of Military Police (2019–2026)"
   },
   {
    "id": "work:93-94",
    "from": 93,
    "to": 94,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2005–2026)"
+   "title": "Shared workplace: Main Directorate of Military Police (2024–2026)"
   },
   {
    "id": "work:93-95",
    "from": 93,
    "to": 95,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2003–2026)"
+   "title": "Shared workplace: Main Directorate of Military Police (2024–2026)"
   },
   {
    "id": "work:93-96",
    "from": 93,
    "to": 96,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2004–2026)"
+   "title": "Shared workplace: Main Directorate of Military Police (2024–2026)"
   },
   {
    "id": "work:94-95",
    "from": 94,
    "to": 95,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2005–2026)"
+   "title": "Shared workplace: Main Directorate of Military Police (2022–2026)"
   },
   {
    "id": "work:94-96",
    "from": 94,
    "to": 96,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2005–2026)"
-  },
-  {
-   "id": "work:94-98",
-   "from": 94,
-   "to": 98,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005)"
-  },
-  {
-   "id": "work:94-99",
-   "from": 94,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2005)"
+   "title": "Shared workplace: Main Directorate of Military Police (2022–2026); Military Police – Almaty Regional Garrison (2017–2019); Military Police – Kapchagay Garrison (2017)"
   },
   {
    "id": "work:95-96",
    "from": 95,
    "to": 96,
    "ltype": "work",
-   "title": "Shared workplace: Military Police (2000–2002, 2004–2026)"
+   "title": "Shared workplace: Main Directorate of Military Police (2019–2026)"
   },
   {
    "id": "work:97-100",
@@ -18695,13 +18284,6 @@
    "to": 100,
    "ltype": "work",
    "title": "Shared workplace: Regional Command West (2026)"
-  },
-  {
-   "id": "work:98-99",
-   "from": 98,
-   "to": 99,
-   "ltype": "work",
-   "title": "Shared workplace: Armed Forces (1998–2017)"
   },
   {
    "id": "work:98-100",

@@ -235,6 +235,20 @@ def merge_ranges(ranges):
     return ", ".join(str(s) if s == e else f"{s}–{e}" for s, e in out)
 
 
+# Labels used when a bio names no specific unit ("platoon commander to unit
+# commander, 1998-2018"). Two people filed under one of these were not
+# necessarily ever in the same place, so they would link for decades on the
+# strength of what the bios leave out. Their stints still show in career
+# histories; they just never create a workplace tie. Rows whose bio does name
+# the unit are filed under that unit instead.
+CATCH_ALL_INSTITUTIONS = {
+    "Armed Forces",
+    "Ground Forces",
+    "Military Police",
+    "National Security Committee (KNB)",
+}
+
+
 def workplace_edges(work):
     """Co-tenure: same institution, overlapping years.
 
@@ -243,7 +257,7 @@ def workplace_edges(work):
     """
     by_inst = defaultdict(list)
     for w in work:
-        if not w["institution"]:
+        if not w["institution"] or w["institution"] in CATCH_ALL_INSTITUTIONS:
             continue
         s, e = year_of(w["startYear"]), year_of(w["endYear"])
         if s is None and e is None:
