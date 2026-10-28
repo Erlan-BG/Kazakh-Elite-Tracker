@@ -952,6 +952,42 @@
    "zhuz": "",
    "category": "State Security",
    "status": "In office"
+  },
+  {
+   "id": 80,
+   "name": "Aitkurman Zholamanuly Omarbekov",
+   "age": 48,
+   "role": "First Deputy Minister of Defense – Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "region": "East Kazakhstan Region",
+   "school": "Eurasian Humanitarian Institute",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 81,
+   "name": "Tatyana Mikhailovna Savelyeva",
+   "age": 50,
+   "role": "Deputy Minister of Defense for Economics and Finance",
+   "institution": "Ministry of Defense",
+   "region": "Akmola Region",
+   "school": "S. Seifullin Kazakh Agrotechnical University",
+   "zhuz": "",
+   "category": "Technocrat",
+   "status": "In office"
+  },
+  {
+   "id": 82,
+   "name": "Daulet Nysankhululy Bekmanov",
+   "age": 42,
+   "role": "Deputy Minister of Defense",
+   "institution": "Ministry of Defense",
+   "region": "Uzbekistan",
+   "school": "Miras University",
+   "zhuz": "",
+   "category": "Technocrat",
+   "status": "In office"
   }
  ],
  "workExperience": [
@@ -6138,6 +6174,206 @@
    "startYear": 2026,
    "endYear": "Present",
    "source": "https://www.gov.kz/org/mod/about/structure/people/24538"
+  },
+  {
+   "personId": 80,
+   "title": "Rifleman to senior officer, Directorate of Educational and Ideological Work",
+   "institution": "Republican Guard",
+   "startYear": 1995,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/40314"
+  },
+  {
+   "personId": 80,
+   "title": "Officer and command posts in personnel and protection units",
+   "institution": "State Security Service",
+   "startYear": 2014,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/40314"
+  },
+  {
+   "personId": 80,
+   "title": "Deputy Head of the State Security Service – Commander of the Special Purpose Forces",
+   "institution": "State Security Service",
+   "startYear": 2022,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/40314"
+  },
+  {
+   "personId": 80,
+   "title": "First Deputy Minister of Defense – Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/people/40314"
+  },
+  {
+   "personId": 81,
+   "title": "Chief Budget Specialist",
+   "institution": "Astana City Finance Department",
+   "startYear": 1999,
+   "endYear": 2002,
+   "source": "https://ru.wikipedia.org/wiki/Савельева,_Татьяна_Михайловна"
+  },
+  {
+   "personId": 81,
+   "title": "Chief Specialist, Budget Development Division, State Budget Department",
+   "institution": "Ministry of Finance",
+   "startYear": 2002,
+   "endYear": 2002,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Chief Specialist to Deputy Director, Budget Policy and Planning Department",
+   "institution": "Ministry of Economy and Budget Planning",
+   "startYear": 2002,
+   "endYear": 2009,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Director, Budget Planning (and Forecasting) Department",
+   "institution": "Ministry of Finance",
+   "startYear": 2012,
+   "endYear": 2016,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Vice Minister of Finance",
+   "institution": "Ministry of Finance",
+   "startYear": 2016,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Deputy of the Mazhilis (VIII convocation); Chair, Committee on Finance and Budget from February 2024",
+   "institution": "Mazhilis",
+   "startYear": 2023,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Deputy of the Kurultai (I convocation); member, Committee on Finance and Budget",
+   "institution": "Kurultai",
+   "startYear": 2026,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 81,
+   "title": "Deputy Minister of Defense for Economics and Finance",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/people/35057"
+  },
+  {
+   "personId": 82,
+   "title": "Leading IT Specialist; Chief Manager; IT Consulting Analyst",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2007,
+   "endYear": 2009,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Leading Specialist",
+   "institution": "Healthcare Investment Projects Management Center LLP",
+   "startYear": 2009,
+   "endYear": 2011,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Chief Analyst; Head of Directorate, Committee for Control of Public Service Automation",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2011,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Chief Analyst; Head of Directorate, Committee for Control of Public Service Automation",
+   "institution": "Ministry of Communications and Information",
+   "startYear": 2011,
+   "endYear": 2012,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Head, Electronic Services Control Directorate",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2012,
+   "endYear": 2013,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Deputy Director, Department for E-Services and Public Service Centers",
+   "institution": "Agency for Communications and Information",
+   "startYear": 2014,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Head, Electronic Services Control Directorate, Committee of Communications, Informatization and Information",
+   "institution": "Ministry for Investment and Development",
+   "startYear": 2014,
+   "endYear": 2016,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Deputy Director, Public Services Development Department; Director, Informatization Department",
+   "institution": "Ministry of Information and Communications",
+   "startYear": 2016,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Deputy Chairman of the Management Board",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2017,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Chairman, Committee of Public Services",
+   "institution": "Ministry of Digital Development, Innovations and Aerospace Industry",
+   "startYear": 2020,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Managing Director for Public Services",
+   "institution": "Kazpost JSC",
+   "startYear": 2023,
+   "endYear": 2025,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Chairman of the Management Board",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2025,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
+  },
+  {
+   "personId": 82,
+   "title": "Deputy Minister of Defense",
+   "institution": "Ministry of Defense",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/people/55939"
   }
  ],
  "edges": [
@@ -6821,6 +7057,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:20-80",
+   "from": 20,
+   "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:21-61",
    "from": 21,
    "to": 61,
@@ -7003,6 +7246,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:30-80",
+   "from": 30,
+   "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:31-36",
    "from": 31,
    "to": 36,
@@ -7071,6 +7321,13 @@
    "to": 75,
    "ltype": "region",
    "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:34-81",
+   "from": 34,
+   "to": 81,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
   },
   {
    "id": "region:36-55",
@@ -7181,6 +7438,13 @@
    "id": "region:42-76",
    "from": 42,
    "to": 76,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:42-80",
+   "from": 42,
+   "to": 80,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -7297,6 +7561,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:62-80",
+   "from": 62,
+   "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:67-75",
    "from": 67,
    "to": 75,
@@ -7307,6 +7578,20 @@
    "id": "region:70-76",
    "from": 70,
    "to": 76,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:70-80",
+   "from": 70,
+   "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:76-80",
+   "from": 76,
+   "to": 80,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -7766,6 +8051,13 @@
    "title": "Same school: S. Seifullin Kazakh Agrotechnical University"
   },
   {
+   "id": "school:40-81",
+   "from": 40,
+   "to": 81,
+   "ltype": "school",
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University"
+  },
+  {
    "id": "school:43-63",
    "from": 43,
    "to": 63,
@@ -7799,6 +8091,13 @@
    "to": 58,
    "ltype": "school",
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
+   "id": "school:54-81",
+   "from": 54,
+   "to": 81,
+   "ltype": "school",
+   "title": "Same school: S. Seifullin Kazakh Agrotechnical University"
   },
   {
    "id": "school:57-64",
@@ -8618,6 +8917,13 @@
    "to": 42,
    "ltype": "work",
    "title": "Shared workplace: Akorda (2025)"
+  },
+  {
+   "id": "work:3-82",
+   "from": 3,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Kazpost JSC (2023–2025)"
   },
   {
    "id": "work:4-6",
@@ -9453,6 +9759,13 @@
    "title": "Shared workplace: Ministry of Finance (2002–2004)"
   },
   {
+   "id": "work:7-81",
+   "from": 7,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Economy and Budget Planning (2002–2003); Ministry of Finance (2002)"
+  },
+  {
    "id": "work:8-9",
    "from": 8,
    "to": 9,
@@ -10020,6 +10333,13 @@
    "title": "Shared workplace: Ministry of National Economy (2014–2016)"
   },
   {
+   "id": "work:9-81",
+   "from": 9,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2002)"
+  },
+  {
    "id": "work:10-11",
    "from": 10,
    "to": 11,
@@ -10473,6 +10793,13 @@
    "to": 62,
    "ltype": "work",
    "title": "Shared workplace: Ministry of National Economy (2016)"
+  },
+  {
+   "id": "work:11-82",
+   "from": 11,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry for Investment and Development (2016); Ministry of Transport and Communications (2012–2013)"
   },
   {
    "id": "work:12-13",
@@ -12274,6 +12601,13 @@
    "title": "Shared workplace: Akorda (2024)"
   },
   {
+   "id": "work:23-82",
+   "from": 23,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: National Information Technologies JSC (2009)"
+  },
+  {
    "id": "work:24-25",
    "from": 24,
    "to": 25,
@@ -12505,6 +12839,13 @@
    "title": "Shared workplace: Akorda (2025)"
   },
   {
+   "id": "work:25-82",
+   "from": 25,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Kazpost JSC (2025)"
+  },
+  {
    "id": "work:26-27",
    "from": 26,
    "to": 27,
@@ -12713,6 +13054,13 @@
    "to": 58,
    "ltype": "work",
    "title": "Shared workplace: Almaty City Akimat (2015)"
+  },
+  {
+   "id": "work:27-81",
+   "from": 27,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Mazhilis (2023–2026)"
   },
   {
    "id": "work:28-29",
@@ -13646,6 +13994,13 @@
    "title": "Shared workplace: Ministry of Transport and Communications (2005–2013)"
   },
   {
+   "id": "work:39-82",
+   "from": 39,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry for Investment and Development (2014–2016); Ministry of Transport and Communications (2012–2013)"
+  },
+  {
    "id": "work:40-41",
    "from": 40,
    "to": 41,
@@ -13751,6 +14106,13 @@
    "title": "Shared workplace: National Security Committee (KNB) (2010–2011)"
   },
   {
+   "id": "work:40-81",
+   "from": 40,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2002)"
+  },
+  {
    "id": "work:41-49",
    "from": 41,
    "to": 49,
@@ -13805,6 +14167,13 @@
    "to": 61,
    "ltype": "work",
    "title": "Shared workplace: Nur Otan Party (2009–2010)"
+  },
+  {
+   "id": "work:42-82",
+   "from": 42,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry for Investment and Development (2016)"
   },
   {
    "id": "work:43-45",
@@ -13891,6 +14260,13 @@
    "title": "Shared workplace: Ministry of Finance (2001–2012, 2014–2022)"
   },
   {
+   "id": "work:45-81",
+   "from": 45,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2002, 2012, 2014–2022)"
+  },
+  {
    "id": "work:46-48",
    "from": 46,
    "to": 48,
@@ -13917,6 +14293,13 @@
    "to": 56,
    "ltype": "work",
    "title": "Shared workplace: West Kazakhstan Region Akimat (2010–2014)"
+  },
+  {
+   "id": "work:47-81",
+   "from": 47,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Economy and Budget Planning (2007)"
   },
   {
    "id": "work:48-49",
@@ -13954,6 +14337,13 @@
    "title": "Shared workplace: Ministry of Finance (2006–2007, 2019, 2021)"
   },
   {
+   "id": "work:48-81",
+   "from": 48,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2019, 2021)"
+  },
+  {
    "id": "work:49-56",
    "from": 49,
    "to": 56,
@@ -13989,11 +14379,32 @@
    "title": "Shared workplace: Ministry of National Economy (2014–2016)"
   },
   {
+   "id": "work:52-81",
+   "from": 52,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Mazhilis (2023–2026)"
+  },
+  {
+   "id": "work:53-82",
+   "from": 53,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Transport and Communications (2012–2013)"
+  },
+  {
    "id": "work:57-60",
    "from": 57,
    "to": 60,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Finance (2014–2015, 2018–2022)"
+  },
+  {
+   "id": "work:57-81",
+   "from": 57,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2014–2015, 2018–2023)"
   },
   {
    "id": "work:59-60",
@@ -14113,6 +14524,13 @@
    "to": 70,
    "ltype": "work",
    "title": "Shared workplace: National Security Committee (KNB) (2022–2026)"
+  },
+  {
+   "id": "work:60-81",
+   "from": 60,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2002, 2012–2022)"
   },
   {
    "id": "work:63-64",
@@ -14367,6 +14785,27 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:71-80",
+   "from": 71,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:71-81",
+   "from": 71,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:71-82",
+   "from": 71,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:72-73",
    "from": 72,
    "to": 73,
@@ -14416,6 +14855,27 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:72-80",
+   "from": 72,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-81",
+   "from": 72,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-82",
+   "from": 72,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:73-74",
    "from": 73,
    "to": 74,
@@ -14458,6 +14918,27 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:73-80",
+   "from": 73,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-81",
+   "from": 73,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:73-82",
+   "from": 73,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:74-75",
    "from": 74,
    "to": 75,
@@ -14493,6 +14974,27 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:74-80",
+   "from": 74,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-81",
+   "from": 74,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-82",
+   "from": 74,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:75-76",
    "from": 75,
    "to": 76,
@@ -14521,6 +15023,27 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:75-80",
+   "from": 75,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:75-81",
+   "from": 75,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:75-82",
+   "from": 75,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:76-77",
    "from": 76,
    "to": 77,
@@ -14542,6 +15065,27 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:76-80",
+   "from": 76,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:76-81",
+   "from": 76,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:76-82",
+   "from": 76,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:77-78",
    "from": 77,
    "to": 78,
@@ -14556,9 +15100,93 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:77-80",
+   "from": 77,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:77-81",
+   "from": 77,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:77-82",
+   "from": 77,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:78-79",
    "from": 78,
    "to": 79,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:78-80",
+   "from": 78,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:78-81",
+   "from": 78,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Kurultai (2026); Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:78-82",
+   "from": 78,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026); Ministry of Digital Development, Innovations and Aerospace Industry (2020–2022); National Information Technologies JSC (2012)"
+  },
+  {
+   "id": "work:79-80",
+   "from": 79,
+   "to": 80,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026); State Security Service (2014–2024)"
+  },
+  {
+   "id": "work:79-81",
+   "from": 79,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-82",
+   "from": 79,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-81",
+   "from": 80,
+   "to": 81,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-82",
+   "from": 80,
+   "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-82",
+   "from": 81,
+   "to": 82,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2026)"
   }
