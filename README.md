@@ -2,9 +2,9 @@
 
 **Live demo: <https://erlan-bg.github.io/Kazakh-Elite-Tracker/>**
 
-An interactive network map of Kazakhstan's political elite. 78 senior officials —
-akims, ministers, KNB leadership, presidential administration, heads of state
-institutions — connected by the career, educational, and regional ties that the
+An interactive network map of Kazakhstan's political elite. 100 senior officials —
+akims, ministers, KNB and military leadership, presidential administration,
+heads of state institutions — connected by the career, educational, and regional ties that the
 Central Asia literature treats as the skeleton of patronage politics. Toggle
 which shared attributes draw links, filter who appears, click any node for a
 full sourced career history. No backend: a single HTML file plus a JSON dataset,
@@ -48,12 +48,12 @@ Edit the CSVs, never `data.json`.
 
 | File | Contents |
 | --- | --- |
-| `Kazakhstan Elite Monitoring  - General.csv` | One row per person (n = 78): name, age, current role and institution, birth region, school, zhuz, institutional-identity coding |
-| `Kazakhstan Elite Monitoring  - Positions.csv` | One row per career stint (644 records, 196 distinct institutions, 1986–present): title, institution, start/end year, source URL |
+| `Kazakhstan Elite Monitoring  - General.csv` | One row per person (n = 100): name, age, current role and institution, birth region, school, zhuz, institutional-identity coding |
+| `Kazakhstan Elite Monitoring  - Positions.csv` | One row per career stint (757 records, 215 distinct institutions, 1986–present): title, institution, start/end year, source URL |
 
 Career histories are compiled from official biographies (Akorda, ministry and
 akimat sites) and public reporting; a `Source` column records the URL for each
-position where one exists. Zhuz affiliation is coded for 3 of 78 individuals
+position where one exists. Zhuz affiliation is coded for 3 of 100 individuals
 so far, from public genealogical and journalistic sources; coding the rest is
 ongoing (see Limitations).
 
@@ -63,12 +63,12 @@ ongoing (see Limitations).
   — arguably the most important elite ties in Kazakhstan — do not appear in
   official biographies and are not captured here. Co-tenure is a *proxy* for
   acquaintance, not proof of alliance.
-- **Selection.** The 78 people are the current senior cohort, not a random
-  sample; network statistics describe this roster, not the elite as a whole.
-- **Source coverage is partial.** Roughly 40% of position records currently
+- **Selection.** The 100 people are the current senior cohort plus a few
+  recently dismissed officials, not a random sample; network statistics describe this roster, not the elite as a whole.
+- **Source coverage is partial.** About half of position records currently
   carry an explicit source URL; the rest trace to official bios pending
   citation. Official biographies themselves omit inconvenient episodes.
-- **Zhuz coverage is mostly incomplete.** Only 3 of 78 people are coded; the
+- **Zhuz coverage is mostly incomplete.** Only 3 of 100 people are coded; the
   rest are `Unknown`. Not enough to support any zhuz-based network analysis
   yet — treat the field as a placeholder for ongoing research, not a
   finished attribute.

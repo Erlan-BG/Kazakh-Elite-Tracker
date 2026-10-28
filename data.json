@@ -873,7 +873,7 @@
    "id": 73,
    "name": "Askar Dosbosynuly Mustabekov",
    "age": 56,
-   "role": "Deputy Minister of Defense",
+   "role": "Deputy Minister of Defense for Educational and Ideological Work",
    "institution": "Ministry of Defense",
    "region": "Almaty Region",
    "school": "National Defense University",
@@ -6217,11 +6217,11 @@
   },
   {
    "personId": 73,
-   "title": "Deputy Minister of Defense",
+   "title": "Deputy Minister of Defense for Educational and Ideological Work",
    "institution": "Ministry of Defense",
    "startYear": 2026,
    "endYear": "Present",
-   "source": ""
+   "source": "https://www.gov.kz/org/mod/about/structure/people/42576?lang=kk"
   },
   {
    "personId": 74,
@@ -7169,7 +7169,7 @@
   },
   {
    "personId": 95,
-   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Troops Service Directorate",
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Troops Service and Military Service Safety Directorate",
    "institution": "Military Police",
    "startYear": 2019,
    "endYear": "Present",
