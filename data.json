@@ -896,8 +896,8 @@
   {
    "id": 75,
    "name": "Shaikh-Khasan Satarkululy Zhazykbayev",
-   "age": 49,
-   "role": "Deputy Minister of Defense for Education and Ideological Work",
+   "age": 50,
+   "role": "Deputy Minister of Defense for Weapons and Military Equipment",
    "institution": "Ministry of Defense",
    "region": "Zhambyl Region",
    "school": "Military Academy of the General Staff of the Armed Forces of the Russian Federation",
@@ -6249,11 +6249,35 @@
   },
   {
    "personId": 75,
-   "title": "Deputy Minister of Defense for Education and Ideological Work",
+   "title": "Officer to Chief of Staff – First Deputy Commander, Regional Command West",
+   "institution": "Armed Forces",
+   "startYear": 1999,
+   "endYear": 2021,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/388?lang=ru"
+  },
+  {
+   "personId": 75,
+   "title": "Commander of Regional Command Astana",
+   "institution": "Regional Command Astana",
+   "startYear": 2021,
+   "endYear": 2023,
+   "source": "https://www.inform.kz/person/shaikh-khasan-satarkululy-zhazykbaev-1747832965"
+  },
+  {
+   "personId": 75,
+   "title": "Deputy Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/mod/about/structure/people/388?lang=ru"
+  },
+  {
+   "personId": 75,
+   "title": "Deputy Minister of Defense (Education and Ideological Work; later Weapons and Military Equipment)",
    "institution": "Ministry of Defense",
    "startYear": 2024,
    "endYear": "Present",
-   "source": ""
+   "source": "https://www.akorda.kz/ru/rasporyazheniem-glavy-gosudarstva-zhazykbaev-shayh-hasan-satarkululy-naznachen-zamestitelem-ministra-oborony-respubliki-kazahstan-911827"
   },
   {
    "personId": 76,
@@ -14336,7 +14360,7 @@
    "from": 19,
    "to": 75,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024–2025)"
+   "title": "Shared workplace: Armed Forces (1999–2006); Ministry of Defense (2023–2025)"
   },
   {
    "id": "work:19-76",
@@ -15974,7 +15998,7 @@
    "from": 35,
    "to": 75,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024)"
+   "title": "Shared workplace: Ministry of Defense (2023–2024)"
   },
   {
    "id": "work:35-77",
@@ -17248,7 +17272,7 @@
    "from": 73,
    "to": 75,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Ministry of Defense (2023, 2026)"
   },
   {
    "id": "work:73-76",
@@ -17472,21 +17496,21 @@
    "from": 75,
    "to": 76,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (1999–2010); Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:75-77",
    "from": 75,
    "to": 77,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:75-78",
    "from": 75,
    "to": 78,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:75-79",
@@ -17521,42 +17545,42 @@
    "from": 75,
    "to": 83,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Armed Forces (1999–2021); Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:75-84",
    "from": 75,
    "to": 84,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Armed Forces (1999); Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:75-85",
    "from": 75,
    "to": 85,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Armed Forces (1999–2021); Ministry of Defense (2024–2026)"
   },
   {
    "id": "work:75-86",
    "from": 75,
    "to": 86,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Armed Forces (2005–2011); Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:75-87",
    "from": 75,
    "to": 87,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+   "title": "Shared workplace: Ministry of Defense (2023–2026)"
   },
   {
    "id": "work:75-88",
    "from": 75,
    "to": 88,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (1999–2006); Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:75-89",
@@ -17570,7 +17594,35 @@
    "from": 75,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (2000–2021); Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:75-92",
+   "from": 75,
+   "to": 92,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2013–2014)"
+  },
+  {
+   "id": "work:75-94",
+   "from": 75,
+   "to": 94,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005)"
+  },
+  {
+   "id": "work:75-98",
+   "from": 75,
+   "to": 98,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1999–2017); Regional Command Astana (2023)"
+  },
+  {
+   "id": "work:75-99",
+   "from": 75,
+   "to": 99,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (1999–2018)"
   },
   {
    "id": "work:76-77",
