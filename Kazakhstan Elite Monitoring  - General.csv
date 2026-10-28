@@ -58,19 +58,19 @@ P055,Asain Baikhanov,49,Akim of Pavlodar Region,Pavlodar Region Akimat,Pavlodar 
 P056,Nariman Turegaliyev,62,Akim of West Kazakhstan Region,West Kazakhstan Region Akimat,West Kazakhstan Region,Zhambyl Hydromelioration and Construction Institute,Unknown,Akimat/Regional
 P057,Nuralkhan Kusherov,41,Akim of Turkestan Region,Turkestan Region Akimat,Shymkent City,M. Auezov South Kazakhstan University,Unknown,Akimat/Regional
 P058,Dastan Ryspekov,42,Akim of Ulytau Region,Ulytau Region Akimat,Karaganda Region (now Ulytau Region),Al-Farabi Kazakh National University (KazNU),Unknown,Akimat/Regional
-P059,Yermek Sagimbayev,58,Chairman of the KNB,National Security Committee (KNB),Almaty Region,Satbayev University (Kazakh Polytechnic Institute),Unknown,State Security
-P060,Ali Altynbayev,47,First Deputy Chairman of the KNB,National Security Committee (KNB),Almaty Region,Kazakh State Academy of Management,Unknown,Technocrat
+P059,Yermek Sagimbayev,58,Chairman of the KNB,KNB Leadership,Almaty Region,Satbayev University (Kazakh Polytechnic Institute),Unknown,State Security
+P060,Ali Altynbayev,47,First Deputy Chairman of the KNB,KNB Leadership,Almaty Region,Kazakh State Academy of Management,Unknown,Technocrat
 P061,Askar Omarov,50,Director of the Central Communications Service,Central Communications Service,Almaty City,Turan University,Unknown,Political Ideologue
 P062,Zhandos Shaimardanov,39,Director of the Kazakhstan Institute for Strategic Studies,Kazakhstan Institute for Strategic Studies,East Kazakhstan Region,University of York,Unknown,Technocrat
-P063,Askhat Tuleuov,59,Deputy Chairman of the KNB,National Security Committee (KNB),Unknown,L.N. Gumilyov Eurasian National University (ENU),Unknown,State Security
-P064,Bakytbek Rakhymberdiyev,54,Deputy Chairman of the KNB,National Security Committee (KNB),Unknown,M. Auezov South Kazakhstan University,Unknown,State Security
-P065,Almas Naimantayev,56,Deputy Chairman of the KNB,National Security Committee (KNB),Unknown,Kazakh State Academy of Architecture and Civil Engineering,Unknown,State Security
-P066,Ruslan Sarkulov,50,Deputy Chairman of the KNB,National Security Committee (KNB),Unknown,"Academy of the FSB of the Russian Federation
+P063,Askhat Tuleuov,59,Deputy Chairman of the KNB,KNB Leadership,Unknown,L.N. Gumilyov Eurasian National University (ENU),Unknown,State Security
+P064,Bakytbek Rakhymberdiyev,54,Deputy Chairman of the KNB,KNB Leadership,Unknown,M. Auezov South Kazakhstan University,Unknown,State Security
+P065,Almas Naimantayev,56,Deputy Chairman of the KNB,KNB Leadership,Unknown,Kazakh State Academy of Architecture and Civil Engineering,Unknown,State Security
+P066,Ruslan Sarkulov,50,Deputy Chairman of the KNB,KNB Leadership,Unknown,"Academy of the FSB of the Russian Federation
 ",Unknown,State Security
-P067,Berik Kunanbayev,48,"Deputy Chairman of the KNB - Director, Special Purpose Service ""A""",National Security Committee (KNB),Zhambyl Region,Abai Kazakh National Pedagogical University (KazNPU),Unknown,State Security
-P068,Marat Zhumabayev,56,"Deputy Chairman of the KNB - Director, Foreign Intelligence Service",National Security Committee (KNB) - FIS,Unknown,National Security Committee Academy,Unknown,State Security
-P069,Marat Irmenov,,Deputy Chairman of the KNB,National Security Committee (KNB),Unknown,Zhangir Khan West Kazakhstan Agrarian-Technical University,Unknown,State Security
-P070,Erlan Aldazhumanov,60,"Deputy Chairman of the KNB - Director, Border Service",National Security Committee (KNB),East Kazakhstan Region,Academy of the Border Service of the National Security Committee (Border Troops Military Institute),Unknown,State Security
+P067,Berik Kunanbayev,48,"Deputy Chairman of the KNB - Director, Special Purpose Service ""A""",KNB Leadership,Zhambyl Region,Abai Kazakh National Pedagogical University (KazNPU),Unknown,State Security
+P068,Marat Zhumabayev,56,"Deputy Chairman of the KNB - Director, Foreign Intelligence Service",KNB Leadership,Unknown,National Security Committee Academy,Unknown,State Security
+P069,Marat Irmenov,,Deputy Chairman of the KNB,KNB Leadership,Unknown,Zhangir Khan West Kazakhstan Agrarian-Technical University,Unknown,State Security
+P070,Erlan Aldazhumanov,60,"Deputy Chairman of the KNB - Director, Border Service",KNB Leadership,East Kazakhstan Region,Academy of the Border Service of the National Security Committee (Border Troops Military Institute),Unknown,State Security
 P071,Dauren Zhumatayuly Kosanov,56,Former Minister of Defense,Unknown,Pavlodar Region (Krasnokut District),Military Academy of the General Staff of the Armed Forces of the Russian Federation,Unknown,Military
 P072,Kanysh Asankhanuly Abubakirov,49,Former First Deputy Minister of Defense – Chief of the General Staff,Unknown,Turkestan Region (Ordabasy District),National Defense University,Unknown,Military
 P073,Askar Dosbosynuly Mustabekov,56,Deputy Minister of Defense for Educational and Ideological Work,Ministry of Defense,Almaty Region (now Zhetysu Region),National Defense University,Unknown,Military
@@ -91,12 +91,12 @@ P087,Almas Bolatuly Koralasov,48,Head of the Pension Provision Center,Ministry o
 P088,Ruslan Isauly Zhumabayev,58,Chairman of the State Defense Order Committee,Ministry of Defense,Almaty City,Tambov Higher Military Aviation School of Pilots,Unknown,Military
 P089,Askar Akhmetuly Zholamanov,55,Head of the Territorial Defense Department – Deputy Chief of the General Staff,Ministry of Defense,East Kazakhstan Region (now Abai Region),Satbayev University (Kazakh Polytechnic Institute),Unknown,Military
 P090,Almas Tynyshbekuly Isabekov,47,Deputy Chief of the General Staff – Head of the Organizational and Mobilization Department,Ministry of Defense,East Kazakhstan Region (now Abai Region),Military Academy of the Armed Forces of the Republic of Kazakhstan,Unknown,Military
-P091,Kuanyshbek Uskenbayuly Ushtayev,50,Commander-in-Chief of the Ground Forces,Ground Forces,Zhambyl Region (Zhualy District),Almaty Higher Combined Arms Command School,Unknown,Military
-P092,Yerik Nurbakhytuly Bakirbayev,52,Chief of Staff – First Deputy Head of the Main Directorate of Military Police,Military Police,Almaty Region (Narynkol),Academy of the Border Service of the National Security Committee (Border Troops Military Institute),Unknown,Military
-P093,Nurdaulet Akzholuly Yelubayev,45,Deputy Head of the Main Directorate of Military Police (Prevention and Criminal Prosecution),Military Police,Turkestan Region (Lenger),Kazakh Humanitarian Law University,Unknown,Military
-P094,Dastan Smagululy Nurkeldiyev,43,Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate,Military Police,Almaty City,Radioelectronics and Communications Military-Engineering Institute,Unknown,Military
-P095,Rustem Makatuly Zhanbyrov,52,Deputy Head of the Main Directorate of Military Police – Head of the Troops Service and Military Service Safety Directorate,Military Police,"Akmola Region (Derzhavin District, then Turgai Region)",S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University),Unknown,Military
-P096,Aidos Kamaluly Uldakhanov,47,Deputy Head of the Main Directorate of Military Police – Head of the Educational and Ideological Work Department,Military Police,Almaty Region (Kegen District),Military Academy of the Armed Forces of the Republic of Kazakhstan,Unknown,Military
+P091,Kuanyshbek Uskenbayuly Ushtayev,50,Commander-in-Chief of the Ground Forces,Ground Forces Command,Zhambyl Region (Zhualy District),Almaty Higher Combined Arms Command School,Unknown,Military
+P092,Yerik Nurbakhytuly Bakirbayev,52,Chief of Staff – First Deputy Head of the Main Directorate of Military Police,Main Directorate of Military Police,Almaty Region (Narynkol),Academy of the Border Service of the National Security Committee (Border Troops Military Institute),Unknown,Military
+P093,Nurdaulet Akzholuly Yelubayev,45,Deputy Head of the Main Directorate of Military Police (Prevention and Criminal Prosecution),Main Directorate of Military Police,Turkestan Region (Lenger),Kazakh Humanitarian Law University,Unknown,Military
+P094,Dastan Smagululy Nurkeldiyev,43,Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate,Main Directorate of Military Police,Almaty City,Radioelectronics and Communications Military-Engineering Institute,Unknown,Military
+P095,Rustem Makatuly Zhanbyrov,52,Deputy Head of the Main Directorate of Military Police – Head of the Troops Service and Military Service Safety Directorate,Main Directorate of Military Police,"Akmola Region (Derzhavin District, then Turgai Region)",S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University),Unknown,Military
+P096,Aidos Kamaluly Uldakhanov,47,Deputy Head of the Main Directorate of Military Police – Head of the Educational and Ideological Work Department,Main Directorate of Military Police,Almaty Region (Kegen District),Military Academy of the Armed Forces of the Republic of Kazakhstan,Unknown,Military
 P097,Baglan Abdizhaleluly Userbayev,47,Commander of Regional Command Astana,Regional Command Astana,Turkestan Region (Ordabasy District),Military Academy of the Armed Forces of the Republic of Kazakhstan,Unknown,Military
 P098,Yerzhan Uakasuly Ibrayev,48,Commander of Regional Command South,Regional Command South,East Kazakhstan Region (now Abai Region),Almaty Higher Combined Arms Command School,Unknown,Military
 P099,Zhenis Mukhamedkaliuly Maralov,49,Commander of Regional Command East,Regional Command East,Karaganda Region (Balkhash),Military Academy of the Armed Forces of the Republic of Kazakhstan,Unknown,Military
