@@ -7209,9 +7209,17 @@
   },
   {
    "personId": 96,
-   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate",
+   "title": "Deputy Detachment Head – Chief of Staff, Almaty Regional Garrison Military Police Detachment",
    "institution": "Military Police",
    "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
+  },
+  {
+   "personId": 96,
+   "title": "Deputy Head of the Main Directorate of Military Police – Head of the Public Security Directorate",
+   "institution": "Military Police",
+   "startYear": 2019,
    "endYear": 2022,
    "source": "https://www.gov.kz/org/mod-police/about/structure?lang=kk"
   },
