@@ -58,7 +58,7 @@
    "region": "Almaty Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 6,
@@ -69,7 +69,7 @@
    "region": "Astana City",
    "school": "Narxoz University",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 7,
@@ -168,7 +168,7 @@
    "region": "Almaty Region",
    "school": "Kazakh Agricultural Institute",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 16,
@@ -212,7 +212,7 @@
    "region": "Almaty Region",
    "school": "Almaty Higher Combined Arms Command School",
    "zhuz": "Middle Zhuz / Orta Zhuz",
-   "category": "State-Security / Silovik"
+   "category": "Military"
   },
   {
    "id": 20,
@@ -223,7 +223,7 @@
    "region": "East Kazakhstan Region",
    "school": "Kazakh Agricultural Institute",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 21,
@@ -322,7 +322,7 @@
    "region": "West Kazakhstan Region",
    "school": "Pushkin West Kazakhstan University",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 30,
@@ -388,7 +388,7 @@
    "region": "",
    "school": "Military Institute of the Kazakh Ground Forces",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "Military"
   },
   {
    "id": 36,
@@ -432,7 +432,7 @@
    "region": "Zhambyl Region",
    "school": "Kazakh State Academy of Architecture and Civil Engineering",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Technocrat"
   },
   {
    "id": 40,
@@ -443,7 +443,7 @@
    "region": "Turkestan Region",
    "school": "S. Seifullin Kazakh Agrotechnical University",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 41,
@@ -454,7 +454,7 @@
    "region": "Shymkent City",
    "school": "M. Narikbayev KAZGUU University",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Diplomat"
   },
   {
    "id": 42,
@@ -465,7 +465,7 @@
    "region": "East Kazakhstan Region",
    "school": "T. Zhurgenov Kazakh National Academy of Arts",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Political Ideologue"
   },
   {
    "id": 43,
@@ -476,7 +476,7 @@
    "region": "Astana City",
    "school": "L.N. Gumilyov Eurasian National University (ENU)",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 44,
@@ -487,7 +487,7 @@
    "region": "Russia",
    "school": "Kazakh Academy of Sport and Tourism",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 45,
@@ -498,7 +498,7 @@
    "region": "Almaty Region",
    "school": "Abai Kazakh National Pedagogical University (KazNPU)",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Technocrat"
   },
   {
    "id": 46,
@@ -509,7 +509,7 @@
    "region": "West Kazakhstan Region",
    "school": "M. Utemisov West Kazakhstan University",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 47,
@@ -520,7 +520,7 @@
    "region": "Turkestan Region",
    "school": "Korkyt Ata Kyzylorda University",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 48,
@@ -531,7 +531,7 @@
    "region": "",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Technocrat"
   },
   {
    "id": 49,
@@ -542,7 +542,7 @@
    "region": "Almaty Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Diplomat"
   },
   {
    "id": 50,
@@ -553,7 +553,7 @@
    "region": "Karaganda Region",
    "school": "E.A. Buketov Karaganda University",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 51,
@@ -564,7 +564,7 @@
    "region": "Kostanay Region",
    "school": "V.P. Goryachkin Moscow Institute of Agricultural Engineers",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 52,
@@ -575,7 +575,7 @@
    "region": "Kyzylorda Region",
    "school": "Narxoz University",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 53,
@@ -586,7 +586,7 @@
    "region": "Mangystau Region",
    "school": "Kazakh Academy of Transport and Communications",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Technocrat"
   },
   {
    "id": 54,
@@ -597,7 +597,7 @@
    "region": "Kostanay Region",
    "school": "S. Seifullin Kazakh Agrotechnical University",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 55,
@@ -608,7 +608,7 @@
    "region": "Pavlodar Region",
    "school": "Pavlodar University",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Technocrat"
   },
   {
    "id": 56,
@@ -619,7 +619,7 @@
    "region": "West Kazakhstan Region",
    "school": "Zhambyl Hydromelioration and Construction Institute",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 57,
@@ -630,7 +630,7 @@
    "region": "Shymkent City",
    "school": "M. Auezov South Kazakhstan University",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 58,
@@ -641,7 +641,7 @@
    "region": "Ulytau Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Akimat"
+   "category": "Akimat/Regional"
   },
   {
    "id": 59,
@@ -652,7 +652,7 @@
    "region": "Almaty Region",
    "school": "Satbayev University",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 60,
@@ -663,7 +663,7 @@
    "region": "Almaty Region",
    "school": "Kazakh State Academy of Management",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "Technocrat"
   },
   {
    "id": 61,
@@ -696,7 +696,7 @@
    "region": "",
    "school": "L.N. Gumilyov Eurasian National University (ENU)",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 64,
@@ -707,7 +707,7 @@
    "region": "",
    "school": "M. Auezov South Kazakhstan University",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 65,
@@ -718,7 +718,7 @@
    "region": "",
    "school": "Kazakh State Academy of Architecture and Civil Engineering",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 66,
@@ -729,7 +729,7 @@
    "region": "",
    "school": "Academy of the FSB of the Russian Federation",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 67,
@@ -740,7 +740,7 @@
    "region": "Zhambyl Region",
    "school": "Abai Kazakh National Pedagogical University (KazNPU)",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 68,
@@ -751,7 +751,7 @@
    "region": "",
    "school": "National Security Committee Academy",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 69,
@@ -762,7 +762,7 @@
    "region": "",
    "school": "Zhangir Khan West Kazakhstan Agrarian-Technical University",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 70,
@@ -773,7 +773,7 @@
    "region": "East Kazakhstan Region",
    "school": "Academy of the Border Service of the National Security Committee",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "State Security"
   },
   {
    "id": 71,
@@ -784,7 +784,7 @@
    "region": "Pavlodar Region",
    "school": "Military Academy of the General Staff of the Armed Forces of the Russian Federation",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "Military"
   },
   {
    "id": 72,
@@ -795,7 +795,7 @@
    "region": "Turkestan Region",
    "school": "National Defense University",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "Military"
   },
   {
    "id": 73,
@@ -806,7 +806,7 @@
    "region": "Zhetysu Region",
    "school": "National Defense University",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "Military"
   },
   {
    "id": 74,
@@ -817,7 +817,7 @@
    "region": "Kyrgyzstan",
    "school": "Ryazan Higher Airborne Command School",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "Military"
   },
   {
    "id": 75,
@@ -828,7 +828,7 @@
    "region": "Zhambyl Region",
    "school": "Military Academy of the General Staff of the Armed Forces of the Russian Federation",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "Military"
   },
   {
    "id": 76,
@@ -839,7 +839,7 @@
    "region": "East Kazakhstan Region",
    "school": "National Defense University",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "Military"
   },
   {
    "id": 77,
@@ -850,7 +850,7 @@
    "region": "North Kazakhstan Region",
    "school": "Academy of Finance",
    "zhuz": "",
-   "category": "State-Security / Silovik"
+   "category": "Military"
   },
   {
    "id": 78,
