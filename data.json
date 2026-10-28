@@ -1060,6 +1060,30 @@
    "zhuz": "",
    "category": "Military",
    "status": "In office"
+  },
+  {
+   "id": 89,
+   "name": "Askar Akhmetuly Zholamanov",
+   "age": 55,
+   "role": "Head of the Territorial Defense Department – Deputy Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "region": "East Kazakhstan Region",
+   "school": "Satbayev University",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
+  },
+  {
+   "id": 90,
+   "name": "Almas Tynyshbekuly Isabekov",
+   "age": 47,
+   "role": "Deputy Chief of the General Staff – Head of the Organizational and Mobilization Department",
+   "institution": "Ministry of Defense",
+   "region": "East Kazakhstan Region",
+   "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
+   "zhuz": "",
+   "category": "Military",
+   "status": "In office"
   }
  ],
  "workExperience": [
@@ -6662,6 +6686,46 @@
    "startYear": 2026,
    "endYear": "Present",
    "source": "https://prokadry.kz/%D0%B6%D1%83%D0%BC%D0%B0%D0%B1%D0%B0%D0%B5%D0%B2-%D1%80%D1%83%D1%81%D0%BB%D0%B0%D0%BD-%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD-%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D0%B5%D0%B4%D0%B0%D1%82%D0%B5/"
+  },
+  {
+   "personId": 89,
+   "title": "Platoon Commander to Commander of Missile and Artillery Troops",
+   "institution": "Ground Forces",
+   "startYear": 1995,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 89,
+   "title": "Deputy Head of the University – Head of the General Staff Academy Faculty",
+   "institution": "National Defense University",
+   "startYear": 2022,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 89,
+   "title": "Head of the Territorial Defense Department – Deputy Chief of the General Staff",
+   "institution": "Ministry of Defense",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 90,
+   "title": "Platoon Commander to Chief of Staff – First Deputy Commander of the Air Assault Troops",
+   "institution": "Armed Forces",
+   "startYear": 2000,
+   "endYear": 2025,
+   "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 90,
+   "title": "Deputy Chief of the General Staff – Head of the Organizational and Mobilization Department",
+   "institution": "Ministry of Defense",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
   }
  ],
  "edges": [
@@ -7450,6 +7514,20 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:20-89",
+   "from": 20,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:20-90",
+   "from": 20,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:21-61",
    "from": 21,
    "to": 61,
@@ -7663,6 +7741,20 @@
    "id": "region:30-80",
    "from": 30,
    "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:30-89",
+   "from": 30,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:30-90",
+   "from": 30,
+   "to": 90,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -7884,6 +7976,20 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:42-89",
+   "from": 42,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:42-90",
+   "from": 42,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:45-49",
    "from": 45,
    "to": 49,
@@ -8052,6 +8158,20 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:62-89",
+   "from": 62,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:62-90",
+   "from": 62,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:67-75",
    "from": 67,
    "to": 75,
@@ -8069,6 +8189,20 @@
    "id": "region:70-80",
    "from": 70,
    "to": 80,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:70-89",
+   "from": 70,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:70-90",
+   "from": 70,
+   "to": 90,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -8094,6 +8228,20 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:76-89",
+   "from": 76,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:76-90",
+   "from": 76,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:79-87",
    "from": 79,
    "to": 87,
@@ -8101,11 +8249,32 @@
    "title": "Same region: Almaty Region"
   },
   {
+   "id": "region:80-89",
+   "from": 80,
+   "to": 89,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:80-90",
+   "from": 80,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:81-86",
    "from": 81,
    "to": 86,
    "ltype": "region",
    "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:89-90",
+   "from": 89,
+   "to": 90,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
   },
   {
    "id": "school:4-61",
@@ -8626,6 +8795,13 @@
    "title": "Same school: M. Auezov South Kazakhstan University"
   },
   {
+   "id": "school:59-89",
+   "from": 59,
+   "to": 89,
+   "ltype": "school",
+   "title": "Same school: Satbayev University"
+  },
+  {
    "id": "school:71-75",
    "from": 71,
    "to": 75,
@@ -8652,6 +8828,13 @@
    "to": 76,
    "ltype": "school",
    "title": "Same school: National Defense University"
+  },
+  {
+   "id": "school:79-90",
+   "from": 79,
+   "to": 90,
+   "ltype": "school",
+   "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
   },
   {
    "id": "work:1-2",
@@ -12791,6 +12974,20 @@
    "title": "Shared workplace: Armed Forces (1989–2006); Ministry of Defense (2025)"
   },
   {
+   "id": "work:19-89",
+   "from": 19,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2025)"
+  },
+  {
+   "id": "work:19-90",
+   "from": 19,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2000–2006); Ministry of Defense (2025)"
+  },
+  {
    "id": "work:20-21",
    "from": 20,
    "to": 21,
@@ -14380,6 +14577,13 @@
    "title": "Shared workplace: Ministry of Defense (2023–2024)"
   },
   {
+   "id": "work:35-89",
+   "from": 35,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024)"
+  },
+  {
    "id": "work:36-37",
    "from": 36,
    "to": 37,
@@ -15444,6 +15648,20 @@
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:71-89",
+   "from": 71,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:71-90",
+   "from": 71,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:72-73",
    "from": 72,
    "to": 73,
@@ -15556,6 +15774,20 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:72-89",
+   "from": 72,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:72-90",
+   "from": 72,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:73-74",
    "from": 73,
    "to": 74,
@@ -15661,6 +15893,20 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:73-89",
+   "from": 73,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026); National Defense University (2023–2024)"
+  },
+  {
+   "id": "work:73-90",
+   "from": 73,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:74-75",
    "from": 74,
    "to": 75,
@@ -15759,6 +16005,20 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:74-89",
+   "from": 74,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ground Forces (2022); Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:74-90",
+   "from": 74,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:75-76",
    "from": 75,
    "to": 76,
@@ -15850,6 +16110,20 @@
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:75-89",
+   "from": 75,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:75-90",
+   "from": 75,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:76-77",
    "from": 76,
    "to": 77,
@@ -15934,6 +16208,20 @@
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:76-89",
+   "from": 76,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:76-90",
+   "from": 76,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:77-78",
    "from": 77,
    "to": 78,
@@ -16011,6 +16299,20 @@
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:77-89",
+   "from": 77,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:77-90",
+   "from": 77,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:78-79",
    "from": 78,
    "to": 79,
@@ -16081,6 +16383,20 @@
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:78-89",
+   "from": 78,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:78-90",
+   "from": 78,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:79-80",
    "from": 79,
    "to": 80,
@@ -16144,6 +16460,20 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:79-89",
+   "from": 79,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:79-90",
+   "from": 79,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:80-81",
    "from": 80,
    "to": 81,
@@ -16200,6 +16530,20 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:80-89",
+   "from": 80,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:80-90",
+   "from": 80,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:81-82",
    "from": 81,
    "to": 82,
@@ -16249,6 +16593,20 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:81-89",
+   "from": 81,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-90",
+   "from": 81,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:82-83",
    "from": 82,
    "to": 83,
@@ -16291,6 +16649,20 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:82-89",
+   "from": 82,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:82-90",
+   "from": 82,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
    "id": "work:83-84",
    "from": 83,
    "to": 84,
@@ -16326,6 +16698,20 @@
    "title": "Shared workplace: Armed Forces (1997–2006); Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:83-89",
+   "from": 83,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:83-90",
+   "from": 83,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2000–2024); Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:84-85",
    "from": 84,
    "to": 85,
@@ -16354,6 +16740,20 @@
    "title": "Shared workplace: Armed Forces (1998–1999); Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:84-89",
+   "from": 84,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:84-90",
+   "from": 84,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:85-86",
    "from": 85,
    "to": 86,
@@ -16375,6 +16775,20 @@
    "title": "Shared workplace: Armed Forces (1995–2006); Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:85-89",
+   "from": 85,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:85-90",
+   "from": 85,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2000–2024); Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:86-87",
    "from": 86,
    "to": 87,
@@ -16389,9 +16803,58 @@
    "title": "Shared workplace: Armed Forces (2005–2006); Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:86-89",
+   "from": 86,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:86-90",
+   "from": 86,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2005–2011); Ministry of Defense (2025–2026)"
+  },
+  {
    "id": "work:87-88",
    "from": 87,
    "to": 88,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:87-89",
+   "from": 87,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2024–2026)"
+  },
+  {
+   "id": "work:87-90",
+   "from": 87,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:88-89",
+   "from": 88,
+   "to": 89,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:88-90",
+   "from": 88,
+   "to": 90,
+   "ltype": "work",
+   "title": "Shared workplace: Armed Forces (2000–2006); Ministry of Defense (2025–2026)"
+  },
+  {
+   "id": "work:89-90",
+   "from": 89,
+   "to": 90,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   }
