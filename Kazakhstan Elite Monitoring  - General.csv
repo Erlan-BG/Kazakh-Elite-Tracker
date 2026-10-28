@@ -39,7 +39,7 @@ P036,Rassul Urazgulov,52,Head of the Department of Current Security Issues of th
 P037,Aleksandr Sukhanov,49,Head of the Analytical Department of the Security Council,Akorda,Russia,Adilet Law School,Unknown,Technocrat
 P038,Daniyar Kussainov,49,Head of the Secretariat of the Head of the Presidential Administration,Akorda,Almaty Region,Narxoz University,Unknown,Technocrat
 P039,Zhenis Kassymbek,51,Akim of Astana,Astana City Akimat,Zhambyl Region,Kazakh State Academy of Architecture and Civil Engineering,Unknown,Technocrat
-P040,Darkhan Satybaldy,52,Akim of Almaty City,Almaty City Akimat,Turkestan Region,S. Seifullin Kazakh Agrotechnical University,Unknown,Akimat/Regional
+P040,Darkhan Satybaldy,52,Akim of Almaty City,Almaty City Akimat,Turkestan Region,S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University),Unknown,Akimat/Regional
 P041,Gabit Syzdykbekov,46,Akim of Shymkent,Shymkent City Akimat,Shymkent City,M. Narikbayev KAZGUU University,Unknown,Diplomat
 P042,Berik Ualiuly ,49,Akim of Abai Region,Abai Region Akimat,East Kazakhstan Region,T. Zhurgenov Kazakh National Academy of Arts,Unknown,Political Ideologue
 P043,Yermek Marzhikpayev,56,Akim of Akmola Region,Akmola Region Akimat,Astana City,L.N. Gumilyov Eurasian National University (ENU),Unknown,Akimat/Regional
@@ -53,7 +53,7 @@ P050,Yermaganbet Bulekpayev,50,Akim of Karaganda Region,Karaganda Region Akimat,
 P051,Kumar Aksakalov,60,Akim of Kostanay Region,Kostanay Region Akimat,Kostanay Region,V.P. Goryachkin Moscow Institute of Agricultural Engineers,Unknown,Akimat/Regional
 P052,Murat Ergeshbayev,60,Akim of Kyzylorda Region,Kyzylorda Region Akimat,Kyzylorda Region,Narxoz University,Unknown,Akimat/Regional
 P053,Nurdaulet Kilybay,48,Akim of Mangystau Region,Mangystau Region Akimat,Mangystau Region,Kazakh Academy of Transport and Communications,Unknown,Technocrat
-P054,Gauez Nurmukhambetov,58,Akim of North Kazakhstan Region,North Kazakhstan Region Akimat,Kostanay Region,S. Seifullin Kazakh Agrotechnical University,Unknown,Akimat/Regional
+P054,Gauez Nurmukhambetov,58,Akim of North Kazakhstan Region,North Kazakhstan Region Akimat,Kostanay Region,S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University),Unknown,Akimat/Regional
 P055,Asain Baikhanov,49,Akim of Pavlodar Region,Pavlodar Region Akimat,Pavlodar Region,Pavlodar University,Unknown,Technocrat
 P056,Nariman Turegaliyev,62,Akim of West Kazakhstan Region,West Kazakhstan Region Akimat,West Kazakhstan Region,Zhambyl Hydromelioration and Construction Institute,Unknown,Akimat/Regional
 P057,Nuralkhan Kusherov,41,Akim of Turkestan Region,Turkestan Region Akimat,Shymkent City,M. Auezov South Kazakhstan University,Unknown,Akimat/Regional
@@ -81,5 +81,11 @@ P077,Asker Kurmangaliuly Beisenov,48,Former Deputy Minister of Defense,Unknown,N
 P078,Darkhan Meiramuly Akhmediyev,35,"Chairman, Committee on Digitalization, Innovation and Science",Kurultai,Unknown,King's College London,Unknown,Technocrat
 P079,Aidos Sakenovich Myrzakhmetov,45,Minister of Defense,Ministry of Defense,Almaty Region (Zhambyl District),Military Academy of the Armed Forces of the Republic of Kazakhstan,Unknown,State Security
 P080,Aitkurman Zholamanuly Omarbekov,48,First Deputy Minister of Defense – Chief of the General Staff,Ministry of Defense,East Kazakhstan Region (Kokpekty),Eurasian Humanitarian Institute,Unknown,State Security
-P081,Tatyana Mikhailovna Savelyeva,50,Deputy Minister of Defense for Economics and Finance,Ministry of Defense,Akmola Region,S. Seifullin Kazakh Agrotechnical University,Unknown,Technocrat
-P082,Daulet Nysankhululy Bekmanov,42,Deputy Minister of Defense,Ministry of Defense,Uzbekistan (Dustlik),Miras University,Unknown,Technocrat
+P081,Tatyana Mikhailovna Savelyeva,50,Deputy Minister of Defense for Economics and Finance,Ministry of Defense,Akmola Region,S. Seifullin Kazakh Agrotechnical University (Akmola Agrarian University),Unknown,Technocrat
+P082,Daulet Nysankhululy Bekmanov,42,Deputy Minister of Defense,Ministry of Defense,Uzbekistan,Miras University,Unknown,Technocrat
+P083,Meirbek Mukhamedaliuly Nurbayev,51,Head of the Personnel Department,Ministry of Defense,Kyrgyzstan (Osh),Almaty Higher Combined Arms Command School,Unknown,Military
+P084,Tleukhan Kalilauly Baskozhayev,,Head of the Department of Educational and Ideological Work,Ministry of Defense,Unknown,Kazakh State Law University,Unknown,Military
+P085,Murat Kuatbekuly Olzhabayev,53,Head of the Department of Military Education and Science,Ministry of Defense,Turkestan Region (Saryagash District),Krasnoyarsk Higher Command School of Air Defense Radio Electronics,Unknown,Military
+P086,Olzhas Sagyndykuly Kusainov,,Head of the International Cooperation Department,Ministry of Defense,Unknown,Aktobe Higher Military Aviation School,Unknown,Military
+P087,Almas Bolatuly Koralasov,48,Head of the Pension Provision Center,Ministry of Defense,Almaty Region (Chilik District),Yaroslavl Higher Military Financial School,Unknown,Military
+P088,Ruslan Isauly Zhumabayev,58,Chairman of the State Defense Order Committee,Ministry of Defense,Almaty City,Tambov Higher Military Aviation School of Pilots,Unknown,Military
