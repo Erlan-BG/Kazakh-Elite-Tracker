@@ -695,7 +695,7 @@
    "age": 42,
    "role": "Akim of Ulytau Region",
    "institution": "Ulytau Region Akimat",
-   "region": "Ulytau Region",
+   "region": "Karaganda Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
    "category": "Akimat/Regional",
@@ -8874,6 +8874,13 @@
    "to": 96,
    "ltype": "region",
    "title": "Same region: Almaty Region"
+  },
+  {
+   "id": "region:50-58",
+   "from": 50,
+   "to": 58,
+   "ltype": "region",
+   "title": "Same region: Karaganda Region"
   },
   {
    "id": "region:51-54",
