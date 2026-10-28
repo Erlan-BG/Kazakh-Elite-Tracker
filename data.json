@@ -708,7 +708,7 @@
    "role": "Chairman of the KNB",
    "institution": "National Security Committee (KNB)",
    "region": "Almaty Region",
-   "school": "Satbayev University",
+   "school": "Satbayev University (Kazakh Polytechnic Institute)",
    "zhuz": "",
    "category": "State Security",
    "status": "In office"
@@ -1068,7 +1068,7 @@
    "role": "Head of the Territorial Defense Department – Deputy Chief of the General Staff",
    "institution": "Ministry of Defense",
    "region": "East Kazakhstan Region",
-   "school": "Satbayev University",
+   "school": "Satbayev University (Kazakh Polytechnic Institute)",
    "zhuz": "",
    "category": "Military",
    "status": "In office"
@@ -6113,6 +6113,14 @@
   },
   {
    "personId": 74,
+   "title": "Commander of the Airborne (Air-Assault) Troops",
+   "institution": "Air Assault Troops",
+   "startYear": 2022,
+   "endYear": 2026,
+   "source": ""
+  },
+  {
+   "personId": 74,
    "title": "Deputy Minister of Defense for Logistics and Military Infrastructure",
    "institution": "Ministry of Defense",
    "startYear": 2026,
@@ -6713,11 +6721,19 @@
   },
   {
    "personId": 90,
-   "title": "Platoon Commander to Chief of Staff – First Deputy Commander of the Air Assault Troops",
+   "title": "Platoon Commander to senior operations posts, Air Assault Troops",
    "institution": "Armed Forces",
    "startYear": 2000,
-   "endYear": 2025,
+   "endYear": 2023,
    "source": "https://www.gov.kz/org/mod/about/structure/102/1?lang=kk"
+  },
+  {
+   "personId": 90,
+   "title": "Chief of Staff – First Deputy Commander of the Air Assault Troops",
+   "institution": "Air Assault Troops",
+   "startYear": 2023,
+   "endYear": 2025,
+   "source": "https://dknews.kz/ru/v-strane/280734-strategicheskie-voennye-ucheniya-batyl-toytarys-2023"
   },
   {
    "personId": 90,
@@ -8799,7 +8815,7 @@
    "from": 59,
    "to": 89,
    "ltype": "school",
-   "title": "Same school: Satbayev University"
+   "title": "Same school: Satbayev University (Kazakh Polytechnic Institute)"
   },
   {
    "id": "school:71-75",
@@ -16016,7 +16032,7 @@
    "from": 74,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Ministry of Defense (2026)"
+   "title": "Shared workplace: Air Assault Troops (2023–2025); Ministry of Defense (2026)"
   },
   {
    "id": "work:75-76",
@@ -16709,7 +16725,7 @@
    "from": 83,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2000–2024); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (2000–2023); Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:84-85",
@@ -16786,7 +16802,7 @@
    "from": 85,
    "to": 90,
    "ltype": "work",
-   "title": "Shared workplace: Armed Forces (2000–2024); Ministry of Defense (2025–2026)"
+   "title": "Shared workplace: Armed Forces (2000–2023); Ministry of Defense (2025–2026)"
   },
   {
    "id": "work:86-87",
