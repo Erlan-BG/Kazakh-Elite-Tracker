@@ -861,13 +861,13 @@
    "id": 72,
    "name": "Kanysh Asankhanuly Abubakirov",
    "age": 49,
-   "role": "First Deputy Minister of Defense – Chief of the General Staff",
-   "institution": "Ministry of Defense",
+   "role": "Former First Deputy Minister of Defense – Chief of the General Staff",
+   "institution": "",
    "region": "Turkestan Region",
    "school": "National Defense University",
    "zhuz": "",
    "category": "Military",
-   "status": "In office"
+   "status": "Out of government"
   },
   {
    "id": 73,
@@ -885,13 +885,13 @@
    "id": 74,
    "name": "Almaz Dzhenishevich Jumakeyev",
    "age": 56,
-   "role": "Deputy Minister of Defense for Logistics and Military Infrastructure",
-   "institution": "Ministry of Defense",
+   "role": "Former Deputy Minister of Defense for Logistics and Military Infrastructure",
+   "institution": "",
    "region": "Kyrgyzstan",
    "school": "Ryazan Higher Airborne Command School",
    "zhuz": "",
    "category": "Military",
-   "status": "In office"
+   "status": "Out of government"
   },
   {
    "id": 75,
@@ -920,21 +920,21 @@
   {
    "id": 77,
    "name": "Asker Kurmangaliuly Beisenov",
-   "age": 47,
-   "role": "Deputy Minister of Defense",
-   "institution": "Ministry of Defense",
+   "age": 48,
+   "role": "Former Deputy Minister of Defense",
+   "institution": "",
    "region": "North Kazakhstan Region",
    "school": "Academy of Finance",
    "zhuz": "",
    "category": "Military",
-   "status": "In office"
+   "status": "Out of government"
   },
   {
    "id": 78,
    "name": "Darkhan Meiramuly Akhmediyev",
-   "age": null,
-   "role": "Deputy Minister of Defense",
-   "institution": "Ministry of Defense",
+   "age": 35,
+   "role": "Chairman, Committee on Digitalization, Innovation and Science",
+   "institution": "Kurultai",
    "region": "",
    "school": "King's College London",
    "zhuz": "",
@@ -5944,7 +5944,7 @@
    "title": "First Deputy Minister of Defense – Chief of the General Staff",
    "institution": "Ministry of Defense",
    "startYear": 2026,
-   "endYear": "Present",
+   "endYear": 2026,
    "source": "https://www.akorda.kz/kz/memleket-basshysynyn-okimimen-kanysh-asanhanuly-abubakirov-kazakstan-respublikasy-korganys-ministrinin-birinshi-orynbasary-kazakstan-respublikasy-karuly-kushteri-bas-shtabynyn-bastygy-bolyp-tagayyndaldy-ol-buryngy-atkargan-lauazymynan-bosatyldy-1704635"
   },
   {
@@ -5984,8 +5984,8 @@
    "title": "Deputy Minister of Defense for Logistics and Military Infrastructure",
    "institution": "Ministry of Defense",
    "startYear": 2026,
-   "endYear": "Present",
-   "source": ""
+   "endYear": 2026,
+   "source": "https://www.inform.kz/ru/tokaev-osvobodil-ot-dolzhnostey-treh-rukovoditeley-ministerstva-oboroni-25bd671a"
   },
   {
    "personId": 75,
@@ -6048,8 +6048,8 @@
    "title": "Deputy Minister of Defense",
    "institution": "Ministry of Defense",
    "startYear": 2023,
-   "endYear": "Present",
-   "source": ""
+   "endYear": 2026,
+   "source": "https://prokadry.kz/beysenov_zamminoborony_osvob_26/"
   },
   {
    "personId": 78,
@@ -6104,8 +6104,16 @@
    "title": "Deputy Minister of Defense",
    "institution": "Ministry of Defense",
    "startYear": 2022,
+   "endYear": 2026,
+   "source": "https://www.zakon.kz/sobytiia/6529549-darkhan-akhmediev-osvobozhden-ot-dolzhnosti-zamministra-oborony.html"
+  },
+  {
+   "personId": 78,
+   "title": "Chairman, Committee on Digitalization, Innovation and Science",
+   "institution": "Kurultai",
+   "startYear": 2026,
    "endYear": "Present",
-   "source": ""
+   "source": "https://bizmedia.kz/2026-08-28-v-kurultae-naznachili-rukovoditelej-8-mi-komitetov/"
   },
   {
    "personId": 79,
