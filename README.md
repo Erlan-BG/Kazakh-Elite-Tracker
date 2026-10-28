@@ -10,7 +10,7 @@ which shared attributes draw links, filter who appears, click any node for a
 full sourced career history. No backend: a single HTML file plus a JSON dataset,
 served straight from GitHub Pages.
 
-![Elite Network Monitor — full network, all link types on. Node color is institutional identity (diplomat, technocrat, silovik, akimat, …); node size is degree.](screenshot.png)
+![Elite Network Monitor — full network, all link types on. Node color is institutional identity (diplomat, technocrat, state security, military, akimat/regional, …); node size is degree.](screenshot.png)
 
 ## Why these ties
 
@@ -34,7 +34,7 @@ switched on or off independently to see which structure it produces.
   regional patronage affiliation.
 
 Node color encodes an **institutional identity** coding (diplomat, technocrat,
-political ideologue, state-security/silovik, akimat) assigned
+political ideologue, state security, military, akimat/regional) assigned
 from each person's dominant career track.
 
 ## Data
