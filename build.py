@@ -115,7 +115,7 @@ def build_people(rows, warn):
             "name": clean(r.get("Name")),
             "age": int(age) if age.isdigit() else None,
             "role": clean(r.get("Current_Role")),
-            "institution": clean(r.get("Current Instution")),
+            "institution": normalize(r.get("Current Instution"), "institution"),
             "region": normalize(r.get("Birth Region"), "region"),
             "school": normalize(r.get("School"), "school"),
             "zhuz": normalize(r.get("Zhuz"), "zhuz"),
@@ -183,6 +183,23 @@ def build_work(rows, valid_ids, warn):
             })
     work.sort(key=lambda w: (w["personId"], year_of(w["startYear"]) or 0))
     return work
+
+
+IN_OFFICE = "In office"
+OUT_OF_GOVERNMENT = "Out of government"
+
+
+def mark_status(people, work):
+    """In office, or out of government (e.g. dismissed, next post unknown).
+
+    Derived rather than hand-coded: someone with no open-ended ("Present")
+    stint holds no current post we know of. This is a separate axis from the
+    institutional identity, which follows the career track and so stays put
+    when a person leaves office.
+    """
+    current = {w["personId"] for w in work if w["endYear"] == PRESENT}
+    for p in people:
+        p["status"] = IN_OFFICE if p["id"] in current else OUT_OF_GOVERNMENT
 
 
 def attribute_edges(people, field, etype):
@@ -285,6 +302,7 @@ def main():
         die(f"no people parsed from {GENERAL_CSV}")
     check_near_duplicates(people, warn)
     work = build_work(read_rows(POSITIONS_CSV), {p["id"] for p in people}, warn)
+    mark_status(people, work)
 
     edges = (workplace_edges(work)
              + attribute_edges(people, "school", "school")

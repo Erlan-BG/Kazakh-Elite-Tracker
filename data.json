@@ -14,7 +14,8 @@
    "region": "Almaty City",
    "school": "Moscow State Institute of International Relations",
    "zhuz": "Senior Zhuz / Ulu Zhuz",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 2,
@@ -25,7 +26,8 @@
    "region": "Turkestan Region",
    "school": "K. Zhubanov Aktobe Regional University",
    "zhuz": "Junior Zhuz / Kishi Zhuz",
-   "category": "Political Ideologue"
+   "category": "Political Ideologue",
+   "status": "In office"
   },
   {
    "id": 3,
@@ -36,7 +38,8 @@
    "region": "Almaty City",
    "school": "University of Cambridge",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 4,
@@ -47,7 +50,8 @@
    "region": "Almaty City",
    "school": "Turan University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 5,
@@ -58,7 +62,8 @@
    "region": "Almaty Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 6,
@@ -69,7 +74,8 @@
    "region": "Astana City",
    "school": "Narxoz University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 7,
@@ -80,7 +86,8 @@
    "region": "Almaty City",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 8,
@@ -91,7 +98,8 @@
    "region": "Almaty City",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 9,
@@ -102,7 +110,8 @@
    "region": "",
    "school": "Kazakh State Academy of Management",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 10,
@@ -113,7 +122,8 @@
    "region": "Almaty City",
    "school": "Kazakh State Academy of Architecture and Civil Engineering",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 11,
@@ -124,7 +134,8 @@
    "region": "Pavlodar Region",
    "school": "S. Toraighyrov University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 12,
@@ -135,7 +146,8 @@
    "region": "Kyzylorda Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Political Ideologue"
+   "category": "Political Ideologue",
+   "status": "In office"
   },
   {
    "id": 13,
@@ -146,7 +158,8 @@
    "region": "Zhambyl Region",
    "school": "Suleyman Demirel University",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 14,
@@ -157,7 +170,8 @@
    "region": "Almaty City",
    "school": "Abai Kazakh National Pedagogical University (KazNPU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 15,
@@ -168,7 +182,8 @@
    "region": "Almaty Region",
    "school": "Kazakh Agricultural Institute",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 16,
@@ -179,7 +194,8 @@
    "region": "Almaty City",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 17,
@@ -190,7 +206,8 @@
    "region": "Shymkent City",
    "school": "South Kazakhstan Medical Academy",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 18,
@@ -201,7 +218,8 @@
    "region": "Turkestan Region",
    "school": "Ablai Khan University of International Relations and World Languages",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 19,
@@ -212,7 +230,8 @@
    "region": "Almaty Region",
    "school": "Almaty Higher Combined Arms Command School",
    "zhuz": "Middle Zhuz / Orta Zhuz",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 20,
@@ -223,7 +242,8 @@
    "region": "East Kazakhstan Region",
    "school": "Kazakh Agricultural Institute",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 21,
@@ -234,7 +254,8 @@
    "region": "Almaty City",
    "school": "Kazakh State Academy of Management",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 22,
@@ -245,7 +266,8 @@
    "region": "Almaty Region",
    "school": "Lomonosov Moscow State University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 23,
@@ -256,7 +278,8 @@
    "region": "",
    "school": "L.N. Gumilyov Eurasian National University (ENU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 24,
@@ -267,7 +290,8 @@
    "region": "Zhetysu Region",
    "school": "Kazakhstan-British Technical University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 25,
@@ -278,7 +302,8 @@
    "region": "Turkestan Region",
    "school": "Lomonosov Moscow State University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 26,
@@ -289,7 +314,8 @@
    "region": "Kostanay Region",
    "school": "A. Baitursynov Kostanay Regional University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 27,
@@ -300,7 +326,8 @@
    "region": "Turkestan Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Political Ideologue"
+   "category": "Political Ideologue",
+   "status": "In office"
   },
   {
    "id": 28,
@@ -311,7 +338,8 @@
    "region": "Kostanay Region",
    "school": "L.N. Gumilyov Eurasian National University (ENU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 29,
@@ -322,7 +350,8 @@
    "region": "West Kazakhstan Region",
    "school": "Pushkin West Kazakhstan University",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 30,
@@ -333,7 +362,8 @@
    "region": "East Kazakhstan Region",
    "school": "Semey Medical University (formerly Semey State University)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 31,
@@ -344,7 +374,8 @@
    "region": "Pavlodar Region",
    "school": "M. Narikbayev KAZGUU University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 32,
@@ -355,7 +386,8 @@
    "region": "Zhambyl Region",
    "school": "M. Narikbayev KAZGUU University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 33,
@@ -366,7 +398,8 @@
    "region": "Zhambyl Region",
    "school": "KIMEP University",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 34,
@@ -377,7 +410,8 @@
    "region": "Akmola Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 35,
@@ -388,7 +422,8 @@
    "region": "",
    "school": "Military Institute of the Kazakh Ground Forces",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 36,
@@ -399,7 +434,8 @@
    "region": "Pavlodar Region",
    "school": "Shakarim Semipalatinsk State University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 37,
@@ -410,7 +446,8 @@
    "region": "Russia",
    "school": "Adilet Law School",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 38,
@@ -421,7 +458,8 @@
    "region": "Almaty Region",
    "school": "Narxoz University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 39,
@@ -432,7 +470,8 @@
    "region": "Zhambyl Region",
    "school": "Kazakh State Academy of Architecture and Civil Engineering",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 40,
@@ -443,7 +482,8 @@
    "region": "Turkestan Region",
    "school": "S. Seifullin Kazakh Agrotechnical University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 41,
@@ -454,7 +494,8 @@
    "region": "Shymkent City",
    "school": "M. Narikbayev KAZGUU University",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 42,
@@ -465,7 +506,8 @@
    "region": "East Kazakhstan Region",
    "school": "T. Zhurgenov Kazakh National Academy of Arts",
    "zhuz": "",
-   "category": "Political Ideologue"
+   "category": "Political Ideologue",
+   "status": "In office"
   },
   {
    "id": 43,
@@ -476,7 +518,8 @@
    "region": "Astana City",
    "school": "L.N. Gumilyov Eurasian National University (ENU)",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 44,
@@ -487,7 +530,8 @@
    "region": "Russia",
    "school": "Kazakh Academy of Sport and Tourism",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 45,
@@ -498,7 +542,8 @@
    "region": "Almaty Region",
    "school": "Abai Kazakh National Pedagogical University (KazNPU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 46,
@@ -509,7 +554,8 @@
    "region": "West Kazakhstan Region",
    "school": "M. Utemisov West Kazakhstan University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 47,
@@ -520,7 +566,8 @@
    "region": "Turkestan Region",
    "school": "Korkyt Ata Kyzylorda University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 48,
@@ -531,7 +578,8 @@
    "region": "",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 49,
@@ -542,7 +590,8 @@
    "region": "Almaty Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Diplomat"
+   "category": "Diplomat",
+   "status": "In office"
   },
   {
    "id": 50,
@@ -553,7 +602,8 @@
    "region": "Karaganda Region",
    "school": "E.A. Buketov Karaganda University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 51,
@@ -564,7 +614,8 @@
    "region": "Kostanay Region",
    "school": "V.P. Goryachkin Moscow Institute of Agricultural Engineers",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 52,
@@ -575,7 +626,8 @@
    "region": "Kyzylorda Region",
    "school": "Narxoz University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 53,
@@ -586,7 +638,8 @@
    "region": "Mangystau Region",
    "school": "Kazakh Academy of Transport and Communications",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 54,
@@ -597,7 +650,8 @@
    "region": "Kostanay Region",
    "school": "S. Seifullin Kazakh Agrotechnical University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 55,
@@ -608,7 +662,8 @@
    "region": "Pavlodar Region",
    "school": "Pavlodar University",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 56,
@@ -619,7 +674,8 @@
    "region": "West Kazakhstan Region",
    "school": "Zhambyl Hydromelioration and Construction Institute",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 57,
@@ -630,7 +686,8 @@
    "region": "Shymkent City",
    "school": "M. Auezov South Kazakhstan University",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 58,
@@ -641,7 +698,8 @@
    "region": "Ulytau Region",
    "school": "Al-Farabi Kazakh National University (KazNU)",
    "zhuz": "",
-   "category": "Akimat/Regional"
+   "category": "Akimat/Regional",
+   "status": "In office"
   },
   {
    "id": 59,
@@ -652,7 +710,8 @@
    "region": "Almaty Region",
    "school": "Satbayev University",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 60,
@@ -663,7 +722,8 @@
    "region": "Almaty Region",
    "school": "Kazakh State Academy of Management",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 61,
@@ -674,7 +734,8 @@
    "region": "Almaty City",
    "school": "Turan University",
    "zhuz": "",
-   "category": "Political Ideologue"
+   "category": "Political Ideologue",
+   "status": "In office"
   },
   {
    "id": 62,
@@ -685,7 +746,8 @@
    "region": "East Kazakhstan Region",
    "school": "University of York",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 63,
@@ -696,7 +758,8 @@
    "region": "",
    "school": "L.N. Gumilyov Eurasian National University (ENU)",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 64,
@@ -707,7 +770,8 @@
    "region": "",
    "school": "M. Auezov South Kazakhstan University",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 65,
@@ -718,7 +782,8 @@
    "region": "",
    "school": "Kazakh State Academy of Architecture and Civil Engineering",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 66,
@@ -729,7 +794,8 @@
    "region": "",
    "school": "Academy of the FSB of the Russian Federation",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 67,
@@ -740,7 +806,8 @@
    "region": "Zhambyl Region",
    "school": "Abai Kazakh National Pedagogical University (KazNPU)",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 68,
@@ -751,7 +818,8 @@
    "region": "",
    "school": "National Security Committee Academy",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 69,
@@ -762,7 +830,8 @@
    "region": "",
    "school": "Zhangir Khan West Kazakhstan Agrarian-Technical University",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 70,
@@ -773,18 +842,20 @@
    "region": "East Kazakhstan Region",
    "school": "Academy of the Border Service of the National Security Committee",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   },
   {
    "id": 71,
    "name": "Dauren Zhumatayuly Kosanov",
    "age": 56,
    "role": "Former Minister of Defense",
-   "institution": "Unknown",
+   "institution": "",
    "region": "Pavlodar Region",
    "school": "Military Academy of the General Staff of the Armed Forces of the Russian Federation",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "Out of government"
   },
   {
    "id": 72,
@@ -795,7 +866,8 @@
    "region": "Turkestan Region",
    "school": "National Defense University",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 73,
@@ -806,7 +878,8 @@
    "region": "Zhetysu Region",
    "school": "National Defense University",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 74,
@@ -817,7 +890,8 @@
    "region": "Kyrgyzstan",
    "school": "Ryazan Higher Airborne Command School",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 75,
@@ -828,7 +902,8 @@
    "region": "Zhambyl Region",
    "school": "Military Academy of the General Staff of the Armed Forces of the Russian Federation",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 76,
@@ -839,7 +914,8 @@
    "region": "East Kazakhstan Region",
    "school": "National Defense University",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 77,
@@ -850,7 +926,8 @@
    "region": "North Kazakhstan Region",
    "school": "Academy of Finance",
    "zhuz": "",
-   "category": "Military"
+   "category": "Military",
+   "status": "In office"
   },
   {
    "id": 78,
@@ -861,7 +938,8 @@
    "region": "",
    "school": "King's College London",
    "zhuz": "",
-   "category": "Technocrat"
+   "category": "Technocrat",
+   "status": "In office"
   },
   {
    "id": 79,
@@ -872,7 +950,8 @@
    "region": "Almaty Region",
    "school": "Military Academy of the Armed Forces of the Republic of Kazakhstan",
    "zhuz": "",
-   "category": "State Security"
+   "category": "State Security",
+   "status": "In office"
   }
  ],
  "workExperience": [

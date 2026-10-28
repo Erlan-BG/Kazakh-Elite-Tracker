@@ -35,7 +35,10 @@ switched on or off independently to see which structure it produces.
 
 Node color encodes an **institutional identity** coding (diplomat, technocrat,
 political ideologue, state security, military, akimat/regional) assigned
-from each person's dominant career track.
+from each person's dominant career track. A separate **current status** is
+derived by `build.py`: anyone with no open-ended (`Present`) stint is *out of
+government* (dismissed, next post unknown). They keep their identity color,
+drawn faded with a dashed outline, and can be filtered on their own.
 
 ## Data
 
