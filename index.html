@@ -131,18 +131,10 @@ const NODE_FONT = { color:"#334155", size:13, face:"Inter", strokeWidth:4, strok
 const edgeWidth = t => t==='family' ? 3 : t==='work' ? 1.3 : 1;
 const EDGE_OPACITY = 0.22;
 
-// Family links are the one tie drawn to stand out rather than recede: a gold
-// long-dash-dot line, labelled with the relationship, with a mid-edge marker
-// for the kind of tie (filled circle = blood, filled diamond = marriage,
-// hollow diamond = in-law), faded once the tie has ended. vis-network arrows
-// have no hollow variant, so the in-law diamond is an image.
-const FAMILY_DASHES = [14,4,2,4];
-const HOLLOW_DIAMOND = 'data:image/svg+xml,' + encodeURIComponent(
-  `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M10 2 L18 10 L10 18 L2 10 Z" fill="#ffffff" stroke="${LINK_COLORS.family}" stroke-width="3"/></svg>`);
-function familyMarker(kind){
-  if(kind.includes('inlaw')) return { enabled:true, type:'image', src:HOLLOW_DIAMOND, imageWidth:18, imageHeight:18 };
-  return { enabled:true, type: kind.includes('blood') ? 'circle' : 'diamond', scaleFactor:0.9 };
-}
+// Family links are the one tie drawn to stand out rather than recede: a plain
+// gold line, faded once the tie has ended. The relationship shows only in the
+// hover tooltip, and relatives' nodes carry a matching gold glow.
+const FAMILY_GLOW = { enabled:true, color:'#E0B42A', size:32, x:0, y:0 };
 const edgeOpacity = e => e.ltype==='family' ? ((e.kind||[]).includes('former') ? 0.4 : 0.95) : EDGE_OPACITY;
 
 let DATA = { people:[], workExperience:[], edges:[] };
@@ -378,15 +370,7 @@ function buildEdges(visibleIds){
       id:e.id, from:e.from, to:e.to, hidden:false,
       color:{color:LINK_COLORS[e.ltype], highlight:LINK_COLORS[e.ltype], hover:LINK_COLORS[e.ltype], opacity:edgeOpacity(e)},
       basecolor:LINK_COLORS[e.ltype], title:e.title,
-      smooth:{type:'continuous'}, width:edgeWidth(e.ltype), ltype:e.ltype, kind:e.kind,
-      ...(e.ltype==='family' ? {
-        dashes:FAMILY_DASHES,
-        arrows:{ middle:familyMarker(e.kind||[]) },
-        label:e.label,
-        // vadjust lifts the label clear of the mid-edge marker, which its
-        // white halo would otherwise half-cover
-        font:{ size:11, face:'Inter', color:'#7a5c00', strokeWidth:4, strokeColor:'rgba(255,255,255,0.95)', align:'top', vadjust:-9 }
-      } : {})
+      smooth:{type:'continuous'}, width:edgeWidth(e.ltype), ltype:e.ltype, kind:e.kind
     }));
 }
 
@@ -440,6 +424,7 @@ function render(){
               highlight:{background:col,border:"#16202e"} },
       shapeProperties:{ borderDashes: out ? [4,3] : false },
       font:{ ...NODE_FONT },
+      shadow: p.family ? FAMILY_GLOW : false,
       shape:"dot"
     };
   });
@@ -509,8 +494,7 @@ function updateLegend(colorMode, community, visible){
   if(visible.some(p=>p.family)){
     const gold = LINK_COLORS.family;
     box.innerHTML +=
-      `<div class="row"><svg width="28" height="10"><line x1="0" y1="5" x2="28" y2="5" stroke="${gold}" stroke-width="3" stroke-dasharray="${FAMILY_DASHES.join(' ')}"/></svg>Family link to Tokayev</div>`+
-      `<div class="row" style="color:${gold}">● blood &nbsp;◆ marriage &nbsp;◇ in-law</div>`;
+      `<div class="row"><svg width="28" height="10"><line x1="0" y1="5" x2="28" y2="5" stroke="${gold}" stroke-width="3"/></svg>Family</div>`;
   }
 }
 
