@@ -19,6 +19,10 @@ one hypothesized channel:
   disjoint eras does not link; embassies are separate from MFA headquarters.
 - **School** — shared alma mater.
 - **Region** — shared birth region.
+- **Family** — Tokayev's relatives with government posts or major business
+  roles, each tied to him by a gold dash-dot line labelled with the
+  relationship (● blood, ◆ marriage, ◇ in-law). Relatives are not part of the
+  roster and appear only while this link type is on.
 
 Node color is **institutional identity** (diplomat, technocrat, political
 ideologue, state security, military, akimat/regional). Anyone with no current
@@ -30,11 +34,15 @@ ideologue, state security, military, akimat/regional). Anyone with no current
 Sources are official biographies (Akorda, ministry and akimat sites) and
 public reporting.
 
+`family/` holds 9 of Tokayev's relatives in the same two-CSV format, plus the
+relationship and link columns `build.py` uses for family links.
+
 ## Limitations ⚠️
 
-1. **Informal ties are invisible.** Family, marriage and business links,
-   arguably the most important, are not in official bios. Co-tenure is a proxy
-   for acquaintance, not proof of alliance.
+1. **Informal ties are mostly invisible.** Family, marriage and business
+   links, arguably the most important, are not in official bios; so far only
+   Tokayev's family is mapped. Co-tenure is a proxy for acquaintance, not
+   proof of alliance.
 2. **Year-level resolution.** Officials who overlapped by one month in the
    same year still link.
 

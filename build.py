@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Compile the two source CSVs into data.json for the browser.
+"""Compile the source CSVs into data.json for the browser.
 
-The CSVs are the source of truth; data.json is a build artifact. Run this
-after editing either CSV, then commit both.
+The CSVs (the roster pair, plus the family pair in family/) are the source of
+truth; data.json is a build artifact. Run this after editing any CSV, then
+commit both.
 
     python3 build.py
 
@@ -21,6 +22,16 @@ from datetime import date
 GENERAL_CSV = "Kazakhstan Elite Monitoring  - General.csv"
 POSITIONS_CSV = "Kazakhstan Elite Monitoring  - Positions.csv"
 OUT = "data.json"
+
+# Relatives of one roster member, kept apart from the roster in the same two
+# CSV shapes plus link columns. Rows key on F-codes, which become ids above
+# FAMILY_ID_OFFSET so they can never collide with a P-number. Each relative
+# gets a family edge to the anchor, labelled with the relationship.
+FAMILY_GENERAL_CSV = "family/Tokayev Family Monitoring - General.csv"
+FAMILY_POSITIONS_CSV = "family/Tokayev Family Monitoring - Positions.csv"
+FAMILY_ANCHOR = "P001"
+FAMILY_ID_OFFSET = 1000
+FAMILY_KINDS = {"blood", "marriage", "inlaw", "former"}
 
 # An open-ended stint has to resolve to a concrete year before its overlaps can
 # be computed. The browser used to do this with new Date().getFullYear(), so the
@@ -42,6 +53,12 @@ def person_num(pid):
     """P001 -> 1. The CSVs key on P-codes, the JSON on integers."""
     m = re.fullmatch(r"P0*(\d+)", (pid or "").strip())
     return int(m.group(1)) if m else None
+
+
+def family_num(pid):
+    """F005 -> 1005, the family CSVs' counterpart of person_num."""
+    m = re.fullmatch(r"F0*(\d+)", (pid or "").strip())
+    return FAMILY_ID_OFFSET + int(m.group(1)) if m else None
 
 
 def clean(s):
@@ -97,16 +114,16 @@ def read_rows(path):
         die(f"missing {path}")
 
 
-def build_people(rows, warn):
+def build_people(rows, warn, id_of=person_num, path=GENERAL_CSV):
     people, seen = [], set()
     for i, r in enumerate(rows, start=2):  # row 1 is the header
-        pid = person_num(r.get("Id"))
+        pid = id_of(r.get("Id"))
         if pid is None:
             if any(clean(v) for v in r.values()):
-                warn(f"{GENERAL_CSV} row {i}: unparseable Id {r.get('Id')!r}, skipped")
+                warn(f"{path} row {i}: unparseable Id {r.get('Id')!r}, skipped")
             continue  # blank spacer rows are expected
         if pid in seen:
-            die(f"{GENERAL_CSV} row {i}: duplicate Id {r.get('Id')}")
+            die(f"{path} row {i}: duplicate Id {r.get('Id')}")
         seen.add(pid)
 
         age = clean(r.get("Age"))
@@ -125,7 +142,7 @@ def build_people(rows, warn):
     return people
 
 
-def parse_year(v, row_no, warn):
+def parse_year(v, row_no, warn, path=POSITIONS_CSV):
     """Years are ints, or the string "Present" for an open-ended stint."""
     v = clean(v)
     if not v:
@@ -142,29 +159,29 @@ def parse_year(v, row_no, warn):
         return int(m.group(1))
     m = re.search(r"\d{4}", v)  # anything else with a year in it: say so
     if m:
-        warn(f"{POSITIONS_CSV} row {row_no}: read year {v!r} as {m.group(1) if m.groups() else m.group(0)}")
+        warn(f"{path} row {row_no}: read year {v!r} as {m.group(1) if m.groups() else m.group(0)}")
         return int(m.group(0))
-    warn(f"{POSITIONS_CSV} row {row_no}: unreadable year {v!r}, treated as blank")
+    warn(f"{path} row {row_no}: unreadable year {v!r}, treated as blank")
     return None
 
 
-def build_work(rows, valid_ids, warn):
+def build_work(rows, valid_ids, warn, id_of=person_num, path=POSITIONS_CSV):
     work = []
     for i, r in enumerate(rows, start=2):
-        pid = person_num(r.get("Person_ID"))
+        pid = id_of(r.get("Person_ID"))
         if pid is None:
             if any(clean(v) for v in r.values()):
-                warn(f"{POSITIONS_CSV} row {i}: unparseable Person_ID, skipped")
+                warn(f"{path} row {i}: unparseable Person_ID, skipped")
             continue
         if pid not in valid_ids:
             # A position pointing at nobody is a data error, not a spacer row.
-            warn(f"{POSITIONS_CSV} row {i}: Person_ID {r.get('Person_ID')} not in {GENERAL_CSV}, skipped")
+            warn(f"{path} row {i}: Person_ID {r.get('Person_ID')} has no person row, skipped")
             continue
 
-        start = parse_year(r.get("Start_Year"), i, warn)
-        end = parse_year(r.get("End_Year"), i, warn)
+        start = parse_year(r.get("Start_Year"), i, warn, path)
+        end = parse_year(r.get("End_Year"), i, warn, path)
         if isinstance(start, int) and isinstance(end, int) and start > end:
-            warn(f"{POSITIONS_CSV} row {i}: start {start} after end {end}")
+            warn(f"{path} row {i}: start {start} after end {end}")
 
         # A joint appointment ("Deputy PM; Minister of Foreign Affairs") lists
         # both institutions in one cell. Split it: the person genuinely served
@@ -291,6 +308,34 @@ def workplace_edges(work):
     return edges
 
 
+def family_edges(rows, anchor, warn):
+    """One labelled edge from each relative to the family's anchor.
+
+    Link_Type holds the kind of tie (blood, marriage, inlaw), plus "former"
+    for one that has ended; the browser styles each kind differently.
+    """
+    edges = []
+    for i, r in enumerate(rows, start=2):
+        fid = family_num(r.get("Id"))
+        if fid is None:
+            continue  # build_people has already reported the row
+        label = clean(r.get("Link_Label"))
+        kinds = clean(r.get("Link_Type")).lower().split()
+        if not label:
+            warn(f"{FAMILY_GENERAL_CSV} row {i}: no Link_Label, family edge skipped")
+            continue
+        if not kinds or set(kinds) - FAMILY_KINDS:
+            warn(f"{FAMILY_GENERAL_CSV} row {i}: Link_Type {r.get('Link_Type')!r} "
+                 f"should be from {sorted(FAMILY_KINDS)}")
+        edges.append({
+            "id": f"family:{fid}-{anchor}", "from": fid, "to": anchor, "ltype": "family",
+            "kind": [k for k in kinds if k in FAMILY_KINDS],
+            "label": label,
+            "title": f"Family: {clean(r.get('Relationship_to_Tokayev')) or label}",
+        })
+    return edges
+
+
 def check_near_duplicates(people, warn):
     """Flag values that look like the same place/school spelled two ways.
 
@@ -314,13 +359,32 @@ def main():
     people = build_people(read_rows(GENERAL_CSV), warn)
     if not people:
         die(f"no people parsed from {GENERAL_CSV}")
+    anchor = person_num(FAMILY_ANCHOR)
+    if anchor not in {p["id"] for p in people}:
+        die(f"family anchor {FAMILY_ANCHOR} is not in {GENERAL_CSV}")
+
+    # Relatives join the graph as ordinary people, so their careers, schools
+    # and regions tie into the roster by the same rules; "family" marks them
+    # so the browser can show or hide them with their family links.
+    family_rows = read_rows(FAMILY_GENERAL_CSV)
+    family = build_people(family_rows, warn, family_num, FAMILY_GENERAL_CSV)
+    relationship = {family_num(r.get("Id")): clean(r.get("Relationship_to_Tokayev")) for r in family_rows}
+    for p in family:
+        p["family"] = True
+        p["relationship"] = relationship[p["id"]]
+    people += family
+
     check_near_duplicates(people, warn)
-    work = build_work(read_rows(POSITIONS_CSV), {p["id"] for p in people}, warn)
+    work = (build_work(read_rows(POSITIONS_CSV), {p["id"] for p in people if not p.get("family")}, warn)
+            + build_work(read_rows(FAMILY_POSITIONS_CSV), {p["id"] for p in family}, warn,
+                         family_num, FAMILY_POSITIONS_CSV))
+    work.sort(key=lambda w: (w["personId"], year_of(w["startYear"]) or 0))
     mark_status(people, work)
 
     edges = (workplace_edges(work)
              + attribute_edges(people, "school", "school")
-             + attribute_edges(people, "region", "region"))
+             + attribute_edges(people, "region", "region")
+             + family_edges(family_rows, anchor, warn))
     edges.sort(key=lambda e: (e["ltype"], e["from"], e["to"]))
 
     data = {
@@ -341,7 +405,7 @@ def main():
     by_type = defaultdict(int)
     for e in edges:
         by_type[e["ltype"]] += 1
-    print(f"{OUT}: {len(people)} people, {len(work)} positions, "
+    print(f"{OUT}: {len(people)} people ({len(family)} family), {len(work)} positions, "
           f"{len(set(w['institution'] for w in work if w['institution']))} institutions")
     print(f"  edges: {len(edges)} total — "
           + ", ".join(f"{k} {v}" for k, v in sorted(by_type.items())))

@@ -1204,6 +1204,132 @@
    "zhuz": "",
    "category": "Military",
    "status": "In office"
+  },
+  {
+   "id": 1005,
+   "name": "Karlyga Izbastina (née Tokayeva)",
+   "age": 70,
+   "role": "Businesswoman; co-founder, Kemel Tokayev Charitable Foundation",
+   "institution": "Kemel Tokayev Charitable Foundation",
+   "region": "",
+   "school": "",
+   "zhuz": "Senior Zhuz / Ulu Zhuz",
+   "category": "Business",
+   "family": true,
+   "relationship": "Sister (younger)",
+   "status": "Out of government"
+  },
+  {
+   "id": 1007,
+   "name": "Temirtai Izbastin",
+   "age": 69,
+   "role": "Former Ambassador to Bulgaria (released 09.12.2022)",
+   "institution": "",
+   "region": "Pavlodar Region",
+   "school": "Almaty State Medical Institute",
+   "zhuz": "",
+   "category": "Diplomat",
+   "family": true,
+   "relationship": "Brother-in-law (sister Karlyga's husband)",
+   "status": "Out of government"
+  },
+  {
+   "id": 1009,
+   "name": "Timur Kemel (Timur Tokayev)",
+   "age": 42,
+   "role": "Businessman; chairman, Kemel Tokayev Charitable Foundation (last confirmed 2022)",
+   "institution": "Kemel Tokayev Charitable Foundation",
+   "region": "",
+   "school": "Webster University Geneva",
+   "zhuz": "Senior Zhuz / Ulu Zhuz",
+   "category": "Business",
+   "family": true,
+   "relationship": "Son",
+   "status": "Out of government"
+  },
+  {
+   "id": 1012,
+   "name": "Dana Medeuova",
+   "age": 48,
+   "role": "Deputy of the Kurultai (I convocation); member, Committee on International Affairs, Defence and Security",
+   "institution": "Kurultai",
+   "region": "",
+   "school": "",
+   "zhuz": "",
+   "category": "Business",
+   "family": true,
+   "relationship": "Niece (sister Karlyga's daughter)",
+   "status": "In office"
+  },
+  {
+   "id": 1013,
+   "name": "Kanysh Izbastin",
+   "age": 45,
+   "role": "Former First Deputy Chairman, Baiterek (left Jan 2022); current post unknown",
+   "institution": "",
+   "region": "",
+   "school": "Moscow State Institute of International Relations",
+   "zhuz": "",
+   "category": "Technocrat",
+   "family": true,
+   "relationship": "Nephew (sister Karlyga's son)",
+   "status": "Out of government"
+  },
+  {
+   "id": 1015,
+   "name": "Koza-Korpesh Karbuzov",
+   "age": 67,
+   "role": "General Director, KMG-Security LLP",
+   "institution": "KMG-Security LLP",
+   "region": "Zhambyl Region",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "State Security",
+   "family": true,
+   "relationship": "Nephew Kanysh's father-in-law",
+   "status": "In office"
+  },
+  {
+   "id": 1016,
+   "name": "Mukhamed Izbastin",
+   "age": 44,
+   "role": "President, Qazaq Cybersport Federation; businessman (TSM Group, 3I Materials)",
+   "institution": "Qazaq Cybersport Federation",
+   "region": "Almaty City",
+   "school": "Moscow State Institute of International Relations",
+   "zhuz": "",
+   "category": "Business",
+   "family": true,
+   "relationship": "Nephew (sister Karlyga's son)",
+   "status": "In office"
+  },
+  {
+   "id": 1017,
+   "name": "Beket Izbastin",
+   "age": 42,
+   "role": "General Director, Chairman of the Management Board",
+   "institution": "PSA LLP",
+   "region": "",
+   "school": "",
+   "zhuz": "",
+   "category": "Technocrat",
+   "family": true,
+   "relationship": "Nephew (sister Karlyga's son)",
+   "status": "In office"
+  },
+  {
+   "id": 1018,
+   "name": "Nurassyl Medeu",
+   "age": 23,
+   "role": "Founder and 95% owner, Kazakh National Sports University; founder, AI National Research University (QAIRU)",
+   "institution": "Kazakh National Sports University",
+   "region": "",
+   "school": "Boston University",
+   "zhuz": "",
+   "category": "Business",
+   "family": true,
+   "relationship": "Grand-nephew (niece Dana Medeuova's son)",
+   "status": "In office"
   }
  ],
  "workExperience": [
@@ -7334,9 +7460,796 @@
    "startYear": 2026,
    "endYear": "Present",
    "source": "https://www.zakon.kz/politika/6514558-tokaev-naznachil-komanduyushchego-voyskami-regionalnogo-komandovaniya-zapad.html"
+  },
+  {
+   "personId": 1005,
+   "title": "Owner (with Dana Medeuova as later co-founder)",
+   "institution": "Meerbusch LLP",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html ; https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
+  },
+  {
+   "personId": 1005,
+   "title": "Director",
+   "institution": "Abi Petroleum Capital LLP",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://ru.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2,_%D0%9A%D0%B0%D1%81%D1%8B%D0%BC-%D0%96%D0%BE%D0%BC%D0%B0%D1%80%D1%82_%D0%9A%D0%B5%D0%BC%D0%B5%D0%BB%D0%B5%D0%B2%D0%B8%D1%87 ; https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html"
+  },
+  {
+   "personId": 1005,
+   "title": "Co-owner (with Timur Kemel)",
+   "institution": "Kazakhstan Tungsten & Molybdenum Company",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html ; https://istories.media/investigations/2022/01/14/ne-yelbasi/"
+  },
+  {
+   "personId": 1005,
+   "title": "Owner",
+   "institution": "Dana Reiseservice (travel agency, Germany)",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://istories.media/investigations/2022/01/14/ne-yelbasi/"
+  },
+  {
+   "personId": 1005,
+   "title": "Owner (associated)",
+   "institution": "KZ Development LLP",
+   "startYear": 2005,
+   "endYear": 2005,
+   "source": "https://www.currenttime.tv/a/v-kazahstane-krupnye-gosudarstvennye-tendery-poluchaet-stroitelnaya-kompaniya-ona-mogla-byt-svyazana-s-rodstvennikami-prezidenta-tokaeva/33761839.html"
+  },
+  {
+   "personId": 1005,
+   "title": "Owner",
+   "institution": "KZK Group",
+   "startYear": 2007,
+   "endYear": 2010,
+   "source": "https://www.currenttime.tv/a/v-kazahstane-krupnye-gosudarstvennye-tendery-poluchaet-stroitelnaya-kompaniya-ona-mogla-byt-svyazana-s-rodstvennikami-prezidenta-tokaeva/33761839.html"
+  },
+  {
+   "personId": 1005,
+   "title": "Co-founder (with son Mukhamed)",
+   "institution": "Kemel Tokayev Charitable Foundation",
+   "startYear": 2008,
+   "endYear": null,
+   "source": "https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html ; https://en.wikipedia.org/wiki/Mukhamed_Izbastin"
+  },
+  {
+   "personId": 1007,
+   "title": "Diplomatic staff",
+   "institution": "Embassy of Kazakhstan in China (MFA)",
+   "startYear": null,
+   "endYear": 1997,
+   "source": "https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BD,_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B9_%D0%A0%D1%8B%D0%BC%D1%82%D0%B0%D0%B5%D0%B2%D0%B8%D1%87 ; https://kapital.kz/naznacheniya/82382/poslom-kazakhstana-v-bolgarii-stal-temirtay-izbastin.html"
+  },
+  {
+   "personId": 1007,
+   "title": "Diplomatic staff",
+   "institution": "Embassy of Kazakhstan in Hungary (MFA)",
+   "startYear": 1994,
+   "endYear": null,
+   "source": "https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BD,_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B9_%D0%A0%D1%8B%D0%BC%D1%82%D0%B0%D0%B5%D0%B2%D0%B8%D1%87 ; https://kapital.kz/naznacheniya/82382/poslom-kazakhstana-v-bolgarii-stal-temirtay-izbastin.html"
+  },
+  {
+   "personId": 1007,
+   "title": "Consul",
+   "institution": "Consulate of Kazakhstan in Düsseldorf (MFA)",
+   "startYear": 1997,
+   "endYear": 2001,
+   "source": "https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BD,_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B9_%D0%A0%D1%8B%D0%BC%D1%82%D0%B0%D0%B5%D0%B2%D0%B8%D1%87 ; https://kapital.kz/naznacheniya/82382/poslom-kazakhstana-v-bolgarii-stal-temirtay-izbastin.html"
+  },
+  {
+   "personId": 1007,
+   "title": "Consul, then Counsellor",
+   "institution": "Embassy of Kazakhstan in Austria (MFA)",
+   "startYear": 2002,
+   "endYear": 2005,
+   "source": "https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BD,_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B9_%D0%A0%D1%8B%D0%BC%D1%82%D0%B0%D0%B5%D0%B2%D0%B8%D1%87"
+  },
+  {
+   "personId": 1007,
+   "title": "Head of Division, Deputy Director, then Acting Director, Consular Service Department",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": 2005,
+   "endYear": 2009,
+   "source": "https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BD,_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B9_%D0%A0%D1%8B%D0%BC%D1%82%D0%B0%D0%B5%D0%B2%D0%B8%D1%87"
+  },
+  {
+   "personId": 1007,
+   "title": "Head of Diplomatic Mission (Chargé d'affaires)",
+   "institution": "Embassy of Kazakhstan in Bulgaria (MFA)",
+   "startYear": 2009,
+   "endYear": 2019,
+   "source": "https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BD,_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B9_%D0%A0%D1%8B%D0%BC%D1%82%D0%B0%D0%B5%D0%B2%D0%B8%D1%87 ; https://www.zakon.kz/politika/6378363-naznacheny-posly-kazakhstana-v-bolgarii-litve-i-albanii.html"
+  },
+  {
+   "personId": 1007,
+   "title": "Ambassador Extraordinary and Plenipotentiary to Bulgaria",
+   "institution": "Embassy of Kazakhstan in Bulgaria (MFA)",
+   "startYear": 2019,
+   "endYear": 2022,
+   "source": "https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BD,_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B9_%D0%A0%D1%8B%D0%BC%D1%82%D0%B0%D0%B5%D0%B2%D0%B8%D1%87 ; https://akipress.com/news:627941:Kazakh_President_appoints_his_brother-in-law_as_Ambassador_to_Bulgaria ; https://www.zakon.kz/politika/6378363-naznacheny-posly-kazakhstana-v-bolgarii-litve-i-albanii.html"
+  },
+  {
+   "personId": 1009,
+   "title": "Owner",
+   "institution": "Fortius LLP",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html"
+  },
+  {
+   "personId": 1009,
+   "title": "Co-head",
+   "institution": "Fondation pour une Diplomatie Innovante (Geneva)",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://istories.media/investigations/2022/01/14/ne-yelbasi/"
+  },
+  {
+   "personId": 1009,
+   "title": "Co-founder, 50% shareholder",
+   "institution": "Abi Petroleum Capital LLP",
+   "startYear": 2002,
+   "endYear": 2020,
+   "source": "https://www.svoboda.org/a/mister-kemel-kak-semya-tokayeva-svyazana-s-rossiyej/31651217.html ; https://www.publiceye.ch/en/topics/commodities-trading/kazakh-presidents-underground-business ; https://forbes.kz/articles/50_samyih_vliyatelnyih_biznesmenov_-_2022_1665370398/"
+  },
+  {
+   "personId": 1009,
+   "title": "Beneficial owner / co-founder",
+   "institution": "Kazakhstan Tungsten & Molybdenum Company",
+   "startYear": 2007,
+   "endYear": null,
+   "source": "https://www.publiceye.ch/en/topics/commodities-trading/kazakh-presidents-underground-business ; https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html ; https://istories.media/investigations/2022/01/14/ne-yelbasi/"
+  },
+  {
+   "personId": 1009,
+   "title": "Co-founder; Chairman / board member",
+   "institution": "Kemel Tokayev Charitable Foundation",
+   "startYear": 2008,
+   "endYear": null,
+   "source": "https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html ; https://www.svoboda.org/a/mister-kemel-kak-semya-tokayeva-svyazana-s-rossiyej/31651217.html ; https://forbes.kz/articles/50_samyih_vliyatelnyih_biznesmenov_-_2022_1665370398/"
+  },
+  {
+   "personId": 1009,
+   "title": "Owner",
+   "institution": "Edelweiss Resources LLP",
+   "startYear": 2012,
+   "endYear": null,
+   "source": "https://www.publiceye.ch/en/topics/commodities-trading/kazakh-presidents-underground-business"
+  },
+  {
+   "personId": 1009,
+   "title": "Board member",
+   "institution": "OAO Mayak",
+   "startYear": 2016,
+   "endYear": 2016,
+   "source": "https://www.svoboda.org/a/mister-kemel-kak-semya-tokayeva-svyazana-s-rossiyej/31651217.html"
+  },
+  {
+   "personId": 1009,
+   "title": "Minority shareholder",
+   "institution": "KM GOLD",
+   "startYear": 2016,
+   "endYear": 2016,
+   "source": "https://www.svoboda.org/a/mister-kemel-kak-semya-tokayeva-svyazana-s-rossiyej/31651217.html"
+  },
+  {
+   "personId": 1009,
+   "title": "Head",
+   "institution": "Peasant farm 'Tokayev' (Yeskeldy District, Almaty Region)",
+   "startYear": 2016,
+   "endYear": 2021,
+   "source": "https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html"
+  },
+  {
+   "personId": 1012,
+   "title": "Co-founder",
+   "institution": "Meerbusch LLP",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html ; https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
+  },
+  {
+   "personId": 1012,
+   "title": "Co-owner (with Beket Izbastin)",
+   "institution": "Abi Construction Capital",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://istories.media/investigations/2022/01/14/ne-yelbasi/"
+  },
+  {
+   "personId": 1012,
+   "title": "Co-owner (with Beket Izbastin)",
+   "institution": "BG Invest Capital",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://istories.media/investigations/2022/01/14/ne-yelbasi/"
+  },
+  {
+   "personId": 1012,
+   "title": "Owner",
+   "institution": "Dami International (Sofia)",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://istories.media/investigations/2022/01/14/ne-yelbasi/ ; https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html"
+  },
+  {
+   "personId": 1012,
+   "title": "Head",
+   "institution": "Kemel Tokayev Charitable Foundation",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://ertenmedia.kz/ru/kto-takaya-dana-medeuova-i-pochemu-o-nej-govoryat-posle-vyborov/"
+  },
+  {
+   "personId": 1012,
+   "title": "Honorary Consul of the Republic of Cyprus",
+   "institution": "Honorary Consulate of Cyprus in Astana",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://ertenmedia.kz/ru/kto-takaya-dana-medeuova-i-pochemu-o-nej-govoryat-posle-vyborov/ ; https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
+  },
+  {
+   "personId": 1012,
+   "title": "Manager",
+   "institution": "Funny School children's development centre LLP (Astana)",
+   "startYear": null,
+   "endYear": 2026,
+   "source": "https://ertenmedia.kz/ru/kto-takaya-dana-medeuova-i-pochemu-o-nej-govoryat-posle-vyborov/"
+  },
+  {
+   "personId": 1012,
+   "title": "Trainee researcher, Department of International Relations",
+   "institution": "Abai Kazakh National Pedagogical University (KazNPU)",
+   "startYear": 2000,
+   "endYear": null,
+   "source": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
+  },
+  {
+   "personId": 1012,
+   "title": "Senior lecturer, Department of International Journalism",
+   "institution": "Al-Farabi Kazakh National University (KazNU)",
+   "startYear": 2002,
+   "endYear": null,
+   "source": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
+  },
+  {
+   "personId": 1012,
+   "title": "Vice-Rector for International Relations",
+   "institution": "Abai Kazakh National Pedagogical University (KazNPU)",
+   "startYear": 2008,
+   "endYear": 2012,
+   "source": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0 ; https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html ; https://ertenmedia.kz/ru/kto-takaya-dana-medeuova-i-pochemu-o-nej-govoryat-posle-vyborov/"
+  },
+  {
+   "personId": 1012,
+   "title": "Professor, Department of Political Science and Socio-Economic Disciplines",
+   "institution": "Abai Kazakh National Pedagogical University (KazNPU)",
+   "startYear": 2008,
+   "endYear": null,
+   "source": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
+  },
+  {
+   "personId": 1012,
+   "title": "Sole proprietor (geological exploration)",
+   "institution": "IP MEDEUOVA D.T.",
+   "startYear": 2014,
+   "endYear": null,
+   "source": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0 ; https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html"
+  },
+  {
+   "personId": 1012,
+   "title": "Owner (74.91%)",
+   "institution": "SD Property Investments (Sofia)",
+   "startYear": 2017,
+   "endYear": 2024,
+   "source": "https://istories.media/investigations/2022/01/14/ne-yelbasi/ ; https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
+  },
+  {
+   "personId": 1012,
+   "title": "Sole owner",
+   "institution": "Dami Investment (Sofia)",
+   "startYear": 2018,
+   "endYear": 2024,
+   "source": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
+  },
+  {
+   "personId": 1012,
+   "title": "Founder",
+   "institution": "Sal Seri LLP",
+   "startYear": 2021,
+   "endYear": null,
+   "source": "https://www.currenttime.tv/a/v-kazahstane-krupnye-gosudarstvennye-tendery-poluchaet-stroitelnaya-kompaniya-ona-mogla-byt-svyazana-s-rodstvennikami-prezidenta-tokaeva/33761839.html ; https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
+  },
+  {
+   "personId": 1012,
+   "title": "Member, Political Council",
+   "institution": "Adilet party",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.azattyqasia.org/a/vne-alfavita-plemyannitsa-tokaeva-i-eks-glava-ego-administratsii-voshli-v-politsovet-novoy-partii/33752671.html"
+  },
+  {
+   "personId": 1012,
+   "title": "Deputy of the Kurultai (I convocation); member, Committee on International Affairs, Defence and Security",
+   "institution": "Kurultai",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.azattyqasia.org/a/profil-plemyannitsy-tokaeva-ischez-s-sayta-parlamenta-i-poyavilsya-vnov-posle-obrascheniya-azattyka-k-predstavitelyam-kurultaya/33844805.html ; https://ertenmedia.kz/ru/kto-takaya-dana-medeuova-i-pochemu-o-nej-govoryat-posle-vyborov/ ; https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
+  },
+  {
+   "personId": 1013,
+   "title": "Various posts",
+   "institution": "Ministry of Foreign Affairs (MFA)",
+   "startYear": null,
+   "endYear": 2007,
+   "source": "https://baiterek.gov.kz/en/pr/news/baiterek-holding-appoints-the-first-deputy-chairman-of-the-management-board-"
+  },
+  {
+   "personId": 1013,
+   "title": "Various posts",
+   "institution": "Akorda",
+   "startYear": null,
+   "endYear": 2007,
+   "source": "https://baiterek.gov.kz/en/pr/news/baiterek-holding-appoints-the-first-deputy-chairman-of-the-management-board-"
+  },
+  {
+   "personId": 1013,
+   "title": "Deputy Chairman of the Management Board",
+   "institution": "DBK-Leasing JSC",
+   "startYear": 2007,
+   "endYear": 2008,
+   "source": "https://baiterek.gov.kz/en/pr/news/baiterek-holding-appoints-the-first-deputy-chairman-of-the-management-board-"
+  },
+  {
+   "personId": 1013,
+   "title": "Chairman of the Management Board",
+   "institution": "DBK-Leasing JSC",
+   "startYear": 2008,
+   "endYear": 2012,
+   "source": "https://baiterek.gov.kz/en/pr/news/baiterek-holding-appoints-the-first-deputy-chairman-of-the-management-board-"
+  },
+  {
+   "personId": 1013,
+   "title": "Chairman of the Management Board",
+   "institution": "KazakhExport State Insurance Corporation JSC",
+   "startYear": 2012,
+   "endYear": 2012,
+   "source": "https://baiterek.gov.kz/en/pr/news/baiterek-holding-appoints-the-first-deputy-chairman-of-the-management-board-"
+  },
+  {
+   "personId": 1013,
+   "title": "Managing Director",
+   "institution": "Samruk-Kazyna JSC",
+   "startYear": 2013,
+   "endYear": 2015,
+   "source": "https://baiterek.gov.kz/en/pr/news/baiterek-holding-appoints-the-first-deputy-chairman-of-the-management-board-"
+  },
+  {
+   "personId": 1013,
+   "title": "Chairman of the Management Board",
+   "institution": "KazAgroFinance JSC",
+   "startYear": 2015,
+   "endYear": 2021,
+   "source": "https://baiterek.gov.kz/en/pr/news/baiterek-holding-appoints-the-first-deputy-chairman-of-the-management-board-"
+  },
+  {
+   "personId": 1013,
+   "title": "Chairman of the Board of Directors",
+   "institution": "KazAgroFinance JSC",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://forbes.kz/articles/plemyannik_tokaeva_pokinul_sovet_direktorov_ao_kazagrofinans ; https://forbes.kz/articles/50_samyih_vliyatelnyih_biznesmenov_-_2022_1665370398/"
+  },
+  {
+   "personId": 1013,
+   "title": "First Deputy Chairman of the Management Board",
+   "institution": "Baiterek National Holding JSC",
+   "startYear": 2021,
+   "endYear": 2022,
+   "source": "https://baiterek.gov.kz/en/pr/news/baiterek-holding-appoints-the-first-deputy-chairman-of-the-management-board- ; https://forbes.kz/articles/plemyannik_tokaeva_pokinul_vyisokiy_post_v_holdinge_bayterek"
+  },
+  {
+   "personId": 1015,
+   "title": "Executive Secretary",
+   "institution": "Chu District Executive Committee (Zhambyl Region)",
+   "startYear": 1981,
+   "endYear": 1982,
+   "source": "https://prg.kz/document/?doc_id=30105973 ; https://kk.wikipedia.org/wiki/%D2%9A%D0%BE%D0%B7%D1%8B-%D0%9A%D3%A9%D1%80%D0%BF%D0%B5%D1%88_%D0%96%D0%B0%D0%BF%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D2%B1%D0%BB%D1%8B_%D0%9A%D3%99%D1%80%D0%B1%D0%BE%D0%B7%D0%BE%D0%B2"
+  },
+  {
+   "personId": 1015,
+   "title": "Assistant Prosecutor",
+   "institution": "Moyinkum District Prosecutor's Office",
+   "startYear": 1982,
+   "endYear": 1986,
+   "source": "https://prg.kz/document/?doc_id=30105973"
+  },
+  {
+   "personId": 1015,
+   "title": "Prosecutor, Investigations Department",
+   "institution": "Zhambyl Regional Prosecutor's Office",
+   "startYear": 1986,
+   "endYear": 1988,
+   "source": "https://prg.kz/document/?doc_id=30105973"
+  },
+  {
+   "personId": 1015,
+   "title": "Prosecutor, Investigations Department",
+   "institution": "Prosecutor General's Office",
+   "startYear": 1988,
+   "endYear": 1989,
+   "source": "https://prg.kz/document/?doc_id=30105973 ; https://kk.wikipedia.org/wiki/%D2%9A%D0%BE%D0%B7%D1%8B-%D0%9A%D3%A9%D1%80%D0%BF%D0%B5%D1%88_%D0%96%D0%B0%D0%BF%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D2%B1%D0%BB%D1%8B_%D0%9A%D3%99%D1%80%D0%B1%D0%BE%D0%B7%D0%BE%D0%B2"
+  },
+  {
+   "personId": 1015,
+   "title": "Head of Investigations Department, then Deputy Prosecutor",
+   "institution": "Kyzylorda Regional Prosecutor's Office",
+   "startYear": 1989,
+   "endYear": 1994,
+   "source": "https://prg.kz/document/?doc_id=30105973 ; https://kk.wikipedia.org/wiki/%D2%9A%D0%BE%D0%B7%D1%8B-%D0%9A%D3%A9%D1%80%D0%BF%D0%B5%D1%88_%D0%96%D0%B0%D0%BF%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D2%B1%D0%BB%D1%8B_%D0%9A%D3%99%D1%80%D0%B1%D0%BE%D0%B7%D0%BE%D0%B2"
+  },
+  {
+   "personId": 1015,
+   "title": "Head, Department for Oversight of the Legality of Court Decisions",
+   "institution": "Prosecutor General's Office",
+   "startYear": 1994,
+   "endYear": 1994,
+   "source": "https://prg.kz/document/?doc_id=30105973 ; https://kk.wikipedia.org/wiki/%D2%9A%D0%BE%D0%B7%D1%8B-%D0%9A%D3%A9%D1%80%D0%BF%D0%B5%D1%88_%D0%96%D0%B0%D0%BF%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D2%B1%D0%BB%D1%8B_%D0%9A%D3%99%D1%80%D0%B1%D0%BE%D0%B7%D0%BE%D0%B2"
+  },
+  {
+   "personId": 1015,
+   "title": "Special Prosecutor for Combating Corruption; Head, Anti-Corruption Department",
+   "institution": "Prosecutor General's Office",
+   "startYear": 1994,
+   "endYear": 1995,
+   "source": "https://prg.kz/document/?doc_id=30105973 ; https://kk.wikipedia.org/wiki/%D2%9A%D0%BE%D0%B7%D1%8B-%D0%9A%D3%A9%D1%80%D0%BF%D0%B5%D1%88_%D0%96%D0%B0%D0%BF%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D2%B1%D0%BB%D1%8B_%D0%9A%D3%99%D1%80%D0%B1%D0%BE%D0%B7%D0%BE%D0%B2"
+  },
+  {
+   "personId": 1015,
+   "title": "Head, Main Directorate for Oversight of Operational and Inquiry Bodies",
+   "institution": "Prosecutor General's Office",
+   "startYear": 1995,
+   "endYear": 1995,
+   "source": "https://prg.kz/document/?doc_id=30105973"
+  },
+  {
+   "personId": 1015,
+   "title": "Head, Almaty City Department",
+   "institution": "State Investigation Committee",
+   "startYear": 1995,
+   "endYear": 1997,
+   "source": "https://prg.kz/document/?doc_id=30105973"
+  },
+  {
+   "personId": 1015,
+   "title": "Head, Main (5th) Department for Combating Organised Crime and Corruption",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 1998,
+   "endYear": 2000,
+   "source": "https://prg.kz/document/?doc_id=30105973 ; https://kk.wikipedia.org/wiki/%D2%9A%D0%BE%D0%B7%D1%8B-%D0%9A%D3%A9%D1%80%D0%BF%D0%B5%D1%88_%D0%96%D0%B0%D0%BF%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D2%B1%D0%BB%D1%8B_%D0%9A%D3%99%D1%80%D0%B1%D0%BE%D0%B7%D0%BE%D0%B2"
+  },
+  {
+   "personId": 1015,
+   "title": "Head, Investigations Department",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2000,
+   "endYear": 2003,
+   "source": "https://prg.kz/document/?doc_id=30105973 ; https://kk.wikipedia.org/wiki/%D2%9A%D0%BE%D0%B7%D1%8B-%D0%9A%D3%A9%D1%80%D0%BF%D0%B5%D1%88_%D0%96%D0%B0%D0%BF%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D2%B1%D0%BB%D1%8B_%D0%9A%D3%99%D1%80%D0%B1%D0%BE%D0%B7%D0%BE%D0%B2"
+  },
+  {
+   "personId": 1015,
+   "title": "Deputy Chairman of the KNB",
+   "institution": "KNB Leadership",
+   "startYear": 2003,
+   "endYear": 2007,
+   "source": "https://prg.kz/document/?doc_id=30105973 ; https://kk.wikipedia.org/wiki/%D2%9A%D0%BE%D0%B7%D1%8B-%D0%9A%D3%A9%D1%80%D0%BF%D0%B5%D1%88_%D0%96%D0%B0%D0%BF%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D2%B1%D0%BB%D1%8B_%D0%9A%D3%99%D1%80%D0%B1%D0%BE%D0%B7%D0%BE%D0%B2"
+  },
+  {
+   "personId": 1015,
+   "title": "Vice Minister of Finance; Chairman, Customs Control Committee",
+   "institution": "Ministry of Finance",
+   "startYear": 2007,
+   "endYear": 2011,
+   "source": "https://prg.kz/document/?doc_id=30105973 ; https://kz.kursiv.media/?p=89121"
+  },
+  {
+   "personId": 1015,
+   "title": "Director, Institute for Counter-Extremism and Counter-Terrorism Studies (S. Zimanov Academy)",
+   "institution": "M. Narikbayev KAZGUU University",
+   "startYear": 2013,
+   "endYear": 2013,
+   "source": "https://prg.kz/document/?doc_id=30105973"
+  },
+  {
+   "personId": 1015,
+   "title": "President",
+   "institution": "Military-Strategic Research Center JSC (Ministry of Defence)",
+   "startYear": 2013,
+   "endYear": 2022,
+   "source": "https://prg.kz/document/?doc_id=30105973 ; https://kk.wikipedia.org/wiki/%D2%9A%D0%BE%D0%B7%D1%8B-%D0%9A%D3%A9%D1%80%D0%BF%D0%B5%D1%88_%D0%96%D0%B0%D0%BF%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D2%B1%D0%BB%D1%8B_%D0%9A%D3%99%D1%80%D0%B1%D0%BE%D0%B7%D0%BE%D0%B2"
+  },
+  {
+   "personId": 1015,
+   "title": "General Director (Chairman of the Management Board)",
+   "institution": "KMG-Security LLP",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://kk.wikipedia.org/wiki/%D2%9A%D0%BE%D0%B7%D1%8B-%D0%9A%D3%A9%D1%80%D0%BF%D0%B5%D1%88_%D0%96%D0%B0%D0%BF%D0%B0%D1%80%D1%85%D0%B0%D0%BD%D2%B1%D0%BB%D1%8B_%D0%9A%D3%99%D1%80%D0%B1%D0%BE%D0%B7%D0%BE%D0%B2 ; https://www.inform.kz/ru/20-yanvarya-kalendar-kazinforma-dni-rozhdeniya-8050a0"
+  },
+  {
+   "personId": 1016,
+   "title": "Co-founder",
+   "institution": "TSM Group",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://forbes.kz/articles/50_samyih_vliyatelnyih_biznesmenov_-_2022_1665370398/"
+  },
+  {
+   "personId": 1016,
+   "title": "Owner",
+   "institution": "3I Materials",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://en.wikipedia.org/wiki/Mukhamed_Izbastin"
+  },
+  {
+   "personId": 1016,
+   "title": "Co-founder, 50% shareholder",
+   "institution": "Abi Petroleum Capital LLP",
+   "startYear": 2002,
+   "endYear": 2020,
+   "source": "https://www.svoboda.org/a/mister-kemel-kak-semya-tokayeva-svyazana-s-rossiyej/31651217.html ; https://www.publiceye.ch/en/topics/commodities-trading/kazakh-presidents-underground-business ; https://forbes.kz/articles/50_samyih_vliyatelnyih_biznesmenov_-_2022_1665370398/"
+  },
+  {
+   "personId": 1016,
+   "title": "Executive Director",
+   "institution": "Abi Petroleum Capital LLP",
+   "startYear": 2003,
+   "endYear": 2018,
+   "source": "https://en.wikipedia.org/wiki/Mukhamed_Izbastin"
+  },
+  {
+   "personId": 1016,
+   "title": "Co-founder",
+   "institution": "Kemel Tokayev Charitable Foundation",
+   "startYear": 2008,
+   "endYear": null,
+   "source": "https://en.wikipedia.org/wiki/Mukhamed_Izbastin ; https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html ; https://forbes.kz/articles/50_samyih_vliyatelnyih_biznesmenov_-_2022_1665370398/"
+  },
+  {
+   "personId": 1016,
+   "title": "Co-owner",
+   "institution": "Kazakhstan Tungsten & Molybdenum Company",
+   "startYear": 2009,
+   "endYear": null,
+   "source": "https://www.publiceye.ch/en/topics/commodities-trading/kazakh-presidents-underground-business"
+  },
+  {
+   "personId": 1016,
+   "title": "Honorary Consul of the Republic of Cyprus",
+   "institution": "Honorary Consulate of Cyprus in Astana",
+   "startYear": 2016,
+   "endYear": null,
+   "source": "https://en.wikipedia.org/wiki/Mukhamed_Izbastin"
+  },
+  {
+   "personId": 1016,
+   "title": "Board member",
+   "institution": "United Energy Service Company",
+   "startYear": 2017,
+   "endYear": null,
+   "source": "https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html"
+  },
+  {
+   "personId": 1016,
+   "title": "President",
+   "institution": "Qazaq Cybersport Federation",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://en.wikipedia.org/wiki/Mukhamed_Izbastin"
+  },
+  {
+   "personId": 1017,
+   "title": "Expert",
+   "institution": "Ministry of Energy and Mineral Resources",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://psa.kz/about/rukovodstvo/63/ ; https://prg.kz/document/?doc_id=34629773"
+  },
+  {
+   "personId": 1017,
+   "title": "Head of Division, Deputy Director, then Director, Subsoil Use Department",
+   "institution": "Ministry of Energy",
+   "startYear": null,
+   "endYear": 2019,
+   "source": "https://psa.kz/about/rukovodstvo/63/ ; https://prg.kz/document/?doc_id=34629773"
+  },
+  {
+   "personId": 1017,
+   "title": "Co-owner (with Dana Medeuova)",
+   "institution": "Abi Construction Capital",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://istories.media/investigations/2022/01/14/ne-yelbasi/"
+  },
+  {
+   "personId": 1017,
+   "title": "Co-owner (with Dana Medeuova)",
+   "institution": "BG Invest Capital",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://istories.media/investigations/2022/01/14/ne-yelbasi/"
+  },
+  {
+   "personId": 1017,
+   "title": "Head",
+   "institution": "KZ Development LLP",
+   "startYear": 2005,
+   "endYear": 2005,
+   "source": "https://www.currenttime.tv/a/v-kazahstane-krupnye-gosudarstvennye-tendery-poluchaet-stroitelnaya-kompaniya-ona-mogla-byt-svyazana-s-rodstvennikami-prezidenta-tokaeva/33761839.html"
+  },
+  {
+   "personId": 1017,
+   "title": "General Director, Chairman of the Management Board",
+   "institution": "PSA LLP",
+   "startYear": 2019,
+   "endYear": "Present",
+   "source": "https://psa.kz/about/rukovodstvo/63/ ; https://prg.kz/document/?doc_id=34629773 ; https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html ; https://ru.wikipedia.org/wiki/%D0%98%D0%B7%D0%B1%D0%B0%D1%81%D1%82%D0%B8%D0%BD,_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B9_%D0%A0%D1%8B%D0%BC%D1%82%D0%B0%D0%B5%D0%B2%D0%B8%D1%87"
+  },
+  {
+   "personId": 1018,
+   "title": "Owner",
+   "institution": "Apricus (software development)",
+   "startYear": null,
+   "endYear": 2025,
+   "source": "https://www.azattyq.org/a/memleket-qoldauyna-ie-eki-oqu-ornynyn-qozhaiyny-kim-zertteu/33868452.html"
+  },
+  {
+   "personId": 1018,
+   "title": "Adviser to the CEO",
+   "institution": "BTS Digital",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://www.azattyq.org/a/memleket-qoldauyna-ie-eki-oqu-ornynyn-qozhaiyny-kim-zertteu/33868452.html"
+  },
+  {
+   "personId": 1018,
+   "title": "Director for Organisational Development",
+   "institution": "International Esports Federation",
+   "startYear": null,
+   "endYear": "Present",
+   "source": "https://www.azattyq.org/a/memleket-qoldauyna-ie-eki-oqu-ornynyn-qozhaiyny-kim-zertteu/33868452.html"
+  },
+  {
+   "personId": 1018,
+   "title": "Shareholder",
+   "institution": "Energy & Chemicals Ltd (AIFC)",
+   "startYear": null,
+   "endYear": null,
+   "source": "https://www.azattyq.org/a/memleket-qoldauyna-ie-eki-oqu-ornynyn-qozhaiyny-kim-zertteu/33868452.html"
+  },
+  {
+   "personId": 1018,
+   "title": "Founder, 95% owner",
+   "institution": "Kazakh National Sports University",
+   "startYear": 2021,
+   "endYear": "Present",
+   "source": "https://www.azattyq.org/a/memleket-qoldauyna-ie-eki-oqu-ornynyn-qozhaiyny-kim-zertteu/33868452.html"
+  },
+  {
+   "personId": 1018,
+   "title": "Founder, 95% owner",
+   "institution": "Artificial Intelligence National Research University (QAIRU) LLP",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.azattyq.org/a/memleket-qoldauyna-ie-eki-oqu-ornynyn-qozhaiyny-kim-zertteu/33868452.html"
   }
  ],
  "edges": [
+  {
+   "id": "family:1005-1",
+   "from": 1005,
+   "to": 1,
+   "ltype": "family",
+   "kind": [
+    "blood"
+   ],
+   "label": "Sister",
+   "title": "Family: Sister (younger)"
+  },
+  {
+   "id": "family:1007-1",
+   "from": 1007,
+   "to": 1,
+   "ltype": "family",
+   "kind": [
+    "inlaw"
+   ],
+   "label": "Brother-in-law",
+   "title": "Family: Brother-in-law (sister Karlyga's husband)"
+  },
+  {
+   "id": "family:1009-1",
+   "from": 1009,
+   "to": 1,
+   "ltype": "family",
+   "kind": [
+    "blood"
+   ],
+   "label": "Son",
+   "title": "Family: Son"
+  },
+  {
+   "id": "family:1012-1",
+   "from": 1012,
+   "to": 1,
+   "ltype": "family",
+   "kind": [
+    "blood"
+   ],
+   "label": "Niece",
+   "title": "Family: Niece (sister Karlyga's daughter)"
+  },
+  {
+   "id": "family:1013-1",
+   "from": 1013,
+   "to": 1,
+   "ltype": "family",
+   "kind": [
+    "blood"
+   ],
+   "label": "Nephew",
+   "title": "Family: Nephew (sister Karlyga's son)"
+  },
+  {
+   "id": "family:1015-1",
+   "from": 1015,
+   "to": 1,
+   "ltype": "family",
+   "kind": [
+    "inlaw"
+   ],
+   "label": "Nephew's father-in-law",
+   "title": "Family: Nephew Kanysh's father-in-law"
+  },
+  {
+   "id": "family:1016-1",
+   "from": 1016,
+   "to": 1,
+   "ltype": "family",
+   "kind": [
+    "blood"
+   ],
+   "label": "Nephew",
+   "title": "Family: Nephew (sister Karlyga's son)"
+  },
+  {
+   "id": "family:1017-1",
+   "from": 1017,
+   "to": 1,
+   "ltype": "family",
+   "kind": [
+    "blood"
+   ],
+   "label": "Nephew",
+   "title": "Family: Nephew (sister Karlyga's son)"
+  },
+  {
+   "id": "family:1018-1",
+   "from": 1018,
+   "to": 1,
+   "ltype": "family",
+   "kind": [
+    "blood"
+   ],
+   "label": "Grand-nephew",
+   "title": "Family: Grand-nephew (niece Dana Medeuova's son)"
+  },
   {
    "id": "region:1-3",
    "from": 1,
@@ -7411,6 +8324,13 @@
    "id": "region:1-94",
    "from": 1,
    "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:1-1016",
+   "from": 1,
+   "to": 1016,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -7548,6 +8468,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:3-1016",
+   "from": 3,
+   "to": 1016,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:4-7",
    "from": 4,
    "to": 7,
@@ -7607,6 +8534,13 @@
    "id": "region:4-94",
    "from": 4,
    "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:4-1016",
+   "from": 4,
+   "to": 1016,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -7772,6 +8706,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:7-1016",
+   "from": 7,
+   "to": 1016,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:8-10",
    "from": 8,
    "to": 10,
@@ -7821,6 +8762,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:8-1016",
+   "from": 8,
+   "to": 1016,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:10-14",
    "from": 10,
    "to": 14,
@@ -7863,6 +8811,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:10-1016",
+   "from": 10,
+   "to": 1016,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:11-31",
    "from": 11,
    "to": 31,
@@ -7887,6 +8842,13 @@
    "id": "region:11-71",
    "from": 11,
    "to": 71,
+   "ltype": "region",
+   "title": "Same region: Pavlodar Region"
+  },
+  {
+   "id": "region:11-1007",
+   "from": 11,
+   "to": 1007,
    "ltype": "region",
    "title": "Same region: Pavlodar Region"
   },
@@ -7954,6 +8916,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:13-1015",
+   "from": 13,
+   "to": 1015,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:14-16",
    "from": 14,
    "to": 16,
@@ -7985,6 +8954,13 @@
    "id": "region:14-94",
    "from": 14,
    "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:14-1016",
+   "from": 14,
+   "to": 1016,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -8104,6 +9080,13 @@
    "id": "region:16-94",
    "from": 16,
    "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:16-1016",
+   "from": 16,
+   "to": 1016,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -8342,6 +9325,13 @@
    "id": "region:21-94",
    "from": 21,
    "to": 94,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:21-1016",
+   "from": 21,
+   "to": 1016,
    "ltype": "region",
    "title": "Same region: Almaty City"
   },
@@ -8710,6 +9700,13 @@
    "title": "Same region: Pavlodar Region"
   },
   {
+   "id": "region:31-1007",
+   "from": 31,
+   "to": 1007,
+   "ltype": "region",
+   "title": "Same region: Pavlodar Region"
+  },
+  {
    "id": "region:32-33",
    "from": 32,
    "to": 33,
@@ -8745,6 +9742,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:32-1015",
+   "from": 32,
+   "to": 1015,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:33-39",
    "from": 33,
    "to": 39,
@@ -8769,6 +9773,13 @@
    "id": "region:33-91",
    "from": 33,
    "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:33-1015",
+   "from": 33,
+   "to": 1015,
    "ltype": "region",
    "title": "Same region: Zhambyl Region"
   },
@@ -8804,6 +9815,13 @@
    "id": "region:36-71",
    "from": 36,
    "to": 71,
+   "ltype": "region",
+   "title": "Same region: Pavlodar Region"
+  },
+  {
+   "id": "region:36-1007",
+   "from": 36,
+   "to": 1007,
    "ltype": "region",
    "title": "Same region: Pavlodar Region"
   },
@@ -8895,6 +9913,13 @@
    "id": "region:39-91",
    "from": 39,
    "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:39-1015",
+   "from": 39,
+   "to": 1015,
    "ltype": "region",
    "title": "Same region: Zhambyl Region"
   },
@@ -9172,6 +10197,13 @@
    "title": "Same region: Pavlodar Region"
   },
   {
+   "id": "region:55-1007",
+   "from": 55,
+   "to": 1007,
+   "ltype": "region",
+   "title": "Same region: Pavlodar Region"
+  },
+  {
    "id": "region:58-99",
    "from": 58,
    "to": 99,
@@ -9270,6 +10302,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:61-1016",
+   "from": 61,
+   "to": 1016,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:62-70",
    "from": 62,
    "to": 70,
@@ -9326,6 +10365,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:67-1015",
+   "from": 67,
+   "to": 1015,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:70-76",
    "from": 70,
    "to": 76,
@@ -9359,6 +10405,13 @@
    "to": 98,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:71-1007",
+   "from": 71,
+   "to": 1007,
+   "ltype": "region",
+   "title": "Same region: Pavlodar Region"
   },
   {
    "id": "region:72-85",
@@ -9420,6 +10473,13 @@
    "id": "region:75-91",
    "from": 75,
    "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:75-1015",
+   "from": 75,
+   "to": 1015,
    "ltype": "region",
    "title": "Same region: Zhambyl Region"
   },
@@ -9557,6 +10617,13 @@
    "title": "Same region: Almaty City"
   },
   {
+   "id": "region:88-1016",
+   "from": 88,
+   "to": 1016,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
    "id": "region:89-90",
    "from": 89,
    "to": 90,
@@ -9578,6 +10645,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:91-1015",
+   "from": 91,
+   "to": 1015,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:92-96",
    "from": 92,
    "to": 96,
@@ -9590,6 +10664,27 @@
    "to": 97,
    "ltype": "region",
    "title": "Same region: Turkestan Region"
+  },
+  {
+   "id": "region:94-1016",
+   "from": 94,
+   "to": 1016,
+   "ltype": "region",
+   "title": "Same region: Almaty City"
+  },
+  {
+   "id": "school:1-1013",
+   "from": 1,
+   "to": 1013,
+   "ltype": "school",
+   "title": "Same school: Moscow State Institute of International Relations"
+  },
+  {
+   "id": "school:1-1016",
+   "from": 1,
+   "to": 1016,
+   "ltype": "school",
+   "title": "Same school: Moscow State Institute of International Relations"
   },
   {
    "id": "school:4-61",
@@ -9658,6 +10753,13 @@
    "id": "school:5-58",
    "from": 5,
    "to": 58,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
+   "id": "school:5-1015",
+   "from": 5,
+   "to": 1015,
    "ltype": "school",
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
@@ -9732,6 +10834,13 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:7-1015",
+   "from": 7,
+   "to": 1015,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
    "id": "school:8-12",
    "from": 8,
    "to": 12,
@@ -9777,6 +10886,13 @@
    "id": "school:8-58",
    "from": 8,
    "to": 58,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
+   "id": "school:8-1015",
+   "from": 8,
+   "to": 1015,
    "ltype": "school",
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
@@ -9851,6 +10967,13 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:12-1015",
+   "from": 12,
+   "to": 1015,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
    "id": "school:14-45",
    "from": 14,
    "to": 45,
@@ -9903,6 +11026,13 @@
    "id": "school:16-58",
    "from": 16,
    "to": 58,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
+   "id": "school:16-1015",
+   "from": 16,
+   "to": 1015,
    "ltype": "school",
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
@@ -9991,6 +11121,13 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:27-1015",
+   "from": 27,
+   "to": 1015,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
    "id": "school:28-43",
    "from": 28,
    "to": 43,
@@ -10043,6 +11180,13 @@
    "id": "school:34-58",
    "from": 34,
    "to": 58,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
+   "id": "school:34-1015",
+   "from": 34,
+   "to": 1015,
    "ltype": "school",
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
@@ -10110,9 +11254,23 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:48-1015",
+   "from": 48,
+   "to": 1015,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
    "id": "school:49-58",
    "from": 49,
    "to": 58,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
+   "id": "school:49-1015",
+   "from": 49,
+   "to": 1015,
    "ltype": "school",
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
@@ -10136,6 +11294,13 @@
    "to": 64,
    "ltype": "school",
    "title": "Same school: M. Auezov South Kazakhstan University"
+  },
+  {
+   "id": "school:58-1015",
+   "from": 58,
+   "to": 1015,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
    "id": "school:59-89",
@@ -10311,6 +11476,13 @@
    "to": 100,
    "ltype": "school",
    "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:1013-1016",
+   "from": 1013,
+   "to": 1016,
+   "ltype": "school",
+   "title": "Same school: Moscow State Institute of International Relations"
   },
   {
    "id": "work:1-2",
@@ -10598,6 +11770,20 @@
    "to": 58,
    "ltype": "work",
    "title": "Shared workplace: Akorda (2024)"
+  },
+  {
+   "id": "work:1-1007",
+   "from": 1,
+   "to": 1007,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2005–2007)"
+  },
+  {
+   "id": "work:1-1013",
+   "from": 1,
+   "to": 1013,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2007)"
   },
   {
    "id": "work:2-3",
@@ -12168,6 +13354,20 @@
    "title": "Shared workplace: KNB Leadership (2022)"
   },
   {
+   "id": "work:8-1007",
+   "from": 8,
+   "to": 1007,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2005–2007)"
+  },
+  {
+   "id": "work:8-1013",
+   "from": 8,
+   "to": 1013,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2007)"
+  },
+  {
    "id": "work:9-10",
    "from": 9,
    "to": 10,
@@ -12628,6 +13828,20 @@
    "to": 58,
    "ltype": "work",
    "title": "Shared workplace: Akorda (2024)"
+  },
+  {
+   "id": "work:10-1007",
+   "from": 10,
+   "to": 1007,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2005–2009)"
+  },
+  {
+   "id": "work:10-1013",
+   "from": 10,
+   "to": 1013,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2007)"
   },
   {
    "id": "work:11-12",
@@ -13127,6 +14341,13 @@
    "title": "Shared workplace: Akorda (2024)"
   },
   {
+   "id": "work:12-1012",
+   "from": 12,
+   "to": 1012,
+   "ltype": "work",
+   "title": "Shared workplace: Al-Farabi Kazakh National University (KazNU) (2002)"
+  },
+  {
    "id": "work:13-14",
    "from": 13,
    "to": 14,
@@ -13307,6 +14528,13 @@
    "to": 58,
    "ltype": "work",
    "title": "Shared workplace: Akorda (2024)"
+  },
+  {
+   "id": "work:13-1012",
+   "from": 13,
+   "to": 1012,
+   "ltype": "work",
+   "title": "Shared workplace: Al-Farabi Kazakh National University (KazNU) (2002)"
   },
   {
    "id": "work:14-15",
@@ -13552,6 +14780,13 @@
    "to": 58,
    "ltype": "work",
    "title": "Shared workplace: Akorda (2024)"
+  },
+  {
+   "id": "work:14-1007",
+   "from": 14,
+   "to": 1007,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2009)"
   },
   {
    "id": "work:15-16",
@@ -13925,6 +15160,20 @@
    "title": "Shared workplace: Akorda (2024)"
   },
   {
+   "id": "work:16-1007",
+   "from": 16,
+   "to": 1007,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2006–2007)"
+  },
+  {
+   "id": "work:16-1013",
+   "from": 16,
+   "to": 1013,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2007)"
+  },
+  {
    "id": "work:17-18",
    "from": 17,
    "to": 18,
@@ -14233,6 +15482,20 @@
    "title": "Shared workplace: Akorda (2012)"
   },
   {
+   "id": "work:18-1007",
+   "from": 18,
+   "to": 1007,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2006–2009)"
+  },
+  {
+   "id": "work:18-1013",
+   "from": 18,
+   "to": 1013,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2007)"
+  },
+  {
    "id": "work:19-20",
    "from": 19,
    "to": 20,
@@ -14373,6 +15636,13 @@
    "title": "Shared workplace: Government of Kazakhstan (Akhmetov (Serik) Government) (2012–2013); Government of Kazakhstan (Massimov II Government) (2011–2012)"
   },
   {
+   "id": "work:20-1015",
+   "from": 20,
+   "to": 1015,
+   "ltype": "work",
+   "title": "Shared workplace: Prosecutor General's Office (1994–1995)"
+  },
+  {
    "id": "work:21-30",
    "from": 21,
    "to": 30,
@@ -14469,6 +15739,13 @@
    "to": 54,
    "ltype": "work",
    "title": "Shared workplace: Akorda (2014–2015)"
+  },
+  {
+   "id": "work:21-1013",
+   "from": 21,
+   "to": 1013,
+   "ltype": "work",
+   "title": "Shared workplace: Akorda (2007)"
   },
   {
    "id": "work:22-23",
@@ -15521,6 +16798,13 @@
    "title": "Shared workplace: Akorda (2024)"
   },
   {
+   "id": "work:30-1013",
+   "from": 30,
+   "to": 1013,
+   "ltype": "work",
+   "title": "Shared workplace: Akorda (2007)"
+  },
+  {
    "id": "work:31-32",
    "from": 31,
    "to": 32,
@@ -16235,6 +17519,20 @@
    "title": "Shared workplace: Senate (2017–2019)"
   },
   {
+   "id": "work:41-1007",
+   "from": 41,
+   "to": 1007,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2005–2007)"
+  },
+  {
+   "id": "work:41-1013",
+   "from": 41,
+   "to": 1013,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2007)"
+  },
+  {
    "id": "work:42-44",
    "from": 42,
    "to": 44,
@@ -16375,6 +17673,13 @@
    "title": "Shared workplace: Ministry of Finance (2002, 2012, 2014–2022)"
   },
   {
+   "id": "work:45-1015",
+   "from": 45,
+   "to": 1015,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2007–2011)"
+  },
+  {
    "id": "work:46-48",
    "from": 46,
    "to": 48,
@@ -16450,6 +17755,13 @@
    "to": 81,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Finance (2019, 2021)"
+  },
+  {
+   "id": "work:48-1015",
+   "from": 48,
+   "to": 1015,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2007)"
   },
   {
    "id": "work:49-56",
@@ -16639,6 +17951,13 @@
    "to": 81,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Finance (2002, 2012–2022)"
+  },
+  {
+   "id": "work:60-1015",
+   "from": 60,
+   "to": 1015,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Finance (2007–2011)"
   },
   {
    "id": "work:63-64",
@@ -17712,6 +19031,13 @@
    "title": "Shared workplace: Ministry of Defense (2025–2026)"
   },
   {
+   "id": "work:78-1012",
+   "from": 78,
+   "to": 1012,
+   "ltype": "work",
+   "title": "Shared workplace: Kurultai (2026)"
+  },
+  {
    "id": "work:79-80",
    "from": 79,
    "to": 80,
@@ -17927,6 +19253,13 @@
    "to": 90,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:81-1012",
+   "from": 81,
+   "to": 1012,
+   "ltype": "work",
+   "title": "Shared workplace: Kurultai (2026)"
   },
   {
    "id": "work:82-83",
@@ -18291,6 +19624,41 @@
    "to": 100,
    "ltype": "work",
    "title": "Shared workplace: Regional Command South (2026)"
+  },
+  {
+   "id": "work:1005-1009",
+   "from": 1005,
+   "to": 1009,
+   "ltype": "work",
+   "title": "Shared workplace: Kemel Tokayev Charitable Foundation (2008)"
+  },
+  {
+   "id": "work:1005-1016",
+   "from": 1005,
+   "to": 1016,
+   "ltype": "work",
+   "title": "Shared workplace: Kemel Tokayev Charitable Foundation (2008)"
+  },
+  {
+   "id": "work:1005-1017",
+   "from": 1005,
+   "to": 1017,
+   "ltype": "work",
+   "title": "Shared workplace: KZ Development LLP (2005)"
+  },
+  {
+   "id": "work:1007-1013",
+   "from": 1007,
+   "to": 1013,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Foreign Affairs (MFA) (2007)"
+  },
+  {
+   "id": "work:1009-1016",
+   "from": 1009,
+   "to": 1016,
+   "ltype": "work",
+   "title": "Shared workplace: Abi Petroleum Capital LLP (2002–2020); Kemel Tokayev Charitable Foundation (2008)"
   }
  ]
 }
