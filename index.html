@@ -48,7 +48,6 @@
   #legend{position:absolute;bottom:12px;left:12px;background:rgba(255,255,255,.95);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:11px;box-shadow:0 4px 16px rgba(16,24,40,.08)}
   #legend .row{display:flex;align-items:center;gap:7px;margin:3px 0}
   #banner{position:absolute;top:0;left:0;right:0;background:#fff7ed;color:#9a3412;font-size:12px;padding:8px 12px;display:none;text-align:center;border-bottom:1px solid #fed7aa}
-  #fileWrap{margin-top:8px}
   input[type=file]{font-size:11px;color:var(--muted);width:100%}
   a{color:var(--accent)}
 </style>
@@ -96,12 +95,6 @@
     <div class="section">
       <button class="btn" id="fit">Fit to screen</button>
       <div id="stats"></div>
-    </div>
-
-    <div class="section">
-      <h2>Data</h2>
-      <div class="muted">Loads <code>data.json</code>. When opening the file locally (not via a server), load it manually:</div>
-      <div id="fileWrap"><input type="file" id="fileInput" accept=".json"></div>
     </div>
   </aside>
 
@@ -606,11 +599,6 @@ document.getElementById('clearFilters').addEventListener('click',()=>{
   document.querySelectorAll('.filter-list .fl-all').forEach(i=>i.checked=true);
   render();
 });
-document.getElementById('fileInput').addEventListener('change',e=>{
-  const f=e.target.files[0]; if(!f) return;
-  const r=new FileReader(); r.onload=()=>{ try{ loadData(JSON.parse(r.result)); }catch(err){ alert('Invalid JSON: '+err.message); } };
-  r.readAsText(f);
-});
 
 // initial load via fetch (works on GitHub Pages / any web server)
 fetch('data.json').then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
@@ -618,7 +606,7 @@ fetch('data.json').then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(
   .catch(()=>{
     const b=document.getElementById('banner');
     b.style.display='block';
-    b.textContent='Could not auto-load data.json (normal when opening the file directly). Use the "Data" file picker in the sidebar, or host on a server / GitHub Pages.';
+    b.textContent='Could not auto-load data.json (normal when opening the file directly). Serve the folder with a local server (python3 -m http.server) or host on GitHub Pages.';
   });
 </script>
 </body>
