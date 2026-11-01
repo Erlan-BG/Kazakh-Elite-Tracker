@@ -39,16 +39,21 @@
   #stats{font-size:11px;color:var(--muted);margin-top:6px}
   #info{position:absolute;top:12px;right:12px;width:280px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;font-size:12px;display:none;box-shadow:0 8px 30px rgba(16,24,40,.12)}
   #info h3{margin:0 0 6px;font-size:14px}
-  #info .role{color:var(--accent);margin-bottom:8px}
+  #info .posts{margin:0 0 10px}
+  #info .post{padding:5px 0 5px 9px;border-left:2px solid var(--accent);margin-bottom:5px}
+  #info .post-title{font-weight:600;color:var(--text);line-height:1.35}
+  #info .post-place{color:var(--muted);line-height:1.35}
+  #info .post-note{color:var(--muted);font-style:italic;font-size:11px}
+  #info .descriptor{color:var(--muted);margin-bottom:6px}
   #info .kv{display:flex;justify-content:space-between;gap:8px;padding:2px 0;border-bottom:1px solid var(--line)}
   #info .kv span:first-child{color:var(--muted)}
   #info .exp{margin-top:8px}
-  #info .exp li{margin:2px 0;list-style:none;padding-left:10px;border-left:2px solid var(--work)}
+  #info .exp li{margin:0 0 6px;list-style:none;padding-left:9px;border-left:2px solid var(--work);line-height:1.35}
+  #info .exp .yrs{float:right;color:var(--muted);font-size:11px;margin-left:6px}
   #info .close{position:absolute;top:8px;right:10px;cursor:pointer;color:var(--muted);font-size:16px}
   #legend{position:absolute;bottom:12px;left:12px;background:rgba(255,255,255,.95);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:11px;box-shadow:0 4px 16px rgba(16,24,40,.08)}
   #legend .row{display:flex;align-items:center;gap:7px;margin:3px 0}
   #banner{position:absolute;top:0;left:0;right:0;background:#fff7ed;color:#9a3412;font-size:12px;padding:8px 12px;display:none;text-align:center;border-bottom:1px solid #fed7aa}
-  #fileWrap{margin-top:8px}
   input[type=file]{font-size:11px;color:var(--muted);width:100%}
   a{color:var(--accent)}
 </style>
@@ -97,12 +102,6 @@
       <button class="btn" id="fit">Fit to screen</button>
       <div id="stats"></div>
     </div>
-
-    <div class="section">
-      <h2>Data</h2>
-      <div class="muted">Loads <code>data.json</code>. When opening the file locally (not via a server), load it manually:</div>
-      <div id="fileWrap"><input type="file" id="fileInput" accept=".json"></div>
-    </div>
   </aside>
 
   <main id="main">
@@ -138,18 +137,10 @@ const NODE_FONT = { color:"#334155", size:13, face:"Inter", strokeWidth:4, strok
 const edgeWidth = t => t==='family' ? 3 : t==='work' ? 1.3 : 1;
 const EDGE_OPACITY = 0.22;
 
-// Family links are the one tie drawn to stand out rather than recede: a gold
-// long-dash-dot line, labelled with the relationship, with a mid-edge marker
-// for the kind of tie (filled circle = blood, filled diamond = marriage,
-// hollow diamond = in-law), faded once the tie has ended. vis-network arrows
-// have no hollow variant, so the in-law diamond is an image.
-const FAMILY_DASHES = [14,4,2,4];
-const HOLLOW_DIAMOND = 'data:image/svg+xml,' + encodeURIComponent(
-  `<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M10 2 L18 10 L10 18 L2 10 Z" fill="#ffffff" stroke="${LINK_COLORS.family}" stroke-width="3"/></svg>`);
-function familyMarker(kind){
-  if(kind.includes('inlaw')) return { enabled:true, type:'image', src:HOLLOW_DIAMOND, imageWidth:18, imageHeight:18 };
-  return { enabled:true, type: kind.includes('blood') ? 'circle' : 'diamond', scaleFactor:0.9 };
-}
+// Family links are the one tie drawn to stand out rather than recede: a plain
+// gold line, faded once the tie has ended. The relationship shows only in the
+// hover tooltip, and relatives' nodes carry a matching gold glow.
+const FAMILY_GLOW = { enabled:true, color:'#E0B42A', size:32, x:0, y:0 };
 const edgeOpacity = e => e.ltype==='family' ? ((e.kind||[]).includes('former') ? 0.4 : 0.95) : EDGE_OPACITY;
 
 let DATA = { people:[], workExperience:[], edges:[] };
@@ -385,15 +376,7 @@ function buildEdges(visibleIds){
       id:e.id, from:e.from, to:e.to, hidden:false,
       color:{color:LINK_COLORS[e.ltype], highlight:LINK_COLORS[e.ltype], hover:LINK_COLORS[e.ltype], opacity:edgeOpacity(e)},
       basecolor:LINK_COLORS[e.ltype], title:e.title,
-      smooth:{type:'continuous'}, width:edgeWidth(e.ltype), ltype:e.ltype, kind:e.kind,
-      ...(e.ltype==='family' ? {
-        dashes:FAMILY_DASHES,
-        arrows:{ middle:familyMarker(e.kind||[]) },
-        label:e.label,
-        // vadjust lifts the label clear of the mid-edge marker, which its
-        // white halo would otherwise half-cover
-        font:{ size:11, face:'Inter', color:'#7a5c00', strokeWidth:4, strokeColor:'rgba(255,255,255,0.95)', align:'top', vadjust:-9 }
-      } : {})
+      smooth:{type:'continuous'}, width:edgeWidth(e.ltype), ltype:e.ltype, kind:e.kind
     }));
 }
 
@@ -447,6 +430,7 @@ function render(){
               highlight:{background:col,border:"#16202e"} },
       shapeProperties:{ borderDashes: out ? [4,3] : false },
       font:{ ...NODE_FONT },
+      shadow: p.family ? FAMILY_GLOW : false,
       shape:"dot"
     };
   });
@@ -516,9 +500,61 @@ function updateLegend(colorMode, community, visible){
   if(visible.some(p=>p.family)){
     const gold = LINK_COLORS.family;
     box.innerHTML +=
-      `<div class="row"><svg width="28" height="10"><line x1="0" y1="5" x2="28" y2="5" stroke="${gold}" stroke-width="3" stroke-dasharray="${FAMILY_DASHES.join(' ')}"/></svg>Family link to Tokayev</div>`+
-      `<div class="row" style="color:${gold}">● blood &nbsp;◆ marriage &nbsp;◇ in-law</div>`;
+      `<div class="row"><svg width="28" height="10"><line x1="0" y1="5" x2="28" y2="5" stroke="${gold}" stroke-width="3"/></svg>Family</div>`;
   }
+}
+
+// The role field is free text such as "Businessman; chairman, Kemel Tokayev
+// Charitable Foundation (last confirmed 2022)". Split it into posts (title +
+// place + dated note) so the panel can lay each one out on its own lines.
+// The person's institution fills in a post's missing place, unless the role
+// already names it somewhere.
+const cap = t => t ? t[0].toUpperCase()+t.slice(1) : t;
+const TITLE_START = /^(chair|director|head|member|deputy|president|vice|founder|co-|ceo|general|owner|first)/i;
+function commaOutsideParens(t){
+  let depth = 0;
+  for(let i=0;i<t.length-1;i++){
+    if(t[i]==='(') depth++; else if(t[i]===')') depth--;
+    else if(depth===0 && t[i]===',' && t[i+1]===' ') return i;
+  }
+  return -1;
+}
+function parseRole(role, institution){
+  const posts = (role||'').split(';').map(seg=>{
+    seg = seg.trim(); let note = '';
+    const m = seg.match(/\s*\(([^()]*\d[^()]*)\)\s*$/);
+    if(m && !/convocation/i.test(m[1])){ note = m[1]; seg = seg.slice(0, m.index).trim(); }
+    let title = seg, place = '';
+    const i = commaOutsideParens(seg);
+    // "General Director, Chairman of the Board" is two titles, not title + place
+    if(i>0 && !TITLE_START.test(seg.slice(i+2))){ title = seg.slice(0,i); place = seg.slice(i+2); }
+    else if(i<0){
+      const pm = seg.match(/^(.*\S)\s*\(([^()]+)\)$/);   // "businessman (TSM Group, 3I Materials)"
+      if(pm && !/convocation/i.test(pm[2])){ title = pm[1]; place = pm[2]; }
+    }
+    return { title:cap(title), place, note };
+  }).filter(x=>x.title);
+  const inst = (institution||'').trim();
+  if(inst && posts.length && !(role||'').toLowerCase().includes(inst.toLowerCase())){
+    // A post without a place takes the institution; otherwise the institution
+    // is the parent body (KNB Leadership, Kurultai) of the first post's unit.
+    const host = posts.find(x=>!x.place);
+    if(host) host.place = inst; else posts[0].place += ' · '+inst;
+  }
+  return posts;
+}
+function rolesHtml(p){
+  const posts = parseRole(p.role, p.institution);
+  // A post with neither place nor note next to real posts is a descriptor
+  // ("Businessman"): show it as a muted line rather than as a post.
+  const descr = posts.length>1 ? posts.filter(x=>!x.place && !x.note) : [];
+  const real = posts.filter(x=>!descr.includes(x));
+  return (descr.length ? `<div class="descriptor">${descr.map(x=>x.title).join(' · ')}</div>` : '')+
+    `<div class="posts">`+real.map(x=>`<div class="post">`+
+      (x.title?`<div class="post-title">${x.title}</div>`:'')+
+      (x.place?`<div class="post-place">${x.place}</div>`:'')+
+      (x.note?`<div class="post-note">${cap(x.note)}</div>`:'')+
+    `</div>`).join('')+`</div>`;
 }
 
 function showInfo(id){
@@ -530,12 +566,12 @@ function showInfo(id){
   el.innerHTML =
     `<span class="close" onclick="document.getElementById('info').style.display='none';clearFocus()">×</span>`+
     `<h3>${p.name}</h3>`+
-    `<div class="role">${p.role||''}${p.institution?(' · '+p.institution):''}</div>`+
+    rolesHtml(p)+
     (p.relationship ? kv('Relation to Tokayev',p.relationship) : '')+
     kv('Age',p.age)+kv('Region',p.region)+kv('School',p.school)+
     kv('Zhuz',p.zhuz)+kv('Category',p.category)+kv('Status',p.status)+
     (exp.length?`<div class="exp"><div class="muted" style="margin:8px 0 4px">Career</div><ul style="margin:0;padding:0">`+
-      exp.map(w=>`<li>${w.title||''} — ${w.institution||''} <span class="muted">(${w.startYear||'?'}–${w.endYear||'?'})</span></li>`).join('')+
+      exp.map(w=>`<li><span class="yrs">${w.startYear||'?'}–${w.endYear||'?'}</span><div class="post-title">${w.title||''}</div><div class="post-place">${w.institution||''}</div></li>`).join('')+
       `</ul></div>`:'');
   el.style.display='block';
 }
@@ -606,11 +642,6 @@ document.getElementById('clearFilters').addEventListener('click',()=>{
   document.querySelectorAll('.filter-list .fl-all').forEach(i=>i.checked=true);
   render();
 });
-document.getElementById('fileInput').addEventListener('change',e=>{
-  const f=e.target.files[0]; if(!f) return;
-  const r=new FileReader(); r.onload=()=>{ try{ loadData(JSON.parse(r.result)); }catch(err){ alert('Invalid JSON: '+err.message); } };
-  r.readAsText(f);
-});
 
 // initial load via fetch (works on GitHub Pages / any web server)
 fetch('data.json').then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
@@ -618,7 +649,7 @@ fetch('data.json').then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(
   .catch(()=>{
     const b=document.getElementById('banner');
     b.style.display='block';
-    b.textContent='Could not auto-load data.json (normal when opening the file directly). Use the "Data" file picker in the sidebar, or host on a server / GitHub Pages.';
+    b.textContent='Could not auto-load data.json (normal when opening the file directly). Serve the folder with a local server (python3 -m http.server) or host on GitHub Pages.';
   });
 </script>
 </body>

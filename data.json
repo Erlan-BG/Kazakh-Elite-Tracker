@@ -1235,7 +1235,7 @@
   },
   {
    "id": 1009,
-   "name": "Timur Kemel (Timur Tokayev)",
+   "name": "Timur (Tokayev) Kemel",
    "age": 42,
    "role": "Businessman; chairman, Kemel Tokayev Charitable Foundation (last confirmed 2022)",
    "institution": "Kemel Tokayev Charitable Foundation",
@@ -1321,7 +1321,7 @@
    "id": 1018,
    "name": "Nurassyl Medeu",
    "age": 23,
-   "role": "Founder and 95% owner, Kazakh National Sports University; founder, AI National Research University (QAIRU)",
+   "role": "Founder, Kazakh National Sports University; founder, AI National Research University (QAIRU)",
    "institution": "Kazakh National Sports University",
    "region": "",
    "school": "Boston University",
@@ -8135,7 +8135,7 @@
   },
   {
    "personId": 1018,
-   "title": "Founder, 95% owner",
+   "title": "Founder",
    "institution": "Kazakh National Sports University",
    "startYear": 2021,
    "endYear": "Present",
@@ -8143,7 +8143,7 @@
   },
   {
    "personId": 1018,
-   "title": "Founder, 95% owner",
+   "title": "Founder",
    "institution": "Artificial Intelligence National Research University (QAIRU) LLP",
    "startYear": 2026,
    "endYear": "Present",
