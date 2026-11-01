@@ -39,11 +39,17 @@
   #stats{font-size:11px;color:var(--muted);margin-top:6px}
   #info{position:absolute;top:12px;right:12px;width:280px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;font-size:12px;display:none;box-shadow:0 8px 30px rgba(16,24,40,.12)}
   #info h3{margin:0 0 6px;font-size:14px}
-  #info .role{color:var(--accent);margin-bottom:8px}
+  #info .posts{margin:0 0 10px}
+  #info .post{padding:5px 0 5px 9px;border-left:2px solid var(--accent);margin-bottom:5px}
+  #info .post-title{font-weight:600;color:var(--text);line-height:1.35}
+  #info .post-place{color:var(--muted);line-height:1.35}
+  #info .post-note{color:var(--muted);font-style:italic;font-size:11px}
+  #info .descriptor{color:var(--muted);margin-bottom:6px}
   #info .kv{display:flex;justify-content:space-between;gap:8px;padding:2px 0;border-bottom:1px solid var(--line)}
   #info .kv span:first-child{color:var(--muted)}
   #info .exp{margin-top:8px}
-  #info .exp li{margin:2px 0;list-style:none;padding-left:10px;border-left:2px solid var(--work)}
+  #info .exp li{margin:0 0 6px;list-style:none;padding-left:9px;border-left:2px solid var(--work);line-height:1.35}
+  #info .exp .yrs{float:right;color:var(--muted);font-size:11px;margin-left:6px}
   #info .close{position:absolute;top:8px;right:10px;cursor:pointer;color:var(--muted);font-size:16px}
   #legend{position:absolute;bottom:12px;left:12px;background:rgba(255,255,255,.95);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:11px;box-shadow:0 4px 16px rgba(16,24,40,.08)}
   #legend .row{display:flex;align-items:center;gap:7px;margin:3px 0}
@@ -498,6 +504,59 @@ function updateLegend(colorMode, community, visible){
   }
 }
 
+// The role field is free text such as "Businessman; chairman, Kemel Tokayev
+// Charitable Foundation (last confirmed 2022)". Split it into posts (title +
+// place + dated note) so the panel can lay each one out on its own lines.
+// The person's institution fills in a post's missing place, unless the role
+// already names it somewhere.
+const cap = t => t ? t[0].toUpperCase()+t.slice(1) : t;
+const TITLE_START = /^(chair|director|head|member|deputy|president|vice|founder|co-|ceo|general|owner|first)/i;
+function commaOutsideParens(t){
+  let depth = 0;
+  for(let i=0;i<t.length-1;i++){
+    if(t[i]==='(') depth++; else if(t[i]===')') depth--;
+    else if(depth===0 && t[i]===',' && t[i+1]===' ') return i;
+  }
+  return -1;
+}
+function parseRole(role, institution){
+  const posts = (role||'').split(';').map(seg=>{
+    seg = seg.trim(); let note = '';
+    const m = seg.match(/\s*\(([^()]*\d[^()]*)\)\s*$/);
+    if(m && !/convocation/i.test(m[1])){ note = m[1]; seg = seg.slice(0, m.index).trim(); }
+    let title = seg, place = '';
+    const i = commaOutsideParens(seg);
+    // "General Director, Chairman of the Board" is two titles, not title + place
+    if(i>0 && !TITLE_START.test(seg.slice(i+2))){ title = seg.slice(0,i); place = seg.slice(i+2); }
+    else if(i<0){
+      const pm = seg.match(/^(.*\S)\s*\(([^()]+)\)$/);   // "businessman (TSM Group, 3I Materials)"
+      if(pm && !/convocation/i.test(pm[2])){ title = pm[1]; place = pm[2]; }
+    }
+    return { title:cap(title), place, note };
+  }).filter(x=>x.title);
+  const inst = (institution||'').trim();
+  if(inst && posts.length && !(role||'').toLowerCase().includes(inst.toLowerCase())){
+    // A post without a place takes the institution; otherwise the institution
+    // is the parent body (KNB Leadership, Kurultai) of the first post's unit.
+    const host = posts.find(x=>!x.place);
+    if(host) host.place = inst; else posts[0].place += ' · '+inst;
+  }
+  return posts;
+}
+function rolesHtml(p){
+  const posts = parseRole(p.role, p.institution);
+  // A post with neither place nor note next to real posts is a descriptor
+  // ("Businessman"): show it as a muted line rather than as a post.
+  const descr = posts.length>1 ? posts.filter(x=>!x.place && !x.note) : [];
+  const real = posts.filter(x=>!descr.includes(x));
+  return (descr.length ? `<div class="descriptor">${descr.map(x=>x.title).join(' · ')}</div>` : '')+
+    `<div class="posts">`+real.map(x=>`<div class="post">`+
+      (x.title?`<div class="post-title">${x.title}</div>`:'')+
+      (x.place?`<div class="post-place">${x.place}</div>`:'')+
+      (x.note?`<div class="post-note">${cap(x.note)}</div>`:'')+
+    `</div>`).join('')+`</div>`;
+}
+
 function showInfo(id){
   const p = DATA.people.find(x=>x.id===id);
   if(!p) return;
@@ -507,12 +566,12 @@ function showInfo(id){
   el.innerHTML =
     `<span class="close" onclick="document.getElementById('info').style.display='none';clearFocus()">×</span>`+
     `<h3>${p.name}</h3>`+
-    `<div class="role">${p.role||''}${p.institution?(' · '+p.institution):''}</div>`+
+    rolesHtml(p)+
     (p.relationship ? kv('Relation to Tokayev',p.relationship) : '')+
     kv('Age',p.age)+kv('Region',p.region)+kv('School',p.school)+
     kv('Zhuz',p.zhuz)+kv('Category',p.category)+kv('Status',p.status)+
     (exp.length?`<div class="exp"><div class="muted" style="margin:8px 0 4px">Career</div><ul style="margin:0;padding:0">`+
-      exp.map(w=>`<li>${w.title||''} — ${w.institution||''} <span class="muted">(${w.startYear||'?'}–${w.endYear||'?'})</span></li>`).join('')+
+      exp.map(w=>`<li><span class="yrs">${w.startYear||'?'}–${w.endYear||'?'}</span><div class="post-title">${w.title||''}</div><div class="post-place">${w.institution||''}</div></li>`).join('')+
       `</ul></div>`:'');
   el.style.display='block';
 }
