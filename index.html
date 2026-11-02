@@ -569,7 +569,7 @@ function showInfo(id){
     rolesHtml(p)+
     (p.relationship ? kv('Relation to Tokayev',p.relationship) : '')+
     kv('Age',p.age)+kv('Region',p.region)+kv('School',p.school)+
-    kv('Zhuz',p.zhuz)+kv('Category',p.category)+kv('Status',p.status)+
+    kv('Zhuz',p.zhuz)+kv('Category',p.category)+(p.status===OUT_OF_GOVERNMENT ? kv('Status',p.status) : '')+
     (exp.length?`<div class="exp"><div class="muted" style="margin:8px 0 4px">Career</div><ul style="margin:0;padding:0">`+
       exp.map(w=>`<li><span class="yrs">${w.startYear||'?'}–${w.endYear||'?'}</span><div class="post-title">${w.title||''}</div><div class="post-place">${w.institution||''}</div></li>`).join('')+
       `</ul></div>`:'');
