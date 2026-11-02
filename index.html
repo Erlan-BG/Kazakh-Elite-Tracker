@@ -139,8 +139,7 @@ const EDGE_OPACITY = 0.22;
 
 // Family links are the one tie drawn to stand out rather than recede: a plain
 // gold line, faded once the tie has ended. The relationship shows only in the
-// hover tooltip, and relatives' nodes carry a matching gold glow.
-const FAMILY_GLOW = { enabled:true, color:'#E0B42A', size:32, x:0, y:0 };
+// hover tooltip, and relatives' nodes carry a matching gold outline.
 const edgeOpacity = e => e.ltype==='family' ? ((e.kind||[]).includes('former') ? 0.4 : 0.95) : EDGE_OPACITY;
 
 let DATA = { people:[], workExperience:[], edges:[] };
@@ -426,11 +425,11 @@ function render(){
       id:p.id,
       label:p.name,
       value: val,
-      color:{ background:col, border: out ? OUT_BORDER : "#ffffff",
-              highlight:{background:col,border:"#16202e"} },
+      color:{ background:col, border: p.family ? LINK_COLORS.family : out ? OUT_BORDER : "#ffffff",
+              highlight:{background:col,border: p.family ? LINK_COLORS.family : "#16202e"} },
+      borderWidth: p.family ? 4 : 2,
       shapeProperties:{ borderDashes: out ? [4,3] : false },
       font:{ ...NODE_FONT },
-      shadow: p.family ? FAMILY_GLOW : false,
       shape:"dot"
     };
   });
@@ -523,14 +522,14 @@ function parseRole(role, institution){
   const posts = (role||'').split(';').map(seg=>{
     seg = seg.trim(); let note = '';
     const m = seg.match(/\s*\(([^()]*\d[^()]*)\)\s*$/);
-    if(m && !/convocation/i.test(m[1])){ note = m[1]; seg = seg.slice(0, m.index).trim(); }
+    if(m){ note = m[1]; seg = seg.slice(0, m.index).trim(); }
     let title = seg, place = '';
     const i = commaOutsideParens(seg);
     // "General Director, Chairman of the Board" is two titles, not title + place
     if(i>0 && !TITLE_START.test(seg.slice(i+2))){ title = seg.slice(0,i); place = seg.slice(i+2); }
     else if(i<0){
       const pm = seg.match(/^(.*\S)\s*\(([^()]+)\)$/);   // "businessman (TSM Group, 3I Materials)"
-      if(pm && !/convocation/i.test(pm[2])){ title = pm[1]; place = pm[2]; }
+      if(pm){ title = pm[1]; place = pm[2]; }
     }
     return { title:cap(title), place, note };
   }).filter(x=>x.title);
