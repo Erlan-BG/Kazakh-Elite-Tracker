@@ -1251,7 +1251,7 @@
    "id": 1012,
    "name": "Dana Medeuova",
    "age": 48,
-   "role": "Deputy of the Kurultai; member, Committee on International Affairs, Defence and Security",
+   "role": "Deputy, Kurultai",
    "institution": "Kurultai",
    "region": "",
    "school": "",
@@ -7759,7 +7759,7 @@
   },
   {
    "personId": 1012,
-   "title": "Deputy of the Kurultai; member, Committee on International Affairs, Defence and Security",
+   "title": "Deputy",
    "institution": "Kurultai",
    "startYear": 2026,
    "endYear": "Present",
