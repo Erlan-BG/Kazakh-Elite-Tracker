@@ -40,7 +40,10 @@
   #info{position:absolute;top:12px;right:12px;width:280px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;font-size:12px;display:none;box-shadow:0 8px 30px rgba(16,24,40,.12)}
   #info h3{margin:0 0 6px;font-size:14px}
   #info .posts{margin:0 0 10px}
-  #info .post{padding:5px 0 5px 9px;border-left:2px solid var(--accent);margin-bottom:5px}
+  #info .post{padding:4px 0;margin-bottom:4px}
+  #info .posts .post-place{display:flex;gap:5px;align-items:flex-start}
+  #info .posts .post-place svg{flex:none;margin-top:2px}
+  #info .posts .post-note{padding-left:17px}
   #info .post-title{font-weight:600;color:var(--text);line-height:1.35}
   #info .post-place{color:var(--muted);line-height:1.35}
   #info .post-note{color:var(--muted);font-style:italic;font-size:11px}
@@ -542,6 +545,7 @@ function parseRole(role, institution){
   }
   return posts;
 }
+const BUILDING_ICON = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-4M9 9v.01M9 12v.01M9 15v.01M9 18v.01"/></svg>';
 function rolesHtml(p){
   const posts = parseRole(p.role, p.institution);
   // A post with neither place nor note next to real posts is a descriptor
@@ -551,7 +555,7 @@ function rolesHtml(p){
   return (descr.length ? `<div class="descriptor">${descr.map(x=>x.title).join(' · ')}</div>` : '')+
     `<div class="posts">`+real.map(x=>`<div class="post">`+
       (x.title?`<div class="post-title">${x.title}</div>`:'')+
-      (x.place?`<div class="post-place">${x.place}</div>`:'')+
+      (x.place?`<div class="post-place">${BUILDING_ICON}<span>${x.place}</span></div>`:'')+
       (x.note?`<div class="post-note">${cap(x.note)}</div>`:'')+
     `</div>`).join('')+`</div>`;
 }
