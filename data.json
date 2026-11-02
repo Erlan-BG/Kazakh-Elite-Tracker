@@ -1237,7 +1237,7 @@
    "id": 1009,
    "name": "Timur (Tokayev) Kemel",
    "age": 42,
-   "role": "Businessman; chairman, Kemel Tokayev Charitable Foundation (last confirmed 2022)",
+   "role": "Businessman; chairman, Kemel Tokayev Charitable Foundation",
    "institution": "Kemel Tokayev Charitable Foundation",
    "region": "",
    "school": "Webster University Geneva",
@@ -1251,7 +1251,7 @@
    "id": 1012,
    "name": "Dana Medeuova",
    "age": 48,
-   "role": "Deputy of the Kurultai (I convocation); member, Committee on International Affairs, Defence and Security",
+   "role": "Deputy of the Kurultai; member, Committee on International Affairs, Defence and Security",
    "institution": "Kurultai",
    "region": "",
    "school": "",
@@ -5367,7 +5367,7 @@
   },
   {
    "personId": 52,
-   "title": "Deputy of the Mazhilis (VIII convocation)",
+   "title": "Deputy of the Mazhilis",
    "institution": "Mazhilis",
    "startYear": 2023,
    "endYear": 2026,
@@ -6639,7 +6639,7 @@
   },
   {
    "personId": 81,
-   "title": "Deputy of the Mazhilis (VIII convocation); Chair, Committee on Finance and Budget from February 2024",
+   "title": "Deputy of the Mazhilis; Chair, Committee on Finance and Budget from February 2024",
    "institution": "Mazhilis",
    "startYear": 2023,
    "endYear": 2026,
@@ -6647,7 +6647,7 @@
   },
   {
    "personId": 81,
-   "title": "Deputy of the Kurultai (I convocation); member, Committee on Finance and Budget",
+   "title": "Deputy of the Kurultai; member, Committee on Finance and Budget",
    "institution": "Kurultai",
    "startYear": 2026,
    "endYear": 2026,
@@ -7735,22 +7735,6 @@
   },
   {
    "personId": 1012,
-   "title": "Sole proprietor (geological exploration)",
-   "institution": "IP MEDEUOVA D.T.",
-   "startYear": 2014,
-   "endYear": null,
-   "source": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0 ; https://www.azattyqasia.org/a/tokaevs-house-in-almaty-the-business-of-his-relatives/31804746.html"
-  },
-  {
-   "personId": 1012,
-   "title": "Owner (74.91%)",
-   "institution": "SD Property Investments (Sofia)",
-   "startYear": 2017,
-   "endYear": 2024,
-   "source": "https://istories.media/investigations/2022/01/14/ne-yelbasi/ ; https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D0%B4%D0%B5%D1%83%D0%BE%D0%B2%D0%B0,_%D0%94%D0%B0%D0%BD%D0%B0_%D0%A2%D0%B5%D0%BC%D0%B8%D1%80%D1%82%D0%B0%D0%B5%D0%B2%D0%BD%D0%B0"
-  },
-  {
-   "personId": 1012,
    "title": "Sole owner",
    "institution": "Dami Investment (Sofia)",
    "startYear": 2018,
@@ -7775,7 +7759,7 @@
   },
   {
    "personId": 1012,
-   "title": "Deputy of the Kurultai (I convocation); member, Committee on International Affairs, Defence and Security",
+   "title": "Deputy of the Kurultai; member, Committee on International Affairs, Defence and Security",
    "institution": "Kurultai",
    "startYear": 2026,
    "endYear": "Present",
