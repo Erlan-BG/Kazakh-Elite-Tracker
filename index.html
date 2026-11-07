@@ -37,7 +37,7 @@
   .btn{width:100%;background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:8px;font-size:12px;cursor:pointer;margin-top:6px}
   .btn:hover{border-color:var(--accent)}
   #stats{font-size:11px;color:var(--muted);margin-top:6px}
-  #info{position:absolute;top:12px;right:12px;width:280px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;font-size:12px;display:none;box-shadow:0 8px 30px rgba(16,24,40,.12)}
+  #info{position:absolute;top:12px;right:12px;width:280px;max-height:calc(100% - 24px);box-sizing:border-box;flex-direction:column;overflow-y:auto;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;font-size:12px;display:none;box-shadow:0 8px 30px rgba(16,24,40,.12)}
   #info h3{margin:0 0 6px;font-size:14px}
   #info .posts{margin:0 0 10px}
   #info .post{padding:4px 0;margin-bottom:4px}
@@ -51,9 +51,18 @@
   #info .kv{display:flex;justify-content:space-between;gap:8px;padding:2px 0;border-bottom:1px solid var(--line)}
   #info .kv span:first-child{color:var(--muted);flex:none}
   #info .kv span:last-child{text-align:right}
-  #info .exp{margin-top:8px}
-  #info .exp li{margin:0 0 6px;list-style:none;padding-left:9px;border-left:2px solid var(--work);line-height:1.35}
-  #info .exp .yrs{float:right;color:var(--muted);font-size:11px;margin-left:6px}
+  /* The career list scrolls on its own; the rest of the panel stays put. The
+     min-height only matters in a very short window, where #info itself scrolls. */
+  #info > *{flex:none}
+  #info > .exp{flex:0 1 auto;min-height:140px;display:flex;flex-direction:column;margin-top:8px}
+  #info .exp-list{flex:0 1 auto;min-height:0;overflow-y:auto;padding-right:4px}
+  #info .job-group{margin:0 0 8px;padding-left:9px;border-left:2px solid var(--work);line-height:1.35}
+  #info .job-place{font-weight:600;color:var(--text);margin-bottom:2px}
+  #info .job-group ul{margin:0;padding:0}
+  #info .job-group li{list-style:none;margin:0 0 2px;color:var(--muted)}
+  #info .exp .yrs{float:right;font-size:11px;margin-left:6px}
+  #info .exp:not(.expanded) .earlier{display:none}
+  #info .exp-toggle{flex:none;align-self:flex-start;background:none;border:0;padding:4px 0 0;color:var(--accent);font-size:11px;cursor:pointer}
   #info .close{position:absolute;top:8px;right:10px;cursor:pointer;color:var(--muted);font-size:16px}
   #legend{position:absolute;bottom:12px;left:12px;background:rgba(255,255,255,.95);border:1px solid var(--line);border-radius:10px;padding:10px 12px;font-size:11px;box-shadow:0 4px 16px rgba(16,24,40,.08)}
   #legend .row{display:flex;align-items:center;gap:7px;margin:3px 0}
@@ -561,11 +570,67 @@ function rolesHtml(p){
     `</div>`).join('')+`</div>`;
 }
 
+// The data keeps one row per cabinet and per institution of a joint post, which
+// the workplace links need. A reader doesn't: a post held through three cabinets
+// is one job. Everything here is display only.
+const CAREER_VISIBLE = 5;
+const careerPlace = s => (s||'').replace(/^Government of Kazakhstan \(.*\)$/, 'Government of Kazakhstan');
+const endNum = e => e==='Present' ? Infinity : e;
+function careerPosts(id){
+  // A joint post is stored as one row per institution, with the same title and years.
+  const joint = new Map();
+  DATA.workExperience.filter(w=>w.personId===id).forEach(w=>{
+    const key = [w.title, w.startYear, w.endYear].join('|'), place = careerPlace(w.institution);
+    if(!joint.has(key)) joint.set(key, {title:w.title||'', start:w.startYear, end:w.endYear, places:[]});
+    if(place && !joint.get(key).places.includes(place)) joint.get(key).places.push(place);
+  });
+  // The same post in back-to-back years is one continuous job.
+  const last = new Map(), posts = [];
+  [...joint.values()].sort((a,b)=>(a.start||0)-(b.start||0)).forEach(x=>{
+    x.place = x.places.join(' · ');
+    const key = x.title+'|'+x.place, prev = last.get(key);
+    if(prev && prev.end!=null && x.start!=null && x.start<=endNum(prev.end)+1){
+      if(x.end==null || endNum(x.end)>endNum(prev.end)) prev.end = x.end ?? prev.end;
+    }else{ last.set(key, x); posts.push(x); }
+  });
+  // Current posts first, then newest; a long-held current post can't get buried.
+  return posts.sort((a,b)=>(b.end==='Present')-(a.end==='Present')
+    || (b.start??b.end??0)-(a.start??a.end??0)
+    || (endNum(b.end)??0)-(endNum(a.end)??0));
+}
+function careerYears(x){
+  if(x.start==null && x.end==null) return '';
+  return x.start===x.end ? x.start : `${x.start??'?'}–${x.end??'?'}`;
+}
+function careerHtml(id){
+  const posts = careerPosts(id);
+  if(!posts.length) return '';
+  // Hiding a single post costs as much space as the button that would reveal it.
+  const shown = posts.length>CAREER_VISIBLE+1 ? CAREER_VISIBLE : posts.length;
+  const hidden = posts.length-shown;
+  // Neighbouring posts at one place share its heading; the timeline order stays.
+  const groups = [];
+  posts.forEach((x,i)=>{
+    x.earlier = i>=shown;
+    const g = groups[groups.length-1];
+    if(g && g.place===x.place) g.posts.push(x); else groups.push({place:x.place, posts:[x]});
+  });
+  return `<div class="exp"><div class="muted" style="margin:0 0 4px;flex:none">Career</div><div class="exp-list">`+
+    groups.map(g=>`<div class="job-group${g.posts.every(x=>x.earlier)?' earlier':''}">`+
+      (g.place?`<div class="job-place">${g.place}</div>`:'')+
+      `<ul>`+g.posts.map(x=>`<li${x.earlier?' class="earlier"':''}><span class="yrs">${careerYears(x)}</span>${x.title}</li>`).join('')+`</ul>`+
+    `</div>`).join('')+`</div>`+
+    (hidden?`<button class="exp-toggle" data-more="Show ${hidden} earlier" onclick="toggleCareer(this)">Show ${hidden} earlier</button>`:'')+
+    `</div>`;
+}
+function toggleCareer(btn){
+  const open = btn.parentElement.classList.toggle('expanded');
+  btn.textContent = open ? 'Show fewer' : btn.dataset.more;
+}
+
 function showInfo(id){
   const p = DATA.people.find(x=>x.id===id);
   if(!p) return;
-  const exp = DATA.workExperience.filter(w=>w.personId===id)
-    .sort((a,b)=>(b.startYear||0)-(a.startYear||0));
   const el = document.getElementById('info');
   el.innerHTML =
     `<span class="close" onclick="document.getElementById('info').style.display='none';clearFocus()">×</span>`+
@@ -574,10 +639,9 @@ function showInfo(id){
     (p.relationship ? kv('Relation to Tokayev',p.relationship) : '')+
     kv('Age',p.age)+kv('Region',p.region)+kv('School',p.school)+
     kv('Zhuz',p.zhuz)+kv('Category',p.category)+(p.status===OUT_OF_GOVERNMENT ? kv('Status',p.status) : '')+
-    (exp.length?`<div class="exp"><div class="muted" style="margin:8px 0 4px">Career</div><ul style="margin:0;padding:0">`+
-      exp.map(w=>`<li><span class="yrs">${w.startYear||'?'}–${w.endYear||'?'}</span><div class="post-title">${w.title||''}</div><div class="post-place">${w.institution||''}</div></li>`).join('')+
-      `</ul></div>`:'');
-  el.style.display='block';
+    careerHtml(id);
+  el.scrollTop = 0;
+  el.style.display='flex';
 }
 function kv(k,v){ return `<div class="kv"><span>${k}</span><span>${v||'—'}</span></div>`; }
 
