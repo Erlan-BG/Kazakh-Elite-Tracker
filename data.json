@@ -1206,6 +1206,174 @@
    "status": "In office"
   },
   {
+   "id": 101,
+   "name": "Yerzhan Sadenov",
+   "age": null,
+   "role": "Minister of Internal Affairs",
+   "institution": "Ministry of Internal Affairs",
+   "region": "",
+   "school": "Sarsen Amanzholov East Kazakhstan State University",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 102,
+   "name": "Bauyrzhan Alenov",
+   "age": null,
+   "role": "First Deputy Minister of Internal Affairs for Criminal Police and Organized Crime",
+   "institution": "Ministry of Internal Affairs",
+   "region": "",
+   "school": "Femida Law Institute",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 103,
+   "name": "Sanzhar Adilov",
+   "age": null,
+   "role": "Deputy Minister of Internal Affairs for Investigation and Forensics",
+   "institution": "Ministry of Internal Affairs",
+   "region": "",
+   "school": "Al-Farabi Kazakh National University (KazNU)",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 104,
+   "name": "Igor Lepekha",
+   "age": null,
+   "role": "Deputy Minister of Internal Affairs for Administrative Police and Migration",
+   "institution": "Ministry of Internal Affairs",
+   "region": "",
+   "school": "Karaganda Polytechnic Institute",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 105,
+   "name": "Aidar Saitbekov",
+   "age": null,
+   "role": "Deputy Minister of Internal Affairs for Personnel and Logistics",
+   "institution": "Ministry of Internal Affairs",
+   "region": "",
+   "school": "Academy of the Ministry of Internal Affairs",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 106,
+   "name": "Ansagan Baltabekov",
+   "age": null,
+   "role": "Deputy Minister of Internal Affairs – Commander-in-Chief of the National Guard",
+   "institution": "Ministry of Internal Affairs",
+   "region": "",
+   "school": "Kazakh State Law Academy",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 107,
+   "name": "Abai Kairbekov",
+   "age": null,
+   "role": "Deputy Minister of Internal Affairs – Chairman of the Penal System Committee",
+   "institution": "Ministry of Internal Affairs",
+   "region": "",
+   "school": "Karaganda State Technical University",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 108,
+   "name": "Saken Sarsenov",
+   "age": null,
+   "role": "Deputy Minister of Internal Affairs for Digitalization and Communications",
+   "institution": "Ministry of Internal Affairs",
+   "region": "",
+   "school": "Moscow Aviation Institute",
+   "zhuz": "",
+   "category": "Technocrat",
+   "status": "In office"
+  },
+  {
+   "id": 109,
+   "name": "Aidos Rysbayev",
+   "age": null,
+   "role": "Head of the Apparatus of the Ministry of Internal Affairs",
+   "institution": "Ministry of Internal Affairs",
+   "region": "",
+   "school": "Akmola University",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 110,
+   "name": "Murat Mukhanov",
+   "age": 41,
+   "role": "Minister of Emergency Situations",
+   "institution": "Ministry of Emergency Situations",
+   "region": "Mangystau Region",
+   "school": "Kokshetau Technical Institute of the Ministry of Emergency Situations",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 111,
+   "name": "Kegen Tursynbayev",
+   "age": 55,
+   "role": "Vice Minister of Emergency Situations for Rescue Operations and Civil Defense",
+   "institution": "Ministry of Emergency Situations",
+   "region": "East Kazakhstan Region",
+   "school": "Ryazan Higher Airborne Command School",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 112,
+   "name": "Ramil Kamalov",
+   "age": 50,
+   "role": "Vice Minister of Emergency Situations for Prevention and Fire Safety",
+   "institution": "Ministry of Emergency Situations",
+   "region": "Akmola Region",
+   "school": "",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
+   "id": 113,
+   "name": "Yerbolat Sadyrbayev",
+   "age": 44,
+   "role": "Vice Minister of Emergency Situations for Industrial Safety and State Reserves",
+   "institution": "Ministry of Emergency Situations",
+   "region": "Zhambyl Region",
+   "school": "",
+   "zhuz": "",
+   "category": "Technocrat",
+   "status": "In office"
+  },
+  {
+   "id": 114,
+   "name": "Margulan Amanbayev",
+   "age": 53,
+   "role": "Head of the Apparatus of the Ministry of Emergency Situations",
+   "institution": "Ministry of Emergency Situations",
+   "region": "Karaganda Region",
+   "school": "Zhezkazgan Mining and Technology Institute",
+   "zhuz": "",
+   "category": "State Security",
+   "status": "In office"
+  },
+  {
    "id": 1005,
    "name": "Karlyga Izbastina (née Tokayeva)",
    "age": 70,
@@ -7462,6 +7630,622 @@
    "source": "https://www.zakon.kz/politika/6514558-tokaev-naznachil-komanduyushchego-voyskami-regionalnogo-komandovaniya-zapad.html"
   },
   {
+   "personId": 101,
+   "title": "Senior Operative to Head of a Directorate of the Territorial Department",
+   "institution": "East Kazakhstan Region Police Department",
+   "startYear": 1993,
+   "endYear": 2009,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 101,
+   "title": "Deputy Head, then Head, of Internal Affairs Departments",
+   "institution": "Mangystau Region Police Department",
+   "startYear": 2009,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 101,
+   "title": "Deputy Head, then Head, of Internal Affairs Departments",
+   "institution": "Akmola Region Police Department",
+   "startYear": 2009,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 101,
+   "title": "Deputy Head, then Head, of Internal Affairs Departments",
+   "institution": "Transport Police Department",
+   "startYear": 2009,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 101,
+   "title": "Deputy Minister of Internal Affairs",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 101,
+   "title": "Minister of Internal Affairs",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2023,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 102,
+   "title": "Various posts",
+   "institution": "Akmola Region Police Department",
+   "startYear": 1997,
+   "endYear": 2015,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 102,
+   "title": "Various posts",
+   "institution": "North Kazakhstan Region Police Department",
+   "startYear": 1997,
+   "endYear": 2015,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 102,
+   "title": "Deputy Head, then First Deputy Head",
+   "institution": "Akmola Region Police Department",
+   "startYear": 2015,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 102,
+   "title": "Deputy Head, then Head, of a Department",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2020,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 102,
+   "title": "Head of the Almaty Region Police Department",
+   "institution": "Almaty Region Police Department",
+   "startYear": 2022,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 102,
+   "title": "First Deputy Minister of Internal Affairs for Criminal Police and Organized Crime",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 103,
+   "title": "Investigator to Deputy Head of a Directorate",
+   "institution": "Almaty City Police Department",
+   "startYear": 1999,
+   "endYear": 2009,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 103,
+   "title": "Head of the Investigative Directorate, Almaty City Department for Combating Economic and Corruption Crime",
+   "institution": "Financial Police",
+   "startYear": 2009,
+   "endYear": 2011,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 103,
+   "title": "Deputy Head, then Head, of the Military Investigative Directorate, Investigation Committee",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2012,
+   "endYear": 2013,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 103,
+   "title": "Deputy Head of the City Police Department",
+   "institution": "Astana City Police Department",
+   "startYear": 2013,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 103,
+   "title": "Deputy Head of the City Police Department",
+   "institution": "Almaty City Police Department",
+   "startYear": 2013,
+   "endYear": 2018,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 103,
+   "title": "Head of the Investigation Department",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2019,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 103,
+   "title": "Head of the Karaganda Region Police Department",
+   "institution": "Karaganda Region Police Department",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 103,
+   "title": "Head of the Barimbek Beisenov Karaganda Academy",
+   "institution": "Barimbek Beisenov Karaganda Academy of the Ministry of Internal Affairs",
+   "startYear": 2024,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 103,
+   "title": "Deputy Minister of Internal Affairs for Investigation and Forensics",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 104,
+   "title": "Officer",
+   "institution": "Karaganda City Internal Affairs Directorate",
+   "startYear": 1986,
+   "endYear": 1997,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 104,
+   "title": "Leadership posts",
+   "institution": "Karaganda Region Police Department",
+   "startYear": 1997,
+   "endYear": 2009,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 104,
+   "title": "Deputy Chairman, then Chairman, Administrative Police Committee",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2009,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 104,
+   "title": "Head of the Staff Department",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2019,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 104,
+   "title": "Head of the Apparatus",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2020,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 104,
+   "title": "Deputy Minister of Internal Affairs for Administrative Police and Migration",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2022,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 105,
+   "title": "Operational and investigative posts; posts at Interior Ministry universities",
+   "institution": "Almaty City Police Department",
+   "startYear": 1999,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 105,
+   "title": "Operational and investigative posts; posts at Interior Ministry universities",
+   "institution": "Almaty Region Police Department",
+   "startYear": 1999,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 105,
+   "title": "Head of the Personnel Policy Department",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2019,
+   "endYear": 2021,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 105,
+   "title": "Head of the Makan Yesbolatov Almaty Academy",
+   "institution": "Makan Yesbolatov Almaty Academy of the Ministry of Internal Affairs",
+   "startYear": 2021,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 105,
+   "title": "Deputy Minister of Internal Affairs for Personnel and Logistics",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 106,
+   "title": "Officer and leadership posts",
+   "institution": "State Security Service",
+   "startYear": 2002,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 106,
+   "title": "Officer",
+   "institution": "National Security Committee (KNB)",
+   "startYear": 2017,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 106,
+   "title": "Leadership posts",
+   "institution": "State Security Service",
+   "startYear": 2019,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 106,
+   "title": "Deputy Head of the State Security Service",
+   "institution": "State Security Service",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 106,
+   "title": "Deputy Minister of Internal Affairs – Commander-in-Chief of the National Guard",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 106,
+   "title": "Deputy Minister of Internal Affairs – Commander-in-Chief of the National Guard",
+   "institution": "National Guard",
+   "startYear": 2024,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 107,
+   "title": "Officer",
+   "institution": "Karaganda Region Police Department",
+   "startYear": 1998,
+   "endYear": 2002,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 107,
+   "title": "Various posts in Interior Ministry agencies",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2002,
+   "endYear": 2011,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 107,
+   "title": "Deputy Head of a Directorate to Deputy Head of a Department",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2011,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 107,
+   "title": "Acting First Deputy Chairman, Penal System Committee",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2023,
+   "endYear": 2025,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 107,
+   "title": "Deputy Minister of Internal Affairs – Chairman of the Penal System Committee",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2025,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "Deputy Head of National Information Technologies",
+   "institution": "National Information Technologies JSC",
+   "startYear": 2003,
+   "endYear": 2008,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "Managing Director for E-Services",
+   "institution": "Kazakhtelecom JSC",
+   "startYear": 2008,
+   "endYear": 2009,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "Deputy Chairman, Committee on Legal Statistics and Special Records",
+   "institution": "Prosecutor General's Office",
+   "startYear": 2009,
+   "endYear": 2010,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "Vice Minister of Transport and Communications, then Vice Minister of Communications and Information",
+   "institution": "Ministry of Transport and Communications",
+   "startYear": 2010,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "Vice Minister of Transport and Communications, then Vice Minister of Communications and Information",
+   "institution": "Ministry of Communications and Information",
+   "startYear": 2010,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "First Deputy Chairman, Agency for Communications and Information",
+   "institution": "Agency for Communications and Information",
+   "startYear": 2014,
+   "endYear": 2014,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "Chairman, Committee for Communications, Informatization and Information",
+   "institution": "Ministry for Investment and Development",
+   "startYear": 2014,
+   "endYear": 2015,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "Vice Minister for Investment and Development",
+   "institution": "Ministry for Investment and Development",
+   "startYear": 2015,
+   "endYear": 2016,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "Vice Minister of Information and Communications",
+   "institution": "Ministry of Information and Communications",
+   "startYear": 2016,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "Chairman of the Management Board",
+   "institution": "Kazpost JSC",
+   "startYear": 2017,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 108,
+   "title": "Deputy Minister of Internal Affairs for Digitalization and Communications",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2020,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 109,
+   "title": "Inspector, Juvenile Unit, East Police Division",
+   "institution": "Astana City Police Department",
+   "startYear": 1998,
+   "endYear": 1998,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 109,
+   "title": "Head of the Saryarka District Police Directorate, Astana City Police Department",
+   "institution": "Astana City Police Department",
+   "startYear": 2016,
+   "endYear": 2019,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 109,
+   "title": "Deputy Head of the Nur-Sultan City Police Department",
+   "institution": "Astana City Police Department",
+   "startYear": 2019,
+   "endYear": 2022,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 109,
+   "title": "Head of the Criminal Police Department",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2022,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 109,
+   "title": "Deputy Minister of Internal Affairs",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 109,
+   "title": "Head of the Transport Police Department",
+   "institution": "Transport Police Department",
+   "startYear": 2024,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 109,
+   "title": "Head of the Apparatus of the Ministry of Internal Affairs",
+   "institution": "Ministry of Internal Affairs",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/qriim/about/structure?lang=kk"
+  },
+  {
+   "personId": 110,
+   "title": "Chief Specialist, then various posts in state fire control",
+   "institution": "Mangystau Region Emergency Situations Department",
+   "startYear": 2006,
+   "endYear": 2010,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 110,
+   "title": "Head of the State Fire Control Division",
+   "institution": "Mangystau Region Emergency Situations Department",
+   "startYear": 2010,
+   "endYear": 2016,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 110,
+   "title": "Head of the Fire Safety Control and Prevention Directorate",
+   "institution": "Mangystau Region Emergency Situations Department",
+   "startYear": 2016,
+   "endYear": 2017,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 110,
+   "title": "Deputy Head of the Mangystau Region Emergency Situations Department",
+   "institution": "Mangystau Region Emergency Situations Department",
+   "startYear": 2017,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 110,
+   "title": "Head of the Mangystau Region Emergency Situations Department",
+   "institution": "Mangystau Region Emergency Situations Department",
+   "startYear": 2020,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 110,
+   "title": "Head of the Apparatus of the Ministry of Emergency Situations",
+   "institution": "Ministry of Emergency Situations",
+   "startYear": 2026,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 110,
+   "title": "Minister of Emergency Situations",
+   "institution": "Ministry of Emergency Situations",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 111,
+   "title": "Vice Minister of Emergency Situations for Rescue Operations and Civil Defense",
+   "institution": "Ministry of Emergency Situations",
+   "startYear": null,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 112,
+   "title": "Vice Minister of Emergency Situations for Prevention and Fire Safety",
+   "institution": "Ministry of Emergency Situations",
+   "startYear": null,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 112,
+   "title": "State Fire Inspector to Chairman of the Fire Service Committee",
+   "institution": "Ministry of Emergency Situations",
+   "startYear": 1993,
+   "endYear": null,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 113,
+   "title": "Vice Minister of Emergency Situations for Industrial Safety and State Reserves",
+   "institution": "Ministry of Emergency Situations",
+   "startYear": null,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 114,
+   "title": "Engineer, Fire Station No. 8, then leadership posts in the capital garrison",
+   "institution": "Astana City Emergency Situations Department",
+   "startYear": 2000,
+   "endYear": 2020,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 114,
+   "title": "Head of the Aktobe Region Emergency Situations Department",
+   "institution": "Aktobe Region Emergency Situations Department",
+   "startYear": 2020,
+   "endYear": 2023,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 114,
+   "title": "Deputy Chairman, Fire Service Committee",
+   "institution": "Ministry of Emergency Situations",
+   "startYear": 2023,
+   "endYear": 2024,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 114,
+   "title": "Head of the Karaganda Region Emergency Situations Department",
+   "institution": "Karaganda Region Emergency Situations Department",
+   "startYear": 2024,
+   "endYear": 2026,
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
+   "personId": 114,
+   "title": "Head of the Apparatus of the Ministry of Emergency Situations",
+   "institution": "Ministry of Emergency Situations",
+   "startYear": 2026,
+   "endYear": "Present",
+   "source": "https://www.gov.kz/org/emer/about/structure?lang=kk"
+  },
+  {
    "personId": 1005,
    "title": "Owner (with Dana Medeuova as later co-founder)",
    "institution": "Meerbusch LLP",
@@ -8900,6 +9684,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:13-113",
+   "from": 13,
+   "to": 113,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:13-1015",
    "from": 13,
    "to": 1015,
@@ -9292,6 +10083,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:20-111",
+   "from": 20,
+   "to": 111,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:21-61",
    "from": 21,
    "to": 61,
@@ -9663,6 +10461,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:30-111",
+   "from": 30,
+   "to": 111,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:31-36",
    "from": 31,
    "to": 36,
@@ -9726,6 +10531,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:32-113",
+   "from": 32,
+   "to": 113,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:32-1015",
    "from": 32,
    "to": 1015,
@@ -9761,6 +10573,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:33-113",
+   "from": 33,
+   "to": 113,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:33-1015",
    "from": 33,
    "to": 1015,
@@ -9785,6 +10604,13 @@
    "id": "region:34-95",
    "from": 34,
    "to": 95,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:34-112",
+   "from": 34,
+   "to": 112,
    "ltype": "region",
    "title": "Same region: Akmola Region"
   },
@@ -9901,6 +10727,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:39-113",
+   "from": 39,
+   "to": 113,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:39-1015",
    "from": 39,
    "to": 1015,
@@ -9995,6 +10828,13 @@
    "id": "region:42-98",
    "from": 42,
    "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:42-111",
+   "from": 42,
+   "to": 111,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -10153,6 +10993,13 @@
    "title": "Same region: Karaganda Region"
   },
   {
+   "id": "region:50-114",
+   "from": 50,
+   "to": 114,
+   "ltype": "region",
+   "title": "Same region: Karaganda Region"
+  },
+  {
    "id": "region:51-54",
    "from": 51,
    "to": 54,
@@ -10174,6 +11021,13 @@
    "title": "Same region: Kyzylorda Region"
   },
   {
+   "id": "region:53-110",
+   "from": 53,
+   "to": 110,
+   "ltype": "region",
+   "title": "Same region: Mangystau Region"
+  },
+  {
    "id": "region:55-71",
    "from": 55,
    "to": 71,
@@ -10191,6 +11045,13 @@
    "id": "region:58-99",
    "from": 58,
    "to": 99,
+   "ltype": "region",
+   "title": "Same region: Karaganda Region"
+  },
+  {
+   "id": "region:58-114",
+   "from": 58,
+   "to": 114,
    "ltype": "region",
    "title": "Same region: Karaganda Region"
   },
@@ -10335,6 +11196,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:62-111",
+   "from": 62,
+   "to": 111,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:67-75",
    "from": 67,
    "to": 75,
@@ -10345,6 +11213,13 @@
    "id": "region:67-91",
    "from": 67,
    "to": 91,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
+   "id": "region:67-113",
+   "from": 67,
+   "to": 113,
    "ltype": "region",
    "title": "Same region: Zhambyl Region"
   },
@@ -10387,6 +11262,13 @@
    "id": "region:70-98",
    "from": 70,
    "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:70-111",
+   "from": 70,
+   "to": 111,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -10461,6 +11343,13 @@
    "title": "Same region: Zhambyl Region"
   },
   {
+   "id": "region:75-113",
+   "from": 75,
+   "to": 113,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
+  },
+  {
    "id": "region:75-1015",
    "from": 75,
    "to": 1015,
@@ -10492,6 +11381,13 @@
    "id": "region:76-98",
    "from": 76,
    "to": 98,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:76-111",
+   "from": 76,
+   "to": 111,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
   },
@@ -10538,6 +11434,13 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:80-111",
+   "from": 80,
+   "to": 111,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:81-86",
    "from": 81,
    "to": 86,
@@ -10548,6 +11451,13 @@
    "id": "region:81-95",
    "from": 81,
    "to": 95,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:81-112",
+   "from": 81,
+   "to": 112,
    "ltype": "region",
    "title": "Same region: Akmola Region"
   },
@@ -10576,6 +11486,13 @@
    "id": "region:86-95",
    "from": 86,
    "to": 95,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:86-112",
+   "from": 86,
+   "to": 112,
    "ltype": "region",
    "title": "Same region: Akmola Region"
   },
@@ -10622,11 +11539,32 @@
    "title": "Same region: East Kazakhstan Region"
   },
   {
+   "id": "region:89-111",
+   "from": 89,
+   "to": 111,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
    "id": "region:90-98",
    "from": 90,
    "to": 98,
    "ltype": "region",
    "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:90-111",
+   "from": 90,
+   "to": 111,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:91-113",
+   "from": 91,
+   "to": 113,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
   },
   {
    "id": "region:91-1015",
@@ -10655,6 +11593,34 @@
    "to": 1016,
    "ltype": "region",
    "title": "Same region: Almaty City"
+  },
+  {
+   "id": "region:95-112",
+   "from": 95,
+   "to": 112,
+   "ltype": "region",
+   "title": "Same region: Akmola Region"
+  },
+  {
+   "id": "region:98-111",
+   "from": 98,
+   "to": 111,
+   "ltype": "region",
+   "title": "Same region: East Kazakhstan Region"
+  },
+  {
+   "id": "region:99-114",
+   "from": 99,
+   "to": 114,
+   "ltype": "region",
+   "title": "Same region: Karaganda Region"
+  },
+  {
+   "id": "region:113-1015",
+   "from": 113,
+   "to": 1015,
+   "ltype": "region",
+   "title": "Same region: Zhambyl Region"
   },
   {
    "id": "school:1-1013",
@@ -10741,6 +11707,13 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:5-103",
+   "from": 5,
+   "to": 103,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
    "id": "school:5-1015",
    "from": 5,
    "to": 1015,
@@ -10818,6 +11791,13 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:7-103",
+   "from": 7,
+   "to": 103,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
    "id": "school:7-1015",
    "from": 7,
    "to": 1015,
@@ -10870,6 +11850,13 @@
    "id": "school:8-58",
    "from": 8,
    "to": 58,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
+   "id": "school:8-103",
+   "from": 8,
+   "to": 103,
    "ltype": "school",
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
@@ -10951,6 +11938,13 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:12-103",
+   "from": 12,
+   "to": 103,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
    "id": "school:12-1015",
    "from": 12,
    "to": 1015,
@@ -11010,6 +12004,13 @@
    "id": "school:16-58",
    "from": 16,
    "to": 58,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
+   "id": "school:16-103",
+   "from": 16,
+   "to": 103,
    "ltype": "school",
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
@@ -11105,6 +12106,13 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:27-103",
+   "from": 27,
+   "to": 103,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
    "id": "school:27-1015",
    "from": 27,
    "to": 1015,
@@ -11164,6 +12172,13 @@
    "id": "school:34-58",
    "from": 34,
    "to": 58,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
+   "id": "school:34-103",
+   "from": 34,
+   "to": 103,
    "ltype": "school",
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
@@ -11238,6 +12253,13 @@
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
+   "id": "school:48-103",
+   "from": 48,
+   "to": 103,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
    "id": "school:48-1015",
    "from": 48,
    "to": 1015,
@@ -11248,6 +12270,13 @@
    "id": "school:49-58",
    "from": 49,
    "to": 58,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
+  },
+  {
+   "id": "school:49-103",
+   "from": 49,
+   "to": 103,
    "ltype": "school",
    "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
@@ -11278,6 +12307,13 @@
    "to": 64,
    "ltype": "school",
    "title": "Same school: M. Auezov South Kazakhstan University"
+  },
+  {
+   "id": "school:58-103",
+   "from": 58,
+   "to": 103,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
    "id": "school:58-1015",
@@ -11327,6 +12363,13 @@
    "to": 76,
    "ltype": "school",
    "title": "Same school: National Defense University"
+  },
+  {
+   "id": "school:74-111",
+   "from": 74,
+   "to": 111,
+   "ltype": "school",
+   "title": "Same school: Ryazan Higher Airborne Command School"
   },
   {
    "id": "school:79-90",
@@ -11460,6 +12503,13 @@
    "to": 100,
    "ltype": "school",
    "title": "Same school: Military Academy of the Armed Forces of the Republic of Kazakhstan"
+  },
+  {
+   "id": "school:103-1015",
+   "from": 103,
+   "to": 1015,
+   "ltype": "school",
+   "title": "Same school: Al-Farabi Kazakh National University (KazNU)"
   },
   {
    "id": "school:1013-1016",
@@ -14066,6 +15116,13 @@
    "title": "Shared workplace: Ministry for Investment and Development (2016); Ministry of Transport and Communications (2012–2013)"
   },
   {
+   "id": "work:11-108",
+   "from": 11,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry for Investment and Development (2016); Ministry of Transport and Communications (2011–2013)"
+  },
+  {
    "id": "work:12-13",
    "from": 12,
    "to": 13,
@@ -15599,6 +16656,62 @@
    "title": "Shared workplace: Ministry of Defense (2025)"
   },
   {
+   "id": "work:19-101",
+   "from": 19,
+   "to": 101,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022)"
+  },
+  {
+   "id": "work:19-102",
+   "from": 19,
+   "to": 102,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2021–2022)"
+  },
+  {
+   "id": "work:19-103",
+   "from": 19,
+   "to": 103,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2012–2013, 2021–2022)"
+  },
+  {
+   "id": "work:19-104",
+   "from": 19,
+   "to": 104,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2009–2014, 2021–2022)"
+  },
+  {
+   "id": "work:19-105",
+   "from": 19,
+   "to": 105,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2021)"
+  },
+  {
+   "id": "work:19-107",
+   "from": 19,
+   "to": 107,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2006–2014, 2021–2022)"
+  },
+  {
+   "id": "work:19-108",
+   "from": 19,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2021–2022)"
+  },
+  {
+   "id": "work:19-109",
+   "from": 19,
+   "to": 109,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022)"
+  },
+  {
    "id": "work:20-21",
    "from": 20,
    "to": 21,
@@ -15618,6 +16731,62 @@
    "to": 40,
    "ltype": "work",
    "title": "Shared workplace: Government of Kazakhstan (Akhmetov (Serik) Government) (2012–2013); Government of Kazakhstan (Massimov II Government) (2011–2012)"
+  },
+  {
+   "id": "work:20-101",
+   "from": 20,
+   "to": 101,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022)"
+  },
+  {
+   "id": "work:20-102",
+   "from": 20,
+   "to": 102,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2022)"
+  },
+  {
+   "id": "work:20-103",
+   "from": 20,
+   "to": 103,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2022)"
+  },
+  {
+   "id": "work:20-104",
+   "from": 20,
+   "to": 104,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2022)"
+  },
+  {
+   "id": "work:20-105",
+   "from": 20,
+   "to": 105,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2021)"
+  },
+  {
+   "id": "work:20-107",
+   "from": 20,
+   "to": 107,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2022)"
+  },
+  {
+   "id": "work:20-108",
+   "from": 20,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2022); Prosecutor General's Office (2009)"
+  },
+  {
+   "id": "work:20-109",
+   "from": 20,
+   "to": 109,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022)"
   },
   {
    "id": "work:20-1015",
@@ -16642,6 +17811,13 @@
    "title": "Shared workplace: Akorda (2024)"
   },
   {
+   "id": "work:29-103",
+   "from": 29,
+   "to": 103,
+   "ltype": "work",
+   "title": "Shared workplace: Financial Police (2009–2011)"
+  },
+  {
    "id": "work:30-31",
    "from": 30,
    "to": 31,
@@ -17433,6 +18609,13 @@
    "title": "Shared workplace: Ministry for Investment and Development (2014–2016); Ministry of Transport and Communications (2012–2013)"
   },
   {
+   "id": "work:39-108",
+   "from": 39,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry for Investment and Development (2014–2016); Ministry of Transport and Communications (2010–2014)"
+  },
+  {
    "id": "work:40-41",
    "from": 40,
    "to": 41,
@@ -17562,6 +18745,13 @@
    "id": "work:42-82",
    "from": 42,
    "to": 82,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry for Investment and Development (2016)"
+  },
+  {
+   "id": "work:42-108",
+   "from": 42,
+   "to": 108,
    "ltype": "work",
    "title": "Shared workplace: Ministry for Investment and Development (2016)"
   },
@@ -17795,6 +18985,13 @@
    "to": 82,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Transport and Communications (2012–2013)"
+  },
+  {
+   "id": "work:53-108",
+   "from": 53,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Transport and Communications (2010–2013)"
   },
   {
    "id": "work:57-60",
@@ -19099,6 +20296,13 @@
    "title": "Shared workplace: Ministry of Defense (2026)"
   },
   {
+   "id": "work:79-106",
+   "from": 79,
+   "to": 106,
+   "ltype": "work",
+   "title": "Shared workplace: State Security Service (2002–2017, 2019–2023)"
+  },
+  {
    "id": "work:80-81",
    "from": 80,
    "to": 81,
@@ -19174,6 +20378,13 @@
    "to": 92,
    "ltype": "work",
    "title": "Shared workplace: Republican Guard (1996–2000)"
+  },
+  {
+   "id": "work:80-106",
+   "from": 80,
+   "to": 106,
+   "ltype": "work",
+   "title": "Shared workplace: State Security Service (2014–2017, 2019–2023)"
   },
   {
    "id": "work:81-82",
@@ -19300,6 +20511,13 @@
    "to": 90,
    "ltype": "work",
    "title": "Shared workplace: Ministry of Defense (2026)"
+  },
+  {
+   "id": "work:82-108",
+   "from": 82,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Agency for Communications and Information (2014); Ministry for Investment and Development (2014–2016); Ministry of Communications and Information (2011–2012); Ministry of Information and Communications (2016–2017); Ministry of Transport and Communications (2012–2013); National Information Technologies JSC (2007–2008)"
   },
   {
    "id": "work:83-84",
@@ -19608,6 +20826,328 @@
    "to": 100,
    "ltype": "work",
    "title": "Shared workplace: Regional Command South (2026)"
+  },
+  {
+   "id": "work:101-102",
+   "from": 101,
+   "to": 102,
+   "ltype": "work",
+   "title": "Shared workplace: Akmola Region Police Department (2009–2020); Ministry of Internal Affairs (2022, 2024–2026)"
+  },
+  {
+   "id": "work:101-103",
+   "from": 101,
+   "to": 103,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022–2026)"
+  },
+  {
+   "id": "work:101-104",
+   "from": 101,
+   "to": 104,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022–2026)"
+  },
+  {
+   "id": "work:101-105",
+   "from": 101,
+   "to": 105,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2024–2026)"
+  },
+  {
+   "id": "work:101-106",
+   "from": 101,
+   "to": 106,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2024–2026)"
+  },
+  {
+   "id": "work:101-107",
+   "from": 101,
+   "to": 107,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022–2026)"
+  },
+  {
+   "id": "work:101-108",
+   "from": 101,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022–2026)"
+  },
+  {
+   "id": "work:101-109",
+   "from": 101,
+   "to": 109,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022–2024, 2026)"
+  },
+  {
+   "id": "work:102-103",
+   "from": 102,
+   "to": 103,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2022, 2024–2026)"
+  },
+  {
+   "id": "work:102-104",
+   "from": 102,
+   "to": 104,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2022, 2024–2026)"
+  },
+  {
+   "id": "work:102-105",
+   "from": 102,
+   "to": 105,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2021, 2024–2026)"
+  },
+  {
+   "id": "work:102-106",
+   "from": 102,
+   "to": 106,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2024–2026)"
+  },
+  {
+   "id": "work:102-107",
+   "from": 102,
+   "to": 107,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2022, 2024–2026)"
+  },
+  {
+   "id": "work:102-108",
+   "from": 102,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2022, 2024–2026)"
+  },
+  {
+   "id": "work:102-109",
+   "from": 102,
+   "to": 109,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022, 2024, 2026)"
+  },
+  {
+   "id": "work:103-104",
+   "from": 103,
+   "to": 104,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2012–2013, 2019–2026)"
+  },
+  {
+   "id": "work:103-105",
+   "from": 103,
+   "to": 105,
+   "ltype": "work",
+   "title": "Shared workplace: Almaty City Police Department (1999–2009, 2013–2018); Ministry of Internal Affairs (2019–2021, 2024–2026)"
+  },
+  {
+   "id": "work:103-106",
+   "from": 103,
+   "to": 106,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2024–2026)"
+  },
+  {
+   "id": "work:103-107",
+   "from": 103,
+   "to": 107,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2012–2013, 2019–2026)"
+  },
+  {
+   "id": "work:103-108",
+   "from": 103,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2026)"
+  },
+  {
+   "id": "work:103-109",
+   "from": 103,
+   "to": 109,
+   "ltype": "work",
+   "title": "Shared workplace: Astana City Police Department (2016–2018); Ministry of Internal Affairs (2022–2024, 2026)"
+  },
+  {
+   "id": "work:104-105",
+   "from": 104,
+   "to": 105,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2019–2021, 2024–2026)"
+  },
+  {
+   "id": "work:104-106",
+   "from": 104,
+   "to": 106,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2024–2026)"
+  },
+  {
+   "id": "work:104-107",
+   "from": 104,
+   "to": 107,
+   "ltype": "work",
+   "title": "Shared workplace: Karaganda Region Police Department (1998–2002); Ministry of Internal Affairs (2009–2026)"
+  },
+  {
+   "id": "work:104-108",
+   "from": 104,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2026)"
+  },
+  {
+   "id": "work:104-109",
+   "from": 104,
+   "to": 109,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022–2024, 2026)"
+  },
+  {
+   "id": "work:105-106",
+   "from": 105,
+   "to": 106,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2024–2026)"
+  },
+  {
+   "id": "work:105-107",
+   "from": 105,
+   "to": 107,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2019–2021, 2024–2026)"
+  },
+  {
+   "id": "work:105-108",
+   "from": 105,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2021, 2024–2026)"
+  },
+  {
+   "id": "work:105-109",
+   "from": 105,
+   "to": 109,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2024, 2026)"
+  },
+  {
+   "id": "work:106-107",
+   "from": 106,
+   "to": 107,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2024–2026)"
+  },
+  {
+   "id": "work:106-108",
+   "from": 106,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2024–2026)"
+  },
+  {
+   "id": "work:106-109",
+   "from": 106,
+   "to": 109,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2024, 2026)"
+  },
+  {
+   "id": "work:107-108",
+   "from": 107,
+   "to": 108,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2020–2026)"
+  },
+  {
+   "id": "work:107-109",
+   "from": 107,
+   "to": 109,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022–2024, 2026)"
+  },
+  {
+   "id": "work:108-109",
+   "from": 108,
+   "to": 109,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Internal Affairs (2022–2024, 2026)"
+  },
+  {
+   "id": "work:110-111",
+   "from": 110,
+   "to": 111,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Emergency Situations (2026)"
+  },
+  {
+   "id": "work:110-112",
+   "from": 110,
+   "to": 112,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Emergency Situations (2026)"
+  },
+  {
+   "id": "work:110-113",
+   "from": 110,
+   "to": 113,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Emergency Situations (2026)"
+  },
+  {
+   "id": "work:110-114",
+   "from": 110,
+   "to": 114,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Emergency Situations (2026)"
+  },
+  {
+   "id": "work:111-112",
+   "from": 111,
+   "to": 112,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Emergency Situations (2026)"
+  },
+  {
+   "id": "work:111-113",
+   "from": 111,
+   "to": 113,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Emergency Situations (2026)"
+  },
+  {
+   "id": "work:111-114",
+   "from": 111,
+   "to": 114,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Emergency Situations (2026)"
+  },
+  {
+   "id": "work:112-113",
+   "from": 112,
+   "to": 113,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Emergency Situations (2026)"
+  },
+  {
+   "id": "work:112-114",
+   "from": 112,
+   "to": 114,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Emergency Situations (2026)"
+  },
+  {
+   "id": "work:113-114",
+   "from": 113,
+   "to": 114,
+   "ltype": "work",
+   "title": "Shared workplace: Ministry of Emergency Situations (2026)"
   },
   {
    "id": "work:1005-1009",
