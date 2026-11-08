@@ -307,7 +307,7 @@ const SENIORITY_RULES = [
   [/^chairman of the (knb|national security committee)/i,        8 ],
   [/^(first )?deputy prime minister|^minister\b|^prosecutor general$/i, 8],
   [/^state (counselor|secretary)|^chairman of the senate/i,       8 ],
-  [/^(first )?deputy head of the administration|^deputy head$/i,  8 ],  // Deputy Heads of Administration
+  [/^(first )?deputy head of the administration/i,               8 ],  // Deputy Heads of Administration
   [/^assistant to the president/i,                                8 ],  // Presidential Assistants
   [/^head of (the )?(chancellery|office of the president)\b/i,    8 ],
   [/advis[eo]r to the president|^presidential advisor/i,          8 ],  // Presidential Advisors
@@ -320,7 +320,10 @@ const SENIORITY_RULES = [
 
   [/^minister-counsellor/i,                                     5.5 ],  // diplomatic rank, not a cabinet minister
   [/head of .*faction/i,                                        6.5 ],  // ruling-party Mazhilis faction leadership
-  [/^first deputy (chairman|prosecutor)|^director-general|commander-in-chief|^ambassador/i, 6.5],
+  // commander-in-chief only as the post itself, alone or after a dash
+  // ("Deputy Minister – Commander-in-Chief of …"), never a deputy's title
+  [/^first deputy (chairman|prosecutor)|^first (vice|deputy)[- ]minister|^director-general|(^|[–-] )commander-in-chief\b|^ambassador/i, 6.5],
+  [/deputy commander-in-chief/i,                                  6 ],  // on a par with deputy ministers
 
   [/^head of/i,                                                   6 ],  // Akorda structural-subdivision (department) heads
   [/^(first )?(vice|deputy)[- ]minister/i,                        6 ],
@@ -334,6 +337,12 @@ function titleScore(t, inst){
   // of state, "Chairman" of the KNB is not a board chairman
   if(/^president$/i.test(t)) return inst === 'Akorda' ? 10 : 5.5;
   if(/^chairman$/i.test(t) && /national security committee/i.test(inst)) return 8;
+  // a bare "Deputy Head" is a Deputy Head of the Presidential Administration
+  // only at the Akorda; anywhere else it falls through to the generic rules
+  if(/^deputy head$/i.test(t) && inst === 'Akorda') return 8;
+  // The National Guard is a separate armed force under the Interior Ministry,
+  // so its commander ranks above the Defense Ministry's branch commanders
+  if(/national guard/i.test(t + ' ' + inst) && /(^|[–-] )commander-in-chief\b/i.test(t)) return 7;
   // Akorda departments that control key levers (appointments, domestic
   // politics, the security agencies, audits) rank above other department heads
   if(inst === 'Akorda' && /^head of (the )?((department of )?civil service( and personnel policy)?|(domestic|internal) policy|law enforcement|state control)( department)?$/i.test(t)) return 7;
