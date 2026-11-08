@@ -334,6 +334,9 @@ function titleScore(t, inst){
   // of state, "Chairman" of the KNB is not a board chairman
   if(/^president$/i.test(t)) return inst === 'Akorda' ? 10 : 5.5;
   if(/^chairman$/i.test(t) && /national security committee/i.test(inst)) return 8;
+  // Akorda departments that control key levers (appointments, domestic
+  // politics, the security agencies, audits) rank above other department heads
+  if(inst === 'Akorda' && /^head of (the )?((department of )?civil service( and personnel policy)?|(domestic|internal) policy|law enforcement|state control)( department)?$/i.test(t)) return 7;
   for(const [re,s] of SENIORITY_RULES) if(re.test(t)) return s;
   return 3.5;
 }
